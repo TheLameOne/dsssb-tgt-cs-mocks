@@ -1,0 +1,73 @@
+{
+  "questions": [
+    {
+      "id": "pedagogy-001", "sec": "method", "topic": "pedagogy", "sub": "Herbartian steps", "d": 1,
+      "q": "In the Herbartian steps of lesson planning, the first step is",
+      "o": ["Presentation", "Association", "Preparation", "Application"], "a": 2,
+      "e": "Herbart's five steps are Preparation, Presentation, Association (comparison), Generalisation and Application."
+    },
+    {
+      "id": "pedagogy-002", "sec": "method", "topic": "pedagogy", "sub": "unplugged activities", "d": 1,
+      "q": "Which of the following is a 'computer science unplugged' activity?",
+      "o": ["Demonstrating binary numbers with a set of flip cards", "Coding a game in Scratch", "Installing an operating system", "Debugging a program in an IDE"], "a": 0,
+      "e": "Unplugged activities teach computing ideas, such as binary, without using a computer. The other tasks need a machine."
+    },
+    {
+      "id": "pedagogy-003", "sec": "method", "topic": "pedagogy", "sub": "pair programming", "d": 1,
+      "q": "In pair programming, the partner who writes the code is the ______, while the other partner reviews it as the navigator.",
+      "o": ["observer", "driver", "tester", "compiler"], "a": 1,
+      "e": "The two roles in pair programming are driver (types the code) and navigator (reviews and guides). The pair swap roles regularly."
+    },
+    {
+      "id": "pedagogy-004", "sec": "method", "topic": "pedagogy", "sub": "SWAYAM", "d": 1,
+      "q": "SWAYAM stands for",
+      "o": ["Smart Web for Active Youth and Modern Minds", "Study Waves of Advanced Learning for Young Achievers", "Study Webs of Active-Learning for Young Aspiring Minds", "School Web for Active-Learning of Young Adults and Minors"], "a": 2,
+      "e": "SWAYAM is the Government of India's platform for MOOCs, covering school level to postgraduate courses."
+    },
+    {
+      "id": "pedagogy-005", "sec": "method", "topic": "pedagogy", "sub": "flipped learning", "d": 2,
+      "q": "Consider the following statements.\nI. In a flipped classroom, new content is first delivered by lecture in class and practice is given as homework.\nII. Flipped learning frees class time for activities, problem solving and discussion.\nWhich of the above is/are correct?",
+      "o": ["Only I", "Only II", "Both I and II", "Neither I nor II"], "a": 1,
+      "e": "In flipped learning, learners meet the content before class, for example through videos. Class time is then used for active work, so I describes the traditional model."
+    },
+    {
+      "id": "pedagogy-006", "sec": "method", "topic": "pedagogy", "sub": "ADDIE", "d": 2,
+      "q": "In the ADDIE model of instructional design, the letters stand for Analysis, Design, ______, Implementation and Evaluation.",
+      "o": ["Demonstration", "Development", "Delivery", "Direction"], "a": 1,
+      "e": "ADDIE is Analysis, Design, Development, Implementation, Evaluation."
+    },
+    {
+      "id": "pedagogy-007", "sec": "method", "topic": "pedagogy", "sub": "TPACK", "d": 2,
+      "q": "The TPACK framework for integrating technology in teaching was proposed by",
+      "o": ["Shulman", "Mishra and Koehler", "Bloom and Anderson", "Papert and Resnick"], "a": 1,
+      "e": "Mishra and Koehler (2006) built TPACK on Shulman's PCK by adding technological knowledge."
+    },
+    {
+      "id": "pedagogy-008", "sec": "method", "topic": "pedagogy", "sub": "programming misconceptions", "d": 2,
+      "q": "A student says that `x = x + 1` is wrong because no number can equal itself plus one. Which response best removes this misconception?",
+      "o": ["Tell the student to memorise that it is allowed", "Tell the student that mathematics is wrong", "Ask the student to skip such statements", "Explain that `=` means assignment and trace it with a variable-as-box table, where the new value replaces the old"], "a": 3,
+      "e": "The student confuses assignment with mathematical equality. A tracing table shows the value in the variable changing step by step."
+    },
+    {
+      "id": "pedagogy-009", "sec": "method", "topic": "pedagogy", "sub": "computational thinking", "d": 3,
+      "q": "Match the computational thinking component with its description.",
+      "table": {
+        "head": ["List I", "List II"],
+        "rows": [
+          ["a. Decomposition", "1. Filtering out unnecessary details"],
+          ["b. Pattern recognition", "2. Breaking a large problem into smaller parts"],
+          ["c. Abstraction", "3. Writing step-by-step instructions"],
+          ["d. Algorithm design", "4. Finding similarities among sub-problems"]
+        ]
+      },
+      "o": ["a-2, b-4, c-1, d-3", "a-4, b-2, c-1, d-3", "a-2, b-4, c-3, d-1", "a-1, b-4, c-2, d-3"], "a": 0,
+      "e": "Decomposition splits a problem, pattern recognition spots similarities, abstraction hides irrelevant detail, and algorithm design gives the steps."
+    },
+    {
+      "id": "pedagogy-010", "sec": "method", "topic": "pedagogy", "sub": "Use-Modify-Create", "d": 3,
+      "q": "In the Use–Modify–Create progression for teaching programming, learners first",
+      "o": ["write a complete program from a blank screen", "use or run an existing program, then modify it, and finally create their own", "only read about programs in a textbook", "modify a program without ever running it"], "a": 1,
+      "e": "Learners begin by using a given program, then change it, and finally build an original one. This gives them support first and ownership later."
+    }
+  ]
+}

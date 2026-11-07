@@ -1,0 +1,484 @@
+{
+ "questions": [
+  {
+   "id": "blanks-001",
+   "sec": "english",
+   "topic": "blanks",
+   "sub": "preposition",
+   "d": 1,
+   "q": "She has been living in this city ______ 2015.",
+   "o": [
+    "for",
+    "from",
+    "since",
+    "during"
+   ],
+   "a": 2,
+   "e": "Since is used with a fixed point in time such as 2015; for is used with a period of time."
+  },
+  {
+   "id": "blanks-002",
+   "sec": "english",
+   "topic": "blanks",
+   "sub": "preposition",
+   "d": 1,
+   "q": "He is very fond ______ mangoes.",
+   "o": [
+    "with",
+    "of",
+    "for",
+    "to"
+   ],
+   "a": 1,
+   "e": "The adjective fond takes the preposition of."
+  },
+  {
+   "id": "blanks-003",
+   "sec": "english",
+   "topic": "blanks",
+   "sub": "subject-verb agreement",
+   "d": 1,
+   "q": "Neither of the two boys ______ present today.",
+   "o": [
+    "was",
+    "were",
+    "are",
+    "have been"
+   ],
+   "a": 0,
+   "e": "Neither takes a singular verb, and the sentence refers to the past, so was is correct."
+  },
+  {
+   "id": "blanks-004",
+   "sec": "english",
+   "topic": "blanks",
+   "sub": "article",
+   "d": 1,
+   "q": "He is ______ honest man.",
+   "o": [
+    "an",
+    "a",
+    "the",
+    "no article"
+   ],
+   "a": 0,
+   "e": "Honest begins with a vowel sound because the h is silent, so an is used."
+  },
+  {
+   "id": "blanks-005",
+   "sec": "english",
+   "topic": "blanks",
+   "sub": "question tag",
+   "d": 1,
+   "q": "You have finished your work, ______?",
+   "o": [
+    "didn't you",
+    "don't you",
+    "aren't you",
+    "haven't you"
+   ],
+   "a": 3,
+   "e": "A positive statement with have takes a negative tag with the same auxiliary: haven't you?"
+  },
+  {
+   "id": "blanks-006",
+   "sec": "english",
+   "topic": "blanks",
+   "sub": "adverb vs adjective",
+   "d": 1,
+   "q": "She sings very ______.",
+   "o": [
+    "sweet",
+    "sweeter",
+    "sweetly",
+    "sweetness"
+   ],
+   "a": 2,
+   "e": "An adverb is needed to modify the verb sings, so sweetly is correct."
+  },
+  {
+   "id": "blanks-007",
+   "sec": "english",
+   "topic": "blanks",
+   "sub": "tense",
+   "d": 1,
+   "q": "The train ______ before we reached the station.",
+   "o": [
+    "has left",
+    "had left",
+    "leaves",
+    "was leaving"
+   ],
+   "a": 1,
+   "e": "Of two past actions, the earlier one takes the past perfect, so had left."
+  },
+  {
+   "id": "blanks-008",
+   "sec": "english",
+   "topic": "blanks",
+   "sub": "phrasal verb",
+   "d": 1,
+   "q": "Please switch ______ the lights before leaving the room.",
+   "o": [
+    "off",
+    "on",
+    "up",
+    "in"
+   ],
+   "a": 0,
+   "e": "Switch off means to turn off a light or device."
+  },
+  {
+   "id": "blanks-009",
+   "sec": "english",
+   "topic": "blanks",
+   "sub": "tense",
+   "d": 1,
+   "q": "The sun ______ in the east.",
+   "o": [
+    "rise",
+    "rose",
+    "rising",
+    "rises"
+   ],
+   "a": 3,
+   "e": "A universal truth takes the simple present, and sun is singular, so rises."
+  },
+  {
+   "id": "blanks-010",
+   "sec": "english",
+   "topic": "blanks",
+   "sub": "degree of comparison",
+   "d": 1,
+   "q": "Rahul is the ______ of the two brothers.",
+   "o": [
+    "tallest",
+    "more tall",
+    "most tall",
+    "taller"
+   ],
+   "a": 3,
+   "e": "The comparative form is used when comparing two persons, so taller."
+  },
+  {
+   "id": "blanks-011",
+   "sec": "english",
+   "topic": "blanks",
+   "sub": "preposition",
+   "d": 1,
+   "q": "He apologised ______ his mistake.",
+   "o": [
+    "of",
+    "to",
+    "for",
+    "at"
+   ],
+   "a": 2,
+   "e": "Apologise takes for with the thing one is sorry about."
+  },
+  {
+   "id": "blanks-012",
+   "sec": "english",
+   "topic": "blanks",
+   "sub": "question tag",
+   "d": 1,
+   "q": "Let us go for a walk, ______?",
+   "o": [
+    "will we",
+    "shall we",
+    "don't we",
+    "can't we"
+   ],
+   "a": 1,
+   "e": "The tag for a sentence beginning with Let us is shall we?"
+  },
+  {
+   "id": "blanks-013",
+   "sec": "english",
+   "topic": "blanks",
+   "sub": "subject-verb agreement",
+   "d": 1,
+   "q": "Each of the students ______ a book.",
+   "o": [
+    "have",
+    "are having",
+    "has",
+    "were having"
+   ],
+   "a": 2,
+   "e": "Each is singular and takes a singular verb, so has."
+  },
+  {
+   "id": "blanks-014",
+   "sec": "english",
+   "topic": "blanks",
+   "sub": "conjunction",
+   "d": 1,
+   "q": "He ran ______ fast that he won the race.",
+   "o": [
+    "such",
+    "very",
+    "too",
+    "so"
+   ],
+   "a": 3,
+   "e": "So followed by an adverb and that expresses a result: so fast that."
+  },
+  {
+   "id": "blanks-015",
+   "sec": "english",
+   "topic": "blanks",
+   "sub": "phrasal verb",
+   "d": 2,
+   "q": "The meeting has been called ______ because of heavy rain.",
+   "o": [
+    "out",
+    "away",
+    "up",
+    "off"
+   ],
+   "a": 3,
+   "e": "Call off means to cancel."
+  },
+  {
+   "id": "blanks-016",
+   "sec": "english",
+   "topic": "blanks",
+   "sub": "conditional",
+   "d": 2,
+   "q": "If I ______ you, I would apologise to him.",
+   "o": [
+    "am",
+    "will be",
+    "were",
+    "have been"
+   ],
+   "a": 2,
+   "e": "An unreal present condition uses the past subjunctive were with all subjects."
+  },
+  {
+   "id": "blanks-017",
+   "sec": "english",
+   "topic": "blanks",
+   "sub": "correlative conjunction",
+   "d": 2,
+   "q": "Hardly had he reached home ______ it started raining.",
+   "o": [
+    "than",
+    "when",
+    "then",
+    "that"
+   ],
+   "a": 1,
+   "e": "Hardly is followed by when, whereas no sooner is followed by than."
+  },
+  {
+   "id": "blanks-018",
+   "sec": "english",
+   "topic": "blanks",
+   "sub": "subject-verb agreement",
+   "d": 2,
+   "q": "One of my friends ______ settled in Canada.",
+   "o": [
+    "have",
+    "are",
+    "has",
+    "were"
+   ],
+   "a": 2,
+   "e": "The subject is one, which is singular, so has."
+  },
+  {
+   "id": "blanks-019",
+   "sec": "english",
+   "topic": "blanks",
+   "sub": "question tag",
+   "d": 2,
+   "q": "Nobody called me, ______?",
+   "o": [
+    "didn't they",
+    "did he",
+    "didn't he",
+    "did they"
+   ],
+   "a": 3,
+   "e": "Nobody is negative in meaning, so the tag is positive; they is used for nobody."
+  },
+  {
+   "id": "blanks-020",
+   "sec": "english",
+   "topic": "blanks",
+   "sub": "preposition",
+   "d": 2,
+   "q": "She is senior ______ me by two years.",
+   "o": [
+    "than",
+    "from",
+    "of",
+    "to"
+   ],
+   "a": 3,
+   "e": "Senior, junior, superior and inferior take to, not than."
+  },
+  {
+   "id": "blanks-021",
+   "sec": "english",
+   "topic": "blanks",
+   "sub": "adverb vs adjective",
+   "d": 2,
+   "q": "The news of his success was ______ received by the villagers.",
+   "o": [
+    "warmly",
+    "warm",
+    "warmer",
+    "warmth"
+   ],
+   "a": 0,
+   "e": "An adverb is needed to modify the past participle received, so warmly."
+  },
+  {
+   "id": "blanks-022",
+   "sec": "english",
+   "topic": "blanks",
+   "sub": "vocabulary in context",
+   "d": 2,
+   "q": "The thief was ______ by the police near the bus stand.",
+   "o": [
+    "appreciated",
+    "apprehended",
+    "applauded",
+    "appointed"
+   ],
+   "a": 1,
+   "e": "To apprehend means to arrest."
+  },
+  {
+   "id": "blanks-023",
+   "sec": "english",
+   "topic": "blanks",
+   "sub": "tense",
+   "d": 2,
+   "q": "By next March, he ______ here for ten years.",
+   "o": [
+    "has worked",
+    "worked",
+    "will have worked",
+    "will work"
+   ],
+   "a": 2,
+   "e": "A period completed by a future time takes the future perfect."
+  },
+  {
+   "id": "blanks-024",
+   "sec": "english",
+   "topic": "blanks",
+   "sub": "subject-verb agreement",
+   "d": 2,
+   "q": "The number of applicants ______ increasing every year.",
+   "o": [
+    "are",
+    "were",
+    "have been",
+    "is"
+   ],
+   "a": 3,
+   "e": "The number of takes a singular verb; a number of takes a plural verb."
+  },
+  {
+   "id": "blanks-025",
+   "sec": "english",
+   "topic": "blanks",
+   "sub": "phrasal verb",
+   "d": 2,
+   "q": "I could not find my pen, so I am looking ______ it everywhere.",
+   "o": [
+    "for",
+    "after",
+    "into",
+    "upon"
+   ],
+   "a": 0,
+   "e": "Look for means to search for; look after means to take care of."
+  },
+  {
+   "id": "blanks-026",
+   "sec": "english",
+   "topic": "blanks",
+   "sub": "inversion",
+   "d": 3,
+   "q": "Not only ______ the exam, but he also secured the first rank.",
+   "o": [
+    "did he pass",
+    "he passed",
+    "he did pass",
+    "does he pass"
+   ],
+   "a": 0,
+   "e": "After a fronted Not only, the auxiliary comes before the subject: did he pass."
+  },
+  {
+   "id": "blanks-027",
+   "sec": "english",
+   "topic": "blanks",
+   "sub": "subject-verb agreement",
+   "d": 3,
+   "q": "Neither the manager nor the employees ______ aware of the change.",
+   "o": [
+    "was",
+    "were",
+    "is",
+    "has been"
+   ],
+   "a": 1,
+   "e": "With neither...nor, the verb agrees with the nearer subject, employees, which is plural and past."
+  },
+  {
+   "id": "blanks-028",
+   "sec": "english",
+   "topic": "blanks",
+   "sub": "subjunctive",
+   "d": 3,
+   "q": "He insisted that the report ______ submitted by Friday.",
+   "o": [
+    "is",
+    "was",
+    "be",
+    "would"
+   ],
+   "a": 2,
+   "e": "After verbs such as insist, the subjunctive uses the base form be."
+  },
+  {
+   "id": "blanks-029",
+   "sec": "english",
+   "topic": "blanks",
+   "sub": "question tag",
+   "d": 3,
+   "q": "I am late, ______?",
+   "o": [
+    "don't I",
+    "aren't I",
+    "am not I",
+    "isn't I"
+   ],
+   "a": 1,
+   "e": "The standard tag for I am is aren't I?"
+  },
+  {
+   "id": "blanks-030",
+   "sec": "english",
+   "topic": "blanks",
+   "sub": "vocabulary in context",
+   "d": 3,
+   "q": "The minister's ______ remarks offended many members of the community.",
+   "o": [
+    "derogatory",
+    "laudatory",
+    "benign",
+    "apt"
+   ],
+   "a": 0,
+   "e": "Derogatory remarks are insulting and so cause offence; the other words are favourable or neutral."
+  }
+ ]
+}

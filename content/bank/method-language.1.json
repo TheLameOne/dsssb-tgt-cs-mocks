@@ -1,0 +1,164 @@
+{
+ "questions": [
+  {
+   "id": "language-001",
+   "sec": "method",
+   "topic": "language",
+   "sub": "Eighth Schedule",
+   "d": 1,
+   "q": "How many languages are listed in the Eighth Schedule of the Constitution of India at present?",
+   "o": [
+    "18",
+    "20",
+    "22",
+    "24"
+   ],
+   "a": 2,
+   "e": "The Eighth Schedule lists 22 languages. Bodo, Dogri, Maithili and Santhali were the last four added, in 2003."
+  },
+  {
+   "id": "language-002",
+   "sec": "method",
+   "topic": "language",
+   "sub": "mother tongue",
+   "d": 1,
+   "q": "The language that a child first acquires at home in early childhood is called the",
+   "o": [
+    "second language",
+    "mother tongue (L1)",
+    "foreign language",
+    "classical language"
+   ],
+   "a": 1,
+   "e": "The first language learnt naturally at home is the mother tongue or L1. Languages learnt later are L2, L3 and so on."
+  },
+  {
+   "id": "language-003",
+   "sec": "method",
+   "topic": "language",
+   "sub": "Chomsky LAD",
+   "d": 1,
+   "q": "Chomsky's Language Acquisition Device (LAD) is believed to be",
+   "o": [
+    "learned through reinforcement",
+    "an inborn mechanism for language",
+    "acquired only after schooling begins",
+    "the result of imitation alone"
+   ],
+   "a": 1,
+   "e": "Chomsky argued that humans are born with an innate faculty, the LAD, that lets children acquire language quickly."
+  },
+  {
+   "id": "language-004",
+   "sec": "method",
+   "topic": "language",
+   "sub": "Krashen input hypothesis",
+   "d": 1,
+   "q": "According to Krashen's input hypothesis, acquisition occurs when learners receive comprehensible input at the level ______.",
+   "o": [
+    "i − 1",
+    "i",
+    "i + 1",
+    "i + 2"
+   ],
+   "a": 2,
+   "e": "Here i is the learner's current level. Input slightly beyond it (i + 1) is understandable and pushes the learner forward."
+  },
+  {
+   "id": "language-005",
+   "sec": "method",
+   "topic": "language",
+   "sub": "brain language areas",
+   "d": 2,
+   "q": "Consider the following statements.\nI. Broca's area is located in the temporal lobe.\nII. Wernicke's area is mainly concerned with language comprehension.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "Broca's area lies in the frontal lobe and controls speech production. Wernicke's area, in the temporal lobe, handles comprehension."
+  },
+  {
+   "id": "language-006",
+   "sec": "method",
+   "topic": "language",
+   "sub": "Eighth Schedule additions",
+   "d": 2,
+   "q": "Which of the following languages was NOT added to the Eighth Schedule by the 92nd Constitutional Amendment (2003)?",
+   "o": [
+    "Bodo",
+    "Santhali",
+    "Nepali",
+    "Maithili"
+   ],
+   "a": 2,
+   "e": "Bodo, Dogri, Maithili and Santhali were added in 2003. Nepali was added earlier, by the 71st Amendment in 1992, with Konkani and Manipuri."
+  },
+  {
+   "id": "language-007",
+   "sec": "method",
+   "topic": "language",
+   "sub": "multilingual classroom",
+   "d": 2,
+   "q": "In a Class VI classroom, many children speak a home language different from the school language. In line with NCF 2005's view of multilingualism, the teacher should",
+   "o": [
+    "forbid the home language in class to improve fluency in the school language",
+    "treat the children's home languages as a resource and allow their use in learning",
+    "seat such children separately",
+    "teach content only after they master the school language"
+   ],
+   "a": 1,
+   "e": "NCF 2005 treats multilingualism as a resource and favours building on the home language of the child, not suppressing it."
+  },
+  {
+   "id": "language-008",
+   "sec": "method",
+   "topic": "language",
+   "sub": "language across the curriculum",
+   "d": 2,
+   "q": "The idea of language across the curriculum holds that every teacher, whatever the subject, is also a ______ teacher.",
+   "o": [
+    "language",
+    "grammar",
+    "literature",
+    "translation"
+   ],
+   "a": 0,
+   "e": "Subject learning happens through language, so every teacher helps develop learners' vocabulary and expression in the subject."
+  },
+  {
+   "id": "language-009",
+   "sec": "method",
+   "topic": "language",
+   "sub": "Skinner versus Chomsky",
+   "d": 3,
+   "q": "Consider the following statements.\nI. In Verbal Behavior, Skinner explained language learning through reinforcement and imitation.\nII. Chomsky's 1959 review strongly criticised this behaviourist account of language.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Both are correct. Skinner gave a behaviourist account, and Chomsky's review challenged it sharply, turning attention towards innate language ability."
+  },
+  {
+   "id": "language-010",
+   "sec": "method",
+   "topic": "language",
+   "sub": "critical period",
+   "d": 3,
+   "q": "The critical period hypothesis for first-language acquisition, linked to puberty, was put forward by",
+   "o": [
+    "Eric Lenneberg",
+    "Stephen Krashen",
+    "M. A. K. Halliday",
+    "William Labov"
+   ],
+   "a": 0,
+   "e": "Eric Lenneberg (1967) proposed that language is acquired most easily before puberty. Krashen is known for the input and affective filter hypotheses."
+  }
+ ]
+}

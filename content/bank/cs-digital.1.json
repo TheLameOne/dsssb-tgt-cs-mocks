@@ -1,0 +1,484 @@
+{
+ "questions": [
+  {
+   "id": "digital-001",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "number conversion",
+   "d": 1,
+   "q": "The binary equivalent of the decimal number 45 is",
+   "o": [
+    "101011",
+    "101101",
+    "110101",
+    "101110"
+   ],
+   "a": 1,
+   "e": "45 = 32 + 8 + 4 + 1, so the bits are 101101. 101110 is 46."
+  },
+  {
+   "id": "digital-002",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "number conversion",
+   "d": 1,
+   "q": "The hexadecimal equivalent of the binary number 11010110 is",
+   "o": [
+    "B6",
+    "D3",
+    "6D",
+    "D6"
+   ],
+   "a": 3,
+   "e": "Group in fours: 1101 = D and 0110 = 6, giving D6."
+  },
+  {
+   "id": "digital-003",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "complement arithmetic",
+   "d": 1,
+   "q": "The 1's complement of the 8-bit number 10110010 is",
+   "o": [
+    "01001101",
+    "01001110",
+    "10110011",
+    "11001101"
+   ],
+   "a": 0,
+   "e": "The 1's complement just inverts every bit: 10110010 becomes 01001101. Adding 1 would give the 2's complement."
+  },
+  {
+   "id": "digital-004",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "complement arithmetic",
+   "d": 1,
+   "q": "The 8-bit 2's complement representation of the number −20 is",
+   "o": [
+    "11101011",
+    "10010100",
+    "11101100",
+    "11101101"
+   ],
+   "a": 2,
+   "e": "20 = 00010100. Its 1's complement is 11101011, and adding 1 gives 11101100."
+  },
+  {
+   "id": "digital-005",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "BCD",
+   "d": 1,
+   "q": "The BCD (8421) code of the decimal number 47 is",
+   "o": [
+    "0010 1111",
+    "0111 0100",
+    "0100 0111",
+    "0100 1011"
+   ],
+   "a": 2,
+   "e": "Each decimal digit is coded separately in 4 bits: 4 = 0100 and 7 = 0111. 1011 is not a valid BCD digit."
+  },
+  {
+   "id": "digital-006",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "Gray code",
+   "d": 1,
+   "q": "The Gray code equivalent of the binary number 1011 is",
+   "o": [
+    "1110",
+    "1101",
+    "1010",
+    "1111"
+   ],
+   "a": 0,
+   "e": "Keep the MSB, then XOR adjacent bits: 1, 1⊕0 = 1, 0⊕1 = 1, 1⊕1 = 0, giving 1110."
+  },
+  {
+   "id": "digital-007",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "excess-3 code",
+   "d": 1,
+   "q": "The excess-3 code of the decimal digit 7 is",
+   "o": [
+    "0111",
+    "1011",
+    "0100",
+    "1010"
+   ],
+   "a": 3,
+   "e": "Excess-3 is the BCD of the digit plus 3: 7 + 3 = 10 = 1010."
+  },
+  {
+   "id": "digital-008",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "ASCII",
+   "d": 1,
+   "q": "Which of the following statements about standard ASCII is NOT correct?",
+   "o": [
+    "It is a 7-bit code",
+    "It can represent 128 different characters",
+    "Extended ASCII uses 8 bits per character",
+    "It can represent 256 different characters"
+   ],
+   "a": 3,
+   "e": "Standard ASCII is a 7-bit code with 2⁷ = 128 characters. The 256-character set is extended 8-bit ASCII."
+  },
+  {
+   "id": "digital-009",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "universal gates",
+   "d": 1,
+   "q": "Regarding logic gates, consider the following statements.\nI. A NAND gate alone can be used to build any other logic gate.\nII. A NOR gate alone can be used to build any other logic gate.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Both are true. NAND and NOR are universal gates, since AND, OR and NOT can each be built from either one alone."
+  },
+  {
+   "id": "digital-010",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "logic gates",
+   "d": 1,
+   "q": "The output of a two-input XOR gate is 1 only when its inputs are ______.",
+   "o": [
+    "both 0",
+    "both 1",
+    "different from each other",
+    "the same"
+   ],
+   "a": 2,
+   "e": "XOR gives 1 for 01 and 10, and 0 for 00 and 11. So it detects inequality of the inputs."
+  },
+  {
+   "id": "digital-011",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "logic gates",
+   "d": 1,
+   "q": "The output of a two-input NOR gate is HIGH only when",
+   "o": [
+    "both inputs are HIGH",
+    "both inputs are LOW",
+    "at least one input is HIGH",
+    "the inputs are different"
+   ],
+   "a": 1,
+   "e": "NOR is an OR followed by NOT, so it gives 1 only for input 00."
+  },
+  {
+   "id": "digital-012",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "universal gates",
+   "d": 1,
+   "q": "A NOT gate can be obtained from a two-input NAND gate by",
+   "o": [
+    "connecting one input to logic 0",
+    "grounding both inputs",
+    "connecting the output to one input",
+    "connecting both inputs together"
+   ],
+   "a": 3,
+   "e": "NAND(A, A) = (A·A)' = A'. Tying one input to 0 would force the output to 1."
+  },
+  {
+   "id": "digital-013",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "Boolean algebra",
+   "d": 1,
+   "q": "Consider the following statements based on De Morgan's theorems.\nI. (A + B)' = A' + B'\nII. (A · B)' = A' · B'\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 3,
+   "e": "Neither is correct. De Morgan's laws are (A + B)' = A'·B' and (A·B)' = A' + B'. The operator changes when the complement is distributed."
+  },
+  {
+   "id": "digital-014",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "codes",
+   "d": 1,
+   "q": "Consider the following statements about binary codes.\nI. Gray code is a weighted code.\nII. Excess-3 code is a weighted code.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 3,
+   "e": "Neither is weighted. Gray code is an unweighted, unit-distance code, and excess-3 is an unweighted, self-complementing code. BCD 8421 is the weighted one."
+  },
+  {
+   "id": "digital-015",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "K-map",
+   "d": 1,
+   "q": "Which of the following statements about a four-variable Karnaugh map is NOT correct?",
+   "o": [
+    "It has 16 cells",
+    "Each cell represents one minterm",
+    "Adjacent cells differ in exactly one variable",
+    "Rows and columns are labelled in ordinary binary order 00, 01, 10, 11"
+   ],
+   "a": 3,
+   "e": "The labels follow Gray code order 00, 01, 11, 10, so that neighbouring cells differ in one variable only. The map has 2⁴ = 16 cells, one per minterm."
+  },
+  {
+   "id": "digital-016",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "half adder",
+   "d": 1,
+   "q": "Consider the following statements about a half adder.\nI. Its carry output is A ⊕ B.\nII. Its sum output is A ⊕ B.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "Only II is correct. Sum = A ⊕ B and carry = A·B. A carry is produced only when both input bits are 1."
+  },
+  {
+   "id": "digital-017",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "multiplexer",
+   "d": 1,
+   "q": "How many select lines are required for an 8-to-1 multiplexer?",
+   "o": [
+    "2",
+    "3",
+    "4",
+    "8"
+   ],
+   "a": 1,
+   "e": "With n select lines a multiplexer chooses among 2ⁿ inputs, so 2ⁿ = 8 gives n = 3."
+  },
+  {
+   "id": "digital-018",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "decoder and encoder",
+   "d": 1,
+   "q": "Consider the following statements about decoders and encoders.\nI. A decoder with n inputs has up to 2ⁿ outputs.\nII. An encoder with 2ⁿ inputs has n outputs.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Both are true. A 3-to-8 decoder has 8 outputs, and an 8-to-3 encoder has 3 outputs."
+  },
+  {
+   "id": "digital-019",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "JK flip-flop",
+   "d": 1,
+   "q": "Which of the following is NOT a valid behaviour of a JK flip-flop on a clock pulse?",
+   "o": [
+    "J = 1, K = 1: the output is undefined",
+    "J = 0, K = 0: the output stays unchanged",
+    "J = 0, K = 1: the output is reset to 0",
+    "J = 1, K = 0: the output is set to 1"
+   ],
+   "a": 0,
+   "e": "With J = K = 1 the JK flip-flop toggles, so the next state is Q'. It is the SR flip-flop that has an invalid input combination."
+  },
+  {
+   "id": "digital-020",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "SR latch",
+   "d": 1,
+   "q": "Regarding a NOR-based SR latch, consider the following statements.\nI. The input combination S = R = 1 is not allowed.\nII. With S = R = 0, the latch retains its previous state.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Both are true. S = R = 1 forces both outputs to 0 and the final state is unpredictable when released. S = R = 0 simply holds the state."
+  },
+  {
+   "id": "digital-021",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "D flip-flop",
+   "d": 1,
+   "q": "The characteristic equation of a D flip-flop is",
+   "o": [
+    "Q(next) = D'",
+    "Q(next) = Q",
+    "Q(next) = D",
+    "Q(next) = D⊕Q"
+   ],
+   "a": 2,
+   "e": "The D flip-flop copies the D input to the output on the active clock edge."
+  },
+  {
+   "id": "digital-022",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "registers",
+   "d": 1,
+   "q": "A 6-bit shift register requires ______ flip-flops.",
+   "o": [
+    "6",
+    "3",
+    "4",
+    "12"
+   ],
+   "a": 0,
+   "e": "A register stores one bit per flip-flop, so 6 bits need 6 flip-flops."
+  },
+  {
+   "id": "digital-023",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "counters",
+   "d": 1,
+   "q": "The minimum number of flip-flops needed to build a modulo-16 counter is",
+   "o": [
+    "3",
+    "5",
+    "16",
+    "4"
+   ],
+   "a": 3,
+   "e": "Modulus ≤ 2ⁿ, so n = log₂16 = 4."
+  },
+  {
+   "id": "digital-024",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "memory types",
+   "d": 1,
+   "q": "Which of the following is NOT a volatile memory?",
+   "o": [
+    "SRAM",
+    "ROM",
+    "DRAM",
+    "CPU register"
+   ],
+   "a": 1,
+   "e": "ROM keeps its contents without power. SRAM, DRAM and registers lose data when power is removed."
+  },
+  {
+   "id": "digital-025",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "memory types",
+   "d": 1,
+   "q": "Consider the following statements about memory chips.\nI. The contents of an EPROM are erased electrically.\nII. The contents of an EEPROM are erased electrically.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "Only II is correct. An EPROM has a quartz window and is erased by exposure to ultraviolet light. An EEPROM is erased by electrical signals."
+  },
+  {
+   "id": "digital-026",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "logic families",
+   "d": 1,
+   "q": "Consider the following statements about logic families.\nI. ECL is the fastest of the common logic families.\nII. CMOS dissipates more static power than TTL.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "ECL avoids saturation and is the fastest. CMOS has very low static power dissipation, so statement II is false."
+  },
+  {
+   "id": "digital-027",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "ADC and DAC",
+   "d": 1,
+   "q": "An analog-to-digital converter (ADC)",
+   "o": [
+    "converts a binary number into a voltage",
+    "converts a continuous voltage into a binary number",
+    "converts serial data into parallel data",
+    "converts AC into DC"
+   ],
+   "a": 1,
+   "e": "An ADC samples an analog signal and gives the digital code. The reverse job belongs to a DAC."
+  },
+  {
+   "id": "digital-028",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "logic families",
+   "d": 1,
+   "q": "Which of the following gives the correct full form of TTL?",
+   "o": [
+    "Transistor-Terminal Logic",
+    "Tri-state Transistor Logic",
+    "Timed Transistor Logic",
+    "Transistor-Transistor Logic"
+   ],
+   "a": 3,
+   "e": "TTL is built with bipolar junction transistors in both the input and the output stages."
+  },
+  {
+   "id": "digital-029",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "number conversion",
+   "d": 2,
+   "q": "The binary equivalent of the decimal fraction 0.625 is",
+   "o": [
+    "0.110",
+    "0.011",
+    "0.1011",
+    "0.101"
+   ],
+   "a": 3,
+   "e": "0.625 = 0.5 + 0.125 = 2⁻¹ + 2⁻³, so 0.101. Check: 0.1011 would be 0.6875."
+  },
+  {
+   "id": "digital-030",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "number conversion",
+   "d": 2,
+   "q": "The decimal value of the binary number 1101.101 is",
+   "o": [
+    "13.5",
+    "13.625",
+    "13.125",
+    "11.625"
+   ],
+   "a": 1,
+   "e": "1101 = 13 and .101 = 0.5 + 0.125 = 0.625, giving 13.625."
+  }
+ ]
+}

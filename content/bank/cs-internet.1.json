@@ -1,0 +1,486 @@
+{
+ "questions": [
+  {
+   "id": "internet-001",
+   "sec": "cs",
+   "topic": "internet",
+   "sub": "CSS basics",
+   "d": 1,
+   "q": "What is the full form of CSS used in web design?",
+   "o": [
+    "Computer Style Sheets",
+    "Cascading Style Sheets",
+    "Creative Style Syntax",
+    "Colourful Style Sheets"
+   ],
+   "a": 1,
+   "e": "CSS stands for Cascading Style Sheets. It separates the presentation of a web page from its HTML content."
+  },
+  {
+   "id": "internet-002",
+   "sec": "cs",
+   "topic": "internet",
+   "sub": "CSS selectors",
+   "d": 1,
+   "q": "Consider the following statements about CSS selectors.\nI. The selector `.intro` selects elements whose id is \"intro\".\nII. The selector `#intro` selects elements whose class is \"intro\".\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 3,
+   "e": "Neither is correct. A dot selects by class and a hash selects by id, so both are reversed."
+  },
+  {
+   "id": "internet-003",
+   "sec": "cs",
+   "topic": "internet",
+   "sub": "box model",
+   "d": 1,
+   "q": "Consider the following statements about the CSS box model.\nI. Padding lies between the content and the border.\nII. Margin lies between the content and the border.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "Only I is correct. From the content outwards the layers are padding, border and margin, so the margin lies outside the border."
+  },
+  {
+   "id": "internet-004",
+   "sec": "cs",
+   "topic": "internet",
+   "sub": "DTD basics",
+   "d": 1,
+   "q": "What is the full form of DTD in XML?",
+   "o": [
+    "Document Type Definition",
+    "Data Transfer Document",
+    "Dynamic Type Declaration",
+    "Document Transformation Definition"
+   ],
+   "a": 0,
+   "e": "A Document Type Definition (DTD) defines the legal elements and attributes of an XML document and so is used to validate it."
+  },
+  {
+   "id": "internet-005",
+   "sec": "cs",
+   "topic": "internet",
+   "sub": "XML well-formedness",
+   "d": 1,
+   "q": "Which of the following is NOT required for an XML document to be well-formed?",
+   "o": [
+    "Exactly one root element",
+    "Properly nested and closed tags",
+    "Quoted attribute values",
+    "A DTD attached to the document"
+   ],
+   "a": 3,
+   "e": "A DTD is needed only for a document to be valid, not for it to be well-formed. A single root, proper nesting and quoted attribute values are required."
+  },
+  {
+   "id": "internet-006",
+   "sec": "cs",
+   "topic": "internet",
+   "sub": "XML naming rules",
+   "d": 1,
+   "q": "Which of the following is NOT a rule of well-formed XML?",
+   "o": [
+    "Tags are case-sensitive",
+    "Every start tag must have an end tag",
+    "Attribute values must be quoted",
+    "Tags may overlap if the closing tags are in any order"
+   ],
+   "a": 3,
+   "e": "XML elements must be properly nested. Overlapping tags such as <a><b></a></b> are not allowed."
+  },
+  {
+   "id": "internet-007",
+   "sec": "cs",
+   "topic": "internet",
+   "sub": "XSLT",
+   "d": 1,
+   "q": "What is the full form of XSLT?",
+   "o": [
+    "Extensible Style Language Template",
+    "Extended Stylesheet Language Tags",
+    "Extensible Stylesheet Language Transformations",
+    "XML Structured Language Translation"
+   ],
+   "a": 2,
+   "e": "XSLT is Extensible Stylesheet Language Transformations, a language for converting XML documents into other XML, HTML or text."
+  },
+  {
+   "id": "internet-008",
+   "sec": "cs",
+   "topic": "internet",
+   "sub": "personal web server",
+   "d": 1,
+   "q": "What is the full form of PWS, the small web server used for publishing pages on a desktop Windows system?",
+   "o": [
+    "Public Web Service",
+    "Personal Web Server",
+    "Primary Web Site",
+    "Portable Web Software"
+   ],
+   "a": 1,
+   "e": "PWS is the Personal Web Server, a scaled-down version of Internet Information Server for small sites."
+  },
+  {
+   "id": "internet-009",
+   "sec": "cs",
+   "topic": "internet",
+   "sub": "JavaScript tag",
+   "d": 1,
+   "q": "Which HTML tag is used to embed JavaScript code in a web page?",
+   "o": [
+    "<js>",
+    "<javascript>",
+    "<script>",
+    "<code>"
+   ],
+   "a": 2,
+   "e": "JavaScript is placed between <script> and </script> tags, or loaded from a file using the src attribute of <script>."
+  },
+  {
+   "id": "internet-010",
+   "sec": "cs",
+   "topic": "internet",
+   "sub": "DHTML",
+   "d": 1,
+   "q": "DHTML stands for ______.",
+   "o": [
+    "Direct HTML",
+    "Dynamic HTML",
+    "Distributed HTML",
+    "Dual-mode HTML"
+   ],
+   "a": 1,
+   "e": "Dynamic HTML combines HTML, CSS, scripting and the document object model to change a page after it has loaded."
+  },
+  {
+   "id": "internet-011",
+   "sec": "cs",
+   "topic": "internet",
+   "sub": "IIS",
+   "d": 1,
+   "q": "Which of the following is NOT a web server?",
+   "o": [
+    "Apache HTTP Server",
+    "Nginx",
+    "Internet Information Services (IIS)",
+    "MySQL"
+   ],
+   "a": 3,
+   "e": "MySQL is a database management system. Apache HTTP Server, Nginx and IIS are web servers."
+  },
+  {
+   "id": "internet-012",
+   "sec": "cs",
+   "topic": "internet",
+   "sub": "XHTML rules",
+   "d": 1,
+   "q": "Which of the following is a valid way to write the line-break element in XHTML?",
+   "o": [
+    "<br>",
+    "</br>",
+    "<br />",
+    "<break>"
+   ],
+   "a": 2,
+   "e": "XHTML needs lowercase tag names and every element closed, so an empty element is written <br /> ."
+  },
+  {
+   "id": "internet-013",
+   "sec": "cs",
+   "topic": "internet",
+   "sub": "JavaScript dialogs",
+   "d": 1,
+   "q": "Which JavaScript method displays a simple message in a dialog box with an OK button?",
+   "o": [
+    "alert()",
+    "prompt()",
+    "write()",
+    "print()"
+   ],
+   "a": 0,
+   "e": "alert() shows a message with OK. prompt() asks the user for input and confirm() gives OK and Cancel."
+  },
+  {
+   "id": "internet-014",
+   "sec": "cs",
+   "topic": "internet",
+   "sub": "XML namespaces",
+   "d": 1,
+   "q": "Consider the following statements about XML namespaces.\nI. A namespace is declared using the `xmlns` attribute.\nII. Namespaces help avoid name conflicts when XML from different vocabularies is combined.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Both are true. The xmlns attribute declares a namespace, which keeps element names from different sources distinct."
+  },
+  {
+   "id": "internet-015",
+   "sec": "cs",
+   "topic": "internet",
+   "sub": "CSS specificity",
+   "d": 2,
+   "q": "Which of the following CSS selectors has the highest specificity?",
+   "o": [
+    "div",
+    "div.menu",
+    ".menu",
+    "#menu"
+   ],
+   "a": 3,
+   "e": "An id selector outweighs any number of class or element selectors. The ranking is inline style, then id, then class, then element."
+  },
+  {
+   "id": "internet-016",
+   "sec": "cs",
+   "topic": "internet",
+   "sub": "CSS position",
+   "d": 2,
+   "q": "An element with `position: absolute` in CSS is positioned relative to ______.",
+   "o": [
+    "its normal position in the flow",
+    "the nearest ancestor that has a position other than static",
+    "the browser window always",
+    "its previous sibling"
+   ],
+   "a": 1,
+   "e": "An absolutely positioned element is taken out of the flow and offset from the nearest positioned ancestor. If none exists, it uses the initial containing block."
+  },
+  {
+   "id": "internet-017",
+   "sec": "cs",
+   "topic": "internet",
+   "sub": "event bubbling",
+   "d": 2,
+   "q": "Regarding the DHTML event model, consider the following.\nI. In event bubbling, the event travels from the outermost element down to the target element.\nII. The phase in which an event travels from the outermost element down to the target is called capturing.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "Only II is correct. With bubbling, the event fires on the target first and then moves up through its ancestors. The downward phase is capturing."
+  },
+  {
+   "id": "internet-018",
+   "sec": "cs",
+   "topic": "internet",
+   "sub": "DTD element declaration",
+   "d": 2,
+   "q": "Which DTD declaration defines an element `name` that contains only text?",
+   "o": [
+    "<!ELEMENT name (#PCDATA)>",
+    "<!ELEMENT name EMPTY>",
+    "<!ATTLIST name (#PCDATA)>",
+    "<!ENTITY name (#PCDATA)>"
+   ],
+   "a": 0,
+   "e": "#PCDATA means parsed character data, i.e. text. EMPTY declares an element with no content, and ATTLIST and ENTITY declare attributes and entities."
+  },
+  {
+   "id": "internet-019",
+   "sec": "cs",
+   "topic": "internet",
+   "sub": "JavaScript type coercion",
+   "d": 2,
+   "q": "What is displayed by the following JavaScript statement?\n`document.write(\"5\" + 3 + \" \" + (\"5\" - 3));`",
+   "o": [
+    "8 2",
+    "53 2",
+    "53 53",
+    "8 8"
+   ],
+   "a": 1,
+   "e": "The + operator with a string joins text, so \"5\" + 3 gives \"53\". The - operator converts both to numbers, so \"5\" - 3 is 2."
+  },
+  {
+   "id": "internet-020",
+   "sec": "cs",
+   "topic": "internet",
+   "sub": "DOM and SAX parsers",
+   "d": 2,
+   "q": "Consider the following statements about XML parsers.\nI. A DOM parser loads the entire document into memory as a tree.\nII. A SAX parser is event-based and generally needs less memory.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "DOM builds an in-memory tree, allowing random access but using more memory. SAX reports events as it reads the document and keeps almost nothing in memory."
+  },
+  {
+   "id": "internet-021",
+   "sec": "cs",
+   "topic": "internet",
+   "sub": "XSLT and XPath",
+   "d": 2,
+   "q": "An XSLT stylesheet uses ______ expressions to select the parts of the source document to be processed.",
+   "o": [
+    "XPath",
+    "XLink",
+    "DTD",
+    "SQL"
+   ],
+   "a": 0,
+   "e": "XPath expressions in attributes like select and match locate nodes in the source tree for XSLT templates."
+  },
+  {
+   "id": "internet-022",
+   "sec": "cs",
+   "topic": "internet",
+   "sub": "tabular data control",
+   "d": 2,
+   "q": "Regarding DHTML data binding with the Tabular Data Control, consider the following.\nI. The DATASRC attribute names the column of the data source to be displayed.\nII. The DATAFLD attribute names the column of the data source to be displayed.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "Only II is correct. DATAFLD names the field or column to display. DATASRC names the data source itself."
+  },
+  {
+   "id": "internet-023",
+   "sec": "cs",
+   "topic": "internet",
+   "sub": "filters and transitions",
+   "d": 2,
+   "q": "In Internet Explorer's DHTML, visual effects such as Alpha, Blur and Gray filters are applied through which CSS property?",
+   "o": [
+    "effect",
+    "filter",
+    "transition-style",
+    "visual"
+   ],
+   "a": 1,
+   "e": "The filter property, for example filter: Alpha(opacity=50), applies visual filters. Transitions such as blend and reveal were applied using filters too."
+  },
+  {
+   "id": "internet-024",
+   "sec": "cs",
+   "topic": "internet",
+   "sub": "CSS media types",
+   "d": 2,
+   "q": "Which of the following is NOT a valid CSS media type?",
+   "o": [
+    "screen",
+    "print",
+    "all",
+    "hardcopy"
+   ],
+   "a": 3,
+   "e": "hardcopy is not a CSS media type. Printed pages use print, and screen and all are also valid."
+  },
+  {
+   "id": "internet-025",
+   "sec": "cs",
+   "topic": "internet",
+   "sub": "XML schema",
+   "d": 2,
+   "q": "Which of the following is an advantage of XML Schema over a DTD?",
+   "o": [
+    "It is written in XML syntax and supports data types",
+    "It is shorter and needs no namespaces",
+    "It is the only way to make a document well-formed",
+    "It cannot be validated by a parser"
+   ],
+   "a": 0,
+   "e": "XML Schema (XSD) is itself an XML document and supports data types such as integer and date. A DTD uses non-XML syntax and has almost no data typing."
+  },
+  {
+   "id": "internet-026",
+   "sec": "cs",
+   "topic": "internet",
+   "sub": "specificity calculation",
+   "d": 3,
+   "q": "A page has `<div id=\"box\"><p class=\"note\">Hello</p></div>`. Which colour is applied to the paragraph text under the following rules?",
+   "code": "div p      { color: red;    }\n.note      { color: green;  }\n#box p     { color: blue;   }\np.note     { color: yellow; }",
+   "lang": "css",
+   "o": [
+    "red",
+    "green",
+    "blue",
+    "yellow"
+   ],
+   "a": 2,
+   "e": "Specificity as (ids, classes, elements): div p = (0,0,2), .note = (0,1,0), p.note = (0,1,1), #box p = (1,0,1). The id gives the highest value, so blue wins."
+  },
+  {
+   "id": "internet-027",
+   "sec": "cs",
+   "topic": "internet",
+   "sub": "box model calculation",
+   "d": 3,
+   "q": "A block element has `width: 200px; padding: 10px; border: 5px solid; margin: 20px;` and the default `box-sizing: content-box`. What is the total horizontal space it occupies, including its margins?",
+   "o": [
+    "200px",
+    "230px",
+    "250px",
+    "270px"
+   ],
+   "a": 3,
+   "e": "Horizontal space = width 200 + padding 2×10 + border 2×5 + margin 2×20 = 200 + 20 + 10 + 40 = 270px."
+  },
+  {
+   "id": "internet-028",
+   "sec": "cs",
+   "topic": "internet",
+   "sub": "event bubbling order",
+   "d": 3,
+   "q": "A `div`, a `p` inside it and a `button` inside the `p` each have an `onclick` handler that shows its own tag name. The button is clicked. In what order do the alerts appear, assuming the default event propagation of the DOM and no call to stopPropagation?",
+   "o": [
+    "div, p, button",
+    "button, p, div",
+    "button only",
+    "p, div, button"
+   ],
+   "a": 1,
+   "e": "By default, handlers run in the bubbling phase, from the target outwards. The button's handler runs first, then its parent p, then the div."
+  },
+  {
+   "id": "internet-029",
+   "sec": "cs",
+   "topic": "internet",
+   "sub": "well-formed documents",
+   "d": 3,
+   "q": "Which of the following XML fragments is well-formed?",
+   "o": [
+    "<a><b></a></b>",
+    "<a x=1 />",
+    "<a></a><b></b>",
+    "<a x=\"1\"><b/></a>"
+   ],
+   "a": 3,
+   "e": "The last option has one root, proper nesting and a quoted attribute value. The others have overlapping tags, an unquoted value and two root elements respectively."
+  },
+  {
+   "id": "internet-030",
+   "sec": "cs",
+   "topic": "internet",
+   "sub": "DTD content model",
+   "d": 3,
+   "q": "A DTD contains `<!ELEMENT book (title, author+, price?)>`. Which child sequence for `book` is valid, assuming each child element is declared elsewhere?",
+   "o": [
+    "title, price",
+    "author, title",
+    "title, author, author, price",
+    "title, author, price, price"
+   ],
+   "a": 2,
+   "e": "The model needs one title first, then one or more authors, then an optional single price. Only title, author, author, price fits all of this."
+  }
+ ]
+}

@@ -1,0 +1,164 @@
+{
+ "questions": [
+  {
+   "id": "average-001",
+   "sec": "arithmetic",
+   "topic": "average",
+   "sub": "simple average",
+   "d": 1,
+   "q": "The average of 12, 15, 18, 21 and 24 is:",
+   "o": [
+    "18",
+    "16",
+    "19",
+    "20"
+   ],
+   "a": 0,
+   "e": "The numbers are equally spaced, so the average is the middle term 18. Sum = 90 and 90 ÷ 5 = 18."
+  },
+  {
+   "id": "average-002",
+   "sec": "arithmetic",
+   "topic": "average",
+   "sub": "excluding a number",
+   "d": 1,
+   "q": "The average of five numbers is 24. If one of the numbers, 20, is removed, the average of the remaining four is:",
+   "o": [
+    "24",
+    "26",
+    "22",
+    "25"
+   ],
+   "a": 3,
+   "e": "Total of five = 120. Remaining total = 120 − 20 = 100, and 100 ÷ 4 = 25."
+  },
+  {
+   "id": "average-003",
+   "sec": "arithmetic",
+   "topic": "average",
+   "sub": "simple average",
+   "d": 1,
+   "q": "The average of the first five multiples of 4 is:",
+   "o": [
+    "10",
+    "14",
+    "12",
+    "16"
+   ],
+   "a": 2,
+   "e": "The multiples are 4, 8, 12, 16, 20 with sum 60, and 60 ÷ 5 = 12."
+  },
+  {
+   "id": "average-004",
+   "sec": "arithmetic",
+   "topic": "average",
+   "sub": "weighted average",
+   "d": 2,
+   "q": "In a class of 30 students the average marks are 60, and in another class of 20 students the average is 70. The average marks of all 50 students are:",
+   "o": [
+    "65",
+    "64",
+    "66",
+    "62"
+   ],
+   "a": 1,
+   "e": "Total = 30 × 60 + 20 × 70 = 1800 + 1400 = 3200. Average = 3200 ÷ 50 = 64, not the simple mean 65."
+  },
+  {
+   "id": "average-005",
+   "sec": "arithmetic",
+   "topic": "average",
+   "sub": "replacement",
+   "d": 2,
+   "q": "The average age of 8 persons increases by 2 years when a person aged 50 is replaced by a new person. The age of the new person is:",
+   "o": [
+    "66 years",
+    "58 years",
+    "62 years",
+    "70 years"
+   ],
+   "a": 0,
+   "e": "The total rises by 8 × 2 = 16. So the new person is 50 + 16 = 66 years old."
+  },
+  {
+   "id": "average-006",
+   "sec": "arithmetic",
+   "topic": "average",
+   "sub": "batting average",
+   "d": 2,
+   "q": "A batsman has an average of 40 runs after 10 innings. He scores 62 in his 11th innings. His new average is:",
+   "o": [
+    "41",
+    "43",
+    "45",
+    "42"
+   ],
+   "a": 3,
+   "e": "Total after 10 innings = 400. After the 11th = 462, and 462 ÷ 11 = 42."
+  },
+  {
+   "id": "average-007",
+   "sec": "arithmetic",
+   "topic": "average",
+   "sub": "overlapping groups",
+   "d": 2,
+   "q": "The average of nine numbers is 28. The average of the first five is 25 and that of the last five is 35. The fifth number is:",
+   "o": [
+    "40",
+    "45",
+    "48",
+    "50"
+   ],
+   "a": 2,
+   "e": "The fifth number is counted in both groups. 5 × 25 + 5 × 35 − 9 × 28 = 125 + 175 − 252 = 48."
+  },
+  {
+   "id": "average-008",
+   "sec": "arithmetic",
+   "topic": "average",
+   "sub": "sum of pairs",
+   "d": 3,
+   "q": "The average of three numbers is 40. The average of the first two is 35 and the average of the last two is 45. The first number is:",
+   "o": [
+    "25",
+    "30",
+    "35",
+    "40"
+   ],
+   "a": 1,
+   "e": "Total = 120, a + b = 70, b + c = 90. So c = 120 − 70 = 50, then b = 90 − 50 = 40 and a = 70 − 40 = 30."
+  },
+  {
+   "id": "average-009",
+   "sec": "arithmetic",
+   "topic": "average",
+   "sub": "average speed",
+   "d": 3,
+   "q": "A car covers three equal distances at 30 km/h, 40 km/h and 60 km/h respectively. Its average speed for the whole journey is:",
+   "o": [
+    "40 km/h",
+    "43⅓ km/h",
+    "45 km/h",
+    "50 km/h"
+   ],
+   "a": 0,
+   "e": "Average speed = total distance ÷ total time. For distance d each, time = d(1/30 + 1/40 + 1/60) = 9d/120. So speed = 3d ÷ (9d/120) = 40 km/h; the simple mean 43⅓ is wrong."
+  },
+  {
+   "id": "average-010",
+   "sec": "arithmetic",
+   "topic": "average",
+   "sub": "wrong entries",
+   "d": 3,
+   "q": "The mean marks of 50 students were calculated as 60. Later it was found that a score of 90 was read as 40, and another score of 55 was read as 5. The correct mean is:",
+   "o": [
+    "61",
+    "63",
+    "64",
+    "62"
+   ],
+   "a": 3,
+   "e": "The sum was understated by (90 − 40) + (55 − 5) = 100. Correct total = 3000 + 100 = 3100, and 3100 ÷ 50 = 62."
+  }
+ ]
+}

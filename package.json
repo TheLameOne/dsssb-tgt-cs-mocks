@@ -1,0 +1,23 @@
+{
+  "name": "dsssb-tgt-cs-mocks",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Full-length mock tests and topic practice for DSSSB TGT Computer Science (Post Code 41/26).",
+  "scripts": {
+    "data": "node scripts/build-data.mjs",
+    "check": "node scripts/validate-bank.mjs",
+    "dev": "node scripts/build-data.mjs --partial && vite",
+    "build": "npm run data && vite build",
+    "preview": "vite preview",
+    "test": "node --test \"tests/*.test.js\""
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.2.1",
+    "vite": "^8.3.6"
+  }
+}

@@ -1,0 +1,404 @@
+{
+ "questions": [
+  {
+   "id": "se-001",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "maintenance",
+   "d": 1,
+   "q": "Which of the following is NOT a recognised type of software maintenance?",
+   "o": [
+    "Corrective",
+    "Adaptive",
+    "Perfective",
+    "Regressive"
+   ],
+   "a": 3,
+   "e": "Corrective fixes faults, adaptive adjusts to a new environment and perfective improves features or performance. Regressive is not a standard category of maintenance."
+  },
+  {
+   "id": "se-002",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "RAD",
+   "d": 1,
+   "q": "What is the full form of RAD in software engineering?",
+   "o": [
+    "Rapid Application Development",
+    "Rapid Algorithm Development",
+    "Rapid Application Deployment",
+    "Random Application Development"
+   ],
+   "a": 0,
+   "e": "RAD is Rapid Application Development, a high-speed adaptation of the waterfall model using component-based construction."
+  },
+  {
+   "id": "se-003",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "verification and validation",
+   "d": 1,
+   "q": "Consider the following statements.\nI. Verification checks that the product meets the customer's actual needs.\nII. Verification checks that the product conforms to its specification.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "Verification asks 'Are we building the product right?', which means checking conformance to the specification. Checking against the customer's actual needs is validation, so I is false."
+  },
+  {
+   "id": "se-004",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "black box testing",
+   "d": 1,
+   "q": "Black box testing is also known as",
+   "o": [
+    "behavioural testing",
+    "structural testing",
+    "glass box testing",
+    "path testing"
+   ],
+   "a": 0,
+   "e": "Black box testing checks behaviour against the specification without looking at the code. Structural, glass box and path testing are white box terms."
+  },
+  {
+   "id": "se-005",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "configuration management",
+   "d": 2,
+   "q": "In software configuration management, a baseline is",
+   "o": [
+    "a formally reviewed work product that can be changed only through formal change control",
+    "the first draft of the SRS",
+    "the final test report",
+    "the cost estimate of the project"
+   ],
+   "a": 0,
+   "e": "A baseline is an approved configuration item that acts as the basis for further development. After that, changes need formal change control."
+  },
+  {
+   "id": "se-006",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "reliability metrics",
+   "d": 2,
+   "q": "In software reliability measurement, POFOD stands for",
+   "o": [
+    "Probability Of Failure On Demand",
+    "Probability Of Failure On Day",
+    "Period Of Failure On Demand",
+    "Possibility Of Fault On Demand"
+   ],
+   "a": 0,
+   "e": "POFOD is the probability that the system fails when a service request is made. It suits systems such as protection systems."
+  },
+  {
+   "id": "se-007",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "LOC estimation",
+   "d": 3,
+   "q": "Estimating by lines of code, the optimistic, most likely and pessimistic sizes are 20, 30 and 70 KLOC. Expected size is (opt + 4 × likely + pess) / 6. If the productivity is 500 LOC per person-month and the labour cost is ₹40,000 per person-month, the estimated cost is",
+   "o": [
+    "₹28,00,000",
+    "₹24,00,000",
+    "₹32,00,000",
+    "₹14,00,000"
+   ],
+   "a": 0,
+   "e": "Expected size = (20 + 120 + 70) / 6 = 35 KLOC. Effort = 35000 / 500 = 70 person-months. Cost = 70 × 40,000 = ₹28,00,000."
+  },
+  {
+   "id": "se-008",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "DFD",
+   "d": 1,
+   "q": "Which of the following is NOT an element of a data flow diagram?",
+   "o": [
+    "Inheritance",
+    "Process",
+    "Data store",
+    "External entity"
+   ],
+   "a": 0,
+   "e": "A DFD has processes, data stores, data flows and external entities. Inheritance belongs to object-oriented class models."
+  },
+  {
+   "id": "se-009",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "feasibility study",
+   "d": 1,
+   "q": "Which of the following is NOT a type of feasibility study?",
+   "o": [
+    "Syntactic feasibility",
+    "Technical feasibility",
+    "Economic feasibility",
+    "Operational feasibility"
+   ],
+   "a": 0,
+   "e": "Feasibility is judged as technical, economic, operational (and schedule or legal). Syntactic feasibility is not a standard type."
+  },
+  {
+   "id": "se-010",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "V-model",
+   "d": 1,
+   "q": "The V-model of software development is an extension of the",
+   "o": [
+    "waterfall model",
+    "spiral model",
+    "RAD model",
+    "incremental model"
+   ],
+   "a": 0,
+   "e": "The V-model bends the waterfall model upward after coding to show that each testing phase corresponds to a development phase."
+  },
+  {
+   "id": "se-011",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "integration testing",
+   "d": 2,
+   "q": "Consider the following statements.\nI. Top-down integration testing uses stubs to replace lower-level modules.\nII. Bottom-up integration testing uses drivers to call the modules under test.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Top-down integration begins with the main module, so missing subordinates are replaced by stubs. Bottom-up begins with low-level modules, so drivers are needed to call them. Both are correct."
+  },
+  {
+   "id": "se-012",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "coupling",
+   "d": 1,
+   "q": "Which type of coupling is the loosest and most desirable between modules?",
+   "o": [
+    "Data coupling",
+    "Stamp coupling",
+    "Common coupling",
+    "Content coupling"
+   ],
+   "a": 0,
+   "e": "Data coupling, where modules communicate only by passing simple data parameters, is the weakest coupling."
+  },
+  {
+   "id": "se-013",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "cohesion",
+   "d": 2,
+   "q": "Which of the following is NOT a type of cohesion?",
+   "o": [
+    "Coincidental",
+    "Logical",
+    "Temporal",
+    "Stamp"
+   ],
+   "a": 3,
+   "e": "Stamp is a type of coupling, where modules share a composite data structure. Coincidental, logical and temporal are all types of cohesion."
+  },
+  {
+   "id": "se-014",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "CASE tools",
+   "d": 1,
+   "q": "Upper CASE tools mainly support",
+   "o": [
+    "the analysis and design phases",
+    "the coding phase only",
+    "testing and maintenance only",
+    "project billing"
+   ],
+   "a": 0,
+   "e": "Upper CASE (front-end) tools support requirements, analysis and design. Lower CASE tools support coding, testing and maintenance."
+  },
+  {
+   "id": "se-015",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "reliability metrics",
+   "d": 3,
+   "q": "A system has an MTBF of 200 hours and an MTTR of 10 hours. Taking MTBF = MTTF + MTTR and availability = MTTF / (MTTF + MTTR), its availability is",
+   "o": [
+    "95%",
+    "95.2%",
+    "90.5%",
+    "98%"
+   ],
+   "a": 0,
+   "e": "MTTF = MTBF − MTTR = 190 hours. Availability = 190 / (190 + 10) = 190 / 200 = 95%. The 95.2% figure wrongly takes 200 as the MTTF."
+  },
+  {
+   "id": "se-016",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "UML",
+   "d": 1,
+   "q": "Which of the following is NOT a UML diagram?",
+   "o": [
+    "Use case diagram",
+    "Class diagram",
+    "Sequence diagram",
+    "Entity–relationship diagram"
+   ],
+   "a": 3,
+   "e": "The entity–relationship diagram belongs to database design and is not part of UML. Use case, class and sequence diagrams are standard UML diagrams."
+  },
+  {
+   "id": "se-017",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "extreme programming",
+   "d": 1,
+   "q": "Which of the following is NOT a practice of Extreme Programming (XP)?",
+   "o": [
+    "Pair programming",
+    "Refactoring",
+    "Continuous integration",
+    "Detailed upfront design of the whole system"
+   ],
+   "a": 3,
+   "e": "XP favours small releases and a design that evolves through refactoring, not a detailed design of the whole system before coding. Pair programming, refactoring and continuous integration are core XP practices."
+  },
+  {
+   "id": "se-018",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "function points",
+   "d": 3,
+   "q": "A project has 10 external inputs (weight 4), 5 external outputs (weight 5), 4 external inquiries (weight 4), 3 internal logical files (weight 10) and 2 external interface files (weight 7). The sum of the 14 complexity ratings ΣFi is 30. Using FP = UFP × (0.65 + 0.01 × ΣFi), the function points are",
+   "o": [
+    "118.75",
+    "125",
+    "131.25",
+    "106.25"
+   ],
+   "a": 0,
+   "e": "UFP = 40 + 25 + 16 + 30 + 14 = 125. VAF = 0.65 + 0.30 = 0.95. FP = 125 × 0.95 = 118.75."
+  },
+  {
+   "id": "se-019",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "COCOMO",
+   "d": 2,
+   "q": "In Basic COCOMO, the effort equation is E = a(KLOC)^b person-months. For an embedded project (a = 3.6, b = 1.20) of exactly 1 KLOC, the effort is",
+   "o": [
+    "3.6 person-months",
+    "1.2 person-months",
+    "4.32 person-months",
+    "2.4 person-months"
+   ],
+   "a": 0,
+   "e": "With KLOC = 1, 1 raised to any power is 1, so E = a = 3.6 person-months."
+  },
+  {
+   "id": "se-020",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "prototyping",
+   "d": 1,
+   "q": "Which process model is most suitable when the customer cannot clearly state the requirements at the start?",
+   "o": [
+    "Prototyping model",
+    "Waterfall model",
+    "V-model",
+    "Build-and-fix model"
+   ],
+   "a": 0,
+   "e": "A prototype is shown to the user to elicit and refine unclear requirements. The waterfall and V-models assume stable requirements."
+  },
+  {
+   "id": "se-021",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "structured design",
+   "d": 2,
+   "q": "In a structure chart, the number of modules that directly call a given module is called its",
+   "o": [
+    "fan-in",
+    "fan-out",
+    "span of control",
+    "depth"
+   ],
+   "a": 0,
+   "e": "Fan-in is the number of immediate superordinate modules that call a module, while fan-out is the number of modules it calls."
+  },
+  {
+   "id": "se-022",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "white box testing",
+   "d": 1,
+   "q": "Consider the following statements.\nI. White box testing requires knowledge of the internal code structure.\nII. Equivalence partitioning is a white box testing technique.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "White box testing designs tests from the internal logic, so I is true. Equivalence partitioning derives tests from input classes of the specification, so it is black box and II is false."
+  },
+  {
+   "id": "se-023",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "waterfall model",
+   "d": 1,
+   "q": "Another name for the waterfall model is the",
+   "o": [
+    "classical life cycle model",
+    "evolutionary model",
+    "spiral model",
+    "iterative enhancement model"
+   ],
+   "a": 0,
+   "e": "The waterfall model is also called the classical life cycle or linear sequential model. Iterative enhancement is the incremental approach."
+  },
+  {
+   "id": "se-024",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "COCOMO",
+   "d": 2,
+   "q": "Which of the following is NOT a mode of the Basic COCOMO model?",
+   "o": [
+    "Interactive",
+    "Organic",
+    "Semi-detached",
+    "Embedded"
+   ],
+   "a": 0,
+   "e": "Basic COCOMO classifies projects as organic, semi-detached or embedded."
+  },
+  {
+   "id": "se-025",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "boundary value analysis",
+   "d": 2,
+   "q": "A field accepts ages from 18 to 60 inclusive. Which set of test values corresponds to boundary value analysis, including values just outside the range?",
+   "o": [
+    "17, 18, 19, 59, 60, 61",
+    "0, 18, 60, 100",
+    "18, 39, 60",
+    "1, 17, 61, 99"
+   ],
+   "a": 0,
+   "e": "BVA tests on and next to each boundary: 17, 18, 19 at the lower end and 59, 60, 61 at the upper end."
+  }
+ ]
+}

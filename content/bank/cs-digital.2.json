@@ -1,0 +1,508 @@
+{
+ "questions": [
+  {
+   "id": "digital-031",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "complement arithmetic",
+   "d": 2,
+   "q": "The 8-bit 2's complement representation of −37 is",
+   "o": [
+    "10100101",
+    "11011010",
+    "11011011",
+    "01011011"
+   ],
+   "a": 2,
+   "e": "37 = 00100101. Invert to 11011010 and add 1 to get 11011011. 10100101 is the sign-magnitude form."
+  },
+  {
+   "id": "digital-032",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "complement arithmetic",
+   "d": 2,
+   "q": "The range of integers that can be stored in an 8-bit 2's complement number is",
+   "o": [
+    "−128 to +127",
+    "−127 to +127",
+    "−128 to +128",
+    "0 to 255"
+   ],
+   "a": 0,
+   "e": "n-bit 2's complement covers −2ⁿ⁻¹ to 2ⁿ⁻¹ − 1, i.e. −128 to +127 for n = 8."
+  },
+  {
+   "id": "digital-033",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "complement arithmetic",
+   "d": 2,
+   "q": "In 5-bit 1's complement arithmetic, 13 − 6 is computed by adding 13 to the 1's complement of 6 and then adding the end-around carry. The final 5-bit result is",
+   "o": [
+    "00110",
+    "00111",
+    "01000",
+    "11000"
+   ],
+   "a": 1,
+   "e": "01101 + 11001 = 1 00110. Adding the end-around carry 1 to 00110 gives 00111 = 7. Without the carry the result would be wrong."
+  },
+  {
+   "id": "digital-034",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "universal gates",
+   "d": 2,
+   "q": "The minimum number of 2-input NAND gates required to implement a 2-input OR gate is",
+   "o": [
+    "2",
+    "4",
+    "5",
+    "3"
+   ],
+   "a": 3,
+   "e": "A + B = (A'·B')' = NAND(A', B'). Two NAND gates make A' and B' and one more gives the OR, so 3."
+  },
+  {
+   "id": "digital-035",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "universal gates",
+   "d": 2,
+   "q": "The minimum number of 2-input NOR gates required to implement a 2-input AND gate is",
+   "o": [
+    "3",
+    "2",
+    "4",
+    "5"
+   ],
+   "a": 0,
+   "e": "A·B = (A' + B')' = NOR(A', B'). Two NOR gates invert the inputs and a third gives the AND, so 3."
+  },
+  {
+   "id": "digital-036",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "universal gates",
+   "d": 2,
+   "q": "The minimum number of 2-input NAND gates needed to build a 2-input XOR gate is",
+   "o": [
+    "3",
+    "5",
+    "4",
+    "6"
+   ],
+   "a": 2,
+   "e": "Let N = NAND(A, B). Then XOR = NAND(NAND(A, N), NAND(B, N)), which uses 4 gates in all."
+  },
+  {
+   "id": "digital-037",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "Boolean algebra",
+   "d": 2,
+   "q": "The Boolean expression A + A'B simplifies to",
+   "o": [
+    "A",
+    "B",
+    "A + B",
+    "AB"
+   ],
+   "a": 2,
+   "e": "By the absorption variant, A + A'B = (A + A')(A + B) = A + B."
+  },
+  {
+   "id": "digital-038",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "K-map",
+   "d": 2,
+   "q": "For F(A, B, C, D) = Σm(0, 2, 8, 10), the simplified minimal expression is",
+   "o": [
+    "B'D'",
+    "BD",
+    "B'D",
+    "A'D'"
+   ],
+   "a": 0,
+   "e": "The four minterms form one quad (the four corners of the map) where B = 0 and D = 0, so F = B'D'."
+  },
+  {
+   "id": "digital-039",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "subtractor",
+   "d": 2,
+   "q": "For a half subtractor computing A − B, the borrow output is given by",
+   "o": [
+    "AB'",
+    "AB",
+    "A ⊕ B",
+    "A'B"
+   ],
+   "a": 3,
+   "e": "A borrow is needed only when A = 0 and B = 1. The difference output is A ⊕ B."
+  },
+  {
+   "id": "digital-040",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "multiplexer",
+   "d": 2,
+   "q": "How many 4-to-1 multiplexers are needed to construct a 16-to-1 multiplexer?",
+   "o": [
+    "4",
+    "5",
+    "6",
+    "8"
+   ],
+   "a": 1,
+   "e": "Four muxes take the 16 inputs in groups of 4, and a fifth 4-to-1 mux selects among their outputs: 4 + 1 = 5."
+  },
+  {
+   "id": "digital-041",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "decoder",
+   "d": 2,
+   "q": "How many 3-to-8 decoders (with enable input) are needed to construct a 4-to-16 decoder?",
+   "o": [
+    "2",
+    "1",
+    "3",
+    "4"
+   ],
+   "a": 0,
+   "e": "The MSB drives the enable inputs of the two decoders (one directly, one inverted), and the lower 3 bits go to both. This gives 16 outputs."
+  },
+  {
+   "id": "digital-042",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "flip-flop timing",
+   "d": 2,
+   "q": "Race-around condition in a JK flip-flop occurs when",
+   "o": [
+    "J = K = 0 and the clock is high for long",
+    "J = 1, K = 0 and the clock is low",
+    "J = K = 1 and the clock pulse width exceeds the propagation delay",
+    "J = K = 1 and the clock pulse is narrower than the propagation delay"
+   ],
+   "a": 2,
+   "e": "With J = K = 1 and a long level clock pulse the output toggles repeatedly. A master-slave or edge-triggered design cures it."
+  },
+  {
+   "id": "digital-043",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "flip-flop characteristic",
+   "d": 2,
+   "q": "The characteristic equation of a JK flip-flop is",
+   "o": [
+    "Q(next) = J'Q + KQ'",
+    "Q(next) = JQ' + K'Q",
+    "Q(next) = JQ + K'Q'",
+    "Q(next) = JK + Q"
+   ],
+   "a": 1,
+   "e": "J = 1 sets the flip-flop from 0 and K = 1 resets from 1, giving JQ' + K'Q. Check J = K = 1: result Q'."
+  },
+  {
+   "id": "digital-044",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "counters",
+   "d": 2,
+   "q": "How many distinct states does a 5-flip-flop Johnson (twisted-ring) counter have?",
+   "o": [
+    "5",
+    "25",
+    "32",
+    "10"
+   ],
+   "a": 3,
+   "e": "An n-flip-flop Johnson counter has 2n states, so 10. A ring counter would have n = 5 and a binary counter 2ⁿ = 32."
+  },
+  {
+   "id": "digital-045",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "memory types",
+   "d": 2,
+   "q": "Consider the following statements about semiconductor memories.\nI. DRAM stores each bit as charge on a capacitor and needs periodic refreshing.\nII. SRAM needs periodic refreshing.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "Statement I is true. SRAM uses flip-flops that hold data as long as power is on, so it needs no refresh."
+  },
+  {
+   "id": "digital-046",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "ADC and DAC",
+   "d": 2,
+   "q": "A 4-bit binary-weighted DAC has a step size of 1 V. For the digital input 1011, the analog output is",
+   "o": [
+    "8 V",
+    "11 V",
+    "13 V",
+    "5.5 V"
+   ],
+   "a": 1,
+   "e": "1011 = 11 in decimal, and output = 11 × 1 V = 11 V."
+  },
+  {
+   "id": "digital-047",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "SOP and POS",
+   "d": 2,
+   "q": "In a three-variable function, the maxterm corresponding to A = 0, B = 1, C = 0 is",
+   "o": [
+    "A'BC'",
+    "A' + B + C'",
+    "A + B' + C",
+    "A + B + C'"
+   ],
+   "a": 2,
+   "e": "A maxterm is a sum in which each variable appears complemented if its value is 1 and uncomplemented if 0. So 010 gives A + B' + C."
+  },
+  {
+   "id": "digital-048",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "logic families",
+   "d": 2,
+   "q": "The fan-out of a logic gate is",
+   "o": [
+    "the maximum number of similar gate inputs it can drive without loss of performance",
+    "the number of inputs it has",
+    "the delay between input change and output change",
+    "the supply voltage it requires"
+   ],
+   "a": 0,
+   "e": "Fan-out is limited by the output current capability. Fan-in is the number of inputs, and delay is propagation delay."
+  },
+  {
+   "id": "digital-049",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "memory types",
+   "d": 2,
+   "q": "Match List I with List II.",
+   "table": {
+    "head": [
+     "List I",
+     "List II"
+    ],
+    "rows": [
+     [
+      "a. SRAM",
+      "1. Needs periodic refresh"
+     ],
+     [
+      "b. DRAM",
+      "2. Uses flip-flop cells"
+     ],
+     [
+      "c. EPROM",
+      "3. Erased by ultraviolet light"
+     ],
+     [
+      "d. EEPROM",
+      "4. Erased electrically"
+     ]
+    ]
+   },
+   "o": [
+    "a-1, b-2, c-3, d-4",
+    "a-2, b-1, c-3, d-4",
+    "a-2, b-1, c-4, d-3",
+    "a-3, b-4, c-2, d-1"
+   ],
+   "a": 1,
+   "e": "SRAM is built from flip-flops, DRAM needs refresh, EPROM is UV-erasable and EEPROM is electrically erasable."
+  },
+  {
+   "id": "digital-050",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "ripple counter",
+   "d": 3,
+   "q": "A 4-bit asynchronous (ripple) up counter uses flip-flops, each having a propagation delay of 25 ns. Ignoring all other delays, the maximum clock frequency for reliable counting is",
+   "o": [
+    "40 MHz",
+    "25 MHz",
+    "2.5 MHz",
+    "10 MHz"
+   ],
+   "a": 3,
+   "e": "The worst-case settling time is 4 × 25 ns = 100 ns, so f(max) = 1/100 ns = 10 MHz. A synchronous counter would not need all four delays."
+  },
+  {
+   "id": "digital-051",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "complement arithmetic",
+   "d": 3,
+   "q": "The 8-bit 2's complement numbers 01100100 (+100) and 01000001 (+65) are added. Read as an 8-bit signed number, the result is",
+   "o": [
+    "−91 (overflow has occurred)",
+    "+165",
+    "−165",
+    "+91 (no overflow)"
+   ],
+   "a": 0,
+   "e": "100 + 65 = 165, which exceeds +127. The pattern is 10100101, i.e. 165 − 256 = −91. Both operands are positive and the sign bit is 1, so it is overflow."
+  },
+  {
+   "id": "digital-052",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "K-map",
+   "d": 3,
+   "q": "The minimal SOP expression for F(A, B, C, D) = Σm(0, 1, 2, 5, 8, 9, 10) is",
+   "o": [
+    "B'D' + B'C' + A'D",
+    "B'D' + A'C'D + BC'D",
+    "B'D' + B'C' + A'C'D",
+    "B'D' + C'D + A'B'"
+   ],
+   "a": 2,
+   "e": "Quad of minterms 0, 2, 8, 10 gives B'D'. Quad 0, 1, 8, 9 gives B'C'. The pair 1, 5 gives A'C'D. These three cover every minterm."
+  },
+  {
+   "id": "digital-053",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "number systems",
+   "d": 3,
+   "q": "If (132) in base b equals 42 in decimal, then the value of b is",
+   "o": [
+    "4",
+    "6",
+    "5",
+    "7"
+   ],
+   "a": 2,
+   "e": "b² + 3b + 2 = 42 gives b² + 3b − 40 = 0, so (b + 8)(b − 5) = 0 and b = 5."
+  },
+  {
+   "id": "digital-054",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "ripple counter",
+   "d": 3,
+   "q": "A 4-bit ripple up counter starts at 0000. A NAND gate with inputs Q3 and Q1 drives the asynchronous clear of all flip-flops as soon as both inputs are 1. The counter is a modulo-______ counter.",
+   "o": [
+    "10",
+    "6",
+    "12",
+    "11"
+   ],
+   "a": 0,
+   "e": "Q3 and Q1 are both 1 for the first time at 1010 (decimal 10). The counter clears at once, so states 0 to 9 are stable: mod-10."
+  },
+  {
+   "id": "digital-055",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "synchronous counters",
+   "d": 3,
+   "q": "Consider the following statements about counters.\nI. In a synchronous counter, all flip-flops receive the same clock pulse at the same time.\nII. The maximum clock frequency of a ripple counter is independent of the number of flip-flops.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "I is true. In a ripple counter delays add up, so the allowed frequency falls as flip-flops are added; statement II is false."
+  },
+  {
+   "id": "digital-056",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "memory design",
+   "d": 3,
+   "q": "A memory of 32K × 16 is to be built using 4K × 8 chips. The number of chips required, and the size of the decoder used to select the chip rows, are",
+   "o": [
+    "8 chips, 3-to-8 decoder",
+    "16 chips, 3-to-8 decoder",
+    "16 chips, 4-to-16 decoder",
+    "32 chips, 5-to-32 decoder"
+   ],
+   "a": 1,
+   "e": "Rows = 32K/4K = 8 and columns = 16/8 = 2, so 8 × 2 = 16 chips. Eight rows need a 3-to-8 decoder on the top address lines."
+  },
+  {
+   "id": "digital-057",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "flip-flop conversion",
+   "d": 3,
+   "q": "To make a T flip-flop from a D flip-flop, the D input must be driven by",
+   "o": [
+    "T ⊕ Q",
+    "T · Q",
+    "T + Q",
+    "T ⊕ Q'"
+   ],
+   "a": 0,
+   "e": "A T flip-flop gives Q(next) = T ⊕ Q. Since a D flip-flop has Q(next) = D, we need D = T ⊕ Q."
+  },
+  {
+   "id": "digital-058",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "Johnson counter",
+   "d": 3,
+   "q": "A 4-bit Johnson counter (state written as Q3 Q2 Q1 Q0) shifts right and feeds the complement of Q0 into Q3. Starting from 0000, the state after six clock pulses is",
+   "o": [
+    "1110",
+    "0111",
+    "0011",
+    "1100"
+   ],
+   "a": 2,
+   "e": "The sequence is 1000, 1100, 1110, 1111, 0111, 0011. After six pulses the state is 0011."
+  },
+  {
+   "id": "digital-059",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "Boolean algebra",
+   "d": 3,
+   "q": "The expression AB + A'C + BC simplifies to",
+   "o": [
+    "A + BC",
+    "AB + A'C",
+    "AB + C",
+    "A'B + AC"
+   ],
+   "a": 1,
+   "e": "BC is the consensus term of AB and A'C, so it is redundant and can be dropped."
+  },
+  {
+   "id": "digital-060",
+   "sec": "cs",
+   "topic": "digital",
+   "sub": "BCD arithmetic",
+   "d": 3,
+   "q": "Two BCD digits 0101 and 0111 are added. After the required correction, the BCD result is",
+   "o": [
+    "1100",
+    "0001 1100",
+    "0000 1100",
+    "0001 0010"
+   ],
+   "a": 3,
+   "e": "Binary sum is 1100, which is an invalid BCD digit. Adding 0110 gives 1 0010, i.e. BCD 0001 0010 = 12."
+  }
+ ]
+}

@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "id": "learning-001", "sec": "method", "topic": "learning", "sub": "operant conditioning", "d": 1,
+      "q": "Who propounded the theory of operant conditioning?",
+      "o": ["Pavlov", "Thorndike", "Skinner", "Bandura"], "a": 2,
+      "e": "B. F. Skinner developed operant conditioning, in which behaviour is shaped by its consequences. Pavlov is linked with classical conditioning and Bandura with observational learning."
+    },
+    {
+      "id": "learning-002", "sec": "method", "topic": "learning", "sub": "classical conditioning", "d": 1,
+      "q": "In Pavlov's experiment, the sound of the bell before it has been paired with food is a ______ stimulus.",
+      "o": ["conditioned", "neutral", "unconditioned", "aversive"], "a": 1,
+      "e": "Before pairing, the bell produces no salivation, so it is a neutral stimulus. After repeated pairing with food it becomes a conditioned stimulus."
+    },
+    {
+      "id": "learning-003", "sec": "method", "topic": "learning", "sub": "Vygotsky ZPD", "d": 1,
+      "q": "The concept of the 'Zone of Proximal Development' was given by",
+      "o": ["Vygotsky", "Piaget", "Bruner", "Ausubel"], "a": 0,
+      "e": "Vygotsky defined the ZPD as the gap between what a learner can do alone and what the learner can do with help from a more knowledgeable person."
+    },
+    {
+      "id": "learning-004", "sec": "method", "topic": "learning", "sub": "Bloom's taxonomy", "d": 1,
+      "q": "In the revised Bloom's taxonomy (2001), the highest level of the cognitive domain is",
+      "o": ["Evaluate", "Create", "Analyse", "Apply"], "a": 1,
+      "e": "The 2001 revision places Create at the top, above Evaluate. In the original 1956 version, Evaluation was the highest level."
+    },
+    {
+      "id": "learning-005", "sec": "method", "topic": "learning", "sub": "reinforcement", "d": 2,
+      "q": "Consider the following statements about reinforcement.\nI. Positive reinforcement increases the likelihood of a behaviour by adding a pleasant consequence.\nII. Negative reinforcement increases the likelihood of a behaviour by removing an unpleasant stimulus.\nWhich of the above is/are correct?",
+      "o": ["Only I", "Only II", "Both I and II", "Neither I nor II"], "a": 2,
+      "e": "Both positive and negative reinforcement strengthen behaviour. Negative reinforcement is not punishment, because punishment reduces behaviour."
+    },
+    {
+      "id": "learning-006", "sec": "method", "topic": "learning", "sub": "Bandura", "d": 2,
+      "q": "Bandura's Bobo doll experiment showed that children can learn aggressive behaviour through",
+      "o": ["trial and error", "classical conditioning", "observation and imitation of a model", "sudden insight"], "a": 2,
+      "e": "Children who watched an adult model hit the doll imitated the behaviour, which supports observational (social) learning."
+    },
+    {
+      "id": "learning-007", "sec": "method", "topic": "learning", "sub": "heuristic method", "d": 2,
+      "q": "The heuristic method of teaching, in which the learner is placed in the position of a discoverer, was advocated by",
+      "o": ["H. E. Armstrong", "W. H. Kilpatrick", "Helen Parkhurst", "Maria Montessori"], "a": 0,
+      "e": "H. E. Armstrong promoted the heuristic method in science teaching. Kilpatrick is linked with the project method and Parkhurst with the Dalton Plan."
+    },
+    {
+      "id": "learning-008", "sec": "method", "topic": "learning", "sub": "project method", "d": 2,
+      "q": "A teacher asks Class IX students to plan, build and evaluate a website on school events over three weeks, each group choosing its own sub-tasks. Which method is mainly being used?",
+      "o": ["Lecture method", "Project method", "Drill method", "Dictation method"], "a": 1,
+      "e": "A purposeful, student-planned activity carried out over time and ending in a product is the project method."
+    },
+    {
+      "id": "learning-009", "sec": "method", "topic": "learning", "sub": "Gagné events of instruction", "d": 3,
+      "q": "Consider the following statements about Gagné's nine events of instruction.\nI. Gaining the learners' attention is the first event.\nII. Presenting the content comes before informing learners of the objectives.\nWhich of the above is/are correct?",
+      "o": ["Only I", "Only II", "Both I and II", "Neither I nor II"], "a": 0,
+      "e": "The order is: gain attention, inform learners of objectives, stimulate recall of prior learning, then present content. So II is wrong."
+    },
+    {
+      "id": "learning-010", "sec": "method", "topic": "learning", "sub": "schedules of reinforcement", "d": 3,
+      "q": "Which schedule of reinforcement generally produces a high rate of response that is most resistant to extinction?",
+      "o": ["Fixed ratio", "Fixed interval", "Variable interval", "Variable ratio"], "a": 3,
+      "e": "In a variable-ratio schedule the number of responses needed for reward is unpredictable, as in a slot machine. This gives steady, high and persistent responding."
+    }
+  ]
+}

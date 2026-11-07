@@ -1,0 +1,388 @@
+{
+ "questions": [
+  {
+   "id": "cn-001",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "ICMP",
+   "d": 1,
+   "q": "What is the full form of ICMP?",
+   "o": [
+    "Internet Control Mail Protocol",
+    "Internet Control Message Protocol",
+    "Internal Control Message Protocol",
+    "Internet Connection Management Protocol"
+   ],
+   "a": 1,
+   "e": "ICMP is the Internet Control Message Protocol. It carries error and diagnostic messages for IP, for example in ping and traceroute."
+  },
+  {
+   "id": "cn-002",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "OSI layers",
+   "d": 1,
+   "q": "Consider the following statements about the OSI model.\nI. The network layer is responsible for routing packets from source to destination across networks.\nII. The data link layer delivers frames between adjacent nodes.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Both statements are true. Routing across networks is done by the network layer, while the data link layer only moves frames between directly connected nodes."
+  },
+  {
+   "id": "cn-003",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "Transmission modes",
+   "d": 1,
+   "q": "A telephone conversation in which both persons can talk and listen at the same time is an example of ______ mode.",
+   "o": [
+    "simplex",
+    "half duplex",
+    "multiplexed",
+    "full duplex"
+   ],
+   "a": 3,
+   "e": "In full duplex, data flows in both directions simultaneously. Half duplex allows both directions but only one at a time, and simplex allows one direction only."
+  },
+  {
+   "id": "cn-004",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "Signals",
+   "d": 1,
+   "q": "The loss of signal strength as it travels through a transmission medium is called ______.",
+   "o": [
+    "distortion",
+    "noise",
+    "attenuation",
+    "modulation"
+   ],
+   "a": 2,
+   "e": "Attenuation is the weakening of a signal with distance, measured in decibels. Repeaters or amplifiers are used to restore the strength."
+  },
+  {
+   "id": "cn-005",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "Well-known ports",
+   "d": 1,
+   "q": "What is the well-known port number of HTTP?",
+   "o": [
+    "21",
+    "80",
+    "25",
+    "443"
+   ],
+   "a": 1,
+   "e": "HTTP uses TCP port 80. Port 443 is for HTTPS, 25 for SMTP and 21 for the FTP control connection."
+  },
+  {
+   "id": "cn-006",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "Devices",
+   "d": 1,
+   "q": "Regarding hubs, consider the following statements.\nI. A hub examines the destination MAC address and forwards a frame only to the intended port.\nII. A hub works at the physical layer of the OSI model.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "Only II is correct. A hub just regenerates bits and repeats them on all ports without reading addresses. Statement I describes a switch."
+  },
+  {
+   "id": "cn-007",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "OSI layers",
+   "d": 1,
+   "q": "Which of the following is NOT a layer of the OSI reference model?",
+   "o": [
+    "Session layer",
+    "Presentation layer",
+    "Internet layer",
+    "Data link layer"
+   ],
+   "a": 2,
+   "e": "The Internet layer belongs to the TCP/IP model. The OSI model has seven layers: physical, data link, network, transport, session, presentation and application."
+  },
+  {
+   "id": "cn-008",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "TCP/IP model",
+   "d": 1,
+   "q": "The application layer of the TCP/IP model corresponds to which layers of the OSI model?",
+   "o": [
+    "Transport and network",
+    "Physical and data link",
+    "Session, presentation and application",
+    "Presentation and transport"
+   ],
+   "a": 2,
+   "e": "TCP/IP merges the top three OSI layers (session, presentation and application) into a single application layer."
+  },
+  {
+   "id": "cn-009",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "IPv6",
+   "d": 1,
+   "q": "The length of an IPv6 address is ______ bits.",
+   "o": [
+    "32",
+    "128",
+    "64",
+    "48"
+   ],
+   "a": 1,
+   "e": "IPv6 addresses are 128 bits long, written as eight groups of four hexadecimal digits. IPv4 addresses are 32 bits."
+  },
+  {
+   "id": "cn-010",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "DNS",
+   "d": 1,
+   "q": "The main function of the Domain Name System (DNS) is to",
+   "o": [
+    "map domain names to IP addresses",
+    "map IP addresses to MAC addresses",
+    "assign IP addresses dynamically to hosts",
+    "encrypt web traffic"
+   ],
+   "a": 0,
+   "e": "DNS translates human-readable names such as www.example.com into IP addresses. ARP maps IP to MAC and DHCP assigns addresses."
+  },
+  {
+   "id": "cn-011",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "ARP",
+   "d": 1,
+   "q": "Which protocol is used to find the MAC address of a host when its IP address is known?",
+   "o": [
+    "RARP",
+    "ICMP",
+    "DNS",
+    "ARP"
+   ],
+   "a": 3,
+   "e": "ARP (Address Resolution Protocol) maps an IP address to a physical address. RARP does the reverse."
+  },
+  {
+   "id": "cn-012",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "IPv4 classes",
+   "d": 1,
+   "q": "Consider the following statements about IPv4 address classes.\nI. The address 192.168.1.5 belongs to Class B.\nII. Class A addresses have a first octet in the range 128 to 191.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 3,
+   "e": "Neither is correct. 192.168.1.5 is Class C, since the Class C range is 192 to 223. Class A starts with 1 to 126, and 128 to 191 is Class B."
+  },
+  {
+   "id": "cn-013",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "Topologies",
+   "d": 1,
+   "q": "In which topology are all the nodes connected to a central device such as a hub or switch?",
+   "o": [
+    "Bus",
+    "Star",
+    "Ring",
+    "Mesh"
+   ],
+   "a": 1,
+   "e": "In a star topology every node has a point-to-point link to the central device. Failure of one cable affects only that node."
+  },
+  {
+   "id": "cn-014",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "Guided media",
+   "d": 1,
+   "q": "Which transmission medium is immune to electromagnetic interference?",
+   "o": [
+    "Optical fibre",
+    "Twisted pair cable",
+    "Coaxial cable",
+    "Microwave link"
+   ],
+   "a": 0,
+   "e": "Optical fibre carries light, so electrical noise does not affect it. Copper media such as twisted pair and coax pick up EMI."
+  },
+  {
+   "id": "cn-015",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "Well-known ports",
+   "d": 1,
+   "q": "Which of the following port-protocol pairs is NOT correct?",
+   "o": [
+    "SMTP - TCP port 25",
+    "POP3 - TCP port 110",
+    "IMAP - TCP port 143",
+    "Telnet - TCP port 21"
+   ],
+   "a": 3,
+   "e": "Telnet uses port 23. Port 21 is used by the FTP control connection. The other three pairs are correct."
+  },
+  {
+   "id": "cn-016",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "SMTP and POP3",
+   "d": 1,
+   "q": "Consider the following statements.\nI. SMTP is used to send mail from a client to a mail server.\nII. POP3 is used to send mail from a client to a mail server.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "SMTP is the mail transfer (push) protocol. POP3 only lets a client download mail from its mailbox, so statement II is false."
+  },
+  {
+   "id": "cn-017",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "Data link layer",
+   "d": 1,
+   "q": "Consider the following statements about protocol data units.\nI. The PDU at the data link layer is called a segment.\nII. The PDU at the transport layer is called a segment.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "Only II is correct. The transport layer's PDU is the segment. The data link layer groups bits into frames, not segments."
+  },
+  {
+   "id": "cn-018",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "DHCP",
+   "d": 1,
+   "q": "What is the full form of DHCP?",
+   "o": [
+    "Dynamic Host Configuration Protocol",
+    "Dynamic Host Control Protocol",
+    "Domain Host Configuration Protocol",
+    "Dynamic Hyper Configuration Protocol"
+   ],
+   "a": 0,
+   "e": "DHCP automatically assigns IP address, mask, gateway and DNS server to hosts when they join a network."
+  },
+  {
+   "id": "cn-019",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "Multicast routing",
+   "d": 1,
+   "q": "What is the full form of DVMRP?",
+   "o": [
+    "Dynamic Vector Multicast Routing Protocol",
+    "Distance Vector Mobile Routing Protocol",
+    "Distributed Virtual Multicast Routing Protocol",
+    "Distance Vector Multicast Routing Protocol"
+   ],
+   "a": 3,
+   "e": "DVMRP is a multicast routing protocol based on distance-vector (RIP-like) routing with reverse path forwarding."
+  },
+  {
+   "id": "cn-020",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "SNMP",
+   "d": 1,
+   "q": "What is the full form of SNMP?",
+   "o": [
+    "Simple Network Mail Protocol",
+    "System Network Management Protocol",
+    "Simple Network Management Protocol",
+    "Simple Node Management Protocol"
+   ],
+   "a": 2,
+   "e": "SNMP is an application layer protocol used by a manager to monitor and manage devices such as routers and switches."
+  },
+  {
+   "id": "cn-021",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "Multiplexing",
+   "d": 1,
+   "q": "Which multiplexing technique divides the available bandwidth of a link into separate frequency bands, one for each signal?",
+   "o": [
+    "Time Division Multiplexing",
+    "Frequency Division Multiplexing",
+    "Statistical TDM",
+    "Code Division Multiplexing"
+   ],
+   "a": 1,
+   "e": "FDM allots each channel its own frequency band, and all channels are sent at the same time. TDM shares time slots instead."
+  },
+  {
+   "id": "cn-022",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "Devices",
+   "d": 1,
+   "q": "Consider the following statements.\nI. A router uses IP addresses to forward packets.\nII. A switch uses IP addresses to forward frames.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "A router forwards on network-layer (IP) addresses. A layer-2 switch forwards frames using MAC addresses, so statement II is false."
+  },
+  {
+   "id": "cn-023",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "MAC protocols",
+   "d": 1,
+   "q": "Which access method uses a special frame called a token that circulates among stations?",
+   "o": [
+    "CSMA/CD",
+    "Pure ALOHA",
+    "Slotted ALOHA",
+    "Token passing"
+   ],
+   "a": 3,
+   "e": "Only the station holding the token may transmit, so there are no collisions. It is used in token ring and token bus."
+  },
+  {
+   "id": "cn-024",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "Transmission media",
+   "d": 1,
+   "q": "Which of the following is NOT a guided transmission medium?",
+   "o": [
+    "Twisted pair cable",
+    "Coaxial cable",
+    "Radio waves",
+    "Optical fibre"
+   ],
+   "a": 2,
+   "e": "Guided media use a physical conductor. Radio waves travel through air or space and are unguided."
+  }
+ ]
+}

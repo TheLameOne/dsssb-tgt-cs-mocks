@@ -1,0 +1,508 @@
+{
+ "questions": [
+  {
+   "id": "geography-001",
+   "sec": "ga",
+   "topic": "geography",
+   "sub": "rivers",
+   "d": 1,
+   "q": "Considering only the length within India's territory, the longest river is the",
+   "o": [
+    "Yamuna",
+    "Godavari",
+    "Ganga",
+    "Brahmaputra"
+   ],
+   "a": 2,
+   "e": "The Ganga flows about 2,500 km, the longest stretch of any river within India. The Brahmaputra is longer overall, but most of it lies outside India. The Godavari is the longest river flowing entirely within India."
+  },
+  {
+   "id": "geography-002",
+   "sec": "ga",
+   "topic": "geography",
+   "sub": "mountains",
+   "d": 1,
+   "q": "The highest peak located entirely within India is",
+   "o": [
+    "Nanda Devi",
+    "Kangchenjunga",
+    "Mount Everest",
+    "Kamet"
+   ],
+   "a": 0,
+   "e": "Nanda Devi (7,816 m) in Uttarakhand is the highest peak lying entirely within India. Kangchenjunga (8,586 m) is higher, but it stands on the Sikkim-Nepal border."
+  },
+  {
+   "id": "geography-003",
+   "sec": "ga",
+   "topic": "geography",
+   "sub": "soils",
+   "d": 1,
+   "q": "Which soil is best suited to the cultivation of cotton and is also called regur?",
+   "o": [
+    "Alluvial soil",
+    "Black soil",
+    "Red soil",
+    "Laterite soil"
+   ],
+   "a": 1,
+   "e": "Black (regur) soil holds moisture well and is rich in lime and iron, so it suits cotton. It is found mainly on the Deccan Plateau."
+  },
+  {
+   "id": "geography-004",
+   "sec": "ga",
+   "topic": "geography",
+   "sub": "national parks",
+   "d": 1,
+   "q": "Jim Corbett National Park, India's oldest national park, is in",
+   "o": [
+    "Uttarakhand",
+    "Madhya Pradesh",
+    "Assam",
+    "Rajasthan"
+   ],
+   "a": 0,
+   "e": "Established in 1936 as Hailey National Park, it is now Jim Corbett National Park in Uttarakhand."
+  },
+  {
+   "id": "geography-005",
+   "sec": "ga",
+   "topic": "geography",
+   "sub": "physical features",
+   "d": 1,
+   "q": "The Thar Desert lies mainly in which state?",
+   "o": [
+    "Gujarat",
+    "Haryana",
+    "Rajasthan",
+    "Punjab"
+   ],
+   "a": 2,
+   "e": "The Great Indian (Thar) Desert covers most of western Rajasthan and extends into parts of Gujarat, Haryana and Punjab."
+  },
+  {
+   "id": "geography-006",
+   "sec": "ga",
+   "topic": "geography",
+   "sub": "monsoon",
+   "d": 1,
+   "q": "The south-west monsoon first reaches the Indian mainland at the coast of",
+   "o": [
+    "Kerala",
+    "Tamil Nadu",
+    "Goa",
+    "Gujarat"
+   ],
+   "a": 0,
+   "e": "The monsoon normally hits Kerala around 1 June and then advances north."
+  },
+  {
+   "id": "geography-007",
+   "sec": "ga",
+   "topic": "geography",
+   "sub": "Indian geography",
+   "d": 1,
+   "q": "The Tropic of Cancer passes through how many Indian states?",
+   "o": [
+    "6",
+    "7",
+    "8",
+    "9"
+   ],
+   "a": 2,
+   "e": "It passes through Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram."
+  },
+  {
+   "id": "geography-008",
+   "sec": "ga",
+   "topic": "geography",
+   "sub": "Indian geography",
+   "d": 1,
+   "q": "Consider the following statements.\nI. Mount Everest lies entirely within India.\nII. The Tropic of Capricorn passes through India.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 3,
+   "e": "Everest is on the Nepal-China border, and the Tropic of Capricorn lies in the southern hemisphere. The Tropic of Cancer is the one crossing India."
+  },
+  {
+   "id": "geography-009",
+   "sec": "ga",
+   "topic": "geography",
+   "sub": "passes",
+   "d": 1,
+   "q": "Nathu La, a major Himalayan pass for trade with China, is in the state of",
+   "o": [
+    "Sikkim",
+    "Uttarakhand",
+    "Himachal Pradesh",
+    "Arunachal Pradesh"
+   ],
+   "a": 0,
+   "e": "Nathu La lies on the Sikkim-Tibet border and was reopened for border trade in 2006."
+  },
+  {
+   "id": "geography-010",
+   "sec": "ga",
+   "topic": "geography",
+   "sub": "national parks",
+   "d": 1,
+   "q": "Consider the following statements.\nI. Kaziranga National Park is located in Assam.\nII. Kaziranga is famous for the Asiatic lion.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "Kaziranga in Assam is known for the one-horned rhinoceros. The Asiatic lion is found in Gir, Gujarat."
+  },
+  {
+   "id": "geography-011",
+   "sec": "ga",
+   "topic": "geography",
+   "sub": "Indian geography",
+   "d": 1,
+   "q": "Consider the following statements (2011 Census).\nI. Rajasthan is the largest state of India by area.\nII. Uttar Pradesh is the most populous state of India.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Rajasthan covers about 3.42 lakh sq km, the most among the states. Uttar Pradesh is the most populous state in the 2011 Census."
+  },
+  {
+   "id": "geography-012",
+   "sec": "ga",
+   "topic": "geography",
+   "sub": "climate",
+   "d": 2,
+   "q": "Winter rainfall in north-western India, useful for the rabi wheat crop, is brought mainly by",
+   "o": [
+    "Western disturbances",
+    "Retreating monsoon",
+    "Norwesters",
+    "Loo"
+   ],
+   "a": 0,
+   "e": "Western disturbances are mid-latitude cyclonic systems from the Mediterranean region that give winter rain in Punjab, Haryana and nearby areas."
+  },
+  {
+   "id": "geography-013",
+   "sec": "ga",
+   "topic": "geography",
+   "sub": "passes",
+   "d": 2,
+   "q": "Consider the following statements.\nI. Zoji La connects Srinagar with Leh.\nII. Zoji La is located in Himachal Pradesh.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "Zoji La in the Zanskar range links the Kashmir Valley with Ladakh. It is in Jammu and Kashmir, not Himachal Pradesh, where Shipki La is found."
+  },
+  {
+   "id": "geography-014",
+   "sec": "ga",
+   "topic": "geography",
+   "sub": "rivers",
+   "d": 2,
+   "q": "Consider the following statements.\nI. The Narmada flows westward through a rift valley.\nII. The Narmada drains into the Bay of Bengal.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "The Narmada flows through a rift valley between the Vindhya and Satpura ranges and falls into the Arabian Sea in the Gulf of Khambhat."
+  },
+  {
+   "id": "geography-015",
+   "sec": "ga",
+   "topic": "geography",
+   "sub": "minerals",
+   "d": 2,
+   "q": "Consider the following statements.\nI. Jharia is a major coalfield in Jharkhand.\nII. Most of India's coal production comes from Gondwana coalfields.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Jharia (Dhanbad district) is the best-known coalfield of Jharkhand. Gondwana coal gives the bulk of India's coal output, while Tertiary coal is small."
+  },
+  {
+   "id": "geography-016",
+   "sec": "ga",
+   "topic": "geography",
+   "sub": "soils",
+   "d": 2,
+   "q": "Consider the following statements.\nI. Khadar is newer alluvium found in the flood plains.\nII. Bhangar is older alluvium found above the flood level.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Khadar is the new alluvium deposited by floods each year, whereas bhangar is the older alluvium, rich in kankar nodules and lying on higher terraces."
+  },
+  {
+   "id": "geography-017",
+   "sec": "ga",
+   "topic": "geography",
+   "sub": "climate",
+   "d": 2,
+   "q": "Consider the following statements.\nI. Mawsynram in Meghalaya receives one of the highest rainfalls in the world.\nII. The Khasi Hills funnel moist monsoon winds there.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Mawsynram and nearby Cherrapunji are on the southern face of the Khasi Hills, whose funnel shape traps moist south-west monsoon winds."
+  },
+  {
+   "id": "geography-018",
+   "sec": "ga",
+   "topic": "geography",
+   "sub": "monsoon",
+   "d": 2,
+   "q": "El Niño is generally associated with ______ in Indian summer monsoon rainfall.",
+   "o": [
+    "above-normal rainfall",
+    "a deficit",
+    "no change",
+    "early withdrawal only"
+   ],
+   "a": 1,
+   "e": "El Niño, the warming of the eastern Pacific, usually weakens the Indian monsoon and is linked with drought years."
+  },
+  {
+   "id": "geography-019",
+   "sec": "ga",
+   "topic": "geography",
+   "sub": "national parks",
+   "d": 2,
+   "q": "The Sundarbans National Park, famous for mangroves and the Royal Bengal tiger, is in",
+   "o": [
+    "Odisha",
+    "Assam",
+    "West Bengal",
+    "Andhra Pradesh"
+   ],
+   "a": 2,
+   "e": "The Sundarbans in the Ganga-Brahmaputra delta in West Bengal is a UNESCO World Heritage Site."
+  },
+  {
+   "id": "geography-020",
+   "sec": "ga",
+   "topic": "geography",
+   "sub": "minerals",
+   "d": 2,
+   "q": "Which state has the largest reserves of bauxite in India?",
+   "o": [
+    "Gujarat",
+    "Odisha",
+    "Jharkhand",
+    "Maharashtra"
+   ],
+   "a": 1,
+   "e": "Odisha holds roughly half of India's bauxite reserves, mainly in the Eastern Ghats."
+  },
+  {
+   "id": "geography-021",
+   "sec": "ga",
+   "topic": "geography",
+   "sub": "lakes",
+   "d": 2,
+   "q": "Consider the following statements.\nI. Chilika is a freshwater lake located in Kerala.\nII. Chilika is the largest coastal lagoon in India.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "Chilika is a brackish water lagoon in Odisha, not a freshwater lake in Kerala. It is the largest coastal lagoon in India."
+  },
+  {
+   "id": "geography-022",
+   "sec": "ga",
+   "topic": "geography",
+   "sub": "world geography",
+   "d": 2,
+   "q": "The Bering Strait separates which two continents?",
+   "o": [
+    "Asia and Europe",
+    "Asia and North America",
+    "Europe and Africa",
+    "North America and South America"
+   ],
+   "a": 1,
+   "e": "The Bering Strait lies between Russia (Asia) and Alaska (North America)."
+  },
+  {
+   "id": "geography-023",
+   "sec": "ga",
+   "topic": "geography",
+   "sub": "soils",
+   "d": 2,
+   "q": "Consider the following statements.\nI. Laterite soil forms under heavy rainfall with alternate wet and dry seasons.\nII. Laterite soil is rich in nitrogen and humus.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "Intense leaching in hot, rainy climates removes silica and nutrients, so laterite is poor in nitrogen and humus. It is suited to cashew and tapioca."
+  },
+  {
+   "id": "geography-024",
+   "sec": "ga",
+   "topic": "geography",
+   "sub": "national parks",
+   "d": 3,
+   "q": "Match the national parks with their states.",
+   "table": {
+    "head": [
+     "List I",
+     "List II"
+    ],
+    "rows": [
+     [
+      "a. Kanha",
+      "1. Odisha"
+     ],
+     [
+      "b. Simlipal",
+      "2. Karnataka"
+     ],
+     [
+      "c. Namdapha",
+      "3. Madhya Pradesh"
+     ],
+     [
+      "d. Bandipur",
+      "4. Arunachal Pradesh"
+     ]
+    ]
+   },
+   "o": [
+    "a-3, b-1, c-4, d-2",
+    "a-3, b-4, c-1, d-2",
+    "a-1, b-3, c-4, d-2",
+    "a-3, b-1, c-2, d-4"
+   ],
+   "a": 0,
+   "e": "Kanha is in Madhya Pradesh, Simlipal in Odisha, Namdapha in Arunachal Pradesh and Bandipur in Karnataka."
+  },
+  {
+   "id": "geography-025",
+   "sec": "ga",
+   "topic": "geography",
+   "sub": "soils",
+   "d": 3,
+   "q": "Which of the following is NOT a characteristic of regur (black) soil?",
+   "o": [
+    "High moisture retention",
+    "Self-ploughing nature",
+    "Rich in lime and iron",
+    "Good drainage and leaching"
+   ],
+   "a": 3,
+   "e": "Black soil is clayey, swells when wet and cracks when dry, which makes it self-ploughing. It drains poorly and does not leach easily."
+  },
+  {
+   "id": "geography-026",
+   "sec": "ga",
+   "topic": "geography",
+   "sub": "passes",
+   "d": 3,
+   "q": "The Bhor Ghat pass lies on the route between Mumbai and",
+   "o": [
+    "Nashik",
+    "Pune",
+    "Goa",
+    "Surat"
+   ],
+   "a": 1,
+   "e": "Bhor Ghat (Khandala) in the Western Ghats carries road and rail links between Mumbai and Pune. Thal Ghat leads to Nashik."
+  },
+  {
+   "id": "geography-027",
+   "sec": "ga",
+   "topic": "geography",
+   "sub": "world geography",
+   "d": 3,
+   "q": "When it is 12 noon in Delhi (IST, UTC+5:30), the time at Tokyo (UTC+9) is",
+   "o": [
+    "3:30 pm",
+    "2:30 pm",
+    "8:30 am",
+    "4:30 pm"
+   ],
+   "a": 0,
+   "e": "Tokyo is 9 - 5.5 = 3.5 hours ahead of IST, so noon in Delhi is 3:30 pm in Tokyo."
+  },
+  {
+   "id": "geography-028",
+   "sec": "ga",
+   "topic": "geography",
+   "sub": "climate",
+   "d": 3,
+   "q": "Kalbaisakhi, the pre-monsoon thunderstorms of April-May, is mainly associated with",
+   "o": [
+    "Punjab and Haryana",
+    "West Bengal and Assam",
+    "Kerala",
+    "Tamil Nadu"
+   ],
+   "a": 1,
+   "e": "Kalbaisakhi (Nor'westers) are violent evening thunderstorms with rain and hail in West Bengal, Assam and Odisha. Loo is the hot dry wind of the north-western plains."
+  },
+  {
+   "id": "geography-029",
+   "sec": "ga",
+   "topic": "geography",
+   "sub": "minerals",
+   "d": 3,
+   "q": "The Bailadila range is famous for deposits of iron ore in",
+   "o": [
+    "Karnataka",
+    "Odisha",
+    "Chhattisgarh",
+    "Goa"
+   ],
+   "a": 2,
+   "e": "Bailadila hills in Bastar, Chhattisgarh, hold high-grade haematite iron ore, much of it exported through Visakhapatnam."
+  },
+  {
+   "id": "geography-030",
+   "sec": "ga",
+   "topic": "geography",
+   "sub": "world geography",
+   "d": 3,
+   "q": "The Equator does NOT pass through which of the following countries?",
+   "o": [
+    "Kenya",
+    "Brazil",
+    "Peru",
+    "Indonesia"
+   ],
+   "a": 2,
+   "e": "The Equator crosses Ecuador, Colombia, Brazil, Gabon, Congo, Uganda, Kenya, Somalia and Indonesia among others. Peru lies wholly south of it."
+  }
+ ]
+}

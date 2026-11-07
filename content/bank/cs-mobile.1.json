@@ -1,0 +1,324 @@
+{
+ "questions": [
+  {
+   "id": "mobile-001",
+   "sec": "cs",
+   "topic": "mobile",
+   "sub": "GSM",
+   "d": 1,
+   "q": "What is the full form of GSM?",
+   "o": [
+    "General System for Mobile Communications",
+    "Global System for Mobile Communications",
+    "Global Service for Mobile Communications",
+    "Global System for Multimedia Communications"
+   ],
+   "a": 1,
+   "e": "GSM is the Global System for Mobile Communications, the widely used 2G digital cellular standard."
+  },
+  {
+   "id": "mobile-002",
+   "sec": "cs",
+   "topic": "mobile",
+   "sub": "GSM",
+   "d": 1,
+   "q": "In GSM, the SIM stands for",
+   "o": [
+    "Subscriber Identity Module",
+    "Subscriber Information Module",
+    "Station Identity Module",
+    "System Identity Module"
+   ],
+   "a": 0,
+   "e": "The SIM card stores the subscriber's identity (IMSI), authentication key and related data."
+  },
+  {
+   "id": "mobile-003",
+   "sec": "cs",
+   "topic": "mobile",
+   "sub": "GSM architecture",
+   "d": 1,
+   "q": "Consider the following statements about the GSM Home Location Register (HLR).\nI. The HLR holds the temporary data of subscribers visiting its area.\nII. The HLR holds the permanent subscription details of subscribers.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "Only II is correct. The HLR stores permanent subscriber data and the current location area. Temporary data of visiting subscribers is held in the VLR."
+  },
+  {
+   "id": "mobile-004",
+   "sec": "cs",
+   "topic": "mobile",
+   "sub": "Generations",
+   "d": 1,
+   "q": "Consider the following statements about first generation (1G) mobile systems.\nI. They used digital transmission.\nII. They were based on TDMA.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 3,
+   "e": "Neither is correct. 1G systems such as AMPS were analog, voice only and based on FDMA. Digital transmission began with 2G."
+  },
+  {
+   "id": "mobile-005",
+   "sec": "cs",
+   "topic": "mobile",
+   "sub": "Bluetooth",
+   "d": 1,
+   "q": "Bluetooth devices operate in which frequency band?",
+   "o": [
+    "900 MHz band",
+    "2.4 GHz ISM band",
+    "5 GHz only",
+    "60 GHz band"
+   ],
+   "a": 1,
+   "e": "Bluetooth uses the licence-free 2.4 GHz ISM band with frequency hopping spread spectrum."
+  },
+  {
+   "id": "mobile-006",
+   "sec": "cs",
+   "topic": "mobile",
+   "sub": "GPRS",
+   "d": 1,
+   "q": "What is the full form of GPRS?",
+   "o": [
+    "General Packet Radio Service",
+    "Global Packet Radio Service",
+    "General Packet Routing System",
+    "General Protocol for Radio Services"
+   ],
+   "a": 0,
+   "e": "GPRS adds packet-switched data service to GSM networks, and is called a 2.5G technology."
+  },
+  {
+   "id": "mobile-007",
+   "sec": "cs",
+   "topic": "mobile",
+   "sub": "WAP",
+   "d": 1,
+   "q": "What is the full form of WAP?",
+   "o": [
+    "Wireless Access Protocol",
+    "Wide Area Protocol",
+    "Wireless Application Process",
+    "Wireless Application Protocol"
+   ],
+   "a": 3,
+   "e": "WAP is a protocol suite that lets mobile devices access the Internet and web-like content."
+  },
+  {
+   "id": "mobile-008",
+   "sec": "cs",
+   "topic": "mobile",
+   "sub": "Handoff",
+   "d": 1,
+   "q": "The process of transferring an ongoing call from one base station to another as the user moves between cells is called",
+   "o": [
+    "roaming",
+    "multiplexing",
+    "handoff",
+    "paging"
+   ],
+   "a": 2,
+   "e": "Handoff (handover) keeps the call continuous when the mobile moves out of the coverage of one cell into another."
+  },
+  {
+   "id": "mobile-009",
+   "sec": "cs",
+   "topic": "mobile",
+   "sub": "WLAN",
+   "d": 1,
+   "q": "Which of the following IEEE standards is NOT related to wireless networking?",
+   "o": [
+    "IEEE 802.11",
+    "IEEE 802.15",
+    "IEEE 802.16",
+    "IEEE 802.3"
+   ],
+   "a": 3,
+   "e": "IEEE 802.3 defines wired Ethernet. 802.11 is wireless LAN (Wi-Fi), 802.15 covers personal area networks such as Bluetooth, and 802.16 is wireless broadband (WiMAX)."
+  },
+  {
+   "id": "mobile-010",
+   "sec": "cs",
+   "topic": "mobile",
+   "sub": "MANET",
+   "d": 1,
+   "q": "What is the full form of MANET?",
+   "o": [
+    "Mobile Ad hoc Network",
+    "Mobile Access Network",
+    "Multiple Ad hoc Network",
+    "Mobile Area Network"
+   ],
+   "a": 0,
+   "e": "A MANET is a self-configuring network of mobile nodes without fixed infrastructure, in which nodes also act as routers."
+  },
+  {
+   "id": "mobile-011",
+   "sec": "cs",
+   "topic": "mobile",
+   "sub": "Mobile IP",
+   "d": 2,
+   "q": "In Mobile IP, the entity in the mobile node's home network that receives packets for it and tunnels them to the current location is the",
+   "o": [
+    "foreign agent",
+    "care-of node",
+    "gateway GPRS support node",
+    "home agent"
+   ],
+   "a": 3,
+   "e": "The home agent intercepts packets sent to the home address and tunnels them to the care-of address of the mobile node."
+  },
+  {
+   "id": "mobile-012",
+   "sec": "cs",
+   "topic": "mobile",
+   "sub": "GSM architecture",
+   "d": 2,
+   "q": "Which of the following is NOT an element of the GSM network?",
+   "o": [
+    "Base Station Controller (BSC)",
+    "Home agent",
+    "Mobile Switching Centre (MSC)",
+    "Home Location Register (HLR)"
+   ],
+   "a": 1,
+   "e": "The home agent is a Mobile IP entity that tunnels packets to a mobile node. BSC, MSC and HLR are all elements of the GSM architecture."
+  },
+  {
+   "id": "mobile-013",
+   "sec": "cs",
+   "topic": "mobile",
+   "sub": "Multiple access",
+   "d": 2,
+   "q": "In GSM, each 200 kHz carrier is divided by TDMA into ______ time slots per frame.",
+   "o": [
+    "4",
+    "8",
+    "16",
+    "64"
+   ],
+   "a": 1,
+   "e": "GSM combines FDMA and TDMA. Each carrier frame has 8 time slots, so up to 8 users share a carrier."
+  },
+  {
+   "id": "mobile-014",
+   "sec": "cs",
+   "topic": "mobile",
+   "sub": "Bluetooth",
+   "d": 2,
+   "q": "Regarding a Bluetooth piconet, consider the following statements.\nI. A piconet has exactly one master device.\nII. A piconet can have at most seven active slave devices.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Both are true. One master controls up to seven active slaves, and more slaves can stay parked."
+  },
+  {
+   "id": "mobile-015",
+   "sec": "cs",
+   "topic": "mobile",
+   "sub": "Handoff",
+   "d": 2,
+   "q": "Which type of handoff, in which the mobile connects to the new base station before releasing the old one, is typical of CDMA systems?",
+   "o": [
+    "Hard handoff",
+    "Break-before-make handoff",
+    "Inter-system roaming only",
+    "Soft handoff"
+   ],
+   "a": 3,
+   "e": "Soft handoff is make-before-break. Hard handoff, used in FDMA and TDMA systems, releases the old link first."
+  },
+  {
+   "id": "mobile-016",
+   "sec": "cs",
+   "topic": "mobile",
+   "sub": "GSM architecture",
+   "d": 2,
+   "q": "Consider the following statements about GSM.\nI. The VLR holds temporary data about subscribers currently in the area of an MSC.\nII. A separate HLR is installed in every BSC.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "The VLR is associated with an MSC and stores visiting subscribers' data. The HLR is a central database of the home network, not one per BSC, so II is false."
+  },
+  {
+   "id": "mobile-017",
+   "sec": "cs",
+   "topic": "mobile",
+   "sub": "Cellular design",
+   "d": 3,
+   "q": "For a hexagonal cellular layout, the cluster size with i = 3 and j = 2 is",
+   "o": [
+    "13",
+    "19",
+    "12",
+    "21"
+   ],
+   "a": 1,
+   "e": "N = i² + ij + j² = 9 + 6 + 4 = 19."
+  },
+  {
+   "id": "mobile-018",
+   "sec": "cs",
+   "topic": "mobile",
+   "sub": "Cellular design",
+   "d": 3,
+   "q": "A system has 840 duplex channels in total and uses a cluster size of 7. The number of channels available in each cell is",
+   "o": [
+    "120",
+    "140",
+    "84",
+    "840"
+   ],
+   "a": 0,
+   "e": "Each cluster uses all 840 channels, divided among its 7 cells: 840 / 7 = 120 channels per cell."
+  },
+  {
+   "id": "mobile-019",
+   "sec": "cs",
+   "topic": "mobile",
+   "sub": "Cellular design",
+   "d": 3,
+   "q": "The co-channel reuse ratio is Q = √(3N). For a cluster size N = 12, Q is",
+   "o": [
+    "3",
+    "12",
+    "√12",
+    "6"
+   ],
+   "a": 3,
+   "e": "Q = √(3 × 12) = √36 = 6."
+  },
+  {
+   "id": "mobile-020",
+   "sec": "cs",
+   "topic": "mobile",
+   "sub": "GSM",
+   "d": 3,
+   "q": "A GSM uplink band of 25 MHz is divided into carriers spaced 200 kHz apart, and each carrier supports 8 TDMA time slots. Ignoring guard bands, the total number of traffic channels is",
+   "o": [
+    "125",
+    "200",
+    "1000",
+    "3125"
+   ],
+   "a": 2,
+   "e": "Number of carriers = 25 MHz / 200 kHz = 125. With 8 slots each, channels = 125 × 8 = 1000."
+  }
+ ]
+}

@@ -1,0 +1,348 @@
+{
+ "questions": [
+  {
+   "id": "km-001",
+   "sec": "cs",
+   "topic": "km",
+   "sub": "DIKW",
+   "d": 1,
+   "q": "Consider the following statements about the DIKW hierarchy.\nI. Information consists of raw facts that have not been processed or given any context.\nII. Information is data that has been processed and organised so that it has meaning.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "Raw, unprocessed facts are data. Processing and organising data gives it meaning and produces information, so I is false and II is true."
+  },
+  {
+   "id": "km-002",
+   "sec": "cs",
+   "topic": "km",
+   "sub": "tacit knowledge",
+   "d": 1,
+   "q": "Consider the following statements about types of knowledge.\nI. Tacit knowledge can be easily codified and stored in manuals.\nII. Explicit knowledge can be documented and shared through manuals and databases.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "Explicit knowledge is formal and can be written down. Tacit knowledge is personal, rooted in experience and hard to articulate, so it cannot easily be codified; I is false."
+  },
+  {
+   "id": "km-003",
+   "sec": "cs",
+   "topic": "km",
+   "sub": "explicit knowledge",
+   "d": 1,
+   "q": "Which of the following is an example of explicit knowledge?",
+   "o": [
+    "Intuition",
+    "A user manual",
+    "A craftsman's personal skill",
+    "A gut feeling"
+   ],
+   "a": 1,
+   "e": "Explicit knowledge is documented and codified, as in manuals, reports and databases."
+  },
+  {
+   "id": "km-004",
+   "sec": "cs",
+   "topic": "km",
+   "sub": "SECI model",
+   "d": 1,
+   "q": "In the SECI model, the letters S, E, C and I stand for",
+   "o": [
+    "Socialisation, Externalisation, Combination, Internalisation",
+    "Sharing, Extraction, Codification, Integration",
+    "Socialisation, Extension, Capture, Integration",
+    "Storage, Externalisation, Creation, Internalisation"
+   ],
+   "a": 0,
+   "e": "SECI means Socialisation, Externalisation, Combination and Internalisation."
+  },
+  {
+   "id": "km-005",
+   "sec": "cs",
+   "topic": "km",
+   "sub": "SECI authors",
+   "d": 1,
+   "q": "The SECI model of knowledge creation was proposed by",
+   "o": [
+    "Nonaka and Takeuchi",
+    "Peter Senge",
+    "Peter Drucker",
+    "Michael Porter"
+   ],
+   "a": 0,
+   "e": "Ikujiro Nonaka and Hirotaka Takeuchi presented the SECI model in The Knowledge-Creating Company (1995)."
+  },
+  {
+   "id": "km-006",
+   "sec": "cs",
+   "topic": "km",
+   "sub": "knowledge workers",
+   "d": 1,
+   "q": "The term \"knowledge worker\" was coined by",
+   "o": [
+    "Peter Drucker",
+    "Frederick Taylor",
+    "Henri Fayol",
+    "Alvin Toffler"
+   ],
+   "a": 0,
+   "e": "Peter Drucker introduced the term in the 1950s-60s for people who work mainly with knowledge."
+  },
+  {
+   "id": "km-007",
+   "sec": "cs",
+   "topic": "km",
+   "sub": "learning organisation",
+   "d": 1,
+   "q": "Peter Senge popularised the concept of the learning organisation in his book",
+   "o": [
+    "The Fifth Discipline",
+    "The Practice of Management",
+    "The Knowledge-Creating Company",
+    "Post-Capitalist Society"
+   ],
+   "a": 0,
+   "e": "The Fifth Discipline (1990) by Peter Senge describes the learning organisation."
+  },
+  {
+   "id": "km-008",
+   "sec": "cs",
+   "topic": "km",
+   "sub": "communities of practice",
+   "d": 1,
+   "q": "A group of people who share a concern or passion for something and learn to do it better by interacting regularly is a",
+   "o": [
+    "community of practice",
+    "knowledge audit",
+    "data warehouse",
+    "steering committee"
+   ],
+   "a": 0,
+   "e": "Communities of practice, a term from Lave and Wenger, are groups that learn together around a shared domain."
+  },
+  {
+   "id": "km-009",
+   "sec": "cs",
+   "topic": "km",
+   "sub": "knowledge portals",
+   "d": 1,
+   "q": "A knowledge portal is best described as",
+   "o": [
+    "a single web gateway to an organisation's knowledge resources",
+    "a hardware device for storing knowledge",
+    "a type of antivirus software",
+    "a paper-based filing system"
+   ],
+   "a": 0,
+   "e": "A knowledge portal gives users one access point to documents, experts and tools."
+  },
+  {
+   "id": "km-010",
+   "sec": "cs",
+   "topic": "km",
+   "sub": "intellectual capital",
+   "d": 1,
+   "q": "Which of the following is NOT a component of intellectual capital?",
+   "o": [
+    "Human capital",
+    "Structural capital",
+    "Relational capital",
+    "Land and buildings"
+   ],
+   "a": 3,
+   "e": "Intellectual capital consists of human, structural and relational (customer) capital. Land and buildings are physical assets."
+  },
+  {
+   "id": "km-011",
+   "sec": "cs",
+   "topic": "km",
+   "sub": "SECI conversions",
+   "d": 2,
+   "q": "Consider the following statements about the SECI model.\nI. Socialisation is the conversion of explicit knowledge into tacit knowledge.\nII. Combination is the conversion of tacit knowledge into explicit knowledge.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 3,
+   "e": "Socialisation converts tacit knowledge to tacit knowledge through shared experience. Combination converts explicit knowledge to explicit knowledge by merging and organising documented knowledge. Both statements are false."
+  },
+  {
+   "id": "km-012",
+   "sec": "cs",
+   "topic": "km",
+   "sub": "SECI conversions",
+   "d": 2,
+   "q": "Regarding the SECI model, consider the following.\nI. Externalisation converts tacit knowledge into explicit concepts.\nII. Internalisation converts explicit knowledge into tacit knowledge.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Both are true. Externalisation articulates tacit knowledge as explicit concepts, and internalisation absorbs explicit knowledge into personal, tacit know-how."
+  },
+  {
+   "id": "km-013",
+   "sec": "cs",
+   "topic": "km",
+   "sub": "knowledge audit",
+   "d": 2,
+   "q": "Which of the following is NOT an objective of a knowledge audit?",
+   "o": [
+    "Identifying the knowledge needs of the organisation",
+    "Locating existing knowledge resources and how knowledge flows",
+    "Finding gaps between the knowledge needed and available",
+    "Calculating the organisation's income tax liability"
+   ],
+   "a": 3,
+   "e": "A knowledge audit examines knowledge needs, resources, flows and gaps. Computing tax liability belongs to financial accounting and is unrelated."
+  },
+  {
+   "id": "km-014",
+   "sec": "cs",
+   "topic": "km",
+   "sub": "knowledge economy",
+   "d": 2,
+   "q": "Consider the following statements about the knowledge economy.\nI. Knowledge and skills are the main source of competitive advantage.\nII. Knowledge is used up when it is shared, as land and oil are.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "Knowledge is the key resource, and unlike physical resources it is not used up by sharing."
+  },
+  {
+   "id": "km-015",
+   "sec": "cs",
+   "topic": "km",
+   "sub": "Senge disciplines",
+   "d": 2,
+   "q": "Which of the following is NOT one of Senge's five disciplines of a learning organisation?",
+   "o": [
+    "Personal mastery",
+    "Mental models",
+    "Business process re-engineering",
+    "Systems thinking"
+   ],
+   "a": 2,
+   "e": "The five disciplines are personal mastery, mental models, shared vision, team learning and systems thinking."
+  },
+  {
+   "id": "km-016",
+   "sec": "cs",
+   "topic": "km",
+   "sub": "KM tools",
+   "d": 2,
+   "q": "Which KM technology is used to discover previously unknown patterns in large collections of data?",
+   "o": [
+    "Data mining",
+    "Email",
+    "Video conferencing",
+    "Word processing"
+   ],
+   "a": 0,
+   "e": "Data mining searches large data sets for hidden patterns and is a knowledge discovery tool."
+  },
+  {
+   "id": "km-017",
+   "sec": "cs",
+   "topic": "km",
+   "sub": "SECI conversions",
+   "d": 3,
+   "q": "Match the SECI mode in List I with the conversion in List II.",
+   "table": {
+    "head": [
+     "List I",
+     "List II"
+    ],
+    "rows": [
+     [
+      "a. Socialisation",
+      "1. Tacit to tacit"
+     ],
+     [
+      "b. Externalisation",
+      "2. Tacit to explicit"
+     ],
+     [
+      "c. Combination",
+      "3. Explicit to explicit"
+     ],
+     [
+      "d. Internalisation",
+      "4. Explicit to tacit"
+     ]
+    ]
+   },
+   "o": [
+    "a-1, b-2, c-3, d-4",
+    "a-2, b-1, c-3, d-4",
+    "a-1, b-2, c-4, d-3",
+    "a-4, b-3, c-2, d-1"
+   ],
+   "a": 0,
+   "e": "Socialisation is tacit to tacit, externalisation is tacit to explicit, combination is explicit to explicit and internalisation is explicit to tacit."
+  },
+  {
+   "id": "km-018",
+   "sec": "cs",
+   "topic": "km",
+   "sub": "knowledge creation",
+   "d": 3,
+   "q": "In Nonaka's theory of knowledge creation, \"ba\" refers to",
+   "o": [
+    "a shared context or space in which knowledge is created and shared",
+    "a coding scheme for explicit knowledge",
+    "a type of knowledge worker",
+    "a database of lessons learnt"
+   ],
+   "a": 0,
+   "e": "Ba is a shared physical, virtual or mental space that supports knowledge creation."
+  },
+  {
+   "id": "km-019",
+   "sec": "cs",
+   "topic": "km",
+   "sub": "tacit knowledge origin",
+   "d": 3,
+   "q": "The concept of tacit knowledge, summed up as \"we can know more than we can tell\", was introduced by",
+   "o": [
+    "Michael Polanyi",
+    "Ikujiro Nonaka",
+    "Peter Senge",
+    "Thomas Davenport"
+   ],
+   "a": 0,
+   "e": "Michael Polanyi introduced tacit knowing in The Tacit Dimension (1966). Nonaka later applied it to organisations."
+  },
+  {
+   "id": "km-020",
+   "sec": "cs",
+   "topic": "km",
+   "sub": "intellectual capital reporting",
+   "d": 3,
+   "q": "Leif Edvinsson is associated with pioneering the reporting of intellectual capital at which company?",
+   "o": [
+    "Skandia",
+    "Toyota",
+    "Xerox",
+    "Infosys"
+   ],
+   "a": 0,
+   "e": "Edvinsson was the first corporate director of intellectual capital at the Swedish firm Skandia."
+  }
+ ]
+}

@@ -1,0 +1,324 @@
+{
+ "questions": [
+  {
+   "id": "error-001",
+   "sec": "english",
+   "topic": "error",
+   "sub": "each - singular",
+   "d": 1,
+   "q": "Identify the part of the sentence that contains an error.\nEvery students (A) / in the class (B) / has passed the test. (C)",
+   "o": [
+    "Part A: Every students",
+    "Part B: in the class",
+    "Part C: has passed the test.",
+    "No error"
+   ],
+   "a": 0,
+   "e": "'Every' is followed by a singular noun, so it should be 'Every student'. The verb 'has passed' is already singular."
+  },
+  {
+   "id": "error-002",
+   "sec": "english",
+   "topic": "error",
+   "sub": "comparative",
+   "d": 1,
+   "q": "Identify the part of the sentence that contains an error.\nMumbai is larger (A) / than any other cities (B) / in Maharashtra. (C)",
+   "o": [
+    "Part A: Mumbai is larger",
+    "Part B: than any other cities",
+    "Part C: in Maharashtra.",
+    "No error"
+   ],
+   "a": 1,
+   "e": "After 'any other' a singular noun is needed: 'any other city'."
+  },
+  {
+   "id": "error-003",
+   "sec": "english",
+   "topic": "error",
+   "sub": "neither of",
+   "d": 1,
+   "q": "Identify the part of the sentence that contains an error.\nNeither of the two boys (A) / were present (B) / in the class yesterday. (C)",
+   "o": [
+    "Part A: Neither of the two boys",
+    "Part B: were present",
+    "Part C: in the class yesterday.",
+    "No error"
+   ],
+   "a": 1,
+   "e": "'Neither of' takes a singular verb, so 'was present' is correct."
+  },
+  {
+   "id": "error-004",
+   "sec": "english",
+   "topic": "error",
+   "sub": "since / for",
+   "d": 1,
+   "q": "Identify the part of the sentence that contains an error.\nI have been living in Delhi (A) / with my uncle (B) / since five years. (C)",
+   "o": [
+    "Part A: I have been living in Delhi",
+    "Part B: with my uncle",
+    "Part C: since five years.",
+    "No error"
+   ],
+   "a": 2,
+   "e": "'Since' is used with a point in time. A period of time takes 'for', so it should be 'for five years'."
+  },
+  {
+   "id": "error-005",
+   "sec": "english",
+   "topic": "error",
+   "sub": "uncountable noun",
+   "d": 1,
+   "q": "Identify the part of the sentence that contains an error.\nThe furnitures in the hall (A) / are very old (B) / and need repair. (C)",
+   "o": [
+    "Part A: The furnitures in the hall",
+    "Part B: are very old",
+    "Part C: and need repair.",
+    "No error"
+   ],
+   "a": 0,
+   "e": "'Furniture' is an uncountable noun and has no plural form, so 'furnitures' is wrong. The correct phrase is 'the furniture'."
+  },
+  {
+   "id": "error-006",
+   "sec": "english",
+   "topic": "error",
+   "sub": "no error",
+   "d": 1,
+   "q": "Identify the part of the sentence that contains an error.\nMy brother works (A) / in a bank (B) / near our house. (C)",
+   "o": [
+    "Part A: My brother works",
+    "Part B: in a bank",
+    "Part C: near our house.",
+    "No error"
+   ],
+   "a": 3,
+   "e": "The sentence is grammatically correct: the singular subject 'brother' takes 'works'."
+  },
+  {
+   "id": "error-007",
+   "sec": "english",
+   "topic": "error",
+   "sub": "uncountable - information",
+   "d": 1,
+   "q": "Identify the part of the sentence that contains an error.\nThe teacher gave us (A) / many informations (B) / about the project. (C)",
+   "o": [
+    "Part A: The teacher gave us",
+    "Part B: many informations",
+    "Part C: about the project.",
+    "No error"
+   ],
+   "a": 1,
+   "e": "'Information' is uncountable and takes no plural. Use 'much information' or 'a lot of information'."
+  },
+  {
+   "id": "error-008",
+   "sec": "english",
+   "topic": "error",
+   "sub": "despite of",
+   "d": 1,
+   "q": "Identify the part of the sentence that contains an error.\nDespite of her illness, (A) / she attended (B) / the meeting. (C)",
+   "o": [
+    "Part A: Despite of her illness,",
+    "Part B: she attended",
+    "Part C: the meeting.",
+    "No error"
+   ],
+   "a": 0,
+   "e": "'Despite' is never followed by 'of'. The correct forms are 'despite her illness' or 'in spite of her illness'."
+  },
+  {
+   "id": "error-009",
+   "sec": "english",
+   "topic": "error",
+   "sub": "pronoun case",
+   "d": 1,
+   "q": "Identify the part of the sentence that contains an error.\nRahul and me (A) / went to the market (B) / to buy vegetables. (C)",
+   "o": [
+    "Part A: Rahul and me",
+    "Part B: went to the market",
+    "Part C: to buy vegetables.",
+    "No error"
+   ],
+   "a": 0,
+   "e": "A subject pronoun is needed: 'Rahul and I went'. 'Me' is the object form."
+  },
+  {
+   "id": "error-010",
+   "sec": "english",
+   "topic": "error",
+   "sub": "prefer ... to",
+   "d": 1,
+   "q": "Identify the part of the sentence that contains an error.\nShe prefers tea (A) / in the morning (B) / than coffee. (C)",
+   "o": [
+    "Part A: She prefers tea",
+    "Part B: in the morning",
+    "Part C: than coffee.",
+    "No error"
+   ],
+   "a": 2,
+   "e": "'Prefer' takes 'to', not 'than': 'prefers tea to coffee'."
+  },
+  {
+   "id": "error-011",
+   "sec": "english",
+   "topic": "error",
+   "sub": "hardly ... when",
+   "d": 2,
+   "q": "Identify the part of the sentence that contains an error.\nHardly had he reached (A) / the station when (B) / the train left. (C)",
+   "o": [
+    "Part A: Hardly had he reached",
+    "Part B: the station when",
+    "Part C: the train left.",
+    "No error"
+   ],
+   "a": 3,
+   "e": "'Hardly had ... when' is a correct pair with inversion, and the past perfect is right. There is no error."
+  },
+  {
+   "id": "error-012",
+   "sec": "english",
+   "topic": "error",
+   "sub": "one of the + plural",
+   "d": 2,
+   "q": "Identify the part of the sentence that contains an error.\nOne of the most important reason (A) / for the delay (B) / was heavy rain. (C)",
+   "o": [
+    "Part A: One of the most important reason",
+    "Part B: for the delay",
+    "Part C: was heavy rain.",
+    "No error"
+   ],
+   "a": 0,
+   "e": "'One of the' must be followed by a plural noun: 'one of the most important reasons'."
+  },
+  {
+   "id": "error-013",
+   "sec": "english",
+   "topic": "error",
+   "sub": "subjunctive were",
+   "d": 2,
+   "q": "Identify the part of the sentence that contains an error.\nIf I (A) / was the Prime Minister, (B) / I would ban plastic. (C)",
+   "o": [
+    "Part A: If I",
+    "Part B: was the Prime Minister,",
+    "Part C: I would ban plastic.",
+    "No error"
+   ],
+   "a": 1,
+   "e": "An imaginary condition takes the subjunctive 'were' even for 'I': 'If I were the Prime Minister'."
+  },
+  {
+   "id": "error-014",
+   "sec": "english",
+   "topic": "error",
+   "sub": "number of - agreement",
+   "d": 2,
+   "q": "Identify the part of the sentence that contains an error.\nThe number of students (A) / who have enrolled this year (B) / are higher than last year. (C)",
+   "o": [
+    "Part A: The number of students",
+    "Part B: who have enrolled this year",
+    "Part C: are higher than last year.",
+    "No error"
+   ],
+   "a": 2,
+   "e": "'The number of' is singular, so the verb should be 'is higher'. 'A number of' would take a plural verb."
+  },
+  {
+   "id": "error-015",
+   "sec": "english",
+   "topic": "error",
+   "sub": "along with - agreement",
+   "d": 2,
+   "q": "Identify the part of the sentence that contains an error.\nThe manager, along with (A) / his assistants, are planning (B) / a surprise visit. (C)",
+   "o": [
+    "Part A: The manager, along with",
+    "Part B: his assistants, are planning",
+    "Part C: a surprise visit.",
+    "No error"
+   ],
+   "a": 1,
+   "e": "The verb agrees with the main subject 'manager', not with the phrase 'along with his assistants'. It should be 'is planning'."
+  },
+  {
+   "id": "error-016",
+   "sec": "english",
+   "topic": "error",
+   "sub": "no sooner - inversion",
+   "d": 2,
+   "q": "Identify the part of the sentence that contains an error.\nNo sooner I had seen (A) / the police than (B) / I ran away. (C)",
+   "o": [
+    "Part A: No sooner I had seen",
+    "Part B: the police than",
+    "Part C: I ran away.",
+    "No error"
+   ],
+   "a": 0,
+   "e": "After 'No sooner' the auxiliary comes before the subject: 'No sooner had I seen'."
+  },
+  {
+   "id": "error-017",
+   "sec": "english",
+   "topic": "error",
+   "sub": "unless - double negative",
+   "d": 3,
+   "q": "Identify the part of the sentence that contains an error.\nUnless you do not (A) / work hard, you (B) / will fail the test. (C)",
+   "o": [
+    "Part A: Unless you do not",
+    "Part B: work hard, you",
+    "Part C: will fail the test.",
+    "No error"
+   ],
+   "a": 0,
+   "e": "'Unless' already means 'if ... not', so adding 'not' makes a double negative. It should be 'Unless you work hard'."
+  },
+  {
+   "id": "error-018",
+   "sec": "english",
+   "topic": "error",
+   "sub": "noun form - deliberation",
+   "d": 3,
+   "q": "Identify the part of the sentence that contains an error.\nThe jury has given (A) / its verdict after (B) / much deliberations. (C)",
+   "o": [
+    "Part A: The jury has given",
+    "Part B: its verdict after",
+    "Part C: much deliberations.",
+    "No error"
+   ],
+   "a": 2,
+   "e": "'Much' goes with an uncountable noun, so it should be 'much deliberation' (or 'long deliberations'). 'Jury ... its' is acceptable."
+  },
+  {
+   "id": "error-019",
+   "sec": "english",
+   "topic": "error",
+   "sub": "scarcely ... when",
+   "d": 3,
+   "q": "Identify the part of the sentence that contains an error.\nScarcely had the speaker begun (A) / his speech than (B) / the lights went out. (C)",
+   "o": [
+    "Part A: Scarcely had the speaker begun",
+    "Part B: his speech than",
+    "Part C: the lights went out.",
+    "No error"
+   ],
+   "a": 1,
+   "e": "'Scarcely' (like 'hardly') pairs with 'when', not 'than'. 'No sooner' pairs with 'than'."
+  },
+  {
+   "id": "error-020",
+   "sec": "english",
+   "topic": "error",
+   "sub": "no error",
+   "d": 3,
+   "q": "Identify the part of the sentence that contains an error.\nHaving finished his homework, (A) / the boy was allowed (B) / to go out and play. (C)",
+   "o": [
+    "Part A: Having finished his homework,",
+    "Part B: the boy was allowed",
+    "Part C: to go out and play.",
+    "No error"
+   ],
+   "a": 3,
+   "e": "The participle phrase correctly refers to the subject 'the boy', who finished the homework. The sentence has no error."
+  }
+ ]
+}

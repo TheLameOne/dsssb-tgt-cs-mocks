@@ -1,0 +1,522 @@
+{
+ "questions": [
+  {
+   "id": "dbms-001",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "closure",
+   "d": 2,
+   "q": "For the relation R(A, B, C, D, E) with F = {A → B, B → C, CD → E}, the attribute closure A⁺ is",
+   "o": [
+    "{A, B, C}",
+    "{A, B, C, E}",
+    "{A, B}",
+    "{A, B, C, D, E}"
+   ],
+   "a": 0,
+   "e": "A gives B, B gives C, so we have {A, B, C}. CD → E needs D, which is not in the closure, so E is not added."
+  },
+  {
+   "id": "dbms-002",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "lossless decomposition",
+   "d": 2,
+   "q": "Relation R is decomposed into R1 and R2. The decomposition is lossless if the common attributes of R1 and R2",
+   "o": [
+    "form a superkey of R1 or of R2",
+    "are empty",
+    "form a foreign key of R",
+    "contain only non-prime attributes"
+   ],
+   "a": 0,
+   "e": "The lossless-join test requires R1 ∩ R2 → R1 or R1 ∩ R2 → R2, that is, the common attributes must be a superkey of at least one of the two parts."
+  },
+  {
+   "id": "dbms-003",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "SQL joins",
+   "d": 1,
+   "q": "Consider the following statements about SQL joins.\nI. An inner join returns the unmatched rows of both tables.\nII. A left outer join returns all rows of the left table, with NULLs in the right-table columns where no match exists.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "II is true. I is false: an inner join returns only the rows that satisfy the join condition, so unmatched rows of either table are dropped."
+  },
+  {
+   "id": "dbms-004",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "nested queries",
+   "d": 2,
+   "q": "For the relation Emp shown, how many rows are returned by `SELECT eid FROM Emp WHERE sal > (SELECT AVG(sal) FROM Emp);`?",
+   "table": {
+    "head": [
+     "eid",
+     "dept",
+     "sal"
+    ],
+    "rows": [
+     [
+      "1",
+      "HR",
+      "10"
+     ],
+     [
+      "2",
+      "IT",
+      "20"
+     ],
+     [
+      "3",
+      "HR",
+      "30"
+     ],
+     [
+      "4",
+      "IT",
+      "40"
+     ],
+     [
+      "5",
+      "HR",
+      "60"
+     ]
+    ]
+   },
+   "o": [
+    "2",
+    "3",
+    "1",
+    "5"
+   ],
+   "a": 0,
+   "e": "The average salary is (10 + 20 + 30 + 40 + 60) / 5 = 32. Only 40 and 60 are above it, so 2 rows."
+  },
+  {
+   "id": "dbms-005",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "relational algebra",
+   "d": 1,
+   "q": "Which of the following is NOT a fundamental operator of relational algebra?",
+   "o": [
+    "Selection (σ)",
+    "Projection (π)",
+    "Set difference (−)",
+    "Natural join (⋈)"
+   ],
+   "a": 3,
+   "e": "The fundamental operators are select, project, union, set difference, Cartesian product and rename. Natural join is a derived operator, expressible using Cartesian product, selection and projection."
+  },
+  {
+   "id": "dbms-006",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "timestamp ordering",
+   "d": 3,
+   "q": "Transactions T1, T2 and T3 have timestamps 10, 20 and 30. Under basic timestamp ordering, the following operations arrive in order:\nr1(X), w2(X), r3(X), w1(X), w3(Y), r1(Y), w2(Y)\nThe transactions rolled back are",
+   "o": [
+    "T1 and T2",
+    "T1 only",
+    "T2 only",
+    "None of the transactions"
+   ],
+   "a": 0,
+   "e": "w1(X) fails because R-TS(X) = 30 > 10, so T1 is aborted. Then w3(Y) sets W-TS(Y) = 30. T2's write on Y has TS 20 < 30, so T2 is aborted too. T1's later r1(Y) is not executed."
+  },
+  {
+   "id": "dbms-007",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "relational model",
+   "d": 1,
+   "q": "Consider the following statements about a relation.\nI. The degree of a relation is its number of attributes.\nII. The cardinality of a relation is its number of tuples.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Both are true. Degree counts the columns (attributes) and cardinality counts the rows (tuples)."
+  },
+  {
+   "id": "dbms-008",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "views",
+   "d": 1,
+   "q": "Consider the following statements about SQL views.\nI. A view permanently stores its own copy of the data.\nII. A view cannot be created from another view.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 3,
+   "e": "A view is a virtual relation defined by a query and normally stores no data of its own, so I is false. A view can be defined over other views, so II is also false."
+  },
+  {
+   "id": "dbms-009",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "concurrency control",
+   "d": 2,
+   "q": "Consider the following statements.\nI. Two-phase locking guarantees conflict serialisable schedules.\nII. Strict two-phase locking avoids cascading rollbacks.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Any schedule allowed by 2PL is conflict serialisable. Strict 2PL holds exclusive locks until commit or abort, so no transaction reads uncommitted data and cascading rollback is avoided."
+  },
+  {
+   "id": "dbms-010",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "timestamp ordering",
+   "d": 2,
+   "q": "In basic timestamp ordering, transaction T with timestamp TS(T) issues write(Q), and the read timestamp of Q is greater than TS(T). What happens?",
+   "o": [
+    "T is rolled back",
+    "The write is executed",
+    "The write is ignored",
+    "T waits until Q is unlocked"
+   ],
+   "a": 0,
+   "e": "A younger transaction has already read Q, so T's write would invalidate that read. The write is rejected and T is rolled back. Ignoring the write is the Thomas write rule, used only when the write timestamp is larger."
+  },
+  {
+   "id": "dbms-011",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "candidate keys",
+   "d": 3,
+   "q": "For R(A, B, C, D) with functional dependencies AB → C, C → D and D → A, the number of candidate keys is",
+   "o": [
+    "3",
+    "2",
+    "4",
+    "1"
+   ],
+   "a": 0,
+   "e": "AB⁺, BC⁺ and BD⁺ each give all attributes, and no single attribute does. B is in every key, and the minimal keys are AB, BC and BD."
+  },
+  {
+   "id": "dbms-012",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "Armstrong's axioms",
+   "d": 2,
+   "q": "Which of the following is NOT one of Armstrong's three basic axioms for functional dependencies?",
+   "o": [
+    "Reflexivity",
+    "Augmentation",
+    "Transitivity",
+    "Union"
+   ],
+   "a": 3,
+   "e": "Armstrong's axioms are reflexivity, augmentation and transitivity. Union (if X → Y and X → Z then X → YZ) is a derived rule, proved from those three."
+  },
+  {
+   "id": "dbms-013",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "SQL aggregate",
+   "d": 2,
+   "q": "For the relation T shown, what is the output of `SELECT COUNT(*), COUNT(Marks), AVG(Marks) FROM T;`?",
+   "table": {
+    "head": [
+     "Id",
+     "Marks"
+    ],
+    "rows": [
+     [
+      "1",
+      "10"
+     ],
+     [
+      "2",
+      "NULL"
+     ],
+     [
+      "3",
+      "20"
+     ],
+     [
+      "4",
+      "30"
+     ]
+    ]
+   },
+   "o": [
+    "4, 3, 15",
+    "4, 3, 20",
+    "3, 3, 20",
+    "4, 4, 15"
+   ],
+   "a": 1,
+   "e": "COUNT(*) counts all 4 rows, COUNT(Marks) skips the NULL and gives 3, and AVG ignores NULL: (10 + 20 + 30) / 3 = 20."
+  },
+  {
+   "id": "dbms-014",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "TCL",
+   "d": 1,
+   "q": "Consider the following statements about transaction control in SQL.\nI. ROLLBACK undoes the changes made by the current uncommitted transaction.\nII. ROLLBACK can undo the changes of a transaction that has already been committed.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "I is true. II is false: once COMMIT has made the changes permanent, ROLLBACK cannot reverse them. It only affects work done since the last commit."
+  },
+  {
+   "id": "dbms-015",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "three-schema",
+   "d": 1,
+   "q": "Which of the following is NOT a level of the three-schema architecture?",
+   "o": [
+    "Internal schema",
+    "Conceptual schema",
+    "External schema",
+    "Procedural schema"
+   ],
+   "a": 3,
+   "e": "The three levels are the internal (physical), conceptual (logical) and external (view) schemas. There is no procedural schema level."
+  },
+  {
+   "id": "dbms-016",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "B+ tree",
+   "d": 3,
+   "q": "A block holds 1024 bytes. In a B+ tree, the search key is 10 bytes and a block pointer is 6 bytes. If an internal node holds n pointers and n − 1 keys, the largest n that fits in one block is",
+   "o": [
+    "64",
+    "63",
+    "102",
+    "65"
+   ],
+   "a": 0,
+   "e": "We need 6n + 10(n − 1) ≤ 1024, so 16n ≤ 1034 and n ≤ 64.6. The largest integer is 64."
+  },
+  {
+   "id": "dbms-017",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "two-phase locking",
+   "d": 1,
+   "q": "Regarding the two-phase locking (2PL) protocol, consider the following.\nI. In the shrinking phase, a transaction may still acquire new locks.\nII. 2PL ensures conflict serialisability of schedules.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "II is true. I is false: the shrinking phase begins when the first lock is released, and from then on the transaction may only release locks, never acquire new ones."
+  },
+  {
+   "id": "dbms-018",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "normal forms",
+   "d": 1,
+   "q": "Match the normal form in List I with the condition it enforces in List II.",
+   "table": {
+    "head": [
+     "List I",
+     "List II"
+    ],
+    "rows": [
+     [
+      "a. 1NF",
+      "1. Every determinant is a superkey"
+     ],
+     [
+      "b. 2NF",
+      "2. No transitive dependency of a non-prime attribute on a key"
+     ],
+     [
+      "c. 3NF",
+      "3. Atomic attribute values"
+     ],
+     [
+      "d. BCNF",
+      "4. No partial dependency on a candidate key"
+     ]
+    ]
+   },
+   "o": [
+    "a-3, b-4, c-2, d-1",
+    "a-4, b-3, c-1, d-2",
+    "a-3, b-4, c-1, d-2",
+    "a-1, b-2, c-3, d-4"
+   ],
+   "a": 0,
+   "e": "1NF needs atomic values, 2NF removes partial dependency on a key, 3NF removes transitive dependency of non-prime attributes, and BCNF needs every determinant to be a superkey."
+  },
+  {
+   "id": "dbms-019",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "SQL aggregate",
+   "d": 1,
+   "q": "The relation Emp is shown. What is the output of `SELECT SUM(salary) FROM Emp WHERE dept = 'HR';`?",
+   "table": {
+    "head": [
+     "id",
+     "name",
+     "dept",
+     "salary"
+    ],
+    "rows": [
+     [
+      "1",
+      "Asha",
+      "HR",
+      "30000"
+     ],
+     [
+      "2",
+      "Ravi",
+      "IT",
+      "45000"
+     ],
+     [
+      "3",
+      "Meena",
+      "HR",
+      "25000"
+     ],
+     [
+      "4",
+      "Kiran",
+      "IT",
+      "50000"
+     ]
+    ]
+   },
+   "o": [
+    "55000",
+    "100000",
+    "30000",
+    "150000"
+   ],
+   "a": 0,
+   "e": "HR rows have salaries 30000 and 25000, which add up to 55000."
+  },
+  {
+   "id": "dbms-020",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "normal forms",
+   "d": 3,
+   "q": "For R(A, B, C, D, E) with F = {AB → C, B → D, C → E}, the highest normal form of R is",
+   "o": [
+    "1NF",
+    "2NF",
+    "3NF",
+    "BCNF"
+   ],
+   "a": 0,
+   "e": "The only candidate key is AB. D is non-prime and depends on B, a proper part of the key, which is a partial dependency. So 2NF is violated and R is only in 1NF."
+  },
+  {
+   "id": "dbms-021",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "indexing",
+   "d": 3,
+   "q": "A file has 30000 fixed-length records of 100 bytes each, stored unspanned in blocks of 1024 bytes and ordered on a key. A sparse primary index has one entry of 16 bytes per data block. Using binary search on the index, the number of block accesses to find a record is",
+   "o": [
+    "7",
+    "6",
+    "8",
+    "5"
+   ],
+   "a": 0,
+   "e": "Blocking factor is 10, so there are 3000 data blocks. The index entry count is 3000 with 64 entries per block, so 47 index blocks. Binary search takes ⌈log₂47⌉ = 6, plus 1 data block access gives 7."
+  },
+  {
+   "id": "dbms-022",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "distributed databases",
+   "d": 1,
+   "q": "In a distributed database, dividing a relation into subsets of tuples that are stored at different sites is called",
+   "o": [
+    "horizontal fragmentation",
+    "vertical fragmentation",
+    "replication",
+    "mixed allocation"
+   ],
+   "a": 0,
+   "e": "Horizontal fragmentation splits by rows, while vertical fragmentation splits by columns. Replication keeps copies of the data at several sites."
+  },
+  {
+   "id": "dbms-023",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "nested queries",
+   "d": 3,
+   "q": "The relation P(eid, sal) has the rows (1, 50), (2, 80), (3, 80), (4, 60), (5, 30). What does the following query return?",
+   "code": "SELECT COUNT(*) FROM P e\nWHERE 2 > (SELECT COUNT(DISTINCT sal)\n           FROM P\n           WHERE sal > e.sal);",
+   "lang": "sql",
+   "o": [
+    "3",
+    "2",
+    "5",
+    "4"
+   ],
+   "a": 0,
+   "e": "For each row it counts the distinct salaries higher than its own. Both 80s give 0 and 60 gives 1, so they qualify (count < 2). 50 gives 2 and 30 gives 3, so they do not. The result is 3."
+  },
+  {
+   "id": "dbms-024",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "SQL classes",
+   "d": 1,
+   "q": "Which of the following is NOT a DML command?",
+   "o": [
+    "CREATE",
+    "INSERT",
+    "UPDATE",
+    "DELETE"
+   ],
+   "a": 0,
+   "e": "CREATE defines a schema object and so belongs to DDL. INSERT, UPDATE and DELETE manipulate the data and are DML."
+  },
+  {
+   "id": "dbms-025",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "log-based recovery",
+   "d": 2,
+   "q": "After a crash, the recovery manager finds <T1, start> in the log but no <T1, commit>. Under immediate-update log-based recovery, T1 is",
+   "o": [
+    "undone using old values in the log",
+    "redone using new values in the log",
+    "ignored",
+    "committed automatically"
+   ],
+   "a": 0,
+   "e": "An incomplete transaction may have written to the database, so its updates are undone using the old values. Transactions with a commit record are redone."
+  }
+ ]
+}

@@ -1,0 +1,484 @@
+{
+ "questions": [
+  {
+   "id": "stats-001",
+   "sec": "cs",
+   "topic": "stats",
+   "sub": "mean",
+   "d": 1,
+   "q": "The arithmetic mean of 4, 8, 6, 10 and 12 is",
+   "o": [
+    "6",
+    "7",
+    "8",
+    "10"
+   ],
+   "a": 2,
+   "e": "Mean = (4 + 8 + 6 + 10 + 12)/5 = 40/5 = 8."
+  },
+  {
+   "id": "stats-002",
+   "sec": "cs",
+   "topic": "stats",
+   "sub": "median",
+   "d": 1,
+   "q": "The median of the observations 7, 3, 9, 5, 11, 1 is",
+   "o": [
+    "6",
+    "5",
+    "7",
+    "6.5"
+   ],
+   "a": 0,
+   "e": "Arranged in order the data are 1, 3, 5, 7, 9, 11. With six values, the median is the average of the 3rd and 4th: (5 + 7)/2 = 6."
+  },
+  {
+   "id": "stats-003",
+   "sec": "cs",
+   "topic": "stats",
+   "sub": "mean, median, mode",
+   "d": 1,
+   "q": "For a moderately skewed distribution, Karl Pearson's empirical relation gives Mode = ______.",
+   "o": [
+    "3 Mean − 2 Median",
+    "2 Median − 3 Mean",
+    "Mean + Median",
+    "3 Median − 2 Mean"
+   ],
+   "a": 3,
+   "e": "The empirical relation is Mean − Mode = 3(Mean − Median), which rearranges to Mode = 3 Median − 2 Mean."
+  },
+  {
+   "id": "stats-004",
+   "sec": "cs",
+   "topic": "stats",
+   "sub": "probability",
+   "d": 1,
+   "q": "Two fair dice are thrown together. The probability that the sum of the numbers is 7 is",
+   "o": [
+    "1/12",
+    "1/6",
+    "1/9",
+    "7/36"
+   ],
+   "a": 1,
+   "e": "Six of the 36 equally likely outcomes give a sum of 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1). So the probability is 6/36 = 1/6."
+  },
+  {
+   "id": "stats-005",
+   "sec": "cs",
+   "topic": "stats",
+   "sub": "probability",
+   "d": 1,
+   "q": "A fair coin is tossed three times. The probability of getting at least one head is",
+   "o": [
+    "1/8",
+    "7/8",
+    "3/4",
+    "1/2"
+   ],
+   "a": 1,
+   "e": "P(no head) = (1/2)³ = 1/8, so P(at least one head) = 1 − 1/8 = 7/8."
+  },
+  {
+   "id": "stats-006",
+   "sec": "cs",
+   "topic": "stats",
+   "sub": "standard deviation",
+   "d": 1,
+   "q": "The standard deviation of the data 2, 4, 4, 4, 5, 5, 7, 9 (treated as a population) is",
+   "o": [
+    "4",
+    "5",
+    "1.5",
+    "2"
+   ],
+   "a": 3,
+   "e": "The mean is 5. The squared deviations are 9, 1, 1, 1, 0, 0, 4, 16, which sum to 32. Variance = 32/8 = 4, so SD = √4 = 2."
+  },
+  {
+   "id": "stats-007",
+   "sec": "cs",
+   "topic": "stats",
+   "sub": "correlation",
+   "d": 1,
+   "q": "Which of the following can NOT be a value of Karl Pearson's coefficient of correlation?",
+   "o": [
+    "1.25",
+    "−1",
+    "0",
+    "0.8"
+   ],
+   "a": 0,
+   "e": "The correlation coefficient always lies between −1 and +1 inclusive. Therefore 1.25 is impossible."
+  },
+  {
+   "id": "stats-008",
+   "sec": "cs",
+   "topic": "stats",
+   "sub": "binomial distribution",
+   "d": 1,
+   "q": "The mean of a binomial distribution with n = 20 and p = 0.25 is",
+   "o": [
+    "4",
+    "15",
+    "5",
+    "3.75"
+   ],
+   "a": 2,
+   "e": "The mean of a binomial distribution is np = 20 × 0.25 = 5. The value 3.75 is the variance npq."
+  },
+  {
+   "id": "stats-009",
+   "sec": "cs",
+   "topic": "stats",
+   "sub": "Poisson distribution",
+   "d": 1,
+   "q": "Consider the following statements.\nI. For a Poisson distribution the mean and the variance are equal.\nII. For a binomial distribution the mean is always equal to the variance.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "For Poisson both equal λ. For a binomial distribution the mean is np and the variance is npq, so they are equal only if q = 1, which is not possible when p > 0. Hence II is false."
+  },
+  {
+   "id": "stats-010",
+   "sec": "cs",
+   "topic": "stats",
+   "sub": "normal distribution",
+   "d": 1,
+   "q": "In a normal distribution, approximately what percentage of observations lie within one standard deviation of the mean?",
+   "o": [
+    "50%",
+    "95%",
+    "99.7%",
+    "68%"
+   ],
+   "a": 3,
+   "e": "For a normal distribution about 68% of values lie within μ ± σ, 95% within μ ± 2σ and 99.7% within μ ± 3σ."
+  },
+  {
+   "id": "stats-011",
+   "sec": "cs",
+   "topic": "stats",
+   "sub": "hypothesis testing",
+   "d": 1,
+   "q": "Rejecting a null hypothesis that is actually true is called a ______ error.",
+   "o": [
+    "Type II",
+    "Type I",
+    "sampling",
+    "systematic"
+   ],
+   "a": 1,
+   "e": "Rejecting a true H₀ is a Type I error, whose probability is α. Accepting a false H₀ is a Type II error, whose probability is β."
+  },
+  {
+   "id": "stats-012",
+   "sec": "cs",
+   "topic": "stats",
+   "sub": "regression",
+   "d": 1,
+   "q": "The two regression lines of y on x and of x on y always intersect at the point",
+   "o": [
+    "(0, 0)",
+    "(σₓ, σᵧ)",
+    "(x̄, ȳ)",
+    "(medianₓ, medianᵧ)"
+   ],
+   "a": 2,
+   "e": "Both lines pass through the point of means (x̄, ȳ), because each is obtained by minimising squared deviations around the means."
+  },
+  {
+   "id": "stats-013",
+   "sec": "cs",
+   "topic": "stats",
+   "sub": "mode",
+   "d": 1,
+   "q": "The mode of the data 3, 5, 5, 7, 5, 9, 7 is",
+   "o": [
+    "5",
+    "7",
+    "3",
+    "6"
+   ],
+   "a": 0,
+   "e": "Mode is the most frequent value. 5 occurs three times, 7 twice and the rest once, so the mode is 5."
+  },
+  {
+   "id": "stats-014",
+   "sec": "cs",
+   "topic": "stats",
+   "sub": "addition rule",
+   "d": 1,
+   "q": "If P(A) = 0.5, P(B) = 0.4 and P(A ∩ B) = 0.2, then P(A ∪ B) is",
+   "o": [
+    "0.9",
+    "0.1",
+    "0.7",
+    "0.5"
+   ],
+   "a": 2,
+   "e": "By the addition rule, P(A ∪ B) = P(A) + P(B) − P(A ∩ B) = 0.5 + 0.4 − 0.2 = 0.7."
+  },
+  {
+   "id": "stats-015",
+   "sec": "cs",
+   "topic": "stats",
+   "sub": "conditional probability",
+   "d": 2,
+   "q": "If P(B) = 0.4 and P(A ∩ B) = 0.2, then P(A | B) is",
+   "o": [
+    "0.5",
+    "0.8",
+    "0.2",
+    "0.08"
+   ],
+   "a": 0,
+   "e": "P(A | B) = P(A ∩ B)/P(B) = 0.2/0.4 = 0.5."
+  },
+  {
+   "id": "stats-016",
+   "sec": "cs",
+   "topic": "stats",
+   "sub": "Bayes theorem",
+   "d": 2,
+   "q": "Machine A makes 60% of the items of a factory and machine B makes the remaining 40%. Machine A turns out 2% defective items and machine B turns out 5% defective items. An item chosen at random is found defective. The probability that it came from machine A is",
+   "o": [
+    "3/5",
+    "1/2",
+    "5/8",
+    "3/8"
+   ],
+   "a": 3,
+   "e": "P(defective) = 0.6×0.02 + 0.4×0.05 = 0.012 + 0.020 = 0.032. By Bayes, P(A | defective) = 0.012/0.032 = 3/8."
+  },
+  {
+   "id": "stats-017",
+   "sec": "cs",
+   "topic": "stats",
+   "sub": "binomial distribution",
+   "d": 2,
+   "q": "A fair coin is tossed 5 times. The probability of getting exactly 2 heads is",
+   "o": [
+    "1/16",
+    "5/16",
+    "1/4",
+    "3/8"
+   ],
+   "a": 1,
+   "e": "P(X = 2) = ⁵C₂ (1/2)² (1/2)³ = 10/32 = 5/16."
+  },
+  {
+   "id": "stats-018",
+   "sec": "cs",
+   "topic": "stats",
+   "sub": "Poisson distribution",
+   "d": 2,
+   "q": "If X follows a Poisson distribution with mean 2, then P(X = 0) equals",
+   "o": [
+    "2e⁻²",
+    "e⁻²",
+    "e²",
+    "1 − e⁻²"
+   ],
+   "a": 1,
+   "e": "P(X = k) = e^(−λ) λᵏ / k!. For k = 0 and λ = 2 this gives e⁻² · 1/1 = e⁻²."
+  },
+  {
+   "id": "stats-019",
+   "sec": "cs",
+   "topic": "stats",
+   "sub": "normal distribution",
+   "d": 2,
+   "q": "X is normally distributed with mean 50 and variance 16. The standard normal value (z-score) corresponding to X = 58 is",
+   "o": [
+    "0.5",
+    "8",
+    "4",
+    "2"
+   ],
+   "a": 3,
+   "e": "The standard deviation is √16 = 4. So z = (X − μ)/σ = (58 − 50)/4 = 2. A common slip is dividing by the variance 16."
+  },
+  {
+   "id": "stats-020",
+   "sec": "cs",
+   "topic": "stats",
+   "sub": "regression",
+   "d": 2,
+   "q": "If the correlation coefficient is 0.6, σₓ = 5 and σᵧ = 10, the regression coefficient of y on x is",
+   "o": [
+    "1.2",
+    "0.3",
+    "0.6",
+    "3.0"
+   ],
+   "a": 0,
+   "e": "b(yx) = r · σᵧ/σₓ = 0.6 × 10/5 = 1.2. The regression coefficient of x on y would be r · σₓ/σᵧ = 0.3."
+  },
+  {
+   "id": "stats-021",
+   "sec": "cs",
+   "topic": "stats",
+   "sub": "coefficient of variation",
+   "d": 2,
+   "q": "A series has mean 30 and standard deviation 6. Its coefficient of variation is",
+   "o": [
+    "5%",
+    "36%",
+    "20%",
+    "180%"
+   ],
+   "a": 2,
+   "e": "CV = (SD/mean) × 100 = (6/30) × 100 = 20%."
+  },
+  {
+   "id": "stats-022",
+   "sec": "cs",
+   "topic": "stats",
+   "sub": "confidence interval",
+   "d": 2,
+   "q": "A sample of size 100 from a population with σ = 10 has mean 50. Using z = 1.96, the 95% confidence interval for the population mean is",
+   "o": [
+    "30.4 to 69.6",
+    "49.02 to 50.98",
+    "40.2 to 59.8",
+    "48.04 to 51.96"
+   ],
+   "a": 3,
+   "e": "The standard error is σ/√n = 10/10 = 1. The interval is 50 ± 1.96 × 1 = 48.04 to 51.96."
+  },
+  {
+   "id": "stats-023",
+   "sec": "cs",
+   "topic": "stats",
+   "sub": "chi-square test",
+   "d": 2,
+   "q": "The degrees of freedom for a chi-square test of independence on a 3 × 4 contingency table are",
+   "o": [
+    "12",
+    "6",
+    "7",
+    "11"
+   ],
+   "a": 1,
+   "e": "Degrees of freedom = (rows − 1)(columns − 1) = (3 − 1)(4 − 1) = 6."
+  },
+  {
+   "id": "stats-024",
+   "sec": "cs",
+   "topic": "stats",
+   "sub": "t-test",
+   "d": 2,
+   "q": "A one-sample t-test is applied to a sample of size 15. The degrees of freedom are",
+   "o": [
+    "15",
+    "13",
+    "14",
+    "16"
+   ],
+   "a": 2,
+   "e": "For a one-sample t-test the degrees of freedom are n − 1 = 15 − 1 = 14."
+  },
+  {
+   "id": "stats-025",
+   "sec": "cs",
+   "topic": "stats",
+   "sub": "binomial distribution",
+   "d": 2,
+   "q": "The variance of a binomial distribution with n = 10 and p = 0.3 is",
+   "o": [
+    "2.1",
+    "3.0",
+    "0.21",
+    "2.0"
+   ],
+   "a": 0,
+   "e": "Variance = npq = 10 × 0.3 × 0.7 = 2.1. The mean is np = 3."
+  },
+  {
+   "id": "stats-026",
+   "sec": "cs",
+   "topic": "stats",
+   "sub": "Bayes theorem",
+   "d": 3,
+   "q": "Three machines M₁, M₂ and M₃ produce 50%, 30% and 20% of the output of a plant, and their defect rates are 1%, 2% and 5% respectively. An item picked at random is found defective. The probability that it was produced by M₃ is",
+   "o": [
+    "5/21",
+    "2/5",
+    "10/21",
+    "1/5"
+   ],
+   "a": 2,
+   "e": "P(D) = 0.005 + 0.006 + 0.010 = 0.021. P(M₃ | D) = 0.010/0.021 = 10/21. The value 1/5 is only the prior of M₃."
+  },
+  {
+   "id": "stats-027",
+   "sec": "cs",
+   "topic": "stats",
+   "sub": "regression",
+   "d": 3,
+   "q": "The regression lines of a bivariate data are 4x − 5y + 33 = 0 (y on x) and 20x − 9y = 107 (x on y). The correlation coefficient r is",
+   "o": [
+    "0.6",
+    "0.36",
+    "0.8",
+    "0.45"
+   ],
+   "a": 0,
+   "e": "From the first line b(yx) = 4/5 and from the second b(xy) = 9/20. Then r² = (4/5)(9/20) = 9/25, so r = 0.6, positive because both coefficients are positive. The means are x̄ = 13 and ȳ = 17."
+  },
+  {
+   "id": "stats-028",
+   "sec": "cs",
+   "topic": "stats",
+   "sub": "Poisson distribution",
+   "d": 3,
+   "q": "A random variable X follows a Poisson distribution with mean 3. Then P(X ≤ 1) equals",
+   "o": [
+    "3e⁻³",
+    "e⁻³",
+    "10e⁻³",
+    "4e⁻³"
+   ],
+   "a": 3,
+   "e": "P(X = 0) = e⁻³ and P(X = 1) = 3e⁻³. Their sum is 4e⁻³."
+  },
+  {
+   "id": "stats-029",
+   "sec": "cs",
+   "topic": "stats",
+   "sub": "combined variance",
+   "d": 3,
+   "q": "Group 1 has 40 items with mean 10 and variance 4. Group 2 has 60 items with mean 20 and variance 9. The variance of the combined 100 items is",
+   "o": [
+    "26",
+    "31",
+    "36",
+    "6.5"
+   ],
+   "a": 1,
+   "e": "The combined mean is (400 + 1200)/100 = 16. Then variance = [40(4 + 6²) + 60(9 + 4²)]/100 = (1600 + 1500)/100 = 31. Averaging the two variances would ignore the gap between group means."
+  },
+  {
+   "id": "stats-030",
+   "sec": "cs",
+   "topic": "stats",
+   "sub": "chi-square test",
+   "d": 3,
+   "q": "A die is rolled 60 times and the faces 1 to 6 appear 5, 15, 10, 8, 12 and 10 times. For testing whether the die is fair, the value of the chi-square statistic is",
+   "o": [
+    "58",
+    "5.8",
+    "3.2",
+    "0.58"
+   ],
+   "a": 1,
+   "e": "Each expected frequency is 60/6 = 10. χ² = Σ(O − E)²/E = (25 + 25 + 0 + 4 + 4 + 0)/10 = 58/10 = 5.8, with 5 degrees of freedom."
+  }
+ ]
+}

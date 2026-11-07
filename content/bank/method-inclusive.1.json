@@ -1,0 +1,164 @@
+{
+ "questions": [
+  {
+   "id": "inclusive-001",
+   "sec": "method",
+   "topic": "inclusive",
+   "sub": "RPwD Act 2016",
+   "d": 1,
+   "q": "The Rights of Persons with Disabilities Act, 2016 recognises how many categories of disabilities?",
+   "o": [
+    "7",
+    "14",
+    "19",
+    "21"
+   ],
+   "a": 3,
+   "e": "The RPwD Act 2016 raised the number from 7 under the 1995 Act to 21 specified disabilities."
+  },
+  {
+   "id": "inclusive-002",
+   "sec": "method",
+   "topic": "inclusive",
+   "sub": "Salamanca Statement",
+   "d": 1,
+   "q": "The Salamanca Statement (1994) is an international document on",
+   "o": [
+    "climate change",
+    "inclusive education and special needs education",
+    "child labour",
+    "nuclear disarmament"
+   ],
+   "a": 1,
+   "e": "Adopted at a UNESCO conference in Salamanca, Spain, it called on schools to accommodate all children, including those with special needs."
+  },
+  {
+   "id": "inclusive-003",
+   "sec": "method",
+   "topic": "inclusive",
+   "sub": "dyscalculia",
+   "d": 1,
+   "q": "A persistent difficulty in learning arithmetic and number concepts, despite normal intelligence, is called",
+   "o": [
+    "dyslexia",
+    "dysgraphia",
+    "dyspraxia",
+    "dyscalculia"
+   ],
+   "a": 3,
+   "e": "Dyscalculia affects mathematics. Dyslexia affects reading and dysgraphia affects writing."
+  },
+  {
+   "id": "inclusive-004",
+   "sec": "method",
+   "topic": "inclusive",
+   "sub": "RTE Act 2009",
+   "d": 1,
+   "q": "The RTE Act, 2009 guarantees free and compulsory education to children in the age group of",
+   "o": [
+    "3 to 8 years",
+    "6 to 14 years",
+    "6 to 18 years",
+    "14 to 18 years"
+   ],
+   "a": 1,
+   "e": "Article 21A and the RTE Act 2009 cover children from 6 to 14 years, that is, Classes I to VIII."
+  },
+  {
+   "id": "inclusive-005",
+   "sec": "method",
+   "topic": "inclusive",
+   "sub": "integration versus inclusion",
+   "d": 2,
+   "q": "Consider the following statements.\nI. Integration expects the child to adjust to the existing school system.\nII. Inclusion means placing children with disabilities in separate special schools.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "In integration the child must fit in. Inclusion changes the school to suit all learners, and does not mean segregation."
+  },
+  {
+   "id": "inclusive-006",
+   "sec": "method",
+   "topic": "inclusive",
+   "sub": "RTE 25 per cent",
+   "d": 2,
+   "q": "Under Section 12(1)(c) of the RTE Act, private unaided non-minority schools must admit at least what percentage of children in the entry-level class from disadvantaged groups and weaker sections?",
+   "o": [
+    "10%",
+    "15%",
+    "25%",
+    "50%"
+   ],
+   "a": 2,
+   "e": "Section 12(1)(c) of the RTE Act requires at least 25% reservation in entry-level classes of private unaided schools."
+  },
+  {
+   "id": "inclusive-007",
+   "sec": "method",
+   "topic": "inclusive",
+   "sub": "UDL",
+   "d": 2,
+   "q": "Which of the following is NOT a principle of Universal Design for Learning (UDL)?",
+   "o": [
+    "Multiple means of representation",
+    "Multiple means of action and expression",
+    "A single standard means of assessment for all",
+    "Multiple means of engagement"
+   ],
+   "a": 2,
+   "e": "UDL offers flexibility in how content is presented, how learners show learning, and how they are motivated. A single fixed means for all contradicts it."
+  },
+  {
+   "id": "inclusive-008",
+   "sec": "method",
+   "topic": "inclusive",
+   "sub": "ADHD in classroom",
+   "d": 2,
+   "q": "A student with ADHD often leaves the seat and calls out answers. The most appropriate response for the teacher is to",
+   "o": [
+    "punish the child in front of the class",
+    "label the child as lazy",
+    "use structured routines, short tasks, movement breaks and positive reinforcement",
+    "seat the child alone at the back permanently"
+   ],
+   "a": 2,
+   "e": "Children with ADHD benefit from structure, clear short tasks, planned movement and praise. Punishment and labelling do not address the difficulty."
+  },
+  {
+   "id": "inclusive-009",
+   "sec": "method",
+   "topic": "inclusive",
+   "sub": "benchmark disability",
+   "d": 3,
+   "q": "Under the RPwD Act 2016, a 'person with benchmark disability' is one with not less than ______ per cent of a specified disability.",
+   "o": [
+    "25",
+    "33",
+    "40",
+    "50"
+   ],
+   "a": 2,
+   "e": "The Act defines benchmark disability as at least 40 per cent of a specified disability, unless the disability is defined in measurable terms."
+  },
+  {
+   "id": "inclusive-010",
+   "sec": "method",
+   "topic": "inclusive",
+   "sub": "Samagra Shiksha",
+   "d": 3,
+   "q": "Consider the following statements about Samagra Shiksha.\nI. It subsumes Sarva Shiksha Abhiyan, Rashtriya Madhyamik Shiksha Abhiyan and Teacher Education schemes.\nII. It covers school education from pre-school to Class XII.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Samagra Shiksha, launched in 2018–19, is an integrated scheme that treats school education as a continuum from pre-school to Class XII."
+  }
+ ]
+}

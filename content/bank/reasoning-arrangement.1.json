@@ -1,0 +1,324 @@
+{
+ "questions": [
+  {
+   "id": "arrangement-001",
+   "sec": "reasoning",
+   "topic": "arrangement",
+   "sub": "ranking",
+   "d": 1,
+   "q": "In a class of 35 students, Ravi's rank is 12th from the top. What is his rank from the bottom?",
+   "o": [
+    "24th",
+    "25th",
+    "22nd",
+    "23rd"
+   ],
+   "a": 0,
+   "e": "Rank from bottom = total − rank from top + 1 = 35 − 12 + 1 = 24."
+  },
+  {
+   "id": "arrangement-002",
+   "sec": "reasoning",
+   "topic": "arrangement",
+   "sub": "ranking",
+   "d": 1,
+   "q": "Meena is 8th from the top and 15th from the bottom in a class. How many students are there in the class?",
+   "o": [
+    "22",
+    "23",
+    "24",
+    "21"
+   ],
+   "a": 0,
+   "e": "Total = 8 + 15 − 1 = 22, because Meena is counted in both ranks."
+  },
+  {
+   "id": "arrangement-003",
+   "sec": "reasoning",
+   "topic": "arrangement",
+   "sub": "time sequence",
+   "d": 1,
+   "q": "If the day before yesterday was Saturday, what day will it be three days after tomorrow?",
+   "o": [
+    "Wednesday",
+    "Saturday",
+    "Thursday",
+    "Friday"
+   ],
+   "a": 3,
+   "e": "The day before yesterday was Saturday, so today is Monday and tomorrow is Tuesday. Three days after Tuesday is Friday."
+  },
+  {
+   "id": "arrangement-004",
+   "sec": "reasoning",
+   "topic": "arrangement",
+   "sub": "linear seating",
+   "d": 1,
+   "q": "Five friends A, B, C, D and E sit in a row facing north. A sits at the left end. B sits at the right end. D sits in the middle. E sits somewhere to the right of D. Who sits second from the left end?",
+   "o": [
+    "D",
+    "C",
+    "E",
+    "B"
+   ],
+   "a": 1,
+   "e": "A is first and B is last, D is third, and E must be to the right of D, so E is fourth. Row from left: A, C, D, E, B. C is second."
+  },
+  {
+   "id": "arrangement-005",
+   "sec": "reasoning",
+   "topic": "arrangement",
+   "sub": "floor puzzle",
+   "d": 1,
+   "q": "Five persons A, B, C, D and E live on different floors of a five-storey building, one person per floor. The floors are numbered 1 (lowest) to 5 (topmost). D lives on the top floor. A lives on floor 2. B lives on the floor immediately above C. Who lives on floor 1?",
+   "o": [
+    "A",
+    "E",
+    "C",
+    "B"
+   ],
+   "a": 1,
+   "e": "D is on 5 and A on 2. The free floors are 1, 3 and 4; B is immediately above C, so C is on 3 and B on 4. That leaves E on floor 1."
+  },
+  {
+   "id": "arrangement-006",
+   "sec": "reasoning",
+   "topic": "arrangement",
+   "sub": "circular seating",
+   "d": 1,
+   "q": "Six friends A, B, C, D, E and F sit around a circular table facing the centre. A sits opposite D. B sits to the immediate left of A. E sits second to the right of A. F sits to the immediate right of A. Who sits between B and D?",
+   "o": [
+    "A",
+    "C",
+    "E",
+    "F"
+   ],
+   "a": 1,
+   "e": "Going clockwise from A: A, B, C, D, E, F. D is opposite A, B is on A's left, F on A's right and E second to A's right. C is left over, between B and D."
+  },
+  {
+   "id": "arrangement-007",
+   "sec": "reasoning",
+   "topic": "arrangement",
+   "sub": "ordering",
+   "d": 1,
+   "q": "In a group, P is taller than Q but shorter than R. S is taller than R but shorter than T. U is shorter than Q. Who is the third tallest?",
+   "o": [
+    "R",
+    "P",
+    "Q",
+    "S"
+   ],
+   "a": 0,
+   "e": "Order from tallest: T > S > R > P > Q > U. The third tallest is R."
+  },
+  {
+   "id": "arrangement-008",
+   "sec": "reasoning",
+   "topic": "arrangement",
+   "sub": "linear seating",
+   "d": 2,
+   "q": "Seven friends P, Q, R, S, T, U and V sit in a row facing north. Q sits second from the right end. T sits to the immediate left of Q. S sits at one of the ends. R does not sit at either end. V sits to the left of P with exactly one person between them. R sits somewhere between P and T. U and Q are not neighbours. Who sits in the middle of the row?",
+   "o": [
+    "T",
+    "V",
+    "R",
+    "P"
+   ],
+   "a": 2,
+   "e": "The only arrangement that fits all the clues, from the left, is V, U, P, R, T, Q, S. The middle (fourth) seat is R's."
+  },
+  {
+   "id": "arrangement-009",
+   "sec": "reasoning",
+   "topic": "arrangement",
+   "sub": "circular seating",
+   "d": 2,
+   "q": "A, B, C, D, E, F and G are seven persons seated around a circular table, all facing the centre. A sits second to the right of B. C sits to the immediate left of B. D sits immediately between A and G. F is not a neighbour of C. Who sits third to the right of E?",
+   "o": [
+    "C",
+    "F",
+    "G",
+    "D"
+   ],
+   "a": 1,
+   "e": "Placing clockwise from B: B, C, E, G, D, A, F, then back to B. Facing the centre, right means anticlockwise. Counting three seats anticlockwise from E gives F."
+  },
+  {
+   "id": "arrangement-010",
+   "sec": "reasoning",
+   "topic": "arrangement",
+   "sub": "floor puzzle",
+   "d": 2,
+   "q": "Seven persons A, B, C, D, E, F and G live on different floors of a seven-storey building, one person per floor. The floors are numbered 1 (lowest) to 7 (topmost). D lives on the top floor. B lives on the floor immediately below D. A lives two floors below B. G lives on the floor immediately below A. F lives on a floor between those of A and B. C lives on a higher floor than E. Who lives on floor 3?",
+   "o": [
+    "G",
+    "C",
+    "F",
+    "A"
+   ],
+   "a": 0,
+   "e": "D is on 7, B on 6, A on 4, G on 3 and F on 5. C and E take floors 1 and 2, with C above E. Floors 1 to 7: E, C, G, A, F, B, D."
+  },
+  {
+   "id": "arrangement-011",
+   "sec": "reasoning",
+   "topic": "arrangement",
+   "sub": "ranking",
+   "d": 2,
+   "q": "In a row of students, Aman is 11th from the left and Binod is 9th from the right. When they exchange places, Aman becomes 17th from the left. How many students are there in the row?",
+   "o": [
+    "26",
+    "25",
+    "28",
+    "27"
+   ],
+   "a": 1,
+   "e": "After the exchange Aman stands where Binod stood, 17th from the left and 9th from the right. Total = 17 + 9 − 1 = 25."
+  },
+  {
+   "id": "arrangement-012",
+   "sec": "reasoning",
+   "topic": "arrangement",
+   "sub": "time sequence",
+   "d": 2,
+   "q": "Seven students P, Q, R, S, T, U and V give presentations on seven consecutive days from Monday to Sunday, one student per day. Q presents on Thursday. P presents on the day immediately after S. Exactly two days come between the presentations of P and T, and T is later. V presents before Q. R presents after T. U presents on Sunday. On which day does V present?",
+   "o": [
+    "Monday",
+    "Wednesday",
+    "Friday",
+    "Tuesday"
+   ],
+   "a": 1,
+   "e": "U is on Sunday and Q on Thursday. S–P are consecutive, T is three days after P, and V and R fit around them. Monday to Sunday: S, P, V, Q, T, R, U. V is on Wednesday."
+  },
+  {
+   "id": "arrangement-013",
+   "sec": "reasoning",
+   "topic": "arrangement",
+   "sub": "linear seating",
+   "d": 2,
+   "q": "Eight friends A, B, C, D, E, F, G and H sit in a row facing north. H sits at one of the ends. D sits third from the right end. A sits to the immediate right of G. Exactly two persons sit between B and C, and B is to the left of C. E sits second to the left of D. F is a neighbour of neither H nor D. G does not sit at either end. Who sits second from the left end?",
+   "o": [
+    "D",
+    "G",
+    "F",
+    "B"
+   ],
+   "a": 3,
+   "e": "The only arrangement that satisfies every clue, from the left, is H, B, F, E, C, D, G, A. The second from the left is B."
+  },
+  {
+   "id": "arrangement-014",
+   "sec": "reasoning",
+   "topic": "arrangement",
+   "sub": "circular seating",
+   "d": 2,
+   "q": "Eight persons A, B, C, D, E, F, G and H sit around a circular table facing the centre. A sits opposite E. B sits second to the left of A. C sits to the immediate right of E. D sits immediately between H and E. F is not a neighbour of G. G sits third to the right of B. Who sits opposite B?",
+   "o": [
+    "H",
+    "F",
+    "D",
+    "G"
+   ],
+   "a": 0,
+   "e": "Clockwise from A the order is A, F, B, C, E, D, H, G. B is third from A, and the person opposite B is H."
+  },
+  {
+   "id": "arrangement-015",
+   "sec": "reasoning",
+   "topic": "arrangement",
+   "sub": "ranking",
+   "d": 2,
+   "q": "In a class of 42 students, Ankit ranks 5 places above Bhavna. Bhavna is 18th from the bottom. What is Ankit's rank from the top?",
+   "o": [
+    "21st",
+    "18th",
+    "19th",
+    "20th"
+   ],
+   "a": 3,
+   "e": "Bhavna's rank from the top = 42 − 18 + 1 = 25th. Ankit is 5 places above her, so he is 25 − 5 = 20th from the top."
+  },
+  {
+   "id": "arrangement-016",
+   "sec": "reasoning",
+   "topic": "arrangement",
+   "sub": "linear seating",
+   "d": 3,
+   "q": "Eight friends A, B, C, D, E, F, G and H sit in a row facing north. F sits to the immediate right of B. B sits somewhere between D and F. F sits somewhere between C and H. H sits somewhere between C and D. Exactly 4 persons sit between E and F. E sits somewhere to the right of A. G sits somewhere to the right of H. Who sits third from the right end?",
+   "o": [
+    "E",
+    "C",
+    "B",
+    "D"
+   ],
+   "a": 2,
+   "e": "Working through the clues gives a single arrangement, from the left: A, E, D, H, G, B, F, C. The third from the right end is B."
+  },
+  {
+   "id": "arrangement-017",
+   "sec": "reasoning",
+   "topic": "arrangement",
+   "sub": "circular seating",
+   "d": 3,
+   "q": "Eight persons A, B, C, D, E, F, G and H sit around a circular table. A, B, E and G face the centre, while C, D, F and H face away from the centre. Left and right are taken from each person's own point of view. D sits third to the left of H. B sits to the immediate right of H. A sits second to the left of D. C sits opposite H. E and F are not neighbours. F sits second to the right of C. Who sits opposite A?",
+   "o": [
+    "F",
+    "B",
+    "A",
+    "G"
+   ],
+   "a": 3,
+   "e": "Clockwise from A the seats are A, C, D, F, G, H, B, E. Facing the centre, left is clockwise; facing outward, left is anticlockwise. The person opposite A is G."
+  },
+  {
+   "id": "arrangement-018",
+   "sec": "reasoning",
+   "topic": "arrangement",
+   "sub": "floor puzzle",
+   "d": 3,
+   "q": "Six persons A, B, C, D, E and F live on different floors of a six-storey building, one per floor, numbered 1 (lowest) to 6 (topmost). Each likes a different colour: Red, Blue, Green, Yellow, White or Black. E lives on the top floor and D lives on the lowest floor. A lives immediately above D. F lives on a floor between those of A and C. B lives immediately above C. The person who likes Yellow lives on the top floor. The person who likes Blue lives immediately above C. The person who likes Black lives immediately above the person who likes Green. The person who likes Red lives immediately below the person who likes White. A does not like White. Who likes White?",
+   "o": [
+    "A",
+    "F",
+    "B",
+    "C"
+   ],
+   "a": 3,
+   "e": "Floors 1 to 6: D, A, F, C, B, E. B likes Blue and E likes Yellow. For Green–Black and Red–White pairs on floors 1 to 4, A cannot like White, so the order is Green, Black, Red, White. White is on floor 4, which is C."
+  },
+  {
+   "id": "arrangement-019",
+   "sec": "reasoning",
+   "topic": "arrangement",
+   "sub": "ranking",
+   "d": 3,
+   "q": "In a class of 40 students, Rohit is 14th from the top. Meena is 9 ranks below Rohit. Sanjay is 12th from the bottom. How many students are there between Meena and Sanjay?",
+   "o": [
+    "7",
+    "6",
+    "4",
+    "5"
+   ],
+   "a": 3,
+   "e": "Meena is 14 + 9 = 23rd from the top. Sanjay is 40 − 12 + 1 = 29th from the top. Students between them = 29 − 23 − 1 = 5."
+  },
+  {
+   "id": "arrangement-020",
+   "sec": "reasoning",
+   "topic": "arrangement",
+   "sub": "time sequence",
+   "d": 3,
+   "q": "Seven lectures A, B, C, D, E, F and G are held on seven consecutive days from Monday to Sunday, one lecture per day. A has a lecture exactly two days after G. Exactly two days come between the lectures of E and A, and E is earlier. B has a lecture on a day between those of G and A. D has a lecture after A. F has a lecture after D, but not on Sunday. C has a lecture after F. E has a lecture before G. On which day is lecture D held?",
+   "o": [
+    "Sunday",
+    "Saturday",
+    "Thursday",
+    "Friday"
+   ],
+   "a": 3,
+   "e": "From the clues, E is Monday, G Tuesday, B Wednesday and A Thursday. D, F and C follow A, with F not on Sunday: D Friday, F Saturday, C Sunday."
+  }
+ ]
+}

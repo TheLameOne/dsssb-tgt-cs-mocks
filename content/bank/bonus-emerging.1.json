@@ -1,0 +1,264 @@
+{
+ "questions": [
+  {
+   "id": "emerging-001",
+   "sec": "bonus",
+   "topic": "emerging",
+   "sub": "cloud",
+   "d": 1,
+   "q": "Which of the following is an example of Software as a Service (SaaS)?",
+   "o": [
+    "Amazon EC2 virtual machines",
+    "Google App Engine",
+    "A raw cloud storage disk",
+    "Web-based email such as Gmail"
+   ],
+   "a": 3,
+   "e": "In SaaS, the user simply uses a ready-made application over the Internet. EC2 and raw storage are IaaS, and App Engine is PaaS."
+  },
+  {
+   "id": "emerging-002",
+   "sec": "bonus",
+   "topic": "emerging",
+   "sub": "machine learning",
+   "d": 1,
+   "q": "In machine learning, training a model on a dataset in which every example has a known output label is called ______ learning.",
+   "o": [
+    "unsupervised",
+    "supervised",
+    "reinforcement",
+    "transfer"
+   ],
+   "a": 1,
+   "e": "Supervised learning uses labelled examples, as in spam classification. Unsupervised learning finds patterns in unlabelled data."
+  },
+  {
+   "id": "emerging-003",
+   "sec": "bonus",
+   "topic": "emerging",
+   "sub": "trademark",
+   "d": 1,
+   "q": "Which type of intellectual property right protects a word, symbol or logo that distinguishes the goods of one trader from those of another?",
+   "o": [
+    "Patent",
+    "Trademark",
+    "Copyright",
+    "Industrial design"
+   ],
+   "a": 1,
+   "e": "A trademark identifies the source of goods or services. A patent protects inventions and copyright protects creative works."
+  },
+  {
+   "id": "emerging-004",
+   "sec": "bonus",
+   "topic": "emerging",
+   "sub": "ethics",
+   "d": 1,
+   "q": "Unauthorised copying and distribution of licensed software is called",
+   "o": [
+    "software piracy",
+    "phishing",
+    "spoofing",
+    "open sourcing"
+   ],
+   "a": 0,
+   "e": "Software piracy is the illegal copying, use or distribution of copyrighted software. It is both unethical and punishable under the Copyright Act."
+  },
+  {
+   "id": "emerging-005",
+   "sec": "bonus",
+   "topic": "emerging",
+   "sub": "Unicode",
+   "d": 1,
+   "q": "Which Unicode encoding uses 1 to 4 bytes per character and is backward compatible with ASCII?",
+   "o": [
+    "UTF-8",
+    "UTF-16",
+    "UTF-32",
+    "UCS-2"
+   ],
+   "a": 0,
+   "e": "UTF-8 stores the 128 ASCII characters in one byte each and others in up to four bytes. UTF-32 always uses four bytes."
+  },
+  {
+   "id": "emerging-006",
+   "sec": "bonus",
+   "topic": "emerging",
+   "sub": "e-waste",
+   "d": 1,
+   "q": "Which of the following is NOT classified as e-waste?",
+   "o": [
+    "A discarded mobile phone",
+    "An old CRT monitor",
+    "A broken printer",
+    "Used newspapers"
+   ],
+   "a": 3,
+   "e": "E-waste means discarded electrical and electronic equipment. Newspapers are paper waste, which is not electronic."
+  },
+  {
+   "id": "emerging-007",
+   "sec": "bonus",
+   "topic": "emerging",
+   "sub": "IoT",
+   "d": 1,
+   "q": "The network of everyday physical objects fitted with sensors and software that exchange data over the Internet is called",
+   "o": [
+    "Internet of Things",
+    "Intranet of Things",
+    "Grid computing",
+    "Web of Services"
+   ],
+   "a": 0,
+   "e": "This is the Internet of Things (IoT). Examples are smart thermostats, wearable fitness bands and connected streetlights."
+  },
+  {
+   "id": "emerging-008",
+   "sec": "bonus",
+   "topic": "emerging",
+   "sub": "patent",
+   "d": 2,
+   "q": "In India, a patent is granted for a term of ______ years from the date of filing the application.",
+   "o": [
+    "14",
+    "20",
+    "25",
+    "50"
+   ],
+   "a": 1,
+   "e": "The Patents Act, as amended in 2002, gives a term of 20 years from the filing date."
+  },
+  {
+   "id": "emerging-009",
+   "sec": "bonus",
+   "topic": "emerging",
+   "sub": "copyright",
+   "d": 2,
+   "q": "In India, copyright in an original literary work generally lasts for the lifetime of the author plus ______ years.",
+   "o": [
+    "25",
+    "50",
+    "60",
+    "70"
+   ],
+   "a": 2,
+   "e": "Under the Copyright Act, 1957, the term for literary, dramatic, musical and artistic works is the author's life plus 60 years."
+  },
+  {
+   "id": "emerging-010",
+   "sec": "bonus",
+   "topic": "emerging",
+   "sub": "DPDP Act",
+   "d": 2,
+   "q": "Under the Digital Personal Data Protection Act, 2023, the individual to whom the personal data relates is called the",
+   "o": [
+    "Data Fiduciary",
+    "Data Processor",
+    "Data Principal",
+    "Data Controller"
+   ],
+   "a": 2,
+   "e": "The Act calls the individual the Data Principal. The entity deciding the purpose and means of processing is the Data Fiduciary."
+  },
+  {
+   "id": "emerging-011",
+   "sec": "bonus",
+   "topic": "emerging",
+   "sub": "cloud models",
+   "d": 2,
+   "q": "Match the cloud service model in List I with its description in List II.",
+   "table": {
+    "head": [
+     "List I",
+     "List II"
+    ],
+    "rows": [
+     [
+      "a. IaaS",
+      "1. Ready-to-use application accessed through a browser"
+     ],
+     [
+      "b. PaaS",
+      "2. Virtual machines, storage and networks on rent"
+     ],
+     [
+      "c. SaaS",
+      "3. Environment to build and deploy applications"
+     ]
+    ]
+   },
+   "o": [
+    "a-1, b-2, c-3",
+    "a-2, b-3, c-1",
+    "a-3, b-2, c-1",
+    "a-2, b-1, c-3"
+   ],
+   "a": 1,
+   "e": "IaaS rents basic computing infrastructure, PaaS provides a development and deployment platform, and SaaS delivers finished software."
+  },
+  {
+   "id": "emerging-012",
+   "sec": "bonus",
+   "topic": "emerging",
+   "sub": "IT Act",
+   "d": 2,
+   "q": "Under the Information Technology Act, 2000 (as amended in 2008), identity theft is dealt with in Section",
+   "o": [
+    "66A",
+    "66B",
+    "66F",
+    "66C"
+   ],
+   "a": 3,
+   "e": "Section 66C punishes fraudulent use of another person's password, electronic signature or unique identification feature. 66F deals with cyber terrorism."
+  },
+  {
+   "id": "emerging-013",
+   "sec": "bonus",
+   "topic": "emerging",
+   "sub": "overfitting",
+   "d": 3,
+   "q": "Consider the following statements.\nI. In unsupervised learning, the training data must be labelled.\nII. Overfitting means a model performs very well on training data but poorly on unseen data.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "Unsupervised learning uses unlabelled data, so Statement I is false. Statement II correctly defines overfitting."
+  },
+  {
+   "id": "emerging-014",
+   "sec": "bonus",
+   "topic": "emerging",
+   "sub": "trade secret",
+   "d": 3,
+   "q": "Which form of intellectual property protection depends on keeping the information confidential and has no fixed term of protection?",
+   "o": [
+    "Patent",
+    "Trademark",
+    "Trade secret",
+    "Copyright"
+   ],
+   "a": 2,
+   "e": "A trade secret, such as a secret formula, is protected as long as it stays confidential. Patents and copyright expire after fixed terms."
+  },
+  {
+   "id": "emerging-015",
+   "sec": "bonus",
+   "topic": "emerging",
+   "sub": "DPDP children",
+   "d": 3,
+   "q": "Section 9 of the Digital Personal Data Protection Act, 2023 provides that processing the personal data of a child (a person below 18 years) requires",
+   "o": [
+    "no consent at all",
+    "consent of the school only",
+    "consent of the child alone",
+    "verifiable consent of a parent or lawful guardian"
+   ],
+   "a": 3,
+   "e": "The Act defines a child as a person below 18 years, and Section 9 calls for verifiable parental or guardian consent before a child's data is processed."
+  }
+ ]
+}

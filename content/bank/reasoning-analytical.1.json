@@ -1,0 +1,164 @@
+{
+ "questions": [
+  {
+   "id": "analytical-001",
+   "sec": "reasoning",
+   "topic": "analytical",
+   "sub": "assertion and reason",
+   "d": 1,
+   "q": "Assertion (A): Ice floats on water.\nReason (R): Ice is less dense than water.\nWhich of the following is correct?",
+   "o": [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is not the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+   ],
+   "a": 0,
+   "e": "Both are true. An object floats when its density is less than that of the liquid, so the lower density of ice explains why it floats."
+  },
+  {
+   "id": "analytical-002",
+   "sec": "reasoning",
+   "topic": "analytical",
+   "sub": "eligibility",
+   "d": 1,
+   "q": "A college gives a scholarship to a student only if all of these conditions are met: (i) age below 25 years, (ii) at least 60% marks in the last exam, (iii) annual family income below ₹3 lakh. Rahul is 22 years old, scored 65% in the last exam and has a family income of ₹2.5 lakh a year. What should be decided about Rahul?",
+   "o": [
+    "He is rejected because of his family income",
+    "He is rejected because of his age",
+    "He gets the scholarship",
+    "He is rejected because of his marks"
+   ],
+   "a": 2,
+   "e": "Age 22 is below 25, 65% is above 60%, and ₹2.5 lakh is below ₹3 lakh. All three conditions are met."
+  },
+  {
+   "id": "analytical-003",
+   "sec": "reasoning",
+   "topic": "analytical",
+   "sub": "cause and effect",
+   "d": 1,
+   "q": "Two statements are given. Decide how they are related.\nI. The river overflowed its banks and flooded nearby fields.\nII. Heavy rain fell for several days in the catchment area of the river.",
+   "o": [
+    "I is the cause and II is its effect",
+    "II is the cause and I is its effect",
+    "Both I and II are effects of independent causes",
+    "Both I and II are effects of some common cause"
+   ],
+   "a": 1,
+   "e": "Days of heavy rain in the catchment area raise the river level, which makes it overflow. So II is the cause and I is its effect."
+  },
+  {
+   "id": "analytical-004",
+   "sec": "reasoning",
+   "topic": "analytical",
+   "sub": "assertion and reason",
+   "d": 2,
+   "q": "Assertion (A): Delhi is the capital of India.\nReason (R): The Yamuna flows through Delhi.\nWhich of the following is correct?",
+   "o": [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is not the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+   ],
+   "a": 1,
+   "e": "Both are true, but a river flowing through a city is not the reason it is the capital. R does not explain A."
+  },
+  {
+   "id": "analytical-005",
+   "sec": "reasoning",
+   "topic": "analytical",
+   "sub": "assertion and reason",
+   "d": 2,
+   "q": "Assertion (A): The Moon has light of its own.\nReason (R): The Moon reflects the light of the Sun.\nWhich of the following is correct?",
+   "o": [
+    "Both A and R are true and R is the correct explanation of A",
+    "Both A and R are true but R is not the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+   ],
+   "a": 3,
+   "e": "The Moon does not produce light; it shines by reflecting sunlight, so A is false while R is true."
+  },
+  {
+   "id": "analytical-006",
+   "sec": "reasoning",
+   "topic": "analytical",
+   "sub": "cause and effect",
+   "d": 2,
+   "q": "Two statements are given. Decide how they are related.\nI. The price of onions has risen sharply in the city.\nII. A new metro line has been opened for the public in the same city.",
+   "o": [
+    "I is the cause and II is its effect",
+    "II is the cause and I is its effect",
+    "Both I and II are effects of independent causes",
+    "Both I and II are effects of some common cause"
+   ],
+   "a": 2,
+   "e": "A price rise in onions arises from supply or demand factors, while the opening of a metro line has its own reasons. Neither causes the other and there is no common cause."
+  },
+  {
+   "id": "analytical-007",
+   "sec": "reasoning",
+   "topic": "analytical",
+   "sub": "eligibility",
+   "d": 2,
+   "q": "A company recruits lab assistants. A candidate must (i) be 21 to 30 years old, (ii) hold a B.Sc. or a science diploma, (iii) have at least two years' experience, and (iv) pass a written test. Neha is 28 years old, holds a B.Sc. and has three years' experience. Her written-test result has not yet been announced. What should be decided about Neha?",
+   "o": [
+    "She is rejected because of lack of experience",
+    "It cannot be decided, as her test result is not known",
+    "She is rejected because of her age",
+    "She is selected"
+   ],
+   "a": 1,
+   "e": "Neha meets the age, qualification and experience conditions. Selection also needs a pass in the written test, and that result is not available, so no decision can be made."
+  },
+  {
+   "id": "analytical-008",
+   "sec": "reasoning",
+   "topic": "analytical",
+   "sub": "eligibility",
+   "d": 3,
+   "q": "A bank offers a scholarship to students under these rules: (i) the student must be a citizen of India; (ii) age must not exceed 25 years on 1 July 2026, with a relaxation of 3 years for SC/ST candidates; (iii) at least 55% marks in the qualifying exam, with 50% enough for SC/ST candidates; (iv) annual family income below ₹4 lakh. Kiran is an SC candidate and a citizen of India. On 1 July 2026 he is 27 years old. He scored 52% in the qualifying exam, and his family income is ₹3.5 lakh a year. What should be decided about Kiran?",
+   "o": [
+    "He is eligible for the scholarship",
+    "He is not eligible because of his marks",
+    "He is not eligible because of his family income",
+    "He is not eligible because of his age"
+   ],
+   "a": 0,
+   "e": "For an SC candidate the age limit is 25 + 3 = 28 years, and 27 is within it. The marks limit is 50%, and 52% passes. Income is below ₹4 lakh and he is a citizen, so all rules are met."
+  },
+  {
+   "id": "analytical-009",
+   "sec": "reasoning",
+   "topic": "analytical",
+   "sub": "logic grid",
+   "d": 3,
+   "q": "Four friends P, Q, R and S each have a different hobby (Reading, Chess, Painting or Singing) and each lives in a different city (Delhi, Pune, Surat or Jaipur). The chess player lives in Jaipur. The painter lives in Pune. Q lives in Surat. P neither sings nor plays chess, and does not live in Pune. S does not read and does not live in Delhi. R does not sing and does not live in Jaipur. What is R's hobby?",
+   "o": [
+    "Reading",
+    "Painting",
+    "Singing",
+    "Chess"
+   ],
+   "a": 1,
+   "e": "Q is in Surat, so Q neither plays chess nor paints. P cannot sing, play chess or paint (Pune), so P reads. Q then sings. R cannot sing or play chess (Jaipur), so R paints. S plays chess."
+  },
+  {
+   "id": "analytical-010",
+   "sec": "reasoning",
+   "topic": "analytical",
+   "sub": "truth and lies",
+   "d": 3,
+   "q": "A, B and C are three persons; each either always tells the truth or always lies. A says, \"B and C are either both truthful or both liars.\" B says, \"C is a liar.\" C says, \"At least one of A and B is a liar.\" Who is telling the truth?",
+   "o": [
+    "A and C",
+    "A only",
+    "C only",
+    "B only"
+   ],
+   "a": 2,
+   "e": "If B were truthful, C would lie, so A and B would both be truthful. Then A's claim would be false, a contradiction. So B lies, C is truthful, and A lies. Only C tells the truth."
+  }
+ ]
+}

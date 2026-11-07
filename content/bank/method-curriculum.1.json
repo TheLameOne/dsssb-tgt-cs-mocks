@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "id": "curriculum-001", "sec": "method", "topic": "curriculum", "sub": "NEP 2020 structure", "d": 1,
+      "q": "NEP 2020 proposes to replace the 10+2 school structure with",
+      "o": ["8+4", "6+3+3", "5+3+3+4", "4+3+3+5"], "a": 2,
+      "e": "The 5+3+3+4 structure has Foundational (5), Preparatory (3), Middle (3) and Secondary (4) stages."
+    },
+    {
+      "id": "curriculum-002", "sec": "method", "topic": "curriculum", "sub": "hidden curriculum", "d": 1,
+      "q": "The unwritten, unintended lessons about values and behaviour that students learn from school culture and practices are called the",
+      "o": ["null curriculum", "hidden curriculum", "co-curricular programme", "written syllabus"], "a": 1,
+      "e": "The hidden curriculum is learnt informally through school routines, relationships and rules, outside the formal syllabus."
+    },
+    {
+      "id": "curriculum-003", "sec": "method", "topic": "curriculum", "sub": "Nai Talim", "d": 1,
+      "q": "Gandhi's Nai Talim (Basic Education) is centred on",
+      "o": ["bookish learning", "competitive examinations", "a useful craft or productive work", "foreign languages"], "a": 2,
+      "e": "Nai Talim, announced at Wardha in 1937, builds learning around a productive craft and links knowledge with work."
+    },
+    {
+      "id": "curriculum-004", "sec": "method", "topic": "curriculum", "sub": "Dewey", "d": 1,
+      "q": "The principle of 'learning by doing' in education is most closely associated with",
+      "o": ["B. F. Skinner", "Lev Vygotsky", "Noam Chomsky", "John Dewey"], "a": 3,
+      "e": "Dewey, a pragmatist, held that children learn best through experience and activity, and he saw the school as a miniature society."
+    },
+    {
+      "id": "curriculum-005", "sec": "method", "topic": "curriculum", "sub": "syllabus versus curriculum", "d": 2,
+      "q": "Consider the following statements.\nI. Curriculum is broader than syllabus.\nII. A syllabus includes all planned and unplanned experiences of a learner in school.\nWhich of the above is/are correct?",
+      "o": ["Only I", "Only II", "Both I and II", "Neither I nor II"], "a": 0,
+      "e": "A syllabus is the topic-wise outline for a course. The curriculum is wider and covers all learning experiences the school provides."
+    },
+    {
+      "id": "curriculum-006", "sec": "method", "topic": "curriculum", "sub": "null curriculum", "d": 2,
+      "q": "In Eisner's terms, the 'null curriculum' refers to",
+      "o": ["topics and skills the school does not teach", "the curriculum with zero marks", "unwritten school rules", "activities done after school hours"], "a": 0,
+      "e": "Eisner described the null curriculum as what schools leave out, which teaches learners that those things are unimportant."
+    },
+    {
+      "id": "curriculum-007", "sec": "method", "topic": "curriculum", "sub": "Tyler's model", "d": 2,
+      "q": "In Tyler's rationale for curriculum development, the step that follows selecting learning experiences is",
+      "o": ["defining educational objectives", "organising learning experiences", "evaluating the curriculum", "training the teachers"], "a": 1,
+      "e": "Tyler's sequence is: objectives, selecting experiences, organising experiences, evaluation."
+    },
+    {
+      "id": "curriculum-008", "sec": "method", "topic": "curriculum", "sub": "NCF 2005 principles", "d": 2,
+      "q": "Which of the following is NOT a guiding principle of NCF 2005?",
+      "o": ["Connecting knowledge to life outside the school", "Shifting learning away from rote methods", "Making examinations more rigid and board-centred", "Enriching the curriculum beyond textbooks"], "a": 2,
+      "e": "NCF 2005 asks for examinations that are more flexible and integrated with classroom life, not more rigid."
+    },
+    {
+      "id": "curriculum-009", "sec": "method", "topic": "curriculum", "sub": "Wardha scheme", "d": 3,
+      "q": "Which committee prepared the detailed scheme of Basic Education after the 1937 Wardha Education Conference?",
+      "o": ["Kothari Commission", "Zakir Husain Committee", "Sargent Committee", "Hunter Commission"], "a": 1,
+      "e": "The Zakir Husain Committee drew up the Wardha Scheme in detail. The Kothari Commission (1964–66) and Sargent report (1944) belong to later periods."
+    },
+    {
+      "id": "curriculum-010", "sec": "method", "topic": "curriculum", "sub": "NEP 2020 stages and ages", "d": 3,
+      "q": "In the 5+3+3+4 structure of NEP 2020, which stage and age group pair is correct?",
+      "o": ["Preparatory stage: 8 to 11 years", "Middle stage: 12 to 15 years", "Secondary stage: 15 to 19 years", "Foundational stage: 3 to 6 years"], "a": 0,
+      "e": "The stages cover ages 3–8 (Foundational), 8–11 (Preparatory), 11–14 (Middle) and 14–18 (Secondary)."
+    }
+  ]
+}

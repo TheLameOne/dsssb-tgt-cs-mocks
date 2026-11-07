@@ -1,0 +1,212 @@
+{
+ "questions": [
+  {
+   "id": "misc-ga-001",
+   "sec": "ga",
+   "topic": "misc-ga",
+   "sub": "national awards",
+   "d": 1,
+   "q": "The Dronacharya Award is given to",
+   "o": [
+    "outstanding sportspersons",
+    "coaches",
+    "sports administrators",
+    "sports journalists"
+   ],
+   "a": 1,
+   "e": "The Dronacharya Award honours coaches for producing medal winners. The Arjuna Award honours sportspersons for outstanding performance."
+  },
+  {
+   "id": "misc-ga-002",
+   "sec": "ga",
+   "topic": "misc-ga",
+   "sub": "organisations",
+   "d": 1,
+   "q": "The headquarters of the United Nations is located in",
+   "o": [
+    "Geneva",
+    "Paris",
+    "New York",
+    "Vienna"
+   ],
+   "a": 2,
+   "e": "The UN headquarters stands in New York City. Geneva hosts many UN agencies such as WHO."
+  },
+  {
+   "id": "misc-ga-003",
+   "sec": "ga",
+   "topic": "misc-ga",
+   "sub": "sports terms",
+   "d": 1,
+   "q": "The term 'love' is used in which sport to mean a score of zero?",
+   "o": [
+    "Tennis",
+    "Cricket",
+    "Hockey",
+    "Golf"
+   ],
+   "a": 0,
+   "e": "In tennis, 'love' means zero points. 'Birdie' is a golf term and 'googly' a cricket term."
+  },
+  {
+   "id": "misc-ga-004",
+   "sec": "ga",
+   "topic": "misc-ga",
+   "sub": "trophies",
+   "d": 2,
+   "q": "The Santosh Trophy is associated with which sport?",
+   "o": [
+    "Hockey",
+    "Football",
+    "Badminton",
+    "Cricket"
+   ],
+   "a": 1,
+   "e": "The Santosh Trophy is the national football championship among Indian states and units."
+  },
+  {
+   "id": "misc-ga-005",
+   "sec": "ga",
+   "topic": "misc-ga",
+   "sub": "organisations",
+   "d": 2,
+   "q": "The headquarters of the World Health Organization (WHO) is at",
+   "o": [
+    "Rome",
+    "Washington, D.C.",
+    "The Hague",
+    "Geneva"
+   ],
+   "a": 3,
+   "e": "WHO is headquartered in Geneva, Switzerland. FAO is in Rome and the IMF in Washington, D.C."
+  },
+  {
+   "id": "misc-ga-006",
+   "sec": "ga",
+   "topic": "misc-ga",
+   "sub": "important days",
+   "d": 2,
+   "q": "Consider the following statements about important days\nI. National Science Day on 28 February commemorates the discovery of the Raman Effect.\nII. World Environment Day is observed on 5 July.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "C. V. Raman announced the Raman Effect on 28 February 1928. World Environment Day is on 5 June, not 5 July."
+  },
+  {
+   "id": "misc-ga-007",
+   "sec": "ga",
+   "topic": "misc-ga",
+   "sub": "UN organs",
+   "d": 2,
+   "q": "Which of the following is NOT a principal organ of the United Nations?",
+   "o": [
+    "Trusteeship Council",
+    "Economic and Social Council",
+    "UNESCO",
+    "International Court of Justice"
+   ],
+   "a": 2,
+   "e": "The six principal organs include the Trusteeship Council, ECOSOC and the ICJ. UNESCO is a specialised agency."
+  },
+  {
+   "id": "misc-ga-008",
+   "sec": "ga",
+   "topic": "misc-ga",
+   "sub": "organisations",
+   "d": 3,
+   "q": "Match the organisation with the city of its headquarters.",
+   "table": {
+    "head": [
+     "List I",
+     "List II"
+    ],
+    "rows": [
+     [
+      "a. IAEA",
+      "1. Rome"
+     ],
+     [
+      "b. UNEP",
+      "2. Vienna"
+     ],
+     [
+      "c. UNHCR",
+      "3. Nairobi"
+     ],
+     [
+      "d. FAO",
+      "4. Geneva"
+     ]
+    ]
+   },
+   "o": [
+    "a-2, b-3, c-4, d-1",
+    "a-1, b-2, c-3, d-4",
+    "a-3, b-4, c-1, d-2",
+    "a-2, b-1, c-4, d-3"
+   ],
+   "a": 0,
+   "e": "IAEA is in Vienna, UNEP in Nairobi, UNHCR in Geneva and FAO in Rome."
+  },
+  {
+   "id": "misc-ga-009",
+   "sec": "ga",
+   "topic": "misc-ga",
+   "sub": "Olympics",
+   "d": 3,
+   "q": "After Independence, who won India's first individual Olympic medal, a bronze in wrestling at the 1952 Helsinki Games?",
+   "o": [
+    "Dhyan Chand",
+    "Leander Paes",
+    "K. D. Jadhav",
+    "Milkha Singh"
+   ],
+   "a": 2,
+   "e": "Khashaba Dadasaheb Jadhav won bronze in freestyle wrestling (bantamweight) at Helsinki in 1952."
+  },
+  {
+   "id": "misc-ga-010",
+   "sec": "ga",
+   "topic": "misc-ga",
+   "sub": "trophies",
+   "d": 3,
+   "q": "Match the trophy/cup with its sport.",
+   "table": {
+    "head": [
+     "List I",
+     "List II"
+    ],
+    "rows": [
+     [
+      "a. Ryder Cup",
+      "1. Football"
+     ],
+     [
+      "b. Davis Cup",
+      "2. Tennis"
+     ],
+     [
+      "c. Uber Cup",
+      "3. Golf"
+     ],
+     [
+      "d. Durand Cup",
+      "4. Badminton"
+     ]
+    ]
+   },
+   "o": [
+    "a-3, b-2, c-4, d-1",
+    "a-1, b-2, c-3, d-4",
+    "a-4, b-3, c-1, d-2",
+    "a-3, b-4, c-2, d-1"
+   ],
+   "a": 0,
+   "e": "The Ryder Cup is golf, the Davis Cup tennis, the Uber Cup women's badminton and the Durand Cup football."
+  }
+ ]
+}

@@ -1,0 +1,164 @@
+{
+ "questions": [
+  {
+   "id": "security-001",
+   "sec": "cs",
+   "topic": "security",
+   "sub": "Symmetric key",
+   "d": 1,
+   "q": "Consider the following statements about cryptography.\nI. In symmetric key cryptography, the same key is used for encryption and decryption.\nII. In asymmetric key cryptography, the same key is used for encryption and decryption.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "Only I is correct. Symmetric ciphers such as DES and AES share one secret key. Asymmetric ciphers use a key pair, a public key and a private key."
+  },
+  {
+   "id": "security-002",
+   "sec": "cs",
+   "topic": "security",
+   "sub": "Asymmetric key",
+   "d": 1,
+   "q": "Which of the following is an asymmetric (public key) algorithm?",
+   "o": [
+    "RSA",
+    "DES",
+    "AES",
+    "RC4"
+   ],
+   "a": 0,
+   "e": "RSA uses a public and private key pair. DES, AES and RC4 are symmetric ciphers."
+  },
+  {
+   "id": "security-003",
+   "sec": "cs",
+   "topic": "security",
+   "sub": "DES",
+   "d": 1,
+   "q": "Consider the following statements about DES.\nI. The effective key size of DES is 64 bits.\nII. The block size of DES is 56 bits.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 3,
+   "e": "Neither is correct. DES has a 64-bit key of which 8 bits are parity, so the effective key is 56 bits. The block size is 64 bits."
+  },
+  {
+   "id": "security-004",
+   "sec": "cs",
+   "topic": "security",
+   "sub": "Firewall",
+   "d": 1,
+   "q": "Which of the following is NOT a function of a firewall?",
+   "o": [
+    "Filtering traffic according to security rules",
+    "Blocking unauthorised access from an untrusted network",
+    "Protecting an internal network from outside threats",
+    "Assigning IP addresses to hosts"
+   ],
+   "a": 3,
+   "e": "Assigning IP addresses is the job of DHCP. A firewall allows or blocks traffic between a trusted and an untrusted network."
+  },
+  {
+   "id": "security-005",
+   "sec": "cs",
+   "topic": "security",
+   "sub": "Digital signature",
+   "d": 2,
+   "q": "In a digital signature scheme using public key cryptography, the sender signs the message digest using",
+   "o": [
+    "the receiver's public key",
+    "the sender's private key",
+    "the sender's public key",
+    "the receiver's private key"
+   ],
+   "a": 1,
+   "e": "Only the sender knows his private key, so anyone can verify the signature with the sender's public key. This gives authentication and non-repudiation."
+  },
+  {
+   "id": "security-006",
+   "sec": "cs",
+   "topic": "security",
+   "sub": "RSA",
+   "d": 2,
+   "q": "In RSA, p = 3 and q = 11 and public exponent e = 3. The ciphertext for the plaintext 4 is",
+   "o": [
+    "31",
+    "64",
+    "12",
+    "7"
+   ],
+   "a": 0,
+   "e": "n = 33. C = Mᵉ mod n = 4³ mod 33 = 64 mod 33 = 31."
+  },
+  {
+   "id": "security-007",
+   "sec": "cs",
+   "topic": "security",
+   "sub": "IPSec",
+   "d": 2,
+   "q": "In IPSec, the protocol that provides confidentiality (encryption) of the payload is",
+   "o": [
+    "AH",
+    "IKE",
+    "ARP",
+    "ESP"
+   ],
+   "a": 3,
+   "e": "Encapsulating Security Payload provides encryption and also optional authentication. Authentication Header gives integrity and authentication only."
+  },
+  {
+   "id": "security-008",
+   "sec": "cs",
+   "topic": "security",
+   "sub": "Malware",
+   "d": 2,
+   "q": "Consider the following statements.\nI. A phishing attack tries to trick users into revealing confidential information.\nII. A virus can replicate by itself over a network without attaching to any host file.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "Phishing uses fake messages or sites to steal information. The self-replicating network-spreading code with no host file is a worm, not a virus, so II is false."
+  },
+  {
+   "id": "security-009",
+   "sec": "cs",
+   "topic": "security",
+   "sub": "Diffie-Hellman",
+   "d": 3,
+   "q": "In a Diffie-Hellman exchange with p = 23 and g = 5, Alice has private key 6 and Bob has private key 15. The shared secret key is",
+   "o": [
+    "8",
+    "2",
+    "19",
+    "6"
+   ],
+   "a": 1,
+   "e": "Alice sends 5⁶ mod 23 = 8 and Bob sends 5¹⁵ mod 23 = 19. The key is 19⁶ mod 23 = 8¹⁵ mod 23 = 2."
+  },
+  {
+   "id": "security-010",
+   "sec": "cs",
+   "topic": "security",
+   "sub": "RSA",
+   "d": 3,
+   "q": "In RSA, p = 5, q = 11 and the public exponent e = 7. The private exponent d is",
+   "o": [
+    "23",
+    "13",
+    "3",
+    "17"
+   ],
+   "a": 0,
+   "e": "φ(n) = 4 × 10 = 40. d is the inverse of 7 mod 40. Since 7 × 23 = 161 = 4 × 40 + 1, d = 23."
+  }
+ ]
+}

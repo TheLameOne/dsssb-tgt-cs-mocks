@@ -1,0 +1,684 @@
+{
+ "questions": [
+  {
+   "id": "current-001",
+   "sec": "ga",
+   "topic": "current",
+   "sub": "Nobel Peace 2026",
+   "d": 1,
+   "q": "Who was announced as the winner of the 2026 Nobel Peace Prize in October 2026?",
+   "o": [
+    "Narges Mohammadi",
+    "Navanethem Pillay",
+    "Maria Corina Machado",
+    "Dmitry Muratov"
+   ],
+   "a": 1,
+   "e": "The Norwegian Nobel Committee named Navanethem (Navi) Pillay, a South African jurist and former UN human rights chief, on 9 October 2026. Mohammadi, Machado and Muratov won in earlier years.",
+   "src": "https://www.aljazeera.com/news/2026/10/9/2026-nobel-peace-prize-awarded-to-navi-pillay"
+  },
+  {
+   "id": "current-002",
+   "sec": "ga",
+   "topic": "current",
+   "sub": "Nobel Literature 2026",
+   "d": 1,
+   "q": "Who won the 2026 Nobel Prize in Literature, announced on 8 October 2026?",
+   "o": [
+    "Han Kang",
+    "László Krasznahorkai",
+    "Annie Ernaux",
+    "Anne Carson"
+   ],
+   "a": 3,
+   "e": "The Swedish Academy honoured Anne Carson, a Canadian poet, essayist and translator, known for her playful dialogue with the classical tradition. Han Kang and Krasznahorkai won in earlier years.",
+   "src": "https://currentaffairs.adda247.com/2026-nobel-prize-winners-categories-wise-complete-winners-list/"
+  },
+  {
+   "id": "current-003",
+   "sec": "ga",
+   "topic": "current",
+   "sub": "Oscars 2026",
+   "d": 1,
+   "q": "Which film won Best Picture at the 98th Academy Awards held on 15 March 2026?",
+   "o": [
+    "Sinners",
+    "Hamnet",
+    "One Battle After Another",
+    "Sentimental Value"
+   ],
+   "a": 2,
+   "e": "One Battle After Another won Best Picture, and Paul Thomas Anderson took Best Director for it. Sinners and Hamnet won acting awards, while Sentimental Value won International Feature.",
+   "src": "https://www.pbs.org/newshour/amp/arts/heres-a-full-list-of-2026-academy-awards-winners"
+  },
+  {
+   "id": "current-004",
+   "sec": "ga",
+   "topic": "current",
+   "sub": "T20 World Cup 2026",
+   "d": 1,
+   "q": "Which team won the ICC Men's T20 World Cup 2026, whose final was played on 8 March 2026?",
+   "o": [
+    "New Zealand",
+    "India",
+    "Australia",
+    "South Africa"
+   ],
+   "a": 1,
+   "e": "India beat New Zealand by 96 runs in the final, retaining the title they won in 2024.",
+   "src": "https://www.thenationalnews.com/sport/cricket/2026/03/08/india-secure-back-to-back-t20-world-cup-after-thrashing-new-zealand-in-final"
+  },
+  {
+   "id": "current-005",
+   "sec": "ga",
+   "topic": "current",
+   "sub": "FIFA World Cup 2026",
+   "d": 1,
+   "q": "Which country won the FIFA World Cup 2026, whose final was played on 19 July 2026?",
+   "o": [
+    "Argentina",
+    "France",
+    "Spain",
+    "Brazil"
+   ],
+   "a": 2,
+   "e": "Spain beat Argentina 1-0 after extra time in the final in New Jersey (the New York New Jersey Stadium).",
+   "src": "https://vod.fifa.com/news/new-york-jersey-stadium-spain-world-champions-mbappe-haaland"
+  },
+  {
+   "id": "current-006",
+   "sec": "ga",
+   "topic": "current",
+   "sub": "IPL 2026",
+   "d": 1,
+   "q": "Which franchise won the IPL 2026 title in the final played in late May 2026?",
+   "o": [
+    "Gujarat Titans",
+    "Mumbai Indians",
+    "Chennai Super Kings",
+    "Royal Challengers Bengaluru"
+   ],
+   "a": 3,
+   "e": "Royal Challengers Bengaluru beat Gujarat Titans by 5 wickets to win back-to-back titles.",
+   "src": "https://currentaffairs.adda247.com/rcb-win-ipl-2026-final-by-5-wickets-defend-title-against-gujarat-titans/"
+  },
+  {
+   "id": "current-007",
+   "sec": "ga",
+   "topic": "current",
+   "sub": "Jnanpith 2025",
+   "d": 1,
+   "q": "The 60th Jnanpith Award, announced in March 2026 for the year 2025, was given to which writer?",
+   "o": [
+    "Vinod Kumar Shukla",
+    "Gulzar",
+    "R. Vairamuthu",
+    "Damodar Mauzo"
+   ],
+   "a": 2,
+   "e": "R. Vairamuthu, the Tamil poet and lyricist, was named the 60th laureate. Vinod Kumar Shukla (59th) and Gulzar (58th) were honoured in the two preceding cycles.",
+   "src": "https://ianslive.in/tamil-poet-lyricist-r-vairamuthu-named-2025-jnanpith-laureate--20260314163832"
+  },
+  {
+   "id": "current-008",
+   "sec": "ga",
+   "topic": "current",
+   "sub": "Booker 2025",
+   "d": 1,
+   "q": "Which novel won the 2025 Booker Prize, announced in London on 10 November 2025?",
+   "o": [
+    "Audition",
+    "Flesh",
+    "Flashlight",
+    "The Land in Winter"
+   ],
+   "a": 1,
+   "e": "David Szalay won for Flesh. The other three titles were also on the six-book shortlist.",
+   "src": "https://www.tribuneindia.com/news/world/hungarian-british-author-david-szalay-beats-kiran-desai-to-win-booker-prize-2025-for-flesh"
+  },
+  {
+   "id": "current-009",
+   "sec": "ga",
+   "topic": "current",
+   "sub": "RBI repo rate Oct 2026",
+   "d": 1,
+   "q": "On 7 October 2026, the RBI Monetary Policy Committee set the policy repo rate at what level?",
+   "o": [
+    "5.00%",
+    "5.25%",
+    "5.75%",
+    "5.50%"
+   ],
+   "a": 3,
+   "e": "The MPC raised the repo rate by 25 basis points from 5.25% to 5.50% on 7 October 2026.",
+   "src": "https://upstox.com/news/market-news/economy/rbi-mpc-meeting-october-7-2026-live-updates-governor-sanjay-malhotra-speech-repo-rate-hike-key-highlights/liveblog-201398/"
+  },
+  {
+   "id": "current-010",
+   "sec": "ga",
+   "topic": "current",
+   "sub": "Chief Justice of India",
+   "d": 1,
+   "q": "As of November 2026, who is the Chief Justice of India, having taken oath on 24 November 2025 as the 53rd CJI?",
+   "o": [
+    "B. R. Gavai",
+    "Sanjiv Khanna",
+    "Surya Kant",
+    "D. Y. Chandrachud"
+   ],
+   "a": 2,
+   "e": "Justice Surya Kant succeeded Justice B. R. Gavai and is due to retire in February 2027 on turning 65.",
+   "src": "https://www.businesstoday.in/india/story/justice-surya-kant-sworn-in-as-the-53rd-chief-justice-of-india-503369-2025-11-24"
+  },
+  {
+   "id": "current-011",
+   "sec": "ga",
+   "topic": "current",
+   "sub": "VB-G RAM G Act",
+   "d": 1,
+   "q": "In December 2025 the VB-G RAM G Act received Presidential assent. Which earlier law did it replace?",
+   "o": [
+    "National Food Security Act, 2013",
+    "Mahatma Gandhi National Rural Employment Guarantee Act, 2005",
+    "Right to Information Act, 2005",
+    "Right to Education Act, 2009"
+   ],
+   "a": 1,
+   "e": "The new Act replaces MGNREGA and promises at least 125 days of rural wage employment a year, against 100 days earlier.",
+   "src": "https://www.etvbharat.com/en/bharat/president-droupadi-murmu-gives-assent-to-vb-g-ram-g-bill-enn25122103455"
+  },
+  {
+   "id": "current-012",
+   "sec": "ga",
+   "topic": "current",
+   "sub": "Women's World Cup 2025",
+   "d": 1,
+   "q": "Which team won the ICC Women's Cricket World Cup 2025, whose final was held in Navi Mumbai in early November 2025?",
+   "o": [
+    "Australia",
+    "England",
+    "South Africa",
+    "India"
+   ],
+   "a": 3,
+   "e": "India beat South Africa by 52 runs at DY Patil Stadium to win their first Women's World Cup title.",
+   "src": "https://www.freepressjournal.in/amp/sports/ind-w-vs-sa-w-icc-womens-world-cup-2025-final-deepti-sharma-shafali-vermas-heroics-help-team-india-defeat-south-africa-by-52-runs-to-lift-maiden-championship-title"
+  },
+  {
+   "id": "current-013",
+   "sec": "ga",
+   "topic": "current",
+   "sub": "Padma Awards 2026",
+   "d": 1,
+   "q": "Which film actor was among the posthumous Padma Vibhushan awardees in the Padma Awards 2026, announced on 25 January 2026?",
+   "o": [
+    "Mammootty",
+    "Dharmendra",
+    "Rajinikanth",
+    "Mithun Chakraborty"
+   ],
+   "a": 1,
+   "e": "Dharmendra received the Padma Vibhushan posthumously. Mammootty was named for the Padma Bhushan.",
+   "src": "https://www.thequint.com/news/breaking-news/padma-awards-2026-dharmendra-singh-gets-padma-vibhushan-full-list-highlights"
+  },
+  {
+   "id": "current-014",
+   "sec": "ga",
+   "topic": "current",
+   "sub": "Asian Games 2026 host",
+   "d": 1,
+   "q": "Which country hosted the 2026 Asian Games, held from September to October 2026?",
+   "o": [
+    "China",
+    "South Korea",
+    "Qatar",
+    "Japan"
+   ],
+   "a": 3,
+   "e": "The Games were held in Aichi-Nagoya, Japan. China hosted the previous edition at Hangzhou in 2023.",
+   "src": "https://www.drishtiias.com/state-pcs-current-affairs/india-finishes-fourth-with-85-medals-at-asian-games-2026-1"
+  },
+  {
+   "id": "current-015",
+   "sec": "ga",
+   "topic": "current",
+   "sub": "BRICS chair 2026",
+   "d": 1,
+   "q": "Which country held the BRICS chairship in 2026 and hosted the 18th BRICS summit in September 2026?",
+   "o": [
+    "Brazil",
+    "China",
+    "India",
+    "South Africa"
+   ],
+   "a": 2,
+   "e": "India took over the chair from Brazil on 1 January 2026 and hosted the summit in New Delhi on 12-13 September 2026.",
+   "src": "https://www.sanews.gov.za/node/84282"
+  },
+  {
+   "id": "current-016",
+   "sec": "ga",
+   "topic": "current",
+   "sub": "Nobel Economics 2026",
+   "d": 2,
+   "q": "The 2026 Nobel Memorial Prize in Economic Sciences, announced on 12 October 2026, was awarded to which pair?",
+   "o": [
+    "Daron Acemoglu and Simon Johnson",
+    "Robert E. Hall and Michael Woodford",
+    "Claudia Goldin and Ben Bernanke",
+    "Joel Mokyr and Philippe Aghion"
+   ],
+   "a": 1,
+   "e": "Hall (Stanford) and Woodford (Columbia) were honoured for microeconomic foundations of macroeconomic stabilisation. Acemoglu and Johnson were 2024 winners; Mokyr and Aghion were 2025 winners.",
+   "src": "https://aljazeera.com/news/2026/10/12/nobel-economics-prize-awarded-to-robert-hall-and-michael-%e2%81%a0woodford"
+  },
+  {
+   "id": "current-017",
+   "sec": "ga",
+   "topic": "current",
+   "sub": "Oscars Best Actress 2026",
+   "d": 2,
+   "q": "Who won Best Actress at the 98th Academy Awards in March 2026?",
+   "o": [
+    "Emma Stone",
+    "Rose Byrne",
+    "Jessie Buckley",
+    "Renate Reinsve"
+   ],
+   "a": 2,
+   "e": "Jessie Buckley won for her role in Hamnet. Michael B. Jordan won Best Actor for Sinners.",
+   "src": "https://www.pbs.org/newshour/amp/arts/heres-a-full-list-of-2026-academy-awards-winners"
+  },
+  {
+   "id": "current-018",
+   "sec": "ga",
+   "topic": "current",
+   "sub": "Union Budget 2026-27 deficit",
+   "d": 2,
+   "q": "In the Union Budget 2026-27, presented on 1 February 2026, the fiscal deficit target for 2026-27 was set at about what share of GDP?",
+   "o": [
+    "3.9%",
+    "4.8%",
+    "4.3%",
+    "5.1%"
+   ],
+   "a": 2,
+   "e": "The Budget aimed for a fiscal deficit of 4.3% of GDP for 2026-27, with debt-to-GDP projected at about 55.6%.",
+   "src": "https://www.thequint.com/news/breaking-news/union-budget-2026-fy27-fiscal-deficit-target"
+  },
+  {
+   "id": "current-019",
+   "sec": "ga",
+   "topic": "current",
+   "sub": "Delhi Budget 2026-27",
+   "d": 2,
+   "q": "Delhi Chief Minister Rekha Gupta presented the Delhi Budget 2026-27 on 24 March 2026 with a total outlay of about:",
+   "o": [
+    "₹76,000 crore",
+    "₹89,500 crore",
+    "₹1,35,000 crore",
+    "₹1,03,700 crore"
+   ],
+   "a": 3,
+   "e": "The 'green' budget had an outlay of ₹1,03,700 crore, with about 21% for green initiatives. It was her second budget as CM.",
+   "src": "https://ianslive.in/delhi-cm-rekha-gupta-presents-rs-103700-crore-budget-for-2026-27--20260324121317"
+  },
+  {
+   "id": "current-020",
+   "sec": "ga",
+   "topic": "current",
+   "sub": "AI Impact Summit 2026",
+   "d": 2,
+   "q": "What was the outcome declaration of the India AI Impact Summit held in February 2026 called?",
+   "o": [
+    "Bletchley Declaration on AI Safety",
+    "Seoul Declaration for Safe AI",
+    "Geneva Declaration on AI Impact",
+    "New Delhi Declaration on AI Impact"
+   ],
+   "a": 3,
+   "e": "The summit ended with the New Delhi Declaration on AI Impact, endorsed by dozens of countries and organisations. Bletchley and Seoul belong to earlier AI summits.",
+   "src": "https://www.newsonair.gov.in/india-ai-impact-summit-2026-adopts-new-delhi-declaration"
+  },
+  {
+   "id": "current-021",
+   "sec": "ga",
+   "topic": "current",
+   "sub": "Dadasaheb Phalke 2024",
+   "d": 2,
+   "q": "The Dadasaheb Phalke Award for 2024, announced in September 2026, was given to which veteran actor?",
+   "o": [
+    "Mohanlal",
+    "Anant Nag",
+    "Mithun Chakraborty",
+    "Waheeda Rehman"
+   ],
+   "a": 1,
+   "e": "Anant Nag was named for the 2024 award, to be presented at the 72nd National Film Awards. Mohanlal, Mithun Chakraborty and Waheeda Rehman were earlier recipients.",
+   "src": "https://www.chronicleindia.in/current-affairs/18043-dadasaheb-phalke-award-for-anant-nag"
+  },
+  {
+   "id": "current-022",
+   "sec": "ga",
+   "topic": "current",
+   "sub": "Wimbledon 2026",
+   "d": 2,
+   "q": "Who won the men's singles title at Wimbledon 2026?",
+   "o": [
+    "Carlos Alcaraz",
+    "Novak Djokovic",
+    "Alexander Zverev",
+    "Jannik Sinner"
+   ],
+   "a": 3,
+   "e": "Jannik Sinner won again, successfully defending the title he took in 2025.",
+   "src": "https://currentaffairs.adda247.com/wimbledon-championship-2026-full-list-of-winners-category-wise/"
+  },
+  {
+   "id": "current-023",
+   "sec": "ga",
+   "topic": "current",
+   "sub": "Commonwealth Games 2026 India",
+   "d": 2,
+   "q": "At the 2026 Commonwealth Games in Glasgow, India finished at which position in the overall medal table?",
+   "o": [
+    "Second",
+    "Third",
+    "Fourth",
+    "Sixth"
+   ],
+   "a": 2,
+   "e": "India won 13 gold, 17 silver and 9 bronze (39 medals) and finished fourth, behind Australia, England and Canada.",
+   "src": "https://currentaffairs.adda247.com/commonwealth-games-2026-medal-tally-india-finishes-4th-with-39-medals-complete-list-of-winners-and-sport-wise-breakdown/"
+  },
+  {
+   "id": "current-024",
+   "sec": "ga",
+   "topic": "current",
+   "sub": "Asian Games 2026 India",
+   "d": 2,
+   "q": "How many medals in total did India win at the 2026 Asian Games in Aichi-Nagoya?",
+   "o": [
+    "107",
+    "85",
+    "72",
+    "95"
+   ],
+   "a": 1,
+   "e": "India won 21 gold, 27 silver and 37 bronze, 85 in all, and finished fourth. The 2023 Hangzhou record was above 100.",
+   "src": "https://www.drishtiias.com/state-pcs-current-affairs/india-finishes-fourth-with-85-medals-at-asian-games-2026-1"
+  },
+  {
+   "id": "current-025",
+   "sec": "ga",
+   "topic": "current",
+   "sub": "West Bengal election 2026",
+   "d": 2,
+   "q": "Which party won the West Bengal Assembly election, counted on 4 May 2026, and is set to form its first government in the state?",
+   "o": [
+    "Trinamool Congress",
+    "Bharatiya Janata Party",
+    "Indian National Congress",
+    "CPI(M)"
+   ],
+   "a": 1,
+   "e": "The BJP won a large majority, ending the Trinamool Congress's 15-year rule.",
+   "src": "https://www.indiatvnews.com/news/india/assembly-election-results-2026-bjp-sweeps-bengal-retains-power-in-assam-tvk-stuns-tamil-nadu-udf-in-kerala-and-nda-in-puducherry-2026-05-04-1039928"
+  },
+  {
+   "id": "current-026",
+   "sec": "ga",
+   "topic": "current",
+   "sub": "ISRO GSLV-F17",
+   "d": 2,
+   "q": "ISRO's GSLV-F17 launched the EOS-05 satellite on 4 September 2026. What is notable about EOS-05?",
+   "o": [
+    "It is India's first Earth observation satellite meant to work from geosynchronous orbit",
+    "It is India's first satellite to orbit the Moon",
+    "It is India's first crewed capsule",
+    "It is India's first polar weather satellite"
+   ],
+   "a": 0,
+   "e": "EOS-05, weighing 2,367 kg, is meant to work from geosynchronous orbit and replaces the capability lost with GSLV-F10 in 2021.",
+   "src": "https://www.dtnext.in/news/national/gslv-f17-launches-eos-05-successfully-places-satellite-in-orbit"
+  },
+  {
+   "id": "current-027",
+   "sec": "ga",
+   "topic": "current",
+   "sub": "FIFA Golden Boot 2026",
+   "d": 2,
+   "q": "Who won the Golden Boot at the FIFA World Cup 2026?",
+   "o": [
+    "Erling Haaland",
+    "Lionel Messi",
+    "Harry Kane",
+    "Kylian Mbappé"
+   ],
+   "a": 3,
+   "e": "Mbappé finished as top scorer with 10 goals.",
+   "src": "https://vod.fifa.com/news/new-york-jersey-stadium-spain-world-champions-mbappe-haaland"
+  },
+  {
+   "id": "current-028",
+   "sec": "ga",
+   "topic": "current",
+   "sub": "Labour codes",
+   "d": 2,
+   "q": "On 21 November 2025 the Centre brought four labour codes into effect. How many existing central labour laws did they replace?",
+   "o": [
+    "12",
+    "19",
+    "44",
+    "29"
+   ],
+   "a": 3,
+   "e": "The Codes on Wages, Industrial Relations, Social Security, and Occupational Safety, Health and Working Conditions replaced 29 central laws.",
+   "src": "https://www.livelaw.in/amp/top-stories/centre-brings-four-labour-codes-into-operation-with-effect-from-november-21-310772"
+  },
+  {
+   "id": "current-029",
+   "sec": "ga",
+   "topic": "current",
+   "sub": "FIDE Candidates 2026",
+   "d": 2,
+   "q": "Who won the open FIDE Candidates Tournament 2026 held in Cyprus in April 2026, earning a title match against D. Gukesh?",
+   "o": [
+    "Fabiano Caruana",
+    "R Praggnanandhaa",
+    "Hikaru Nakamura",
+    "Javokhir Sindarov"
+   ],
+   "a": 3,
+   "e": "Javokhir Sindarov of Uzbekistan won the tournament with 10 points out of 14, earning the title match against Gukesh.",
+   "src": "https://www.chess.com/news/view/2026-fide-candidates-tournament-round-14"
+  },
+  {
+   "id": "current-030",
+   "sec": "ga",
+   "topic": "current",
+   "sub": "BJP president 2026",
+   "d": 2,
+   "q": "In January 2026, who was elected unopposed as the BJP national president, succeeding J. P. Nadda?",
+   "o": [
+    "Bhupender Yadav",
+    "Nitin Nabin",
+    "Dharmendra Pradhan",
+    "Sunil Bansal"
+   ],
+   "a": 1,
+   "e": "Nitin Nabin, a five-time Bihar MLA aged 45, became the party's youngest national president.",
+   "src": "https://ianslive.in/nitin-nabin-elected-as-bjp-national-president--20260120115127"
+  },
+  {
+   "id": "current-031",
+   "sec": "ga",
+   "topic": "current",
+   "sub": "Union Budget 2026-27 capex",
+   "d": 3,
+   "q": "The Union Budget 2026-27 proposed public capital expenditure of about how much?",
+   "o": [
+    "₹9.8 lakh crore",
+    "₹11.2 lakh crore",
+    "₹12.2 lakh crore",
+    "₹14.5 lakh crore"
+   ],
+   "a": 2,
+   "e": "Capital expenditure was set at about ₹12.2 lakh crore for 2026-27. The ₹11.2 lakh crore figure is close to the previous year's allocation.",
+   "src": "https://www.thequint.com/news/breaking-news/union-budget-2026-fy27-fiscal-deficit-target"
+  },
+  {
+   "id": "current-032",
+   "sec": "ga",
+   "topic": "current",
+   "sub": "T20 World Cup 2026 final venue",
+   "d": 3,
+   "q": "The final of the ICC Men's T20 World Cup 2026, in which India beat New Zealand by 96 runs on 8 March 2026, was played at which ground?",
+   "o": [
+    "Wankhede Stadium, Mumbai",
+    "Eden Gardens, Kolkata",
+    "R. Premadasa Stadium, Colombo",
+    "Narendra Modi Stadium, Ahmedabad"
+   ],
+   "a": 3,
+   "e": "The final was at the Narendra Modi Stadium in Ahmedabad, where India made 255/5 and bowled New Zealand out for 159.",
+   "src": "https://www.thenationalnews.com/sport/cricket/2026/03/08/india-secure-back-to-back-t20-world-cup-after-thrashing-new-zealand-in-final"
+  },
+  {
+   "id": "current-033",
+   "sec": "ga",
+   "topic": "current",
+   "sub": "FIFA 2026 runner-up",
+   "d": 3,
+   "q": "Which team lost to Spain in the final of the FIFA World Cup 2026 on 19 July 2026?",
+   "o": [
+    "France",
+    "England",
+    "Brazil",
+    "Argentina"
+   ],
+   "a": 3,
+   "e": "Spain beat Argentina 1-0 after extra time at the New York New Jersey Stadium.",
+   "src": "https://vod.fifa.com/news/new-york-jersey-stadium-spain-world-champions-mbappe-haaland"
+  },
+  {
+   "id": "current-034",
+   "sec": "ga",
+   "topic": "current",
+   "sub": "Commonwealth Games 2026 tie",
+   "d": 3,
+   "q": "At the 2026 Commonwealth Games, India's 39 medals were matched by which team, which finished fifth with more bronze but fewer silver medals?",
+   "o": [
+    "Wales",
+    "Scotland",
+    "New Zealand",
+    "Canada"
+   ],
+   "a": 1,
+   "e": "Scotland also won 39 medals (13 gold, 9 silver, 17 bronze). India took fourth on the strength of its 17 silvers.",
+   "src": "https://currentaffairs.adda247.com/commonwealth-games-2026-medal-tally-india-finishes-4th-with-39-medals-complete-list-of-winners-and-sport-wise-breakdown/"
+  },
+  {
+   "id": "current-035",
+   "sec": "ga",
+   "topic": "current",
+   "sub": "Booker 2025 shortlist",
+   "d": 3,
+   "q": "Which Indian author's novel The Loneliness of Sonia and Sunny was on the 2025 Booker shortlist but lost to the winner?",
+   "o": [
+    "Arundhati Roy",
+    "Jhumpa Lahiri",
+    "Kiran Desai",
+    "Anuradha Roy"
+   ],
+   "a": 2,
+   "e": "Kiran Desai, a former Booker winner, was the main rival to David Szalay, who won for Flesh.",
+   "src": "https://www.tribuneindia.com/news/world/hungarian-british-author-david-szalay-beats-kiran-desai-to-win-booker-prize-2025-for-flesh"
+  },
+  {
+   "id": "current-036",
+   "sec": "ga",
+   "topic": "current",
+   "sub": "Wimbledon 2026 runner-up",
+   "d": 3,
+   "q": "Who was the runner-up to Jannik Sinner in the Wimbledon 2026 men's singles final?",
+   "o": [
+    "Carlos Alcaraz",
+    "Taylor Fritz",
+    "Daniil Medvedev",
+    "Alexander Zverev"
+   ],
+   "a": 3,
+   "e": "Sinner beat Alexander Zverev in four sets for the title.",
+   "src": "https://currentaffairs.adda247.com/wimbledon-championship-2026-full-list-of-winners-category-wise/"
+  },
+  {
+   "id": "current-037",
+   "sec": "ga",
+   "topic": "current",
+   "sub": "PSLV-C62 failure",
+   "d": 3,
+   "q": "PSLV-C62, launched on 12 January 2026 with DRDO's EOS-N1 as the main payload, failed because of a problem in which stage?",
+   "o": [
+    "First stage",
+    "Second stage",
+    "Third stage",
+    "Fourth stage"
+   ],
+   "a": 2,
+   "e": "Trouble began after ignition of the third stage, the same stage involved in the PSLV-C61 failure of 2025.",
+   "src": "https://www.businesstoday.in/science/story/isros-pslv-c62-mission-fails-second-rare-setback-in-eight-months-for-workhorse-launcher-510482-2026-01-12"
+  },
+  {
+   "id": "current-038",
+   "sec": "ga",
+   "topic": "current",
+   "sub": "BRICS 2027 host",
+   "d": 3,
+   "q": "After India's chairship and the 18th summit in New Delhi in September 2026, which country is due to host the next BRICS summit in 2027?",
+   "o": [
+    "South Africa",
+    "Russia",
+    "China",
+    "Indonesia"
+   ],
+   "a": 2,
+   "e": "China is to host the 2027 summit, after India's chair year and the New Delhi Declaration.",
+   "src": "https://www.sanews.gov.za/node/84282"
+  },
+  {
+   "id": "current-039",
+   "sec": "ga",
+   "topic": "current",
+   "sub": "VB-G RAM G funding",
+   "d": 3,
+   "q": "Under the VB-G RAM G Act, 2025, what is the Centre-State funding ratio for most States?",
+   "o": [
+    "75:25",
+    "50:50",
+    "60:40",
+    "90:10"
+   ],
+   "a": 2,
+   "e": "Most States share the cost 60:40 with the Centre. North-Eastern and Himalayan States get 90:10.",
+   "src": "https://www.etvbharat.com/en/bharat/president-droupadi-murmu-gives-assent-to-vb-g-ram-g-bill-enn25122103455"
+  },
+  {
+   "id": "current-040",
+   "sec": "ga",
+   "topic": "current",
+   "sub": "RBI stance Oct 2026",
+   "d": 3,
+   "q": "Along with raising the repo rate on 7 October 2026, the RBI MPC changed its policy stance to:",
+   "o": [
+    "Neutral",
+    "Accommodative",
+    "Withdrawal of accommodation",
+    "Calibrated tightening"
+   ],
+   "a": 3,
+   "e": "On 7 October 2026 the stance moved from neutral to calibrated tightening, along with a rise in the repo rate.",
+   "src": "https://upstox.com/news/market-news/economy/rbi-mpc-meeting-october-7-2026-live-updates-governor-sanjay-malhotra-speech-repo-rate-hike-key-highlights/liveblog-201398/"
+  }
+ ]
+}

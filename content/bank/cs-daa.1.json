@@ -1,0 +1,324 @@
+{
+ "questions": [
+  {
+   "id": "daa-001",
+   "sec": "cs",
+   "topic": "daa",
+   "sub": "recurrences",
+   "d": 1,
+   "q": "The recurrence T(n) = 2T(n/2) + n, with T(1) = 1, solves to",
+   "o": [
+    "Θ(n)",
+    "Θ(n²)",
+    "Θ(log n)",
+    "Θ(n log n)"
+   ],
+   "a": 3,
+   "e": "Here a = 2, b = 2, so n^(log_b a) = n, which equals f(n) = n. Case 2 of the master theorem gives Θ(n log n), as in merge sort."
+  },
+  {
+   "id": "daa-002",
+   "sec": "cs",
+   "topic": "daa",
+   "sub": "greedy",
+   "d": 1,
+   "q": "The fractional knapsack problem is solved optimally by a greedy method that picks items in decreasing order of",
+   "o": [
+    "value-to-weight ratio",
+    "value only",
+    "weight only (lightest first)",
+    "number of units"
+   ],
+   "a": 0,
+   "e": "Taking the item with the best value per unit weight first is optimal when fractions are allowed. This greedy rule fails for the 0/1 knapsack."
+  },
+  {
+   "id": "daa-003",
+   "sec": "cs",
+   "topic": "daa",
+   "sub": "Huffman coding",
+   "d": 1,
+   "q": "At every step of Huffman's algorithm, the two nodes that are merged are those with the ______ frequencies.",
+   "o": [
+    "largest",
+    "closest to the average",
+    "smallest",
+    "randomly chosen"
+   ],
+   "a": 2,
+   "e": "Merging the two least frequent nodes pushes rare symbols deeper in the tree, giving them longer codes and minimising the weighted code length."
+  },
+  {
+   "id": "daa-004",
+   "sec": "cs",
+   "topic": "daa",
+   "sub": "dynamic programming",
+   "d": 1,
+   "q": "The Floyd–Warshall algorithm for all-pairs shortest paths on a graph with V vertices runs in time",
+   "o": [
+    "O(V²)",
+    "O(V log V)",
+    "O(V³)",
+    "O(V + E)"
+   ],
+   "a": 2,
+   "e": "It has three nested loops over k, i and j, each running V times."
+  },
+  {
+   "id": "daa-005",
+   "sec": "cs",
+   "topic": "daa",
+   "sub": "backtracking",
+   "d": 1,
+   "q": "Which of the following problems is NOT typically solved by backtracking?",
+   "o": [
+    "N-queens problem",
+    "Graph colouring",
+    "Hamiltonian cycle",
+    "Huffman coding"
+   ],
+   "a": 3,
+   "e": "Huffman coding is built greedily by repeatedly merging the two least frequent nodes. N-queens, graph colouring and Hamiltonian cycle are solved by extending partial solutions and backtracking when they fail."
+  },
+  {
+   "id": "daa-006",
+   "sec": "cs",
+   "topic": "daa",
+   "sub": "P and NP",
+   "d": 1,
+   "q": "Consider the following statements.\nI. Every problem in P is also in NP.\nII. Every problem in NP is NP-complete.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "A problem solvable in polynomial time is certainly verifiable in polynomial time, so P ⊆ NP. NP also contains easy problems such as sorting, which are not NP-complete."
+  },
+  {
+   "id": "daa-007",
+   "sec": "cs",
+   "topic": "daa",
+   "sub": "dynamic programming",
+   "d": 1,
+   "q": "The dynamic programming solution for the longest common subsequence of strings of lengths m and n takes time",
+   "o": [
+    "O(m + n)",
+    "O(mn)",
+    "O(max(m, n))",
+    "O(2^m)"
+   ],
+   "a": 1,
+   "e": "The table has (m + 1)(n + 1) entries and each is filled in constant time from three neighbours."
+  },
+  {
+   "id": "daa-008",
+   "sec": "cs",
+   "topic": "daa",
+   "sub": "asymptotic notation",
+   "d": 1,
+   "q": "Let f(n) = 3n² + 5n + 7. Consider the following statements.\nI. f(n) = O(n).\nII. f(n) = Ω(n³).\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 3,
+   "e": "The dominant term is 3n², so f(n) = Θ(n²). It grows faster than n, so it is not O(n), and slower than n³, so it is not Ω(n³). Both statements are false."
+  },
+  {
+   "id": "daa-009",
+   "sec": "cs",
+   "topic": "daa",
+   "sub": "Dijkstra",
+   "d": 1,
+   "q": "Dijkstra's single-source shortest path algorithm can produce wrong results if the graph contains",
+   "o": [
+    "undirected edges",
+    "cycles of positive weight",
+    "edges of equal weight",
+    "edges with negative weights"
+   ],
+   "a": 3,
+   "e": "Once a vertex is extracted its distance is treated as final, which is valid only if no later path can be shorter. A negative edge can break this."
+  },
+  {
+   "id": "daa-010",
+   "sec": "cs",
+   "topic": "daa",
+   "sub": "divide and conquer",
+   "d": 1,
+   "q": "Which of the following is NOT a divide-and-conquer algorithm?",
+   "o": [
+    "Merge sort",
+    "Quick sort",
+    "Strassen's matrix multiplication",
+    "Kruskal's minimum spanning tree algorithm"
+   ],
+   "a": 3,
+   "e": "Kruskal's algorithm is greedy: it keeps adding the cheapest edge that creates no cycle. Merge sort, quick sort and Strassen's method split the problem into subproblems, solve them and combine the results."
+  },
+  {
+   "id": "daa-011",
+   "sec": "cs",
+   "topic": "daa",
+   "sub": "recurrences",
+   "d": 2,
+   "q": "Consider the following recurrences.\nI. T(n) = 4T(n/2) + n² solves to Θ(n² log n).\nII. T(n) = 4T(n/2) + n solves to Θ(n²).\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Here a = 4 and b = 2, so n^(log₂4) = n². In I, f(n) = n² matches it, giving Θ(n² log n). In II, f(n) = n grows more slowly, so the leaves dominate and T(n) = Θ(n²). Both are true."
+  },
+  {
+   "id": "daa-012",
+   "sec": "cs",
+   "topic": "daa",
+   "sub": "Huffman coding",
+   "d": 2,
+   "q": "Five symbols have frequencies 3, 5, 7, 10 and 15. The total weighted code length (sum of frequency × code length) in an optimal Huffman code is",
+   "o": [
+    "75",
+    "96",
+    "88",
+    "133"
+   ],
+   "a": 2,
+   "e": "Merges: 3+5=8, 7+8=15, 10+15=25, 15+25=40. The weighted length equals the sum of the merged weights: 8 + 15 + 25 + 40 = 88."
+  },
+  {
+   "id": "daa-013",
+   "sec": "cs",
+   "topic": "daa",
+   "sub": "fractional knapsack",
+   "d": 2,
+   "q": "A knapsack of capacity 40 is to be filled from four divisible items with (value, weight) = (60, 10), (100, 20), (120, 30) and (30, 5). The maximum total value is",
+   "o": [
+    "210",
+    "190",
+    "200",
+    "230"
+   ],
+   "a": 0,
+   "e": "Ratios are 6, 5, 4 and 6. Take (60, 10) and (30, 5), then (100, 20): weight 35 and value 190. The remaining 5 units of the last item add 120 × 5/30 = 20, giving 210."
+  },
+  {
+   "id": "daa-014",
+   "sec": "cs",
+   "topic": "daa",
+   "sub": "0/1 knapsack",
+   "d": 2,
+   "q": "A 0/1 knapsack has capacity 10 and items with (value, weight) = (10, 5), (40, 4), (30, 6) and (50, 3). The maximum value obtainable is",
+   "o": [
+    "80",
+    "100",
+    "130",
+    "90"
+   ],
+   "a": 3,
+   "e": "The best fit is the items worth 40 and 50, with total weight 7 and value 90. Adding any other item exceeds 10. The set worth 100 would weigh 12, which is infeasible."
+  },
+  {
+   "id": "daa-015",
+   "sec": "cs",
+   "topic": "daa",
+   "sub": "matrix chain multiplication",
+   "d": 2,
+   "q": "Matrices A (10 × 20), B (20 × 5) and C (5 × 30) are to be multiplied. The minimum number of scalar multiplications needed is",
+   "o": [
+    "9000",
+    "2500",
+    "4500",
+    "3000"
+   ],
+   "a": 1,
+   "e": "(AB)C costs 10·20·5 + 10·5·30 = 1000 + 1500 = 2500. A(BC) costs 20·5·30 + 10·20·30 = 3000 + 6000 = 9000."
+  },
+  {
+   "id": "daa-016",
+   "sec": "cs",
+   "topic": "daa",
+   "sub": "longest common subsequence",
+   "d": 2,
+   "q": "The length of a longest common subsequence of the strings BCDBCA and ABCBDAB is",
+   "o": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "a": 1,
+   "e": "One common subsequence of length 4 is BCBA (B-C-B-A appears in order in both strings). No common subsequence of length 5 exists, as the DP table confirms."
+  },
+  {
+   "id": "daa-017",
+   "sec": "cs",
+   "topic": "daa",
+   "sub": "articulation points",
+   "d": 3,
+   "q": "An undirected graph has vertices 0 to 7 and edges 0–1, 1–2, 2–0, 1–3, 3–4, 4–5, 5–3, 4–6 and 6–7. Its articulation points are",
+   "o": [
+    "1, 3, 4",
+    "3, 4, 6",
+    "1, 3, 4, 6, 7",
+    "1, 3, 4, 6"
+   ],
+   "a": 3,
+   "e": "Removing 1 cuts off {0, 2}, removing 3 cuts off {0, 1, 2}, removing 4 cuts off {6, 7}, and removing 6 cuts off 7. Vertices 0, 2 and 5 lie in triangles, and 7 is a leaf, so none of them is one."
+  },
+  {
+   "id": "daa-018",
+   "sec": "cs",
+   "topic": "daa",
+   "sub": "backtracking",
+   "d": 3,
+   "q": "How many subsets of the set {3, 5, 6, 7, 8, 10} have elements adding up to exactly 15?",
+   "o": [
+    "3",
+    "2",
+    "4",
+    "5"
+   ],
+   "a": 0,
+   "e": "The subsets are {5, 10}, {7, 8} and {3, 5, 7}. A subset containing 6 would need 9 from {3, 5, 7, 8, 10}, which is impossible, and {3, 5, 7} is the only 3-element case."
+  },
+  {
+   "id": "daa-019",
+   "sec": "cs",
+   "topic": "daa",
+   "sub": "Floyd–Warshall",
+   "d": 3,
+   "q": "A directed graph on vertices 1 to 4 has edges 1→2 (3), 1→4 (7), 2→1 (8), 2→3 (2), 3→1 (5), 3→4 (1) and 4→1 (2). In the Floyd–Warshall algorithm, after the iteration for k = 2 is complete (paths may use vertices 1 and 2 as intermediates), the entry d[2][4] is",
+   "o": [
+    "3",
+    "10",
+    "15",
+    "∞"
+   ],
+   "a": 2,
+   "e": "Before any better route is allowed, 2→4 can go only through 1: 2→1→4 = 8 + 7 = 15. The cheaper route 2→3→4 = 3 needs vertex 3 as intermediate and appears only at k = 3."
+  },
+  {
+   "id": "daa-020",
+   "sec": "cs",
+   "topic": "daa",
+   "sub": "recurrences",
+   "d": 3,
+   "q": "The recurrence T(n) = T(n/2) + T(n/4) + n, with T(1) = 1, has the solution",
+   "o": [
+    "Θ(n log n)",
+    "Θ(n²)",
+    "Θ(n)",
+    "Θ(log n)"
+   ],
+   "a": 2,
+   "e": "The master theorem does not apply. At each level of the recursion tree the total work shrinks by a factor of (1/2 + 1/4) = 3/4, so the sum is a geometric series bounded by 4n, which is Θ(n)."
+  }
+ ]
+}

@@ -1,0 +1,324 @@
+{
+  "questions": [
+    {
+      "id": "classification-001",
+      "sec": "reasoning",
+      "topic": "classification",
+      "sub": "fruit vs vegetable",
+      "d": 1,
+      "q": "Find the odd one out: Apple, Mango, Banana, Potato",
+      "o": [
+        "Potato",
+        "Apple",
+        "Mango",
+        "Banana"
+      ],
+      "a": 0,
+      "e": "Apple, mango and banana are fruits; potato is a vegetable."
+    },
+    {
+      "id": "classification-002",
+      "sec": "reasoning",
+      "topic": "classification",
+      "sub": "mammal vs bird",
+      "d": 1,
+      "q": "Find the odd one out: Tiger, Lion, Leopard, Eagle",
+      "o": [
+        "Lion",
+        "Eagle",
+        "Leopard",
+        "Tiger"
+      ],
+      "a": 1,
+      "e": "Tiger, lion and leopard are mammals (big cats); an eagle is a bird."
+    },
+    {
+      "id": "classification-003",
+      "sec": "reasoning",
+      "topic": "classification",
+      "sub": "prime vs composite",
+      "d": 1,
+      "q": "Find the odd one out: 3, 5, 7, 9",
+      "o": [
+        "5",
+        "9",
+        "3",
+        "7"
+      ],
+      "a": 1,
+      "e": "3, 5 and 7 are prime numbers; 9 = 3 × 3 is composite."
+    },
+    {
+      "id": "classification-004",
+      "sec": "reasoning",
+      "topic": "classification",
+      "sub": "perfect squares",
+      "d": 1,
+      "q": "Find the odd one out: 16, 25, 36, 15",
+      "o": [
+        "36",
+        "25",
+        "15",
+        "16"
+      ],
+      "a": 2,
+      "e": "16, 25 and 36 are perfect squares (4², 5², 6²); 15 is not."
+    },
+    {
+      "id": "classification-005",
+      "sec": "reasoning",
+      "topic": "classification",
+      "sub": "vowel vs consonant",
+      "d": 1,
+      "q": "Find the odd one out: A, E, K, O",
+      "o": [
+        "O",
+        "E",
+        "K",
+        "A"
+      ],
+      "a": 2,
+      "e": "A, E and O are vowels; K is a consonant."
+    },
+    {
+      "id": "classification-006",
+      "sec": "reasoning",
+      "topic": "classification",
+      "sub": "flower vs fruit",
+      "d": 1,
+      "q": "Find the odd one out: Rose, Lotus, Jasmine, Mango",
+      "o": [
+        "Rose",
+        "Mango",
+        "Lotus",
+        "Jasmine"
+      ],
+      "a": 1,
+      "e": "Rose, lotus and jasmine are flowers; mango is a fruit."
+    },
+    {
+      "id": "classification-007",
+      "sec": "reasoning",
+      "topic": "classification",
+      "sub": "2D vs 3D shapes",
+      "d": 1,
+      "q": "Find the odd one out: Square, Rectangle, Triangle, Cylinder",
+      "o": [
+        "Cylinder",
+        "Square",
+        "Rectangle",
+        "Triangle"
+      ],
+      "a": 0,
+      "e": "Square, rectangle and triangle are flat two-dimensional polygons; a cylinder is a three-dimensional solid."
+    },
+    {
+      "id": "classification-008",
+      "sec": "reasoning",
+      "topic": "classification",
+      "sub": "perfect cubes",
+      "d": 2,
+      "q": "Find the odd one out: 27, 64, 125, 144",
+      "o": [
+        "27",
+        "144",
+        "125",
+        "64"
+      ],
+      "a": 1,
+      "e": "27, 64 and 125 are perfect cubes (3³, 4³, 5³); 144 = 12² is not a cube."
+    },
+    {
+      "id": "classification-009",
+      "sec": "reasoning",
+      "topic": "classification",
+      "sub": "letter pair gap",
+      "d": 2,
+      "q": "Find the odd one out: AC, EG, IK, MP",
+      "o": [
+        "MP",
+        "EG",
+        "IK",
+        "AC"
+      ],
+      "a": 0,
+      "e": "In AC, EG and IK the second letter is two places after the first. In MP the gap is three places (M to P)."
+    },
+    {
+      "id": "classification-010",
+      "sec": "reasoning",
+      "topic": "classification",
+      "sub": "metal vs alloy",
+      "d": 2,
+      "q": "Find the odd one out: Iron, Copper, Silver, Bronze",
+      "o": [
+        "Copper",
+        "Iron",
+        "Silver",
+        "Bronze"
+      ],
+      "a": 3,
+      "e": "Iron, copper and silver are pure metals (elements). Bronze is an alloy of copper and tin."
+    },
+    {
+      "id": "classification-011",
+      "sec": "reasoning",
+      "topic": "classification",
+      "sub": "primes in larger numbers",
+      "d": 2,
+      "q": "Find the odd one out: 17, 23, 29, 33",
+      "o": [
+        "29",
+        "17",
+        "23",
+        "33"
+      ],
+      "a": 3,
+      "e": "17, 23 and 29 are primes; 33 = 3 × 11 is composite."
+    },
+    {
+      "id": "classification-012",
+      "sec": "reasoning",
+      "topic": "classification",
+      "sub": "input vs output device",
+      "d": 2,
+      "q": "Find the odd one out: Keyboard, Mouse, Scanner, Monitor",
+      "o": [
+        "Mouse",
+        "Keyboard",
+        "Scanner",
+        "Monitor"
+      ],
+      "a": 3,
+      "e": "Keyboard, mouse and scanner are input devices; a monitor is an output device."
+    },
+    {
+      "id": "classification-013",
+      "sec": "reasoning",
+      "topic": "classification",
+      "sub": "letter group pattern",
+      "d": 2,
+      "q": "Find the odd one out: BDF, HJL, NPR, TVY",
+      "o": [
+        "NPR",
+        "BDF",
+        "TVY",
+        "HJL"
+      ],
+      "a": 2,
+      "e": "In BDF, HJL and NPR each letter is two places after the one before. In TVY the gaps are 2 and 3, so it breaks the pattern."
+    },
+    {
+      "id": "classification-014",
+      "sec": "reasoning",
+      "topic": "classification",
+      "sub": "number pairs squares",
+      "d": 2,
+      "q": "Find the odd one out: 12–144, 9–81, 7–49, 8–60",
+      "o": [
+        "12–144",
+        "9–81",
+        "8–60",
+        "7–49"
+      ],
+      "a": 2,
+      "e": "In the other three the second number is the square of the first (12², 9², 7²). 8² = 64, not 60."
+    },
+    {
+      "id": "classification-015",
+      "sec": "reasoning",
+      "topic": "classification",
+      "sub": "language vs OS",
+      "d": 2,
+      "q": "Find the odd one out: Python, Java, C, Windows",
+      "o": [
+        "Java",
+        "C",
+        "Python",
+        "Windows"
+      ],
+      "a": 3,
+      "e": "Python, Java and C are programming languages; Windows is an operating system."
+    },
+    {
+      "id": "classification-016",
+      "sec": "reasoning",
+      "topic": "classification",
+      "sub": "translators",
+      "d": 3,
+      "q": "Find the odd one out: Compiler, Interpreter, Assembler, Debugger",
+      "o": [
+        "Assembler",
+        "Compiler",
+        "Debugger",
+        "Interpreter"
+      ],
+      "a": 2,
+      "e": "A compiler, an interpreter and an assembler all translate a program into machine-executable form. A debugger only helps find faults and does not translate."
+    },
+    {
+      "id": "classification-017",
+      "sec": "reasoning",
+      "topic": "classification",
+      "sub": "letter pairs sum",
+      "d": 3,
+      "q": "Find the odd one out: BY, DW, FU, HT",
+      "o": [
+        "DW",
+        "HT",
+        "FU",
+        "BY"
+      ],
+      "a": 1,
+      "e": "In BY, DW and FU the two letters have positions adding up to 27 (2+25, 4+23, 6+21), i.e. they are mirror letters. H and T add up to 8 + 20 = 28."
+    },
+    {
+      "id": "classification-018",
+      "sec": "reasoning",
+      "topic": "classification",
+      "sub": "n² + 1 family",
+      "d": 3,
+      "q": "Find the odd one out: 226, 257, 401, 210",
+      "o": [
+        "210",
+        "401",
+        "226",
+        "257"
+      ],
+      "a": 0,
+      "e": "226 = 15² + 1, 257 = 16² + 1 and 401 = 20² + 1: each is one more than a perfect square. 210 is not (14² = 196, 15² = 225)."
+    },
+    {
+      "id": "classification-019",
+      "sec": "reasoning",
+      "topic": "classification",
+      "sub": "number pairs n(n+1)",
+      "d": 3,
+      "q": "Find the odd one out: 6–42, 7–56, 8–72, 9–80",
+      "o": [
+        "9–80",
+        "7–56",
+        "6–42",
+        "8–72"
+      ],
+      "a": 0,
+      "e": "In the other three the second number is n × (n + 1): 6 × 7, 7 × 8, 8 × 9. For 9 it should be 9 × 10 = 90, not 80."
+    },
+    {
+      "id": "classification-020",
+      "sec": "reasoning",
+      "topic": "classification",
+      "sub": "string vs percussion",
+      "d": 3,
+      "q": "Find the odd one out: Sitar, Veena, Sarod, Tabla",
+      "o": [
+        "Sitar",
+        "Sarod",
+        "Veena",
+        "Tabla"
+      ],
+      "a": 3,
+      "e": "Sitar, veena and sarod are string instruments; the tabla is a percussion instrument (a pair of drums)."
+    }
+  ]
+}

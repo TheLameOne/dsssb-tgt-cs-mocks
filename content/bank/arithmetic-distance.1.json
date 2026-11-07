@@ -1,0 +1,324 @@
+{
+ "questions": [
+  {
+   "id": "distance-001",
+   "sec": "arithmetic",
+   "topic": "distance",
+   "sub": "unit conversion",
+   "d": 1,
+   "q": "A speed of 72 km/h is equal to",
+   "o": [
+    "25 m/s",
+    "15 m/s",
+    "20 m/s",
+    "18 m/s"
+   ],
+   "a": 2,
+   "e": "Multiply by 5/18: 72 × 5/18 = 20 m/s."
+  },
+  {
+   "id": "distance-002",
+   "sec": "arithmetic",
+   "topic": "distance",
+   "sub": "time",
+   "d": 1,
+   "q": "A car covers 150 km at a steady speed of 50 km/h. The time taken is",
+   "o": [
+    "2 hours",
+    "4 hours",
+    "3 hours",
+    "2.5 hours"
+   ],
+   "a": 2,
+   "e": "Time = distance / speed = 150 / 50 = 3 hours."
+  },
+  {
+   "id": "distance-003",
+   "sec": "arithmetic",
+   "topic": "distance",
+   "sub": "average speed equal distance",
+   "d": 1,
+   "q": "A man goes from his home to the office at 40 km/h and returns along the same road at 60 km/h. His average speed for the whole trip is",
+   "o": [
+    "48 km/h",
+    "50 km/h",
+    "45 km/h",
+    "52 km/h"
+   ],
+   "a": 0,
+   "e": "Average = 2ab/(a + b) = 2 × 40 × 60 / 100 = 48 km/h. The simple mean 50 is wrong for equal distances."
+  },
+  {
+   "id": "distance-004",
+   "sec": "arithmetic",
+   "topic": "distance",
+   "sub": "train and pole",
+   "d": 1,
+   "q": "A 120 m long train running at 54 km/h passes a signal pole in",
+   "o": [
+    "6 seconds",
+    "10 seconds",
+    "12 seconds",
+    "8 seconds"
+   ],
+   "a": 3,
+   "e": "54 km/h = 15 m/s, so time = 120 / 15 = 8 seconds."
+  },
+  {
+   "id": "distance-005",
+   "sec": "arithmetic",
+   "topic": "distance",
+   "sub": "train and platform",
+   "d": 1,
+   "q": "A 200 m long train crosses a 300 m long platform at a speed of 10 m/s. The time taken is",
+   "o": [
+    "30 seconds",
+    "50 seconds",
+    "20 seconds",
+    "40 seconds"
+   ],
+   "a": 1,
+   "e": "Distance covered = 200 + 300 = 500 m, so time = 500 / 10 = 50 seconds."
+  },
+  {
+   "id": "distance-006",
+   "sec": "arithmetic",
+   "topic": "distance",
+   "sub": "downstream speed",
+   "d": 1,
+   "q": "A boat goes 12 km/h in still water and the stream flows at 3 km/h. Its speed downstream is",
+   "o": [
+    "9 km/h",
+    "12 km/h",
+    "18 km/h",
+    "15 km/h"
+   ],
+   "a": 3,
+   "e": "Downstream speed = 12 + 3 = 15 km/h. Upstream it would be 9 km/h."
+  },
+  {
+   "id": "distance-007",
+   "sec": "arithmetic",
+   "topic": "distance",
+   "sub": "still water speed",
+   "d": 1,
+   "q": "A boat covers 18 km in one hour downstream and 10 km in one hour upstream. The speed of the boat in still water is",
+   "o": [
+    "8 km/h",
+    "14 km/h",
+    "4 km/h",
+    "28 km/h"
+   ],
+   "a": 1,
+   "e": "Still water speed = (18 + 10)/2 = 14 km/h. The stream is (18 − 10)/2 = 4 km/h."
+  },
+  {
+   "id": "distance-008",
+   "sec": "arithmetic",
+   "topic": "distance",
+   "sub": "race",
+   "d": 1,
+   "q": "In a 1000 m race, A beats B by 100 m. When A reaches the finish, B has run",
+   "o": [
+    "1100 m",
+    "100 m",
+    "900 m",
+    "800 m"
+   ],
+   "a": 2,
+   "e": "A beats B by 100 m means B is 100 m behind the finish when A finishes, so B has run 900 m."
+  },
+  {
+   "id": "distance-009",
+   "sec": "arithmetic",
+   "topic": "distance",
+   "sub": "distance walked",
+   "d": 1,
+   "q": "A man walks at 5 km/h for 36 minutes. The distance he covers is",
+   "o": [
+    "3 km",
+    "1.8 km",
+    "5 km",
+    "30 km"
+   ],
+   "a": 0,
+   "e": "36 minutes = 0.6 hour, so distance = 5 × 0.6 = 3 km."
+  },
+  {
+   "id": "distance-010",
+   "sec": "arithmetic",
+   "topic": "distance",
+   "sub": "trains opposite",
+   "d": 2,
+   "q": "Two trains of lengths 150 m and 100 m run in opposite directions at 54 km/h and 36 km/h. They cross each other in",
+   "o": [
+    "12 seconds",
+    "10 seconds",
+    "20 seconds",
+    "25 seconds"
+   ],
+   "a": 1,
+   "e": "Relative speed = 90 km/h = 25 m/s and distance = 250 m, so time = 250 / 25 = 10 seconds."
+  },
+  {
+   "id": "distance-011",
+   "sec": "arithmetic",
+   "topic": "distance",
+   "sub": "trains same direction",
+   "d": 2,
+   "q": "A 120 m train at 72 km/h overtakes an 80 m train running in the same direction at 54 km/h. The time taken to pass completely is",
+   "o": [
+    "10 seconds",
+    "20 seconds",
+    "50 seconds",
+    "40 seconds"
+   ],
+   "a": 3,
+   "e": "Relative speed = 18 km/h = 5 m/s and distance = 200 m, so time = 200 / 5 = 40 seconds."
+  },
+  {
+   "id": "distance-012",
+   "sec": "arithmetic",
+   "topic": "distance",
+   "sub": "boat round trip",
+   "d": 2,
+   "q": "A boat goes 24 km upstream and returns 24 km downstream in 5 hours. Its speed in still water is 10 km/h. The speed of the stream is",
+   "o": [
+    "2 km/h",
+    "1 km/h",
+    "3 km/h",
+    "4 km/h"
+   ],
+   "a": 0,
+   "e": "24/(10 − s) + 24/(10 + s) = 5 gives 480 / (100 − s²) = 5, so s² = 4 and s = 2 km/h."
+  },
+  {
+   "id": "distance-013",
+   "sec": "arithmetic",
+   "topic": "distance",
+   "sub": "average speed unequal time",
+   "d": 2,
+   "q": "A cyclist rides 60 km at 30 km/h and the next 60 km at 60 km/h. The average speed for the whole journey is",
+   "o": [
+    "45 km/h",
+    "42 km/h",
+    "40 km/h",
+    "50 km/h"
+   ],
+   "a": 2,
+   "e": "Total time = 2 + 1 = 3 hours for 120 km, so average speed = 40 km/h. The simple mean 45 is wrong."
+  },
+  {
+   "id": "distance-014",
+   "sec": "arithmetic",
+   "topic": "distance",
+   "sub": "train and walking man",
+   "d": 2,
+   "q": "A 120 m long train passes a man walking at 6 km/h in the same direction in 12 seconds. The speed of the train is",
+   "o": [
+    "36 km/h",
+    "48 km/h",
+    "42 km/h",
+    "40 km/h"
+   ],
+   "a": 2,
+   "e": "Relative speed = 120/12 = 10 m/s = 36 km/h. Train speed = 36 + 6 = 42 km/h."
+  },
+  {
+   "id": "distance-015",
+   "sec": "arithmetic",
+   "topic": "distance",
+   "sub": "late and early",
+   "d": 2,
+   "q": "A man reaches his destination 10 minutes late at 40 km/h and 5 minutes early at 50 km/h. The distance is",
+   "o": [
+    "50 km",
+    "40 km",
+    "60 km",
+    "45 km"
+   ],
+   "a": 0,
+   "e": "The time difference is 15 min = ¼ hour, so d/40 − d/50 = ¼. This gives d/200 = ¼ and d = 50 km."
+  },
+  {
+   "id": "distance-016",
+   "sec": "arithmetic",
+   "topic": "distance",
+   "sub": "meeting different start",
+   "d": 2,
+   "q": "Town P and town Q are 280 km apart. A car leaves P at 8 am towards Q at 40 km/h, and another car leaves Q at 9 am towards P at 60 km/h. They meet at",
+   "o": [
+    "11:00 am",
+    "11:30 am",
+    "11:12 am",
+    "11:24 am"
+   ],
+   "a": 3,
+   "e": "By 9 am the first car has covered 40 km, leaving 240 km. They close at 100 km/h, so they meet 2.4 hours (2 h 24 min) after 9 am, at 11:24 am."
+  },
+  {
+   "id": "distance-017",
+   "sec": "arithmetic",
+   "topic": "distance",
+   "sub": "after meeting trains",
+   "d": 3,
+   "q": "Two trains start at the same time from stations X and Y towards each other. After meeting, the first takes 9 hours and the second takes 4 hours to reach the destinations. The ratio of the speeds of the first to the second is",
+   "o": [
+    "3 : 2",
+    "2 : 3",
+    "4 : 9",
+    "9 : 4"
+   ],
+   "a": 1,
+   "e": "Speed ratio = √(time taken by second : time taken by first) = √(4 : 9) = 2 : 3."
+  },
+  {
+   "id": "distance-018",
+   "sec": "arithmetic",
+   "topic": "distance",
+   "sub": "upstream thrice downstream",
+   "d": 3,
+   "q": "A boat takes three times as long to cover a distance upstream as downstream. If the stream flows at 4 km/h, the speed of the boat in still water is",
+   "o": [
+    "12 km/h",
+    "16 km/h",
+    "6 km/h",
+    "8 km/h"
+   ],
+   "a": 3,
+   "e": "Time ratio 3 : 1 means (b + 4) = 3(b − 4), so b + 4 = 3b − 12 and b = 8 km/h."
+  },
+  {
+   "id": "distance-019",
+   "sec": "arithmetic",
+   "topic": "distance",
+   "sub": "race by distance or time",
+   "d": 3,
+   "q": "In a 1000 m race, A beats B by 100 m or by 10 seconds. A's time for the race is",
+   "o": [
+    "100 seconds",
+    "90 seconds",
+    "80 seconds",
+    "110 seconds"
+   ],
+   "a": 1,
+   "e": "B covers 100 m in 10 s, so B's speed is 10 m/s and B takes 100 s. A takes 10 s less, which is 90 s."
+  },
+  {
+   "id": "distance-020",
+   "sec": "arithmetic",
+   "topic": "distance",
+   "sub": "platform length",
+   "d": 3,
+   "q": "A 150 m long train crosses a signal pole in 10 seconds and a platform in 25 seconds. The length of the platform is",
+   "o": [
+    "375 m",
+    "250 m",
+    "225 m",
+    "150 m"
+   ],
+   "a": 2,
+   "e": "Speed = 150/10 = 15 m/s. In 25 s it covers 375 m, which is train plus platform, so platform = 375 − 150 = 225 m."
+  }
+ ]
+}

@@ -1,0 +1,484 @@
+{
+ "questions": [
+  {
+   "id": "economics-001",
+   "sec": "cs",
+   "topic": "economics",
+   "sub": "law of demand",
+   "d": 1,
+   "q": "According to the law of demand, other things remaining equal, when the price of a commodity rises, its quantity demanded ______.",
+   "o": [
+    "falls",
+    "rises",
+    "remains unchanged",
+    "becomes infinite"
+   ],
+   "a": 0,
+   "e": "The law of demand states an inverse relation between price and quantity demanded, ceteris paribus, so the demand curve slopes downwards."
+  },
+  {
+   "id": "economics-002",
+   "sec": "cs",
+   "topic": "economics",
+   "sub": "law of supply",
+   "d": 1,
+   "q": "The law of supply states that there is a ______ relationship between price and quantity supplied, other things remaining the same.",
+   "o": [
+    "inverse",
+    "direct (positive)",
+    "zero",
+    "random"
+   ],
+   "a": 1,
+   "e": "Producers supply more at higher prices, so the supply curve slopes upward from left to right."
+  },
+  {
+   "id": "economics-003",
+   "sec": "cs",
+   "topic": "economics",
+   "sub": "Giffen goods",
+   "d": 1,
+   "q": "Consider the following statements about Giffen goods.\nI. A Giffen good is a luxury good.\nII. For a Giffen good, the substitution effect outweighs the negative income effect.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 3,
+   "e": "Neither is correct. A Giffen good is an inferior good, and its negative income effect outweighs the substitution effect, so demand rises with price."
+  },
+  {
+   "id": "economics-004",
+   "sec": "cs",
+   "topic": "economics",
+   "sub": "elasticity",
+   "d": 1,
+   "q": "The price elasticity of demand is defined as ______.",
+   "o": [
+    "change in price divided by change in income",
+    "percentage change in income divided by percentage change in quantity",
+    "change in supply divided by change in demand",
+    "percentage change in quantity demanded divided by percentage change in price"
+   ],
+   "a": 3,
+   "e": "Ed = (% change in quantity demanded) / (% change in price). It measures the responsiveness of demand to price."
+  },
+  {
+   "id": "economics-005",
+   "sec": "cs",
+   "topic": "economics",
+   "sub": "utility",
+   "d": 1,
+   "q": "The law of diminishing marginal utility states that as a consumer consumes more units of a commodity, the ______ from each additional unit falls.",
+   "o": [
+    "additional satisfaction",
+    "total price",
+    "total satisfaction always",
+    "total cost"
+   ],
+   "a": 0,
+   "e": "Marginal utility is the extra satisfaction from one more unit. It declines as consumption increases, though total utility keeps rising until MU becomes zero."
+  },
+  {
+   "id": "economics-006",
+   "sec": "cs",
+   "topic": "economics",
+   "sub": "production function",
+   "d": 1,
+   "q": "A production function shows the relationship between ______.",
+   "o": [
+    "price and quantity demanded",
+    "inputs used and the maximum output obtainable",
+    "income and consumption",
+    "money supply and prices"
+   ],
+   "a": 1,
+   "e": "A production function gives the maximum output produced from given quantities of inputs such as labour and capital, for a given technology."
+  },
+  {
+   "id": "economics-007",
+   "sec": "cs",
+   "topic": "economics",
+   "sub": "perfect competition",
+   "d": 1,
+   "q": "Which of the following is NOT a feature of a perfectly competitive market?",
+   "o": [
+    "Many buyers and sellers",
+    "Homogeneous product",
+    "Free entry and exit of firms",
+    "Highly differentiated products"
+   ],
+   "a": 3,
+   "e": "Products are homogeneous under perfect competition, not differentiated. The other three are standard features, and firms are price takers."
+  },
+  {
+   "id": "economics-008",
+   "sec": "cs",
+   "topic": "economics",
+   "sub": "monopoly",
+   "d": 1,
+   "q": "A market with a single seller of a product that has no close substitutes is called ______.",
+   "o": [
+    "oligopoly",
+    "duopoly",
+    "perfect competition",
+    "monopoly"
+   ],
+   "a": 3,
+   "e": "Monopoly means one seller with barriers to entry, so the seller has price-making power."
+  },
+  {
+   "id": "economics-009",
+   "sec": "cs",
+   "topic": "economics",
+   "sub": "GDP",
+   "d": 1,
+   "q": "Consider the following statements about Gross Domestic Product (GDP).\nI. GDP includes the value of intermediate goods.\nII. GDP measures the value of output produced by a country's citizens anywhere in the world.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 3,
+   "e": "Neither is correct. GDP counts only final goods and services, to avoid double counting, and covers output within the country's territory."
+  },
+  {
+   "id": "economics-010",
+   "sec": "cs",
+   "topic": "economics",
+   "sub": "inflation",
+   "d": 1,
+   "q": "A sustained rise in the general price level in an economy is called ______.",
+   "o": [
+    "deflation",
+    "inflation",
+    "stagflation",
+    "recession"
+   ],
+   "a": 1,
+   "e": "Inflation is a persistent increase in the general price level, which reduces the purchasing power of money."
+  },
+  {
+   "id": "economics-011",
+   "sec": "cs",
+   "topic": "economics",
+   "sub": "CRR",
+   "d": 1,
+   "q": "Regarding the Cash Reserve Ratio (CRR), consider the following.\nI. Banks hold their CRR as government securities in their own vaults.\nII. Banks hold their CRR as cash balances with the RBI.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "Only II is correct. CRR is kept as cash with the RBI. Holding liquid assets such as government securities with the bank itself is the SLR."
+  },
+  {
+   "id": "economics-012",
+   "sec": "cs",
+   "topic": "economics",
+   "sub": "repo rate",
+   "d": 1,
+   "q": "The rate at which the Reserve Bank of India lends short-term funds to commercial banks against government securities is called the ______.",
+   "o": [
+    "reverse repo rate",
+    "bank rate on deposits",
+    "prime lending rate",
+    "repo rate"
+   ],
+   "a": 3,
+   "e": "In a repo (repurchase) agreement banks sell securities to the RBI and agree to repurchase them later. The repo rate is the interest charged for this borrowing."
+  },
+  {
+   "id": "economics-013",
+   "sec": "cs",
+   "topic": "economics",
+   "sub": "fiscal policy",
+   "d": 1,
+   "q": "Fiscal policy of a government deals with ______.",
+   "o": [
+    "taxation and public expenditure",
+    "the interest rate set by the central bank",
+    "foreign exchange reserves only",
+    "the issue of currency notes"
+   ],
+   "a": 0,
+   "e": "Fiscal policy uses taxes, public spending and borrowing to influence the economy. Monetary policy, by the central bank, controls money supply and interest rates."
+  },
+  {
+   "id": "economics-014",
+   "sec": "cs",
+   "topic": "economics",
+   "sub": "banking functions",
+   "d": 1,
+   "q": "Which of the following is NOT a function of the Reserve Bank of India?",
+   "o": [
+    "Acting as banker to the government",
+    "Acting as banker to commercial banks",
+    "Regulating money supply and credit in the economy",
+    "Accepting deposits from the general public to lend to businesses"
+   ],
+   "a": 3,
+   "e": "Accepting public deposits and lending them to businesses is the primary function of commercial banks. The RBI is the banker to the government and to banks, and regulates money and credit."
+  },
+  {
+   "id": "economics-015",
+   "sec": "cs",
+   "topic": "economics",
+   "sub": "elasticity calculation",
+   "d": 2,
+   "q": "When the price of a good falls from ₹10 to ₹8, its quantity demanded rises from 100 to 120 units. Using the percentage method on the original values, the price elasticity of demand (in magnitude) is ______.",
+   "o": [
+    "0.5",
+    "1.5",
+    "1",
+    "2"
+   ],
+   "a": 2,
+   "e": "Percentage change in quantity = 20/100 = 20%. Percentage change in price = 2/10 = 20%. So the elasticity is 20/20 = 1 (unit elastic)."
+  },
+  {
+   "id": "economics-016",
+   "sec": "cs",
+   "topic": "economics",
+   "sub": "perfectly inelastic",
+   "d": 2,
+   "q": "Consider the following statements about perfectly inelastic demand.\nI. The price elasticity of demand is zero.\nII. The demand curve is a horizontal straight line.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "Only I is correct. Quantity does not change when price changes, so elasticity is 0 and the demand curve is vertical, not horizontal."
+  },
+  {
+   "id": "economics-017",
+   "sec": "cs",
+   "topic": "economics",
+   "sub": "returns to scale",
+   "d": 2,
+   "q": "If all inputs are doubled and output more than doubles, the production function shows ______.",
+   "o": [
+    "increasing returns to scale",
+    "constant returns to scale",
+    "decreasing returns to scale",
+    "diminishing marginal returns"
+   ],
+   "a": 0,
+   "e": "Output rising by a bigger proportion than the inputs is increasing returns to scale. Diminishing marginal returns concern a single variable input."
+  },
+  {
+   "id": "economics-018",
+   "sec": "cs",
+   "topic": "economics",
+   "sub": "cost curves",
+   "d": 2,
+   "q": "Consider the following statements about cost curves.\nI. The marginal cost curve cuts the average cost curve at the minimum point of the average cost curve.\nII. When marginal cost is below average cost, average cost falls.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Both are true. AC falls while MC is below it, rises when MC is above it, and so MC meets AC at the minimum of AC."
+  },
+  {
+   "id": "economics-019",
+   "sec": "cs",
+   "topic": "economics",
+   "sub": "national income",
+   "d": 2,
+   "q": "If GNP at market price is ₹500 crore and depreciation (consumption of fixed capital) is ₹40 crore, then NNP at market price is ______.",
+   "o": [
+    "₹540 crore",
+    "₹500 crore",
+    "₹460 crore",
+    "₹420 crore"
+   ],
+   "a": 2,
+   "e": "NNP = GNP − depreciation = 500 − 40 = 460 crore."
+  },
+  {
+   "id": "economics-020",
+   "sec": "cs",
+   "topic": "economics",
+   "sub": "SLR",
+   "d": 2,
+   "q": "The Statutory Liquidity Ratio (SLR) requires banks to maintain a minimum percentage of their NDTL in ______.",
+   "o": [
+    "cash with the RBI only",
+    "foreign currency deposits",
+    "fixed assets such as buildings",
+    "liquid assets such as cash, gold and approved securities, held by the bank itself"
+   ],
+   "a": 3,
+   "e": "SLR is held by the bank in liquid assets, including government securities, whereas CRR is held as cash with the RBI."
+  },
+  {
+   "id": "economics-021",
+   "sec": "cs",
+   "topic": "economics",
+   "sub": "reverse repo",
+   "d": 2,
+   "q": "The rate at which the central bank borrows surplus funds from commercial banks is called the ______ rate.",
+   "o": [
+    "reverse repo",
+    "repo",
+    "bank",
+    "call money"
+   ],
+   "a": 0,
+   "e": "In a reverse repo the RBI sells securities and borrows money from banks. A higher reverse repo rate draws liquidity out of the banking system."
+  },
+  {
+   "id": "economics-022",
+   "sec": "cs",
+   "topic": "economics",
+   "sub": "oligopoly",
+   "d": 2,
+   "q": "A market with a few large firms whose decisions are interdependent is called an ______.",
+   "o": [
+    "oligopsony",
+    "oligopoly",
+    "monopsony",
+    "perfect market"
+   ],
+   "a": 1,
+   "e": "In an oligopoly, each firm must consider rivals' reactions. The kinked demand curve model explains price rigidity here. Oligopsony is a market with few buyers."
+  },
+  {
+   "id": "economics-023",
+   "sec": "cs",
+   "topic": "economics",
+   "sub": "monopolistic competition",
+   "d": 2,
+   "q": "Which feature is characteristic of monopolistic competition?",
+   "o": [
+    "A single seller of a unique product",
+    "A few sellers of identical products",
+    "Many sellers selling differentiated products",
+    "Many sellers of a homogeneous product"
+   ],
+   "a": 2,
+   "e": "Monopolistic competition has many firms, free entry and product differentiation (branding), giving each firm some control over its price."
+  },
+  {
+   "id": "economics-024",
+   "sec": "cs",
+   "topic": "economics",
+   "sub": "money supply",
+   "d": 2,
+   "q": "In the Indian money supply measures, M1 comprises currency with the public, demand deposits with banks and ______.",
+   "o": [
+    "time deposits with banks",
+    "post office savings deposits",
+    "all deposits of banks",
+    "other deposits with the RBI"
+   ],
+   "a": 3,
+   "e": "M1 = currency with the public + demand deposits with banks + other deposits with the RBI. Adding time deposits to M1 yields broader measures like M3."
+  },
+  {
+   "id": "economics-025",
+   "sec": "cs",
+   "topic": "economics",
+   "sub": "money multiplier",
+   "d": 2,
+   "q": "If banks must keep a cash reserve ratio of 10% and keep no excess reserves, the simple deposit (money) multiplier is ______.",
+   "o": [
+    "10",
+    "0.1",
+    "9",
+    "90"
+   ],
+   "a": 0,
+   "e": "The multiplier is 1/reserve ratio = 1/0.10 = 10. A fresh deposit of ₹100 can support up to ₹1,000 of total deposits."
+  },
+  {
+   "id": "economics-026",
+   "sec": "cs",
+   "topic": "economics",
+   "sub": "income elasticity",
+   "d": 3,
+   "q": "A consumer's income rises from ₹20,000 to ₹24,000 per month and the quantity of a good bought rises from 50 to 65 units. By the percentage method, the income elasticity of demand is ______.",
+   "o": [
+    "0.67",
+    "1.5",
+    "0.75",
+    "3"
+   ],
+   "a": 1,
+   "e": "Percentage change in quantity = 15/50 = 30%. Percentage change in income = 4,000/20,000 = 20%. Elasticity = 30/20 = 1.5, so the good is a normal luxury-type good (elasticity > 1)."
+  },
+  {
+   "id": "economics-027",
+   "sec": "cs",
+   "topic": "economics",
+   "sub": "marginal product",
+   "d": 3,
+   "q": "Total product for 1 to 5 workers is 10, 24, 36, 44 and 48 units. The law of diminishing marginal returns begins to operate from the ______.",
+   "o": [
+    "second worker",
+    "fourth worker",
+    "third worker",
+    "fifth worker"
+   ],
+   "a": 2,
+   "e": "Marginal products are 10, 14, 12, 8, 4. MP is highest for the second worker and falls from the third worker onwards."
+  },
+  {
+   "id": "economics-028",
+   "sec": "cs",
+   "topic": "economics",
+   "sub": "NNP at factor cost",
+   "d": 3,
+   "q": "GDP at market price = ₹1,000 crore, net factor income from abroad = −₹30 crore, depreciation = ₹80 crore, indirect taxes = ₹100 crore and subsidies = ₹20 crore. NNP at factor cost (national income) is ______.",
+   "o": [
+    "₹890 crore",
+    "₹790 crore",
+    "₹830 crore",
+    "₹810 crore"
+   ],
+   "a": 3,
+   "e": "GNP at MP = 1000 − 30 = 970. NNP at MP = 970 − 80 = 890. NNP at factor cost = 890 − (100 − 20) = 810 crore."
+  },
+  {
+   "id": "economics-029",
+   "sec": "cs",
+   "topic": "economics",
+   "sub": "average cost",
+   "d": 3,
+   "q": "A firm's total cost is TC = 100 + 5Q + Q². Its average cost is minimum at an output of ______ units.",
+   "o": [
+    "10",
+    "5",
+    "20",
+    "25"
+   ],
+   "a": 0,
+   "e": "AC = 100/Q + 5 + Q. Setting dAC/dQ = −100/Q² + 1 = 0 gives Q = 10. Check: MC = 5 + 2Q = 25 equals AC = 10 + 5 + 10 = 25."
+  },
+  {
+   "id": "economics-030",
+   "sec": "cs",
+   "topic": "economics",
+   "sub": "monopoly pricing",
+   "d": 3,
+   "q": "A monopolist faces demand P = 50 − 2Q and has a constant marginal cost of ₹10. The profit-maximising price is ______.",
+   "o": [
+    "₹10",
+    "₹30",
+    "₹20",
+    "₹40"
+   ],
+   "a": 1,
+   "e": "Total revenue = 50Q − 2Q², so MR = 50 − 4Q. Setting MR = MC gives 50 − 4Q = 10, so Q = 10. The price is P = 50 − 2 × 10 = 30."
+  }
+ ]
+}

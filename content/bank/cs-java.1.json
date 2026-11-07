@@ -1,0 +1,504 @@
+{
+ "questions": [
+  {
+   "id": "java-001",
+   "sec": "cs",
+   "topic": "java",
+   "sub": "JVM and bytecode",
+   "d": 1,
+   "q": "The Java compiler `javac` translates source code into ______, which is executed by the JVM.",
+   "o": [
+    "machine code of the host CPU",
+    "bytecode",
+    "assembly language",
+    "MSIL"
+   ],
+   "a": 1,
+   "e": "javac produces platform-independent bytecode (.class files). The JVM interprets or JIT-compiles it for the host machine. MSIL belongs to .NET."
+  },
+  {
+   "id": "java-002",
+   "sec": "cs",
+   "topic": "java",
+   "sub": "JDK JRE JVM",
+   "d": 1,
+   "q": "Which of the following contains the compiler `javac` along with the tools needed to develop Java programs?",
+   "o": [
+    "JRE",
+    "JVM",
+    "JDK",
+    "JIT"
+   ],
+   "a": 2,
+   "e": "The JDK (Java Development Kit) bundles the compiler, debugger and other tools together with the JRE. The JRE alone only runs programs."
+  },
+  {
+   "id": "java-003",
+   "sec": "cs",
+   "topic": "java",
+   "sub": "default values",
+   "d": 1,
+   "q": "Consider the following statements about default values in Java.\nI. The default value of an instance variable of type `boolean` is `true`.\nII. The default value of an instance variable of a reference type is an empty string.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 3,
+   "e": "Neither is correct. A boolean instance variable defaults to false, and a reference defaults to null."
+  },
+  {
+   "id": "java-004",
+   "sec": "cs",
+   "topic": "java",
+   "sub": "final keyword",
+   "d": 1,
+   "q": "Consider the following statements about the `final` keyword in Java.\nI. A `final` class can be extended by a subclass.\nII. A `final` method cannot be overridden in a subclass.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "Only II is correct. A final method cannot be overridden. A final class cannot be extended at all."
+  },
+  {
+   "id": "java-005",
+   "sec": "cs",
+   "topic": "java",
+   "sub": "applet life cycle",
+   "d": 1,
+   "q": "Which method is called first in the life cycle of a Java applet?",
+   "o": [
+    "start()",
+    "paint()",
+    "init()",
+    "destroy()"
+   ],
+   "a": 2,
+   "e": "The order is init(), start(), paint(), then stop() and destroy() at the end. init() runs once when the applet is loaded."
+  },
+  {
+   "id": "java-006",
+   "sec": "cs",
+   "topic": "java",
+   "sub": "data types",
+   "d": 1,
+   "q": "Which of the following is NOT a primitive data type in Java?",
+   "o": [
+    "boolean",
+    "char",
+    "double",
+    "String"
+   ],
+   "a": 3,
+   "e": "String is a class in java.lang. The eight primitives are byte, short, int, long, float, double, char and boolean."
+  },
+  {
+   "id": "java-007",
+   "sec": "cs",
+   "topic": "java",
+   "sub": "interfaces",
+   "d": 1,
+   "q": "Java supports a form of multiple inheritance through ______.",
+   "o": [
+    "abstract methods only",
+    "interfaces",
+    "final classes",
+    "static blocks"
+   ],
+   "a": 1,
+   "e": "A class can extend only one class but may implement any number of interfaces, which gives Java multiple inheritance of type."
+  },
+  {
+   "id": "java-008",
+   "sec": "cs",
+   "topic": "java",
+   "sub": "servlet life cycle",
+   "d": 1,
+   "q": "Consider the following statements about the servlet life cycle.\nI. The `init()` method is called only once, when the servlet is first created.\nII. The `destroy()` method is called only once, before the servlet is removed.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Both are true. init() and destroy() are called once each, whereas service() is called for every request."
+  },
+  {
+   "id": "java-009",
+   "sec": "cs",
+   "topic": "java",
+   "sub": "JDBC",
+   "d": 1,
+   "q": "What is the full form of JDBC?",
+   "o": [
+    "Java Data Bridge Connector",
+    "Java Database Connectivity",
+    "Java Dynamic Binding Class",
+    "Joint Database Connection"
+   ],
+   "a": 1,
+   "e": "JDBC stands for Java Database Connectivity, the API used to connect Java programs to relational databases."
+  },
+  {
+   "id": "java-010",
+   "sec": "cs",
+   "topic": "java",
+   "sub": "thread states",
+   "d": 1,
+   "q": "A thread that has been created with `new Thread()` but on which `start()` has not yet been called is in the ______ state.",
+   "o": [
+    "Runnable",
+    "New",
+    "Blocked",
+    "Terminated"
+   ],
+   "a": 1,
+   "e": "A freshly created thread is in the NEW state. It becomes RUNNABLE only after start() is called."
+  },
+  {
+   "id": "java-011",
+   "sec": "cs",
+   "topic": "java",
+   "sub": "AWT and Swing",
+   "d": 1,
+   "q": "Consider the following statements.\nI. AWT components are heavyweight because they depend on native peer components.\nII. Swing components are lightweight and are written in pure Java.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "AWT uses the operating system's native peers, so its components are heavyweight. Swing draws its own components in Java, so they are lightweight."
+  },
+  {
+   "id": "java-012",
+   "sec": "cs",
+   "topic": "java",
+   "sub": "packages",
+   "d": 1,
+   "q": "Which package is imported automatically into every Java program without an explicit import statement?",
+   "o": [
+    "java.util",
+    "java.io",
+    "java.lang",
+    "java.awt"
+   ],
+   "a": 2,
+   "e": "java.lang, which holds Object, String, System and the wrapper classes, is implicitly imported into every source file."
+  },
+  {
+   "id": "java-013",
+   "sec": "cs",
+   "topic": "java",
+   "sub": "string concatenation",
+   "d": 1,
+   "q": "What is the output of the following statement?\n`System.out.println(1 + 2 + \"A\" + 1 + 2);`",
+   "o": [
+    "12A12",
+    "3A3",
+    "3A12",
+    "12A3"
+   ],
+   "a": 2,
+   "e": "Evaluation is left to right: 1 + 2 is 3 (int addition), then \"A\" makes the result a String, and the later 1 and 2 are appended as text, giving 3A12."
+  },
+  {
+   "id": "java-014",
+   "sec": "cs",
+   "topic": "java",
+   "sub": "Object class",
+   "d": 1,
+   "q": "Which class is the root of the class hierarchy in Java, i.e. every class is directly or indirectly its subclass?",
+   "o": [
+    "Class",
+    "System",
+    "Object",
+    "Number"
+   ],
+   "a": 2,
+   "e": "java.lang.Object is the superclass of all Java classes, so methods like toString() and equals() are available everywhere."
+  },
+  {
+   "id": "java-015",
+   "sec": "cs",
+   "topic": "java",
+   "sub": "octal and hex literals",
+   "d": 2,
+   "q": "What is the output of the following code?",
+   "code": "public class Test {\n    public static void main(String[] args) {\n        System.out.println(010 + 0x10);\n    }\n}",
+   "lang": "java",
+   "o": [
+    "20",
+    "24",
+    "26",
+    "1010"
+   ],
+   "a": 1,
+   "e": "A leading 0 makes 010 an octal literal (value 8), and 0x10 is hexadecimal (value 16). The sum is 24."
+  },
+  {
+   "id": "java-016",
+   "sec": "cs",
+   "topic": "java",
+   "sub": "integer division and operators",
+   "d": 2,
+   "q": "What is the output of the following code?",
+   "code": "public class Test {\n    public static void main(String[] args) {\n        System.out.println(7 / 2 + 7 % 2 * 2.0);\n    }\n}",
+   "lang": "java",
+   "o": [
+    "5.0",
+    "5.5",
+    "4.0",
+    "3.0"
+   ],
+   "a": 0,
+   "e": "7 / 2 is integer division giving 3. 7 % 2 is 1, and 1 * 2.0 is 2.0. Then 3 + 2.0 is 5.0 (a double)."
+  },
+  {
+   "id": "java-017",
+   "sec": "cs",
+   "topic": "java",
+   "sub": "identifiers",
+   "d": 2,
+   "q": "What is the output of the following code?",
+   "code": "public class Test {\n    public static void main(String[] args) {\n        int String = 5;\n        System.out.println(String);\n    }\n}",
+   "lang": "java",
+   "o": [
+    "Compilation error because String is a reserved word",
+    "5",
+    "String",
+    "Runtime exception"
+   ],
+   "a": 1,
+   "e": "String is a class name, not a keyword, so it is a legal identifier. The program compiles and prints 5."
+  },
+  {
+   "id": "java-018",
+   "sec": "cs",
+   "topic": "java",
+   "sub": "string immutability",
+   "d": 2,
+   "q": "What is the output of the following code?",
+   "code": "public class Test {\n    public static void main(String[] args) {\n        String s = \"abc\";\n        s.concat(\"d\");\n        s.toUpperCase();\n        System.out.println(s);\n    }\n}",
+   "lang": "java",
+   "o": [
+    "abcd",
+    "null",
+    "Compilation error",
+    "abc"
+   ],
+   "a": 3,
+   "e": "Strings are immutable. concat() and toUpperCase() return new strings, which are discarded here, so s still refers to \"abc\"."
+  },
+  {
+   "id": "java-019",
+   "sec": "cs",
+   "topic": "java",
+   "sub": "static members",
+   "d": 2,
+   "q": "What is the output of the following code?",
+   "code": "public class Test {\n    static int count;\n    int id;\n    Test() { count++; id = count; }\n    public static void main(String[] args) {\n        new Test();\n        new Test();\n        Test t = new Test();\n        System.out.println(t.id + \" \" + count);\n    }\n}",
+   "lang": "java",
+   "o": [
+    "1 3",
+    "3 1",
+    "3 3",
+    "1 1"
+   ],
+   "a": 2,
+   "e": "count is a static variable shared by all objects, so it reaches 3. The third object copies count (3) into its own id, so both values are 3."
+  },
+  {
+   "id": "java-020",
+   "sec": "cs",
+   "topic": "java",
+   "sub": "type casting",
+   "d": 2,
+   "q": "What value is printed by `System.out.println((byte) 200);`?",
+   "o": [
+    "200",
+    "-56",
+    "56",
+    "127"
+   ],
+   "a": 1,
+   "e": "A byte holds -128 to 127. Casting 200 keeps the low 8 bits (11001000), which is -56 in two's complement."
+  },
+  {
+   "id": "java-021",
+   "sec": "cs",
+   "topic": "java",
+   "sub": "JDBC drivers",
+   "d": 2,
+   "q": "Which type of JDBC driver is written entirely in Java and talks to the database directly over the network (the 'thin' driver)?",
+   "o": [
+    "Type 1",
+    "Type 2",
+    "Type 3",
+    "Type 4"
+   ],
+   "a": 3,
+   "e": "The Type 4 driver is a pure Java native-protocol driver. Type 1 is the JDBC-ODBC bridge, Type 2 uses native client libraries and Type 3 uses a middleware server."
+  },
+  {
+   "id": "java-022",
+   "sec": "cs",
+   "topic": "java",
+   "sub": "inheritance",
+   "d": 2,
+   "q": "Consider the following statements about Java.\nI. A class can implement more than one interface.\nII. A class can extend more than one class.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "Java allows a class to extend exactly one class but to implement many interfaces, so only statement I is correct."
+  },
+  {
+   "id": "java-023",
+   "sec": "cs",
+   "topic": "java",
+   "sub": "exceptions",
+   "d": 2,
+   "q": "Which of the following is NOT a checked exception in Java?",
+   "o": [
+    "IOException",
+    "SQLException",
+    "ClassNotFoundException",
+    "NullPointerException"
+   ],
+   "a": 3,
+   "e": "NullPointerException is a subclass of RuntimeException, so it is unchecked. IOException, SQLException and ClassNotFoundException must be caught or declared."
+  },
+  {
+   "id": "java-024",
+   "sec": "cs",
+   "topic": "java",
+   "sub": "collections",
+   "d": 2,
+   "q": "Which of the following collection classes does NOT allow duplicate elements?",
+   "o": [
+    "ArrayList",
+    "LinkedList",
+    "Vector",
+    "HashSet"
+   ],
+   "a": 3,
+   "e": "HashSet implements the Set interface, which stores unique elements only. The three List implementations allow duplicates."
+  },
+  {
+   "id": "java-025",
+   "sec": "cs",
+   "topic": "java",
+   "sub": "JSP",
+   "d": 2,
+   "q": "Which of the following is NOT an implicit object in a JSP page?",
+   "o": [
+    "request",
+    "session",
+    "out",
+    "cookie"
+   ],
+   "a": 3,
+   "e": "The implicit objects are request, response, out, session, application, config, pageContext, page and exception. Cookie is an ordinary class that must be created."
+  },
+  {
+   "id": "java-026",
+   "sec": "cs",
+   "topic": "java",
+   "sub": "try-finally return",
+   "d": 3,
+   "q": "What is the output of the following code?",
+   "code": "public class Test {\n    static int f() {\n        int x = 1;\n        try { return x; }\n        finally { x = 2; }\n    }\n    static int g() {\n        try { throw new RuntimeException(); }\n        catch (Exception e) { return 1; }\n        finally { return 2; }\n    }\n    public static void main(String[] args) {\n        System.out.println(f() + \" \" + g());\n    }\n}",
+   "lang": "java",
+   "o": [
+    "2 2",
+    "1 1",
+    "2 1",
+    "1 2"
+   ],
+   "a": 3,
+   "e": "In f(), the return value 1 is saved before finally runs, so changing x does not affect it. In g(), the return in finally overrides the earlier return, giving 2."
+  },
+  {
+   "id": "java-027",
+   "sec": "cs",
+   "topic": "java",
+   "sub": "field hiding and overriding",
+   "d": 3,
+   "q": "What is the output of the following code?",
+   "code": "class P {\n    String name = \"P\";\n    String get() { return \"Pget\"; }\n}\nclass C extends P {\n    String name = \"C\";\n    String get() { return \"Cget\"; }\n}\npublic class Test {\n    public static void main(String[] args) {\n        P p = new C();\n        System.out.println(p.name + \" \" + p.get());\n    }\n}",
+   "lang": "java",
+   "o": [
+    "C Cget",
+    "P Cget",
+    "P Pget",
+    "C Pget"
+   ],
+   "a": 1,
+   "e": "Methods are resolved by the runtime object (C), so get() returns \"Cget\". Fields are resolved by the reference type (P), so p.name is \"P\"."
+  },
+  {
+   "id": "java-028",
+   "sec": "cs",
+   "topic": "java",
+   "sub": "overload resolution",
+   "d": 3,
+   "q": "What is the output of the following code?",
+   "code": "public class Test {\n    static void m(long x)    { System.out.println(\"long\"); }\n    static void m(Integer x) { System.out.println(\"Integer\"); }\n    static void m(Object x)  { System.out.println(\"Object\"); }\n    public static void main(String[] args) {\n        m(5);\n    }\n}",
+   "lang": "java",
+   "o": [
+    "long",
+    "Integer",
+    "Object",
+    "Compilation error due to ambiguity"
+   ],
+   "a": 0,
+   "e": "Overload resolution tries widening primitive conversion (int to long) before boxing. So m(long) is chosen before m(Integer) or m(Object)."
+  },
+  {
+   "id": "java-029",
+   "sec": "cs",
+   "topic": "java",
+   "sub": "increment operators",
+   "d": 3,
+   "q": "What are the values printed by the following code?",
+   "code": "public class Test {\n    public static void main(String[] args) {\n        int i = 5;\n        int j = i++ + ++i;\n        System.out.println(j + \" \" + i);\n    }\n}",
+   "lang": "java",
+   "o": [
+    "10 6",
+    "11 7",
+    "12 7",
+    "12 6"
+   ],
+   "a": 2,
+   "e": "Java evaluates left to right. i++ gives 5 and makes i 6. ++i makes i 7 and gives 7. So j = 5 + 7 = 12 and i = 7."
+  },
+  {
+   "id": "java-030",
+   "sec": "cs",
+   "topic": "java",
+   "sub": "wrapper class caching",
+   "d": 3,
+   "q": "What is the output of the following code?",
+   "code": "public class Test {\n    public static void main(String[] args) {\n        Integer a = 127, b = 127, c = 128, d = 128;\n        System.out.println((a == b) + \" \" + (c == d));\n    }\n}",
+   "lang": "java",
+   "o": [
+    "true true",
+    "false false",
+    "false true",
+    "true false"
+   ],
+   "a": 3,
+   "e": "Autoboxing uses Integer.valueOf(), which caches objects for -128 to 127. So a and b are the same object, while 128 creates two separate objects, making c == d false."
+  }
+ ]
+}

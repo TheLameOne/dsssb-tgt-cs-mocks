@@ -1,0 +1,324 @@
+{
+ "questions": [
+  {
+   "id": "analogy-001",
+   "sec": "reasoning",
+   "topic": "analogy",
+   "sub": "home of animal",
+   "d": 1,
+   "q": "Bird : Nest :: Bee : ?",
+   "o": [
+    "Sty",
+    "Hive",
+    "Den",
+    "Kennel"
+   ],
+   "a": 1,
+   "e": "A bird lives in a nest; a bee lives in a hive. Den, kennel and sty are homes of other animals."
+  },
+  {
+   "id": "analogy-002",
+   "sec": "reasoning",
+   "topic": "analogy",
+   "sub": "sense organ",
+   "d": 1,
+   "q": "Eye : See :: Ear : ?",
+   "o": [
+    "Speak",
+    "Hear",
+    "Sound",
+    "Smell"
+   ],
+   "a": 1,
+   "e": "The eye is the organ used to see; the ear is the organ used to hear."
+  },
+  {
+   "id": "analogy-003",
+   "sec": "reasoning",
+   "topic": "analogy",
+   "sub": "tool and action",
+   "d": 1,
+   "q": "Pen : Write :: Knife : ?",
+   "o": [
+    "Steel",
+    "Sharp",
+    "Cut",
+    "Eat"
+   ],
+   "a": 2,
+   "e": "A pen is used to write; a knife is used to cut."
+  },
+  {
+   "id": "analogy-004",
+   "sec": "reasoning",
+   "topic": "analogy",
+   "sub": "letter shift +1",
+   "d": 1,
+   "q": "CAT : DBU :: DOG : ?",
+   "o": [
+    "EPG",
+    "FQI",
+    "EPH",
+    "DPH"
+   ],
+   "a": 2,
+   "e": "Each letter of CAT is moved one place forward (C→D, A→B, T→U). Applying this to DOG gives E, P, H."
+  },
+  {
+   "id": "analogy-005",
+   "sec": "reasoning",
+   "topic": "analogy",
+   "sub": "squares",
+   "d": 1,
+   "q": "6 : 36 :: 7 : ?",
+   "o": [
+    "49",
+    "50",
+    "35",
+    "45"
+   ],
+   "a": 0,
+   "e": "The second number is the square of the first: 6² = 36, so 7² = 49."
+  },
+  {
+   "id": "analogy-006",
+   "sec": "reasoning",
+   "topic": "analogy",
+   "sub": "antonym",
+   "d": 1,
+   "q": "Rich : Poor :: Victory : ?",
+   "o": [
+    "Win",
+    "Success",
+    "Triumph",
+    "Defeat"
+   ],
+   "a": 3,
+   "e": "Rich and poor are opposites. The opposite of victory is defeat; the other options mean the same as victory."
+  },
+  {
+   "id": "analogy-007",
+   "sec": "reasoning",
+   "topic": "analogy",
+   "sub": "letter pair +2",
+   "d": 1,
+   "q": "B : D :: F : ?",
+   "o": [
+    "H",
+    "G",
+    "I",
+    "J"
+   ],
+   "a": 0,
+   "e": "D is two places after B, so the letter two places after F is H."
+  },
+  {
+   "id": "analogy-008",
+   "sec": "reasoning",
+   "topic": "analogy",
+   "sub": "instrument and quantity",
+   "d": 2,
+   "q": "Thermometer : Temperature :: Barometer : ?",
+   "o": [
+    "Rainfall",
+    "Wind speed",
+    "Humidity",
+    "Atmospheric pressure"
+   ],
+   "a": 3,
+   "e": "A thermometer measures temperature; a barometer measures atmospheric pressure."
+  },
+  {
+   "id": "analogy-009",
+   "sec": "reasoning",
+   "topic": "analogy",
+   "sub": "part and whole",
+   "d": 2,
+   "q": "Stanza : Poem :: Scene : ?",
+   "o": [
+    "Letter",
+    "Play",
+    "Novel",
+    "Essay"
+   ],
+   "a": 1,
+   "e": "A stanza is a division of a poem; a scene is a division of a play."
+  },
+  {
+   "id": "analogy-010",
+   "sec": "reasoning",
+   "topic": "analogy",
+   "sub": "cubes",
+   "d": 2,
+   "q": "8 : 512 :: 6 : ?",
+   "o": [
+    "216",
+    "36",
+    "48",
+    "144"
+   ],
+   "a": 0,
+   "e": "The second number is the cube of the first: 8³ = 512, so 6³ = 216."
+  },
+  {
+   "id": "analogy-011",
+   "sec": "reasoning",
+   "topic": "analogy",
+   "sub": "n(n+1)",
+   "d": 2,
+   "q": "5 : 30 :: 8 : ?",
+   "o": [
+    "64",
+    "56",
+    "72",
+    "80"
+   ],
+   "a": 2,
+   "e": "The second number is n × (n + 1): 5 × 6 = 30, so 8 × 9 = 72."
+  },
+  {
+   "id": "analogy-012",
+   "sec": "reasoning",
+   "topic": "analogy",
+   "sub": "opposite letters",
+   "d": 2,
+   "q": "PEN : KVM :: CAP : ?",
+   "o": [
+    "ZXK",
+    "XYK",
+    "XZK",
+    "XZL"
+   ],
+   "a": 2,
+   "e": "Each letter is replaced by its opposite in the alphabet (P↔K, E↔V, N↔M; the two positions add up to 27). So C→X, A→Z, P→K gives XZK."
+  },
+  {
+   "id": "analogy-013",
+   "sec": "reasoning",
+   "topic": "analogy",
+   "sub": "alternating shift",
+   "d": 2,
+   "q": "FLOW : GKPV :: SAND : ?",
+   "o": [
+    "TZOC",
+    "TZOE",
+    "RBMC",
+    "TBOE"
+   ],
+   "a": 0,
+   "e": "The letters are moved +1, −1, +1, −1 in turn (F→G, L→K, O→P, W→V). For SAND: S→T, A→Z, N→O, D→C, giving TZOC."
+  },
+  {
+   "id": "analogy-014",
+   "sec": "reasoning",
+   "topic": "analogy",
+   "sub": "tool and user",
+   "d": 2,
+   "q": "Pen : Writer :: Brush : ?",
+   "o": [
+    "Singer",
+    "Painter",
+    "Judge",
+    "Pilot"
+   ],
+   "a": 1,
+   "e": "A writer uses a pen as a basic tool; a painter uses a brush."
+  },
+  {
+   "id": "analogy-015",
+   "sec": "reasoning",
+   "topic": "analogy",
+   "sub": "young one",
+   "d": 2,
+   "q": "Cow : Calf :: Mare : ?",
+   "o": [
+    "Lamb",
+    "Kid",
+    "Foal",
+    "Cub"
+   ],
+   "a": 2,
+   "e": "A calf is the young one of a cow; a foal is the young one of a mare. Kid, cub and lamb belong to goat, lion and sheep."
+  },
+  {
+   "id": "analogy-016",
+   "sec": "reasoning",
+   "topic": "analogy",
+   "sub": "progressive shift",
+   "d": 3,
+   "q": "RAIN : TDMS :: SNOW : ?",
+   "o": [
+    "UQSA",
+    "TQSB",
+    "UPRA",
+    "UQSB"
+   ],
+   "a": 3,
+   "e": "The shifts increase: +2, +3, +4, +5 (R→T, A→D, I→M, N→S). For SNOW: S+2 = U, N+3 = Q, O+4 = S, W+5 = 28, which wraps to B. So UQSB."
+  },
+  {
+   "id": "analogy-017",
+   "sec": "reasoning",
+   "topic": "analogy",
+   "sub": "n²+1",
+   "d": 3,
+   "q": "13 : 170 :: 15 : ?",
+   "o": [
+    "225",
+    "228",
+    "224",
+    "226"
+   ],
+   "a": 3,
+   "e": "Each number is mapped to its square plus one: 13² + 1 = 170, so 15² + 1 = 226."
+  },
+  {
+   "id": "analogy-018",
+   "sec": "reasoning",
+   "topic": "analogy",
+   "sub": "n³+1",
+   "d": 3,
+   "q": "9 : 730 :: 7 : ?",
+   "o": [
+    "344",
+    "340",
+    "336",
+    "343"
+   ],
+   "a": 0,
+   "e": "The second number is the cube of the first plus one: 9³ + 1 = 730, so 7³ + 1 = 344."
+  },
+  {
+   "id": "analogy-019",
+   "sec": "reasoning",
+   "topic": "analogy",
+   "sub": "cube root then square",
+   "d": 3,
+   "q": "27 : 9 :: 64 : ?",
+   "o": [
+    "8",
+    "21",
+    "4",
+    "16"
+   ],
+   "a": 3,
+   "e": "Take the cube root, then square it: ∛27 = 3 and 3² = 9. So ∛64 = 4 and 4² = 16."
+  },
+  {
+   "id": "analogy-020",
+   "sec": "reasoning",
+   "topic": "analogy",
+   "sub": "letter-value sum",
+   "d": 3,
+   "q": "BAD : 7 :: FED : ?  (A = 1, B = 2, ... Z = 26)",
+   "o": [
+    "14",
+    "15",
+    "120",
+    "16"
+   ],
+   "a": 1,
+   "e": "The number is the sum of the letter positions: B + A + D = 2 + 1 + 4 = 7. So F + E + D = 6 + 5 + 4 = 15."
+  }
+ ]
+}

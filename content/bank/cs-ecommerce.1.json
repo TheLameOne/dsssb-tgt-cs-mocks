@@ -1,0 +1,164 @@
+{
+ "questions": [
+  {
+   "id": "ecommerce-001",
+   "sec": "cs",
+   "topic": "ecommerce",
+   "sub": "EDI",
+   "d": 1,
+   "q": "What is the full form of EDI in electronic commerce?",
+   "o": [
+    "Electronic Data Interchange",
+    "Electronic Data Integration",
+    "Electronic Digital Interface",
+    "Electronic Document Index"
+   ],
+   "a": 0,
+   "e": "EDI is the computer-to-computer exchange of standard-format business documents, such as purchase orders and invoices, between trading partners."
+  },
+  {
+   "id": "ecommerce-002",
+   "sec": "cs",
+   "topic": "ecommerce",
+   "sub": "C2C",
+   "d": 1,
+   "q": "An online platform where individuals sell used goods directly to other individuals is an example of ______ e-commerce.",
+   "o": [
+    "B2B",
+    "C2C",
+    "B2C",
+    "G2B"
+   ],
+   "a": 1,
+   "e": "In consumer-to-consumer (C2C) commerce, consumers trade with each other, usually through a third-party marketplace or classified site."
+  },
+  {
+   "id": "ecommerce-003",
+   "sec": "cs",
+   "topic": "ecommerce",
+   "sub": "UPI",
+   "d": 1,
+   "q": "Which of the following statements about UPI is NOT correct?",
+   "o": [
+    "It works on top of IMPS",
+    "It allows instant real-time money transfer",
+    "It was developed by SEBI",
+    "It is operated by NPCI"
+   ],
+   "a": 2,
+   "e": "UPI was developed by the National Payments Corporation of India (NPCI), not by SEBI, which regulates the securities market."
+  },
+  {
+   "id": "ecommerce-004",
+   "sec": "cs",
+   "topic": "ecommerce",
+   "sub": "SET",
+   "d": 1,
+   "q": "SET, a protocol for secure card payments over the Internet, stands for ______.",
+   "o": [
+    "Secure Electronic Transfer",
+    "Safe Electronic Trade",
+    "Standard Encrypted Transaction",
+    "Secure Electronic Transaction"
+   ],
+   "a": 3,
+   "e": "SET was developed by Visa and MasterCard to protect credit card transactions on open networks."
+  },
+  {
+   "id": "ecommerce-005",
+   "sec": "cs",
+   "topic": "ecommerce",
+   "sub": "EDI standards",
+   "d": 2,
+   "q": "Which of the following is the international EDI standard maintained under the United Nations?",
+   "o": [
+    "UN/EDIFACT",
+    "ANSI X12",
+    "HL7",
+    "SWIFT MT"
+   ],
+   "a": 0,
+   "e": "UN/EDIFACT is the international EDI standard. ANSI X12 is the North American standard."
+  },
+  {
+   "id": "ecommerce-006",
+   "sec": "cs",
+   "topic": "ecommerce",
+   "sub": "security",
+   "d": 2,
+   "q": "Consider the following statements about digital certificates.\nI. A certificate issued by a Certifying Authority binds the owner's private key to the owner's identity.\nII. A certificate contains the owner's identity and public key, signed by the CA.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "Only II is correct. A certificate such as X.509 carries the owner's public key. The private key is never placed in a certificate and must stay secret."
+  },
+  {
+   "id": "ecommerce-007",
+   "sec": "cs",
+   "topic": "ecommerce",
+   "sub": "UPI statements",
+   "d": 2,
+   "q": "Consider the following statements about UPI.\nI. A payer can send money using a virtual payment address without revealing a bank account number.\nII. UPI transfers can be made only during bank working hours.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "UPI uses virtual payment addresses (VPAs) and works round the clock on all days, including holidays. So statement II is wrong."
+  },
+  {
+   "id": "ecommerce-008",
+   "sec": "cs",
+   "topic": "ecommerce",
+   "sub": "business models",
+   "d": 2,
+   "q": "A business model in which the firm earns a commission by bringing buyers and sellers together is called the ______ model.",
+   "o": [
+    "subscription",
+    "advertising",
+    "direct sales",
+    "brokerage"
+   ],
+   "a": 3,
+   "e": "Brokerage sites such as marketplaces and auction sites earn fees or commissions on transactions they enable. Subscription charges recurring fees for access."
+  },
+  {
+   "id": "ecommerce-009",
+   "sec": "cs",
+   "topic": "ecommerce",
+   "sub": "SET dual signature",
+   "d": 3,
+   "q": "In the SET protocol, the dual signature is used so that ______.",
+   "o": [
+    "the merchant sees the order but not the card details, and the bank sees the payment but not the order",
+    "the merchant can read the card number",
+    "two merchants can sign one order",
+    "the message is compressed before encryption"
+   ],
+   "a": 0,
+   "e": "The dual signature links order information and payment information through a combined hash. The merchant gets only the order details and the bank only the payment details."
+  },
+  {
+   "id": "ecommerce-010",
+   "sec": "cs",
+   "topic": "ecommerce",
+   "sub": "payment security",
+   "d": 3,
+   "q": "Consider the following statements about PCI DSS.\nI. It is a security standard for organisations that handle payment card data.\nII. It is a law enacted by the Parliament of India.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "PCI DSS is an industry standard from the Payment Card Industry Security Standards Council, founded by the major card brands. It is not an Indian law."
+  }
+ ]
+}

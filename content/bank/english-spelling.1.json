@@ -1,0 +1,324 @@
+{
+ "questions": [
+  {
+   "id": "spelling-001",
+   "sec": "english",
+   "topic": "spelling",
+   "sub": "correct word",
+   "d": 1,
+   "q": "Select the correctly spelt word meaning: a place to stay.",
+   "o": [
+    "Acommodation",
+    "Accomodation",
+    "Accommodation",
+    "Acomodation"
+   ],
+   "a": 2,
+   "e": "Accommodation has double c and double m."
+  },
+  {
+   "id": "spelling-002",
+   "sec": "english",
+   "topic": "spelling",
+   "sub": "correct word",
+   "d": 1,
+   "q": "Select the correctly spelt word meaning: needed.",
+   "o": [
+    "Neccessary",
+    "Necessary",
+    "Necesary",
+    "Nessessary"
+   ],
+   "a": 1,
+   "e": "Necessary has one c and two s's."
+  },
+  {
+   "id": "spelling-003",
+   "sec": "english",
+   "topic": "spelling",
+   "sub": "misspelt word",
+   "d": 1,
+   "q": "Which one of the following words is spelt incorrectly?",
+   "o": [
+    "Recieve",
+    "Separate",
+    "Definite",
+    "Believe"
+   ],
+   "a": 0,
+   "e": "The correct spelling is receive, by the rule i before e except after c."
+  },
+  {
+   "id": "spelling-004",
+   "sec": "english",
+   "topic": "spelling",
+   "sub": "correct word",
+   "d": 1,
+   "q": "Select the correctly spelt word meaning: the body that rules a country.",
+   "o": [
+    "Government",
+    "Goverment",
+    "Govenment",
+    "Governmant"
+   ],
+   "a": 0,
+   "e": "Government has an n after the first r, as in govern."
+  },
+  {
+   "id": "spelling-005",
+   "sec": "english",
+   "topic": "spelling",
+   "sub": "correct word",
+   "d": 1,
+   "q": "Select the correctly spelt word meaning: surroundings.",
+   "o": [
+    "Enviroment",
+    "Environmant",
+    "Envirenment",
+    "Environment"
+   ],
+   "a": 3,
+   "e": "Environment contains the n in -ron-, from environ."
+  },
+  {
+   "id": "spelling-006",
+   "sec": "english",
+   "topic": "spelling",
+   "sub": "misspelt word",
+   "d": 1,
+   "q": "Identify the incorrectly spelt word.",
+   "o": [
+    "Library",
+    "Calendar",
+    "Wendesday",
+    "February"
+   ],
+   "a": 2,
+   "e": "The correct spelling is Wednesday, with the d before the n."
+  },
+  {
+   "id": "spelling-007",
+   "sec": "english",
+   "topic": "spelling",
+   "sub": "in sentence",
+   "d": 1,
+   "q": "Select the sentence in which every word is correctly spelt.",
+   "o": [
+    "She gave a beautifull performance.",
+    "He is a very intelligent student.",
+    "The weather was extremly cold.",
+    "Our neighbour is very freindly."
+   ],
+   "a": 1,
+   "e": "The wrong forms should be beautiful, extremely and friendly."
+  },
+  {
+   "id": "spelling-008",
+   "sec": "english",
+   "topic": "spelling",
+   "sub": "correct word",
+   "d": 1,
+   "q": "Select the correctly spelt word meaning: a particular time or event.",
+   "o": [
+    "Occasion",
+    "Ocassion",
+    "Occassion",
+    "Occasoin"
+   ],
+   "a": 0,
+   "e": "Occasion has double c and a single s."
+  },
+  {
+   "id": "spelling-009",
+   "sec": "english",
+   "topic": "spelling",
+   "sub": "misspelt word",
+   "d": 1,
+   "q": "Find the word whose spelling is wrong.",
+   "o": [
+    "Embarrass",
+    "Occurrence",
+    "Tomorrow",
+    "Harrasment"
+   ],
+   "a": 3,
+   "e": "The correct spelling is harassment, with one r. Embarrass has double r."
+  },
+  {
+   "id": "spelling-010",
+   "sec": "english",
+   "topic": "spelling",
+   "sub": "correct word",
+   "d": 1,
+   "q": "Select the correctly spelt word meaning: achieving an aim.",
+   "o": [
+    "Succesful",
+    "Sucessful",
+    "Successfull",
+    "Successful"
+   ],
+   "a": 3,
+   "e": "Successful has double c, double s, and ends in a single l."
+  },
+  {
+   "id": "spelling-011",
+   "sec": "english",
+   "topic": "spelling",
+   "sub": "correct word",
+   "d": 2,
+   "q": "Select the correctly spelt word meaning: careful and diligent.",
+   "o": [
+    "Consciencious",
+    "Conscientous",
+    "Conscientious",
+    "Concientious"
+   ],
+   "a": 2,
+   "e": "Conscientious is spelt with -scientious, from conscience."
+  },
+  {
+   "id": "spelling-012",
+   "sec": "english",
+   "topic": "spelling",
+   "sub": "misspelt word",
+   "d": 2,
+   "q": "Which of these words is NOT correctly spelt?",
+   "o": [
+    "Privilege",
+    "Pronounciation",
+    "Maintenance",
+    "Surprise"
+   ],
+   "a": 1,
+   "e": "The correct spelling is pronunciation; the noun drops the o of pronounce."
+  },
+  {
+   "id": "spelling-013",
+   "sec": "english",
+   "topic": "spelling",
+   "sub": "correct word",
+   "d": 2,
+   "q": "Select the correctly spelt word meaning: a list of questions for a survey.",
+   "o": [
+    "Questionaire",
+    "Questionnare",
+    "Questionnaire",
+    "Quesionnaire"
+   ],
+   "a": 2,
+   "e": "Questionnaire has double n and ends in -aire."
+  },
+  {
+   "id": "spelling-014",
+   "sec": "english",
+   "topic": "spelling",
+   "sub": "in sentence",
+   "d": 2,
+   "q": "Choose the sentence that contains no spelling error.",
+   "o": [
+    "We must not neglect our responsibilty.",
+    "The judge showed no leniancy.",
+    "The resignation caused much embarassment.",
+    "The doctor prescribed medicine for his ailment."
+   ],
+   "a": 3,
+   "e": "The wrong forms should be responsibility, leniency and embarrassment."
+  },
+  {
+   "id": "spelling-015",
+   "sec": "english",
+   "topic": "spelling",
+   "sub": "misspelt word",
+   "d": 2,
+   "q": "Pick the word with a spelling error.",
+   "o": [
+    "Millennium",
+    "Rhythm",
+    "Fluorescent",
+    "Liason"
+   ],
+   "a": 3,
+   "e": "The correct spelling is liaison, with two i's."
+  },
+  {
+   "id": "spelling-016",
+   "sec": "english",
+   "topic": "spelling",
+   "sub": "correct word",
+   "d": 2,
+   "q": "Select the correctly spelt word meaning: to fail to fulfil hope.",
+   "o": [
+    "Dissappoint",
+    "Disapoint",
+    "Disappoint",
+    "Dissapoint"
+   ],
+   "a": 2,
+   "e": "Disappoint is dis- plus appoint, so one s and double p."
+  },
+  {
+   "id": "spelling-017",
+   "sec": "english",
+   "topic": "spelling",
+   "sub": "correct word",
+   "d": 3,
+   "q": "Select the correctly spelt word meaning: a peculiar habit.",
+   "o": [
+    "Idiosyncracy",
+    "Idiosyncrasy",
+    "Idiosyncrasey",
+    "Idiosincrasy"
+   ],
+   "a": 1,
+   "e": "Idiosyncrasy ends in -crasy, like many words from Greek."
+  },
+  {
+   "id": "spelling-018",
+   "sec": "english",
+   "topic": "spelling",
+   "sub": "misspelt word",
+   "d": 3,
+   "q": "Choose the wrongly spelt word.",
+   "o": [
+    "Supersede",
+    "Rendezvous",
+    "Perseverence",
+    "Mischievous"
+   ],
+   "a": 2,
+   "e": "The correct spelling is perseverance. Supersede is the only English word ending in -sede."
+  },
+  {
+   "id": "spelling-019",
+   "sec": "english",
+   "topic": "spelling",
+   "sub": "correct word",
+   "d": 3,
+   "q": "Select the correctly spelt word meaning: close watch over a suspect.",
+   "o": [
+    "Surveilance",
+    "Surveillence",
+    "Survielance",
+    "Surveillance"
+   ],
+   "a": 3,
+   "e": "Surveillance has double l and ends in -ance."
+  },
+  {
+   "id": "spelling-020",
+   "sec": "english",
+   "topic": "spelling",
+   "sub": "correct word",
+   "d": 3,
+   "q": "Select the correctly spelt word meaning: relating to medicinal drugs.",
+   "o": [
+    "Pharmacutical",
+    "Farmaceutical",
+    "Pharmaceutial",
+    "Pharmaceutical"
+   ],
+   "a": 3,
+   "e": "Pharmaceutical begins with ph and has -ceu- in the middle."
+  }
+ ]
+}

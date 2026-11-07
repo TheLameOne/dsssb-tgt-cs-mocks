@@ -1,0 +1,164 @@
+{
+ "questions": [
+  {
+   "id": "simplify-001",
+   "sec": "arithmetic",
+   "topic": "simplify",
+   "sub": "BODMAS",
+   "d": 1,
+   "q": "Simplify: 18 − 6 ÷ 3 × 2 + 4",
+   "o": [
+    "18",
+    "10",
+    "14",
+    "22"
+   ],
+   "a": 0,
+   "e": "Division and multiplication come first, from left to right: 6 ÷ 3 = 2, then 2 × 2 = 4. So 18 − 4 + 4 = 18."
+  },
+  {
+   "id": "simplify-002",
+   "sec": "arithmetic",
+   "topic": "simplify",
+   "sub": "fractions",
+   "d": 1,
+   "q": "Simplify: 3/4 + 5/6 − 1/3",
+   "o": [
+    "7/6",
+    "3/2",
+    "11/12",
+    "5/4"
+   ],
+   "a": 3,
+   "e": "Using denominator 12: 9/12 + 10/12 − 4/12 = 15/12 = 5/4."
+  },
+  {
+   "id": "simplify-003",
+   "sec": "arithmetic",
+   "topic": "simplify",
+   "sub": "recurring decimals",
+   "d": 1,
+   "q": "The recurring decimal 0.4545… (45 repeating) in simplest fraction form is:",
+   "o": [
+    "9/20",
+    "4/11",
+    "5/11",
+    "6/11"
+   ],
+   "a": 2,
+   "e": "Let x = 0.4545…, so 100x − x = 45 and x = 45/99 = 5/11."
+  },
+  {
+   "id": "simplify-004",
+   "sec": "arithmetic",
+   "topic": "simplify",
+   "sub": "surds",
+   "d": 2,
+   "q": "Simplify: √50 + √18 − √8",
+   "o": [
+    "7√2",
+    "6√2",
+    "5√2",
+    "4√2"
+   ],
+   "a": 1,
+   "e": "√50 = 5√2, √18 = 3√2 and √8 = 2√2, so the value is (5 + 3 − 2)√2 = 6√2."
+  },
+  {
+   "id": "simplify-005",
+   "sec": "arithmetic",
+   "topic": "simplify",
+   "sub": "mixed numbers",
+   "d": 2,
+   "q": "Simplify: 2 1/2 × 1 3/5 ÷ 4/5",
+   "o": [
+    "5",
+    "4",
+    "8",
+    "10"
+   ],
+   "a": 0,
+   "e": "2 1/2 = 5/2 and 1 3/5 = 8/5. So 5/2 × 8/5 = 4, and 4 ÷ 4/5 = 4 × 5/4 = 5."
+  },
+  {
+   "id": "simplify-006",
+   "sec": "arithmetic",
+   "topic": "simplify",
+   "sub": "surds",
+   "d": 2,
+   "q": "The value of 1/(√5 − 2) − 1/(√5 + 2) is:",
+   "o": [
+    "2",
+    "2√5",
+    "1",
+    "4"
+   ],
+   "a": 3,
+   "e": "Rationalising, 1/(√5 − 2) = √5 + 2 and 1/(√5 + 2) = √5 − 2, because (√5)² − 2² = 1. Their difference is (√5 + 2) − (√5 − 2) = 4."
+  },
+  {
+   "id": "simplify-007",
+   "sec": "arithmetic",
+   "topic": "simplify",
+   "sub": "recurring decimals",
+   "d": 2,
+   "q": "Simplify: 1.222… − 0.777… (the digits 2 and 7 repeat).",
+   "o": [
+    "5/9",
+    "1/2",
+    "4/9",
+    "2/3"
+   ],
+   "a": 2,
+   "e": "1.222… = 1 + 2/9 = 11/9 and 0.777… = 7/9. The difference is 4/9."
+  },
+  {
+   "id": "simplify-008",
+   "sec": "arithmetic",
+   "topic": "simplify",
+   "sub": "nested fractions",
+   "d": 3,
+   "q": "Simplify: 1 ÷ (1 + 1 ÷ (1 + 1 ÷ (1 + 1/2)))",
+   "o": [
+    "3/5",
+    "5/8",
+    "8/5",
+    "3/8"
+   ],
+   "a": 1,
+   "e": "Work from the inside: 1 + 1/2 = 3/2; 1 + 2/3 = 5/3; 1 + 3/5 = 8/5; and 1 ÷ 8/5 = 5/8."
+  },
+  {
+   "id": "simplify-009",
+   "sec": "arithmetic",
+   "topic": "simplify",
+   "sub": "long fraction expression",
+   "d": 3,
+   "q": "Simplify: [(3 1/2 ÷ 1 3/4) × 1/4 + 5/6] ÷ (7/8 − 3/8)",
+   "o": [
+    "8/3",
+    "4/3",
+    "16/3",
+    "3/8"
+   ],
+   "a": 0,
+   "e": "3 1/2 ÷ 1 3/4 = 7/2 × 4/7 = 2; then 2 × 1/4 + 5/6 = 1/2 + 5/6 = 4/3. The divisor is 7/8 − 3/8 = 1/2, so 4/3 ÷ 1/2 = 8/3."
+  },
+  {
+   "id": "simplify-010",
+   "sec": "arithmetic",
+   "topic": "simplify",
+   "sub": "telescoping series",
+   "d": 3,
+   "q": "The value of 1/(1×3) + 1/(3×5) + 1/(5×7) + … + 1/(19×21) is:",
+   "o": [
+    "9/19",
+    "19/21",
+    "20/21",
+    "10/21"
+   ],
+   "a": 3,
+   "e": "Each term 1/((2k−1)(2k+1)) = ½[1/(2k−1) − 1/(2k+1)], so the sum telescopes to ½(1 − 1/21) = ½ × 20/21 = 10/21."
+  }
+ ]
+}

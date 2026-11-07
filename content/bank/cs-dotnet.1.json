@@ -1,0 +1,324 @@
+{
+ "questions": [
+  {
+   "id": "dotnet-001",
+   "sec": "cs",
+   "topic": "dotnet",
+   "sub": "CLR",
+   "d": 1,
+   "q": "What is the full form of CLR in the .NET Framework?",
+   "o": [
+    "Common Language Runtime",
+    "Common Library Resource",
+    "Central Language Runtime",
+    "Common Linked Routine"
+   ],
+   "a": 0,
+   "e": "CLR is the Common Language Runtime, the execution engine of .NET that provides memory management, security and exception handling."
+  },
+  {
+   "id": "dotnet-002",
+   "sec": "cs",
+   "topic": "dotnet",
+   "sub": "MSIL",
+   "d": 1,
+   "q": "Consider the following statements about the .NET Framework.\nI. MSIL is specific to the CPU on which the program was compiled.\nII. The JIT compiler of the CLR converts MSIL into native machine code at run time.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "Only II is correct. MSIL (Microsoft Intermediate Language) is CPU-independent, and the JIT compiler converts it to native code for the current machine."
+  },
+  {
+   "id": "dotnet-003",
+   "sec": "cs",
+   "topic": "dotnet",
+   "sub": "JIT compiler",
+   "d": 1,
+   "q": "In .NET, the ______ converts MSIL code into native machine code at run time.",
+   "o": [
+    "JIT compiler",
+    "linker",
+    "assembler",
+    "pre-processor"
+   ],
+   "a": 0,
+   "e": "The Just-In-Time (JIT) compiler of the CLR translates MSIL into native code for the current machine when a method is first called."
+  },
+  {
+   "id": "dotnet-004",
+   "sec": "cs",
+   "topic": "dotnet",
+   "sub": "GAC",
+   "d": 1,
+   "q": "What is the full form of GAC in .NET?",
+   "o": [
+    "General Assembly Control",
+    "Global Application Code",
+    "Global Assembly Cache",
+    "Garbage Allocation Cache"
+   ],
+   "a": 2,
+   "e": "The Global Assembly Cache is a machine-wide store for assemblies that are shared by several applications."
+  },
+  {
+   "id": "dotnet-005",
+   "sec": "cs",
+   "topic": "dotnet",
+   "sub": "garbage collection",
+   "d": 1,
+   "q": "In .NET, the automatic release of memory held by objects that are no longer referenced is done by the ______.",
+   "o": [
+    "JIT compiler",
+    "garbage collector",
+    "class loader",
+    "assembly manifest"
+   ],
+   "a": 1,
+   "e": "The CLR's garbage collector reclaims unused objects from the managed heap, so programmers need not free memory explicitly."
+  },
+  {
+   "id": "dotnet-006",
+   "sec": "cs",
+   "topic": "dotnet",
+   "sub": "Web.config",
+   "d": 1,
+   "q": "Which file is the XML-based configuration file of an ASP.NET application?",
+   "o": [
+    "Global.asax",
+    "Web.config",
+    "Default.aspx",
+    "App.sln"
+   ],
+   "a": 1,
+   "e": "Web.config stores settings such as connection strings, authentication and session options. Global.asax holds application event handlers."
+  },
+  {
+   "id": "dotnet-007",
+   "sec": "cs",
+   "topic": "dotnet",
+   "sub": "Global.asax",
+   "d": 1,
+   "q": "The handlers for application-level and session-level events such as `Application_Start` are written in which ASP.NET file?",
+   "o": [
+    "Web.config",
+    "Machine.config",
+    "Global.asax",
+    "AssemblyInfo.cs"
+   ],
+   "a": 2,
+   "e": "Global.asax (the ASP.NET application file) contains event handlers such as Application_Start, Session_Start and Application_Error."
+  },
+  {
+   "id": "dotnet-008",
+   "sec": "cs",
+   "topic": "dotnet",
+   "sub": "ADO.NET connection",
+   "d": 1,
+   "q": "Which ADO.NET class is used to open a connection to a Microsoft SQL Server database?",
+   "o": [
+    "SqlCommand",
+    "SqlConnection",
+    "SqlDataReader",
+    "DataSet"
+   ],
+   "a": 1,
+   "e": "SqlConnection establishes the connection. SqlCommand runs statements, SqlDataReader reads rows and DataSet holds disconnected data."
+  },
+  {
+   "id": "dotnet-009",
+   "sec": "cs",
+   "topic": "dotnet",
+   "sub": "validation controls",
+   "d": 1,
+   "q": "Which ASP.NET validation control makes sure that a user does not leave a text box empty?",
+   "o": [
+    "RangeValidator",
+    "CompareValidator",
+    "RequiredFieldValidator",
+    "CustomValidator"
+   ],
+   "a": 2,
+   "e": "RequiredFieldValidator checks that the associated control has a value. The others check ranges, comparisons or custom rules."
+  },
+  {
+   "id": "dotnet-010",
+   "sec": "cs",
+   "topic": "dotnet",
+   "sub": "web forms",
+   "d": 1,
+   "q": "Which of the following is NOT a file extension used in ASP.NET web applications?",
+   "o": [
+    ".aspx",
+    ".asmx",
+    ".ascx",
+    ".jsp"
+   ],
+   "a": 3,
+   "e": ".jsp belongs to JavaServer Pages. .aspx is a Web Forms page, .asmx a web service and .ascx a user control."
+  },
+  {
+   "id": "dotnet-011",
+   "sec": "cs",
+   "topic": "dotnet",
+   "sub": "CLS",
+   "d": 2,
+   "q": "Which part of the .NET Framework defines the minimum set of rules that a language must follow so that its code can interoperate with code written in other .NET languages?",
+   "o": [
+    "CTS",
+    "CLS",
+    "CLR",
+    "GAC"
+   ],
+   "a": 1,
+   "e": "The Common Language Specification (CLS) is the set of rules for cross-language interoperability. The CTS defines the common data types."
+  },
+  {
+   "id": "dotnet-012",
+   "sec": "cs",
+   "topic": "dotnet",
+   "sub": "page life cycle",
+   "d": 2,
+   "q": "Consider the following statements about the ASP.NET page life cycle.\nI. The Load event occurs before the Init event.\nII. The Unload event occurs before the PreRender event.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 3,
+   "e": "Neither is correct. The order is Init, Load, PreRender, Render and finally Unload."
+  },
+  {
+   "id": "dotnet-013",
+   "sec": "cs",
+   "topic": "dotnet",
+   "sub": "state management",
+   "d": 2,
+   "q": "Which of the following is NOT a client-side state-management technique in ASP.NET?",
+   "o": [
+    "Cookies",
+    "Query string",
+    "View state",
+    "Session state"
+   ],
+   "a": 3,
+   "e": "Session state is stored on the server. Cookies, query strings and view state keep their data on the client side."
+  },
+  {
+   "id": "dotnet-014",
+   "sec": "cs",
+   "topic": "dotnet",
+   "sub": "boxing",
+   "d": 2,
+   "q": "Consider the following statements about C# types.\nI. Boxing converts a value type such as `int` into the reference type `object`.\nII. Unboxing extracts the value type back from an `object`.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Both are true. Boxing wraps a value in an object on the heap, and unboxing retrieves the value from that object."
+  },
+  {
+   "id": "dotnet-015",
+   "sec": "cs",
+   "topic": "dotnet",
+   "sub": "DataSet and DataAdapter",
+   "d": 2,
+   "q": "Consider the following statements about ADO.NET.\nI. A DataAdapter acts as a bridge between a DataSet and the data source.\nII. A DataSet needs an open database connection all the time that it is being used.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "The DataAdapter fills the DataSet and updates the source. The DataSet is disconnected and works in memory, so statement II is false."
+  },
+  {
+   "id": "dotnet-016",
+   "sec": "cs",
+   "topic": "dotnet",
+   "sub": "delegates and events",
+   "d": 2,
+   "q": "In C#, a delegate is best described as a ______.",
+   "o": [
+    "class that cannot be inherited",
+    "type-safe reference to a method",
+    "collection of constants",
+    "special kind of exception"
+   ],
+   "a": 1,
+   "e": "A delegate is a type-safe object that refers to one or more methods. Events in C# are built on delegates."
+  },
+  {
+   "id": "dotnet-017",
+   "sec": "cs",
+   "topic": "dotnet",
+   "sub": ".NET history",
+   "d": 3,
+   "q": "Windows Presentation Foundation (WPF), Windows Communication Foundation (WCF) and Windows Workflow Foundation (WF) were introduced with which version of the .NET Framework?",
+   "o": [
+    "1.1",
+    "2.0",
+    "3.0",
+    "4.0"
+   ],
+   "a": 2,
+   "e": ".NET Framework 3.0 added WPF, WCF, WF and CardSpace on top of the 2.0 CLR. Version 3.5 later added LINQ."
+  },
+  {
+   "id": "dotnet-018",
+   "sec": "cs",
+   "topic": "dotnet",
+   "sub": "VB.NET keywords",
+   "d": 3,
+   "q": "Consider the following statements about VB.NET.\nI. The `Shared` keyword is the equivalent of the C# keyword `static` for class members.\nII. The VB.NET `Static` keyword declares a member that belongs to the class rather than to an instance.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "Only I is correct. In VB.NET, Shared makes a member belong to the class. Static is used for local variables that keep their value between calls."
+  },
+  {
+   "id": "dotnet-019",
+   "sec": "cs",
+   "topic": "dotnet",
+   "sub": "session timeout",
+   "d": 3,
+   "q": "What is the default session timeout in ASP.NET, if it is not changed in Web.config?",
+   "o": [
+    "10 minutes",
+    "20 minutes",
+    "30 minutes",
+    "60 minutes"
+   ],
+   "a": 1,
+   "e": "The sessionState timeout attribute defaults to 20 minutes of inactivity, after which the session is abandoned."
+  },
+  {
+   "id": "dotnet-020",
+   "sec": "cs",
+   "topic": "dotnet",
+   "sub": "view state",
+   "d": 3,
+   "q": "By default, ASP.NET stores the view state of a Web Forms page in a hidden field named ______.",
+   "o": [
+    "__VIEWSTATE",
+    "__EVENTTARGET",
+    "__EVENTVALIDATION",
+    "__PREVIOUSPAGE"
+   ],
+   "a": 0,
+   "e": "The page's control state is serialised into the hidden field __VIEWSTATE and posted back with the form. __EVENTTARGET names the control that caused a postback."
+  }
+ ]
+}

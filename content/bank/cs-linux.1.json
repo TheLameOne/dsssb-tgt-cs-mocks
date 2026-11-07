@@ -1,0 +1,324 @@
+{
+ "questions": [
+  {
+   "id": "linux-001",
+   "sec": "cs",
+   "topic": "linux",
+   "sub": "commands",
+   "d": 1,
+   "q": "Which command lists the files and directories in the current directory?",
+   "o": [
+    "pwd",
+    "ls",
+    "ps",
+    "cd"
+   ],
+   "a": 1,
+   "e": "`ls` lists directory contents. `pwd` prints the working directory, `ps` lists processes and `cd` changes directory."
+  },
+  {
+   "id": "linux-002",
+   "sec": "cs",
+   "topic": "linux",
+   "sub": "commands",
+   "d": 1,
+   "q": "Which command prints the absolute path of the current working directory?",
+   "o": [
+    "pwd",
+    "ls",
+    "cd",
+    "path"
+   ],
+   "a": 0,
+   "e": "`pwd` stands for print working directory and shows the full path of where you are."
+  },
+  {
+   "id": "linux-003",
+   "sec": "cs",
+   "topic": "linux",
+   "sub": "file system hierarchy",
+   "d": 1,
+   "q": "Consider the following statements about the Linux file system hierarchy.\nI. System-wide configuration files are mainly stored in `/etc`.\nII. User home directories are stored in `/bin`.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "Only I is correct. `/etc` holds configuration files such as passwd and fstab. `/bin` holds essential commands, and home directories are under `/home`."
+  },
+  {
+   "id": "linux-004",
+   "sec": "cs",
+   "topic": "linux",
+   "sub": "commands",
+   "d": 1,
+   "q": "Which command is used to search for lines matching a pattern in a file?",
+   "o": [
+    "ls",
+    "chmod",
+    "grep",
+    "man"
+   ],
+   "a": 2,
+   "e": "`grep pattern file` prints the lines that match the pattern."
+  },
+  {
+   "id": "linux-005",
+   "sec": "cs",
+   "topic": "linux",
+   "sub": "shell",
+   "d": 1,
+   "q": "The program that reads commands typed by the user and passes them to the kernel for execution is called the ______.",
+   "o": [
+    "loader",
+    "shell",
+    "compiler",
+    "BIOS"
+   ],
+   "a": 1,
+   "e": "The shell (bash, sh, ksh) is the command interpreter between the user and the kernel."
+  },
+  {
+   "id": "linux-006",
+   "sec": "cs",
+   "topic": "linux",
+   "sub": "vi editor",
+   "d": 1,
+   "q": "In the vi editor, which key is pressed to return from insert mode to command mode?",
+   "o": [
+    "Esc",
+    "Enter",
+    "Tab",
+    "Backspace"
+   ],
+   "a": 0,
+   "e": "Pressing Esc leaves insert mode and returns vi to command (normal) mode."
+  },
+  {
+   "id": "linux-007",
+   "sec": "cs",
+   "topic": "linux",
+   "sub": "commands",
+   "d": 1,
+   "q": "Which command displays the manual page of a given command?",
+   "o": [
+    "who",
+    "which",
+    "whoami",
+    "man"
+   ],
+   "a": 3,
+   "e": "`man ls` shows the manual page for ls. `which` shows the path of a command and `who` lists logged-in users."
+  },
+  {
+   "id": "linux-008",
+   "sec": "cs",
+   "topic": "linux",
+   "sub": "processes",
+   "d": 1,
+   "q": "Which command displays the currently running processes of the user's session?",
+   "o": [
+    "df",
+    "du",
+    "ps",
+    "ls"
+   ],
+   "a": 2,
+   "e": "`ps` reports a snapshot of current processes. `df` and `du` report disk space."
+  },
+  {
+   "id": "linux-009",
+   "sec": "cs",
+   "topic": "linux",
+   "sub": "users and groups",
+   "d": 1,
+   "q": "Which of the following is NOT stored as a field in each line of the `/etc/passwd` file?",
+   "o": [
+    "Login name",
+    "User ID (UID)",
+    "Home directory",
+    "Disk space used by the user"
+   ],
+   "a": 3,
+   "e": "Each line of `/etc/passwd` has the login name, UID, GID, comment, home directory and login shell. Disk usage is not recorded there."
+  },
+  {
+   "id": "linux-010",
+   "sec": "cs",
+   "topic": "linux",
+   "sub": "text tools",
+   "d": 1,
+   "q": "What is printed by `echo \"red green blue\" | awk '{print $2}'`?",
+   "o": [
+    "green",
+    "red",
+    "blue",
+    "red green blue"
+   ],
+   "a": 0,
+   "e": "awk splits the line on whitespace into fields; `$2` is the second field, which is green."
+  },
+  {
+   "id": "linux-011",
+   "sec": "cs",
+   "topic": "linux",
+   "sub": "shell scripting",
+   "d": 2,
+   "q": "Consider the following statements about quoting in the shell.\nI. Variables are expanded inside single quotes.\nII. Variables are not expanded inside double quotes.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 3,
+   "e": "Neither is correct. Single quotes stop expansion, so `'Hello $name'` prints the text as it is. Double quotes allow variable expansion."
+  },
+  {
+   "id": "linux-012",
+   "sec": "cs",
+   "topic": "linux",
+   "sub": "redirection",
+   "d": 2,
+   "q": "Consider the following statements about redirection in the shell.\nI. The operator `>` overwrites the existing content of the target file.\nII. The operator `>>` appends the output to the end of the target file.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "`>` truncates and writes a fresh file while `>>` appends. Both statements are correct."
+  },
+  {
+   "id": "linux-013",
+   "sec": "cs",
+   "topic": "linux",
+   "sub": "inode",
+   "d": 2,
+   "q": "Which of the following is NOT stored in the inode of a file?",
+   "o": [
+    "The owner and permissions",
+    "The file name",
+    "The file size",
+    "Pointers to the data blocks"
+   ],
+   "a": 1,
+   "e": "An inode keeps metadata and block pointers; the file name is stored in the directory entry that maps the name to the inode number."
+  },
+  {
+   "id": "linux-014",
+   "sec": "cs",
+   "topic": "linux",
+   "sub": "init",
+   "d": 2,
+   "q": "In the System V init scheme, which of the following runlevel descriptions is NOT correct?",
+   "o": [
+    "Runlevel 0 halts the system",
+    "Runlevel 1 is single-user mode",
+    "Runlevel 6 halts the system",
+    "Runlevel 3 is multi-user text mode"
+   ],
+   "a": 2,
+   "e": "Runlevel 6 reboots the system, while runlevel 0 halts it. Runlevel 1 is single-user mode and runlevel 3 is multi-user text mode."
+  },
+  {
+   "id": "linux-015",
+   "sec": "cs",
+   "topic": "linux",
+   "sub": "disk usage",
+   "d": 2,
+   "q": "Consider the following statements about disk-related commands.\nI. `df` reports the free and used space of mounted file systems.\nII. `du` reports the space used by files and directories.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Both are true. `df` summarises space per file system, while `du` measures the usage of particular files and directories."
+  },
+  {
+   "id": "linux-016",
+   "sec": "cs",
+   "topic": "linux",
+   "sub": "permissions",
+   "d": 2,
+   "q": "Regarding file ownership and permissions, consider the following statements.\nI. `chown` changes the permission bits of a file.\nII. `chmod` changes the permission bits of a file.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "Only II is correct. `chmod` changes the permission bits, whereas `chown` changes the owner of a file."
+  },
+  {
+   "id": "linux-017",
+   "sec": "cs",
+   "topic": "linux",
+   "sub": "permissions",
+   "d": 3,
+   "q": "If the umask is 022, the default permissions of a newly created regular file are ______.",
+   "o": [
+    "755 (rwxr-xr-x)",
+    "644 (rw-r--r--)",
+    "666 (rw-rw-rw-)",
+    "622 (rw--w--w-)"
+   ],
+   "a": 1,
+   "e": "Files start from 666 and the umask bits are removed: 666 − 022 = 644. Directories start from 777 and become 755."
+  },
+  {
+   "id": "linux-018",
+   "sec": "cs",
+   "topic": "linux",
+   "sub": "text tools",
+   "d": 3,
+   "q": "What is the output of `echo banana | sed 's/a/o/g'`?",
+   "o": [
+    "bonono",
+    "bonana",
+    "bonona",
+    "banono"
+   ],
+   "a": 0,
+   "e": "The g flag replaces every occurrence of a with o on the line, giving bonono. Without g only the first a would change, giving bonana."
+  },
+  {
+   "id": "linux-019",
+   "sec": "cs",
+   "topic": "linux",
+   "sub": "permissions",
+   "d": 3,
+   "q": "A file shows the permissions `-rwsr-xr-x` in the output of `ls -l`. The equivalent octal mode is ______.",
+   "o": [
+    "2755",
+    "1755",
+    "755",
+    "4755"
+   ],
+   "a": 3,
+   "e": "The s in the owner execute position is the setuid bit, which is the leading 4. Owner rwx = 7, group r-x = 5, others r-x = 5."
+  },
+  {
+   "id": "linux-020",
+   "sec": "cs",
+   "topic": "linux",
+   "sub": "pipes",
+   "d": 3,
+   "q": "The file `data.txt` contains five lines: one, two, three, four, five (one per line). What does `head -n 4 data.txt | tail -n 2` print?",
+   "o": [
+    "four and five, on two lines",
+    "only four",
+    "three and four, on two lines",
+    "one and two, on two lines"
+   ],
+   "a": 2,
+   "e": "`head -n 4` outputs the first four lines (one to four). `tail -n 2` keeps the last two of these: three and four."
+  }
+ ]
+}

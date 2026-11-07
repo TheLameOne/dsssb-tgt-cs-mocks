@@ -1,0 +1,200 @@
+{
+ "questions": [
+  {
+   "id": "venn-001",
+   "sec": "reasoning",
+   "topic": "venn",
+   "sub": "class relation",
+   "d": 1,
+   "q": "Which of the following diagrams best represents the relationship among Mammals, Dogs and Cats?",
+   "o": [
+    "A large circle (Mammals) containing two smaller circles (Dogs and Cats) that do not touch each other",
+    "Three circles that all overlap one another",
+    "A circle (Dogs) inside a circle (Cats), which is inside a circle (Mammals)",
+    "Three separate circles, none inside another"
+   ],
+   "a": 0,
+   "e": "Dogs and Cats are different kinds of mammals, so each is wholly inside Mammals. No dog is a cat, so those two circles are separate."
+  },
+  {
+   "id": "venn-002",
+   "sec": "reasoning",
+   "topic": "venn",
+   "sub": "class relation",
+   "d": 1,
+   "q": "Which of the following diagrams best represents the relationship among Tigers, Animals and Plants?",
+   "o": [
+    "Three circles that all overlap one another",
+    "Three separate circles, none inside another",
+    "One circle (Tigers) inside Plants, with Animals separate",
+    "One circle (Tigers) inside another (Animals), with a third (Plants) separate from both"
+   ],
+   "a": 3,
+   "e": "Every tiger is an animal, so Tigers lies inside Animals. No animal is a plant, so Plants stays completely apart."
+  },
+  {
+   "id": "venn-003",
+   "sec": "reasoning",
+   "topic": "venn",
+   "sub": "two-set count",
+   "d": 1,
+   "q": "In a class of 40 students, 25 like tea, 20 like coffee and 5 like neither. How many students like both tea and coffee?",
+   "o": [
+    "10",
+    "20",
+    "15",
+    "5"
+   ],
+   "a": 0,
+   "e": "Students who like at least one drink: 40 − 5 = 35. Both = 25 + 20 − 35 = 10."
+  },
+  {
+   "id": "venn-004",
+   "sec": "reasoning",
+   "topic": "venn",
+   "sub": "class relation",
+   "d": 2,
+   "q": "Which of the following diagrams best represents the relationship among Women, Teachers and Doctors?",
+   "o": [
+    "Teachers and Doctors overlapping, with Women completely separate",
+    "A circle (Women) containing both Teachers and Doctors, which do not touch",
+    "Three separate circles, none inside another",
+    "Three circles, each overlapping the other two"
+   ],
+   "a": 3,
+   "e": "Some women are teachers, some are doctors, and a person can be a teacher and a doctor as well. So all three pairs of circles overlap."
+  },
+  {
+   "id": "venn-005",
+   "sec": "reasoning",
+   "topic": "venn",
+   "sub": "class relation",
+   "d": 2,
+   "q": "Which of the following diagrams best represents the relationship among Apples, Fruits and Red things?",
+   "o": [
+    "Apples and Red things both inside Fruits, separate from each other",
+    "Fruits inside Apples, with Red things overlapping Apples",
+    "One circle (Apples) inside another (Fruits), with a third (Red things) overlapping both",
+    "Three circles that all overlap one another, none inside another"
+   ],
+   "a": 2,
+   "e": "Every apple is a fruit, so Apples lies inside Fruits. Some apples are red, and some red things (such as roses) are not fruits, so Red things overlaps both circles."
+  },
+  {
+   "id": "venn-006",
+   "sec": "reasoning",
+   "topic": "venn",
+   "sub": "three-set regions",
+   "d": 2,
+   "q": "The table gives the number of students in each region of a Venn diagram of three subject groups: English, Maths and Science. How many students study Maths?",
+   "table": {
+    "head": [
+     "Region",
+     "Number of students"
+    ],
+    "rows": [
+     [
+      "Only English",
+      "20"
+     ],
+     [
+      "Only Maths",
+      "15"
+     ],
+     [
+      "Only Science",
+      "10"
+     ],
+     [
+      "English and Maths only",
+      "12"
+     ],
+     [
+      "Maths and Science only",
+      "8"
+     ],
+     [
+      "English and Science only",
+      "6"
+     ],
+     [
+      "All three subjects",
+      "9"
+     ]
+    ]
+   },
+   "o": [
+    "52",
+    "44",
+    "35",
+    "27"
+   ],
+   "a": 1,
+   "e": "Maths includes: only Maths 15, English and Maths only 12, Maths and Science only 8, and all three 9. Total = 15 + 12 + 8 + 9 = 44."
+  },
+  {
+   "id": "venn-007",
+   "sec": "reasoning",
+   "topic": "venn",
+   "sub": "two-set count",
+   "d": 2,
+   "q": "In a group of 60 people, 35 play cricket, 30 play football and 18 play both games. How many people play exactly one of the two games?",
+   "o": [
+    "47",
+    "11",
+    "41",
+    "29"
+   ],
+   "a": 3,
+   "e": "Only cricket = 35 − 18 = 17. Only football = 30 − 18 = 12. Exactly one game = 17 + 12 = 29."
+  },
+  {
+   "id": "venn-008",
+   "sec": "reasoning",
+   "topic": "venn",
+   "sub": "three-set count",
+   "d": 3,
+   "q": "In a town of 100 families, 60 take newspaper A, 50 take B and 40 take C. Also, 25 take both A and B, 20 take both B and C, 15 take both A and C, and 5 take none of the three. How many families take exactly one newspaper?",
+   "o": [
+    "50",
+    "40",
+    "45",
+    "35"
+   ],
+   "a": 2,
+   "e": "Families taking at least one: 95. So 95 = 60 + 50 + 40 − 25 − 20 − 15 + x gives x = 5 taking all three. Only A = 25, only B = 10, only C = 10, so exactly one = 45."
+  },
+  {
+   "id": "venn-009",
+   "sec": "reasoning",
+   "topic": "venn",
+   "sub": "three-set count",
+   "d": 3,
+   "q": "Of 80 employees, 48 know Java, 40 know Python and 30 know C. Also, 20 know Java and Python, 15 know Python and C, 12 know Java and C, and 5 know all three languages. How many employees know exactly two of the three languages?",
+   "o": [
+    "37",
+    "32",
+    "27",
+    "42"
+   ],
+   "a": 1,
+   "e": "Exactly two = (20 − 5) + (15 − 5) + (12 − 5) = 15 + 10 + 7 = 32. The 5 who know all three are counted in each pair total, so they are removed from each."
+  },
+  {
+   "id": "venn-010",
+   "sec": "reasoning",
+   "topic": "venn",
+   "sub": "class relation",
+   "d": 3,
+   "q": "Which arrangement of circles best represents the following statements? All engineers are graduates; some graduates are teachers; no engineer is a teacher.",
+   "o": [
+    "Teachers inside Graduates, with Engineers overlapping Teachers",
+    "Engineers inside Graduates, with Teachers completely separate from Graduates",
+    "Engineers and Teachers both inside Graduates and overlapping each other",
+    "Engineers inside Graduates; Teachers overlapping Graduates but not touching Engineers"
+   ],
+   "a": 3,
+   "e": "Engineers must lie wholly inside Graduates. Teachers must share part of Graduates, yet stay clear of Engineers, so it overlaps Graduates only in the part outside Engineers."
+  }
+ ]
+}

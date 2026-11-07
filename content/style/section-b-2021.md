@@ -1,0 +1,23 @@
+# Style patterns, DSSSB TGT CS Aug 2021, Section B (paraphrased)
+
+- Each paper is 5 blocks of 20; the block is a rough sweep across subjects (math/comm/basics/programming first, then DBMS-digital-networks, then SE-Java-OS, then OS-economics-networks-DS-MIS-mobile, then graphics-web-KM-problem solving-stats-numerical). Not strict syllabus order, but the sequence is nearly identical across papers.
+- The last ten questions of every paper are general teaching-methodology items (pedagogy, assessment, language, arts, gender), even though the syllabus lists none. Budget about 10 percent for them.
+- Dominant stem shape: a one-line "which is correct / what is the full form / what is the other name of X", with four short option phrases.
+- Second most common shape: two or three numbered statements with the fixed options "Only I / Only II / Both / Neither" (or combos like "I and III"). Roughly one question in five or six.
+- Fill-in-the-blank with a long underscore gap, answered by a single term (compiler, swapping, thrashing, attenuation, kernel), is very common in OS, networks, DBMS.
+- Acronym expansion appears several times per paper (ISAM, DASD, GPRS, ICMP, DDLC, MTTF, ROCOF, DVMRP); the wrong options differ by one word swapped.
+- Duplicate or near-duplicate items recur across papers and within the same paper (duplex modes, half adder carry, series resistors, two-input gate tied together, bubble sort pass, OSI layer roles, GSM/GPRS, JPEG/MP3). Reusable core facts are a strong signal.
+- Numeric items are short, single-step calculations: base conversion, series resistance, address lines for a memory size, page faults for FIFO/optimal with a short reference string, aspect ratio, CMY/RGB complement, 2D scaling, region code, Lagrange or Newton with two to four data points, simple Bayes with 2-3 sources.
+- Code items are tiny C/Java snippets of 3-6 lines testing one quirk: octal/hex literals, negative modulo, comma operator, pre-increment, integer division, string concatenation with numbers, union/struct size, wide char literal. Rarely any loops with more than two iterations.
+- Data-structure trace items ask for the state after a given pass (bubble, selection, radix), the index under linear probing, heap insertion result, preorder-to-postorder conversion, or counts like swaps; these are the slowest items.
+- Tree/graph/figure/K-map/gate-symbol questions rely on images; expect about 8-12 per paper, so mock items should state the figure in text.
+- Digital electronics questions are concept-light: identify gate from truth table, universal gate counts, half/full adder, mux/demux line relations, flip-flop behaviour, Gray code, simple Boolean simplification.
+- DBMS covers file organisation, normal forms, keys, ER symbols and traps, timestamp/recovery, distributed DB terms, SQL operator categories; mostly definitional.
+- Software engineering is the most predictable block: model names and aliases, cohesion/coupling, cyclomatic complexity formula, testing types, DFD terms, CASE, reliability metrics. All recall or definition level.
+- Trap-option patterns: expansion options differ by one word; "Only I / Only II" with a deliberately false second statement; an invented item mixed among genuine ones ("Car topology", "Half simplex mode", "Manet OS", "Excite" state); near-synonym terms (internal vs external fragmentation, spooling vs swapping).
+- Obscure-fact items exist but are few: VB.NET keywords, Manchester pulse width, red-black height bound, EDI standard numbers, wide-char prefix, Codd rule count, ISAM variants. Perhaps 5-8 per paper.
+- Economics and accounts items are textbook level (CRR, repo, cost curves, returns to scale, depreciation, journal/ledger); no calculation heavy items.
+- Maths items are few (2-3 per paper), often image-based, and harder than the rest: complex analysis, PDE classification, derivatives; Stats/probability then appears in block 5 as 3-4 numeric questions (Poisson, Bayes, median, regression).
+- Difficulty overall: roughly half easy recall, about 40 percent medium, about 10 percent hard (trace/numeric or obscure). Time pressure comes from volume and the image items, not depth.
+- Several items were annulled for answer-key discrepancy, mostly ones with ambiguous wording (alternate key, jagged array, peer network, BOOTP, hash functions); avoid ambiguous phrasing in mocks.
+- Linux, .NET, Java and mobile computing are each represented by 1-3 definitional questions per paper; no deep programming in those languages.

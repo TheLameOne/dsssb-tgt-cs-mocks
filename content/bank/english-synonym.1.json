@@ -1,0 +1,164 @@
+{
+ "questions": [
+  {
+   "id": "synonym-001",
+   "sec": "english",
+   "topic": "synonym",
+   "sub": "common adjective",
+   "d": 1,
+   "q": "Choose the word closest in meaning to RAPID.",
+   "o": [
+    "Dull",
+    "Heavy",
+    "Swift",
+    "Calm"
+   ],
+   "a": 2,
+   "e": "Rapid means very quick, and swift means the same."
+  },
+  {
+   "id": "synonym-002",
+   "sec": "english",
+   "topic": "synonym",
+   "sub": "common adjective",
+   "d": 1,
+   "q": "Choose the word closest in meaning to ABUNDANT.",
+   "o": [
+    "Scarce",
+    "Plentiful",
+    "Rare",
+    "Tiny"
+   ],
+   "a": 1,
+   "e": "Abundant means existing in large quantities, which is plentiful. Scarce and rare are its opposites."
+  },
+  {
+   "id": "synonym-003",
+   "sec": "english",
+   "topic": "synonym",
+   "sub": "common verb",
+   "d": 1,
+   "q": "Choose the word closest in meaning to COMMENCE.",
+   "o": [
+    "Begin",
+    "End",
+    "Delay",
+    "Cancel"
+   ],
+   "a": 0,
+   "e": "To commence is to begin or start."
+  },
+  {
+   "id": "synonym-004",
+   "sec": "english",
+   "topic": "synonym",
+   "sub": "in context",
+   "d": 1,
+   "q": "Choose the word closest in meaning to the word in capitals.\nThe manager was FURIOUS at the delay.",
+   "o": [
+    "Angry",
+    "Pleased",
+    "Puzzled",
+    "Tired"
+   ],
+   "a": 0,
+   "e": "Furious means extremely angry."
+  },
+  {
+   "id": "synonym-005",
+   "sec": "english",
+   "topic": "synonym",
+   "sub": "character adjective",
+   "d": 2,
+   "q": "Choose the word closest in meaning to CANDID.",
+   "o": [
+    "Secretive",
+    "Rude",
+    "Timid",
+    "Frank"
+   ],
+   "a": 3,
+   "e": "Candid means open and honest in speech, which is frank. Secretive is the opposite."
+  },
+  {
+   "id": "synonym-006",
+   "sec": "english",
+   "topic": "synonym",
+   "sub": "quantity adjective",
+   "d": 2,
+   "q": "Choose the word closest in meaning to MEAGRE.",
+   "o": [
+    "Ample",
+    "Costly",
+    "Scanty",
+    "Ordinary"
+   ],
+   "a": 2,
+   "e": "Meagre means small in quantity or inadequate, i.e. scanty."
+  },
+  {
+   "id": "synonym-007",
+   "sec": "english",
+   "topic": "synonym",
+   "sub": "in context",
+   "d": 2,
+   "q": "Choose the word closest in meaning to the word in capitals.\nThe scientist's findings were CORROBORATED by a second team.",
+   "o": [
+    "Disputed",
+    "Confirmed",
+    "Ignored",
+    "Delayed"
+   ],
+   "a": 1,
+   "e": "To corroborate is to support a claim with further evidence, i.e. to confirm it."
+  },
+  {
+   "id": "synonym-008",
+   "sec": "english",
+   "topic": "synonym",
+   "sub": "character adjective",
+   "d": 2,
+   "q": "Choose the word closest in meaning to OBSTINATE.",
+   "o": [
+    "Stubborn",
+    "Flexible",
+    "Gentle",
+    "Careless"
+   ],
+   "a": 0,
+   "e": "Obstinate means refusing to change one's mind, which is stubborn."
+  },
+  {
+   "id": "synonym-009",
+   "sec": "english",
+   "topic": "synonym",
+   "sub": "Latinate adjective",
+   "d": 3,
+   "q": "Choose the word closest in meaning to PERFUNCTORY.",
+   "o": [
+    "Thorough",
+    "Enthusiastic",
+    "Reluctant",
+    "Cursory"
+   ],
+   "a": 3,
+   "e": "Perfunctory means done with minimum effort and little care, as in a cursory glance. Thorough is its opposite."
+  },
+  {
+   "id": "synonym-010",
+   "sec": "english",
+   "topic": "synonym",
+   "sub": "in context",
+   "d": 3,
+   "q": "Choose the word closest in meaning to the word in capitals.\nThe OBSEQUIOUS clerk bowed repeatedly before the officer.",
+   "o": [
+    "Arrogant",
+    "Hostile",
+    "Indifferent",
+    "Servile"
+   ],
+   "a": 3,
+   "e": "Obsequious means excessively eager to please or obey, which is servile."
+  }
+ ]
+}

@@ -1,0 +1,324 @@
+{
+  "questions": [
+    {
+      "id": "series-001",
+      "sec": "reasoning",
+      "topic": "series",
+      "sub": "arithmetic progression",
+      "d": 1,
+      "q": "Find the next term in the series: 3, 7, 11, 15, 19, ?",
+      "o": [
+        "25",
+        "23",
+        "24",
+        "22"
+      ],
+      "a": 1,
+      "e": "Each term is 4 more than the previous one (common difference 4), so the next term is 19 + 4 = 23."
+    },
+    {
+      "id": "series-002",
+      "sec": "reasoning",
+      "topic": "series",
+      "sub": "geometric progression",
+      "d": 1,
+      "q": "Find the next term in the series: 2, 6, 18, 54, ?",
+      "o": [
+        "162",
+        "108",
+        "148",
+        "172"
+      ],
+      "a": 0,
+      "e": "Each term is 3 times the previous one, so the next term is 54 × 3 = 162."
+    },
+    {
+      "id": "series-003",
+      "sec": "reasoning",
+      "topic": "series",
+      "sub": "squares",
+      "d": 1,
+      "q": "Find the next term in the series: 1, 4, 9, 16, 25, ?",
+      "o": [
+        "49",
+        "36",
+        "30",
+        "35"
+      ],
+      "a": 1,
+      "e": "The terms are the squares 1², 2², 3², 4², 5², so the next is 6² = 36."
+    },
+    {
+      "id": "series-004",
+      "sec": "reasoning",
+      "topic": "series",
+      "sub": "letter series AP",
+      "d": 1,
+      "q": "Find the next letter in the series: A, C, E, G, I, ?",
+      "o": [
+        "J",
+        "L",
+        "K",
+        "M"
+      ],
+      "a": 2,
+      "e": "Each letter is two places after the previous one (A+2 = C, C+2 = E, ...). I + 2 = K."
+    },
+    {
+      "id": "series-005",
+      "sec": "reasoning",
+      "topic": "series",
+      "sub": "decreasing AP",
+      "d": 1,
+      "q": "Find the next term in the series: 100, 93, 86, 79, ?",
+      "o": [
+        "73",
+        "70",
+        "71",
+        "72"
+      ],
+      "a": 3,
+      "e": "Each term is 7 less than the previous one, so the next is 79 − 7 = 72."
+    },
+    {
+      "id": "series-006",
+      "sec": "reasoning",
+      "topic": "series",
+      "sub": "prime numbers",
+      "d": 1,
+      "q": "Find the next term in the series: 2, 3, 5, 7, 11, 13, ?",
+      "o": [
+        "15",
+        "16",
+        "19",
+        "17"
+      ],
+      "a": 3,
+      "e": "The series lists the prime numbers in order. The prime after 13 is 17; 15 and 16 are composite."
+    },
+    {
+      "id": "series-007",
+      "sec": "reasoning",
+      "topic": "series",
+      "sub": "letter series backward",
+      "d": 1,
+      "q": "Find the next letter in the series: Z, X, V, T, R, ?",
+      "o": [
+        "P",
+        "O",
+        "Q",
+        "N"
+      ],
+      "a": 0,
+      "e": "Each letter is two places before the previous one, moving backwards: R − 2 = P."
+    },
+    {
+      "id": "series-008",
+      "sec": "reasoning",
+      "topic": "series",
+      "sub": "increasing differences",
+      "d": 2,
+      "q": "Find the next term in the series: 5, 6, 8, 11, 15, 20, ?",
+      "o": [
+        "25",
+        "30",
+        "26",
+        "27"
+      ],
+      "a": 2,
+      "e": "The differences are +1, +2, +3, +4, +5, so the next is +6. 20 + 6 = 26."
+    },
+    {
+      "id": "series-009",
+      "sec": "reasoning",
+      "topic": "series",
+      "sub": "factorials",
+      "d": 2,
+      "q": "Find the next term in the series: 1, 2, 6, 24, 120, ?",
+      "o": [
+        "480",
+        "840",
+        "600",
+        "720"
+      ],
+      "a": 3,
+      "e": "Each term is the previous one multiplied by 2, 3, 4, 5, then 6 (factorials). 120 × 6 = 720."
+    },
+    {
+      "id": "series-010",
+      "sec": "reasoning",
+      "topic": "series",
+      "sub": "multiply and add",
+      "d": 2,
+      "q": "Find the next term in the series: 4, 9, 19, 39, 79, ?",
+      "o": [
+        "119",
+        "159",
+        "160",
+        "158"
+      ],
+      "a": 1,
+      "e": "Each term is 2 × previous + 1: 4→9→19→39→79. So the next is 79 × 2 + 1 = 159."
+    },
+    {
+      "id": "series-011",
+      "sec": "reasoning",
+      "topic": "series",
+      "sub": "letter pair series",
+      "d": 2,
+      "q": "Find the next pair: AZ, BY, CX, DW, ?",
+      "o": [
+        "DV",
+        "FV",
+        "EU",
+        "EV"
+      ],
+      "a": 3,
+      "e": "The first letter moves forward (A, B, C, D, E) while the second moves backward (Z, Y, X, W, V). The next pair is EV."
+    },
+    {
+      "id": "series-012",
+      "sec": "reasoning",
+      "topic": "series",
+      "sub": "letter series with wrap",
+      "d": 2,
+      "q": "Find the next letter in the series: B, E, I, N, T, ?",
+      "o": [
+        "Z",
+        "Y",
+        "B",
+        "A"
+      ],
+      "a": 3,
+      "e": "The gaps are +3, +4, +5, +6, so the next is +7. T is the 20th letter; 20 + 7 = 27, which wraps round to A (27 − 26 = 1)."
+    },
+    {
+      "id": "series-013",
+      "sec": "reasoning",
+      "topic": "series",
+      "sub": "missing term n²−1",
+      "d": 2,
+      "q": "Find the missing term: 3, 8, 15, 24, ?, 48",
+      "o": [
+        "34",
+        "36",
+        "35",
+        "33"
+      ],
+      "a": 2,
+      "e": "The terms are n² − 1 for n = 2, 3, 4, 5, 6, 7: 3, 8, 15, 24, 35, 48. The missing term is 6² − 1 = 35."
+    },
+    {
+      "id": "series-014",
+      "sec": "reasoning",
+      "topic": "series",
+      "sub": "wrong term n²+1",
+      "d": 2,
+      "q": "Find the wrong term in the series: 2, 5, 10, 17, 26, 36, 50",
+      "o": [
+        "36",
+        "17",
+        "10",
+        "26"
+      ],
+      "a": 0,
+      "e": "The terms follow n² + 1: 2, 5, 10, 17, 26, 37, 50. The sixth term should be 37, not 36."
+    },
+    {
+      "id": "series-015",
+      "sec": "reasoning",
+      "topic": "series",
+      "sub": "alternating × and −",
+      "d": 2,
+      "q": "Find the next term in the series: 5, 10, 8, 16, 14, 28, 26, ?",
+      "o": [
+        "50",
+        "28",
+        "52",
+        "54"
+      ],
+      "a": 2,
+      "e": "The operations alternate: ×2, −2, ×2, −2, ×2, −2. So the next term is 26 × 2 = 52."
+    },
+    {
+      "id": "series-016",
+      "sec": "reasoning",
+      "topic": "series",
+      "sub": "two interleaved series",
+      "d": 3,
+      "q": "Find the next term in the series: 3, 5, 6, 10, 12, 20, 24, ?",
+      "o": [
+        "36",
+        "40",
+        "30",
+        "48"
+      ],
+      "a": 1,
+      "e": "Two series alternate. Terms 1, 3, 5, 7 are 3, 6, 12, 24 (×2) and terms 2, 4, 6, 8 are 5, 10, 20, 40 (×2). The eighth term is 20 × 2 = 40."
+    },
+    {
+      "id": "series-017",
+      "sec": "reasoning",
+      "topic": "series",
+      "sub": "second-order differences",
+      "d": 3,
+      "q": "Find the next term in the series: 6, 11, 21, 36, 56, 81, ?",
+      "o": [
+        "111",
+        "101",
+        "116",
+        "106"
+      ],
+      "a": 0,
+      "e": "The differences are 5, 10, 15, 20, 25, so the next difference is 30. 81 + 30 = 111."
+    },
+    {
+      "id": "series-018",
+      "sec": "reasoning",
+      "topic": "series",
+      "sub": "cubes plus one",
+      "d": 3,
+      "q": "Find the next term in the series: 2, 9, 28, 65, 126, ?",
+      "o": [
+        "196",
+        "215",
+        "217",
+        "226"
+      ],
+      "a": 2,
+      "e": "The terms are n³ + 1: 1³+1 = 2, 2³+1 = 9, 3³+1 = 28, 4³+1 = 65, 5³+1 = 126. The next is 6³ + 1 = 217."
+    },
+    {
+      "id": "series-019",
+      "sec": "reasoning",
+      "topic": "series",
+      "sub": "wrong letter pair",
+      "d": 3,
+      "q": "Find the wrong pair in the series: BD, EG, HJ, KM, NQ, QS",
+      "o": [
+        "EG",
+        "NQ",
+        "QS",
+        "KM"
+      ],
+      "a": 1,
+      "e": "The first letter rises by 3 each time (B, E, H, K, N, Q) and the second letter is always two after the first. So NQ should be NP."
+    },
+    {
+      "id": "series-020",
+      "sec": "reasoning",
+      "topic": "series",
+      "sub": "wrong term alternating",
+      "d": 3,
+      "q": "Find the wrong term in the series: 4, 6, 12, 14, 28, 30, 62",
+      "o": [
+        "62",
+        "28",
+        "14",
+        "30"
+      ],
+      "a": 0,
+      "e": "The operations alternate: +2, ×2, +2, ×2, +2, ×2. This gives 4, 6, 12, 14, 28, 30, 60, so the last term should be 60, not 62."
+    }
+  ]
+}

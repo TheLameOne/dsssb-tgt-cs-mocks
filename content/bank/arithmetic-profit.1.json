@@ -1,0 +1,324 @@
+{
+ "questions": [
+  {
+   "id": "profit-001",
+   "sec": "arithmetic",
+   "topic": "profit",
+   "sub": "profit percent",
+   "d": 1,
+   "q": "An article bought for ₹500 is sold for ₹575. The profit percent is:",
+   "o": [
+    "15%",
+    "12.5%",
+    "13%",
+    "17.5%"
+   ],
+   "a": 0,
+   "e": "Profit = 575 − 500 = ₹75. Profit % = 75/500 × 100 = 15%, always calculated on cost price."
+  },
+  {
+   "id": "profit-002",
+   "sec": "arithmetic",
+   "topic": "profit",
+   "sub": "loss and selling price",
+   "d": 1,
+   "q": "A shirt costing ₹800 is sold at a loss of 15%. Its selling price is:",
+   "o": [
+    "₹700",
+    "₹720",
+    "₹120",
+    "₹680"
+   ],
+   "a": 3,
+   "e": "Loss = 15% of 800 = ₹120, so SP = 800 − 120 = ₹680. ₹120 is only the loss."
+  },
+  {
+   "id": "profit-003",
+   "sec": "arithmetic",
+   "topic": "profit",
+   "sub": "cost and selling price of articles",
+   "d": 1,
+   "q": "If the cost price of 20 articles equals the selling price of 16 articles, the profit percent is:",
+   "o": [
+    "20%",
+    "4%",
+    "25%",
+    "16%"
+   ],
+   "a": 2,
+   "e": "Let each article cost ₹1, so SP of 16 = ₹20 and SP of one = ₹1.25. Profit = 0.25 on ₹1, which is 25%."
+  },
+  {
+   "id": "profit-004",
+   "sec": "arithmetic",
+   "topic": "profit",
+   "sub": "marked price and discount",
+   "d": 1,
+   "q": "The marked price of a bag is ₹600 and a discount of 20% is allowed. The selling price is:",
+   "o": [
+    "₹520",
+    "₹480",
+    "₹500",
+    "₹120"
+   ],
+   "a": 1,
+   "e": "Discount = 20% of 600 = ₹120, so SP = 600 − 120 = ₹480."
+  },
+  {
+   "id": "profit-005",
+   "sec": "arithmetic",
+   "topic": "profit",
+   "sub": "finding cost price",
+   "d": 1,
+   "q": "By selling an article for ₹750 a shopkeeper gains 25%. The cost price is:",
+   "o": [
+    "₹600",
+    "₹562.50",
+    "₹625",
+    "₹500"
+   ],
+   "a": 0,
+   "e": "SP = 1.25 × CP, so CP = 750 ÷ 1.25 = ₹600. Taking 25% off 750 would give the wrong ₹562.50."
+  },
+  {
+   "id": "profit-006",
+   "sec": "arithmetic",
+   "topic": "profit",
+   "sub": "finding cost price",
+   "d": 1,
+   "q": "An article is sold for ₹360 at a loss of 10%. Its cost price is:",
+   "o": [
+    "₹396",
+    "₹324",
+    "₹450",
+    "₹400"
+   ],
+   "a": 3,
+   "e": "SP = 0.9 × CP, so CP = 360 ÷ 0.9 = ₹400."
+  },
+  {
+   "id": "profit-007",
+   "sec": "arithmetic",
+   "topic": "profit",
+   "sub": "loss percent",
+   "d": 1,
+   "q": "A radio is bought for ₹80 and sold for ₹68. The loss percent is:",
+   "o": [
+    "12%",
+    "17%",
+    "15%",
+    "18%"
+   ],
+   "a": 2,
+   "e": "Loss = ₹12, and 12/80 × 100 = 15%."
+  },
+  {
+   "id": "profit-008",
+   "sec": "arithmetic",
+   "topic": "profit",
+   "sub": "discount percent",
+   "d": 1,
+   "q": "An item marked ₹800 is sold for ₹680. The rate of discount is:",
+   "o": [
+    "12%",
+    "15%",
+    "17%",
+    "20%"
+   ],
+   "a": 1,
+   "e": "Discount = 800 − 680 = ₹120. Rate = 120/800 × 100 = 15% of the marked price."
+  },
+  {
+   "id": "profit-009",
+   "sec": "arithmetic",
+   "topic": "profit",
+   "sub": "selling price from gain",
+   "d": 1,
+   "q": "A trader buys goods for ₹2500 and sells them at a gain of 12%. The selling price is:",
+   "o": [
+    "₹2800",
+    "₹2750",
+    "₹2812",
+    "₹2780"
+   ],
+   "a": 0,
+   "e": "Gain = 12% of 2500 = ₹300. SP = 2500 + 300 = ₹2800."
+  },
+  {
+   "id": "profit-010",
+   "sec": "arithmetic",
+   "topic": "profit",
+   "sub": "successive discounts",
+   "d": 2,
+   "q": "Two successive discounts of 20% and 10% are equal to a single discount of:",
+   "o": [
+    "30%",
+    "29%",
+    "25%",
+    "28%"
+   ],
+   "a": 3,
+   "e": "Net factor = 0.8 × 0.9 = 0.72, so the single discount is 28%. Adding 20 + 10 = 30 is the usual slip."
+  },
+  {
+   "id": "profit-011",
+   "sec": "arithmetic",
+   "topic": "profit",
+   "sub": "marked price",
+   "d": 2,
+   "q": "A shopkeeper marks his goods 40% above cost price and allows a discount of 20%. His profit percent is:",
+   "o": [
+    "20%",
+    "8%",
+    "12%",
+    "16%"
+   ],
+   "a": 2,
+   "e": "Take CP = 100. MP = 140 and SP = 0.8 × 140 = 112. Profit = 12%."
+  },
+  {
+   "id": "profit-012",
+   "sec": "arithmetic",
+   "topic": "profit",
+   "sub": "two articles",
+   "d": 2,
+   "q": "Two articles are sold for ₹1200 each, one at a gain of 20% and the other at a loss of 20%. On the whole the transaction results in:",
+   "o": [
+    "no gain, no loss",
+    "a loss of 4%",
+    "a gain of 4%",
+    "a loss of 2%"
+   ],
+   "a": 1,
+   "e": "When two items are sold at the same price with equal gain and loss x%, there is always a loss of x²/100 % = 400/100 = 4%. Check: CP = 1000 + 1500 = 2500, SP = 2400, loss = 100 = 4%."
+  },
+  {
+   "id": "profit-013",
+   "sec": "arithmetic",
+   "topic": "profit",
+   "sub": "cost and selling price of articles",
+   "d": 2,
+   "q": "The selling price of 15 articles equals the cost price of 18 articles. The gain percent is:",
+   "o": [
+    "20%",
+    "18%",
+    "15%",
+    "25%"
+   ],
+   "a": 0,
+   "e": "Let each cost ₹1. Then SP of 15 = ₹18, so SP of one = ₹1.20. Gain = 20% of cost."
+  },
+  {
+   "id": "profit-014",
+   "sec": "arithmetic",
+   "topic": "profit",
+   "sub": "marked price above cost",
+   "d": 2,
+   "q": "A shopkeeper allows a 10% discount on the marked price and still makes a 20% profit. The marked price is what percent above the cost price?",
+   "o": [
+    "30%",
+    "32%",
+    "40%",
+    "33⅓%"
+   ],
+   "a": 3,
+   "e": "SP = 1.2 CP = 0.9 MP, so MP = 1.2/0.9 × CP = 4/3 CP. That is 33⅓% above cost."
+  },
+  {
+   "id": "profit-015",
+   "sec": "arithmetic",
+   "topic": "profit",
+   "sub": "successive discounts",
+   "d": 2,
+   "q": "Successive discounts of 10% and 5% are given on a table marked ₹2000. The price paid is:",
+   "o": [
+    "₹1700",
+    "₹1800",
+    "₹1710",
+    "₹1690"
+   ],
+   "a": 2,
+   "e": "After 10%: 2000 × 0.9 = 1800. After 5% on that: 1800 × 0.95 = ₹1710. Using 15% on 2000 gives ₹1700, which is wrong."
+  },
+  {
+   "id": "profit-016",
+   "sec": "arithmetic",
+   "topic": "profit",
+   "sub": "false weights",
+   "d": 2,
+   "q": "A dishonest shopkeeper sells goods at cost price but uses a weight of 900 g in place of 1 kg. His gain percent is:",
+   "o": [
+    "10%",
+    "11 1/9%",
+    "9 1/11%",
+    "12%"
+   ],
+   "a": 1,
+   "e": "He gives 900 g and charges for 1000 g. Gain = 100/900 × 100 = 11 1/9%. Dividing by 1000 gives the wrong 10%."
+  },
+  {
+   "id": "profit-017",
+   "sec": "arithmetic",
+   "topic": "profit",
+   "sub": "two articles",
+   "d": 3,
+   "q": "A man sells two articles at ₹990 each. On one he gains 10% and on the other he loses 10%. His overall result is:",
+   "o": [
+    "a loss of 1%",
+    "no gain, no loss",
+    "a gain of 1%",
+    "a loss of 2%"
+   ],
+   "a": 0,
+   "e": "CP of the first = 990 ÷ 1.1 = 900; CP of the second = 990 ÷ 0.9 = 1100. Total CP = 2000, total SP = 1980, so the loss is 20, which is 1%."
+  },
+  {
+   "id": "profit-018",
+   "sec": "arithmetic",
+   "topic": "profit",
+   "sub": "chain of sellers",
+   "d": 3,
+   "q": "A sells an article to B at a profit of 20%, and B sells it to C at a profit of 25%. If C pays ₹750, the cost price for A was:",
+   "o": [
+    "₹600",
+    "₹450",
+    "₹562.50",
+    "₹500"
+   ],
+   "a": 3,
+   "e": "750 = 1.25 × B's price, so B paid 600. Then 600 = 1.2 × A's cost, so A's cost = ₹500."
+  },
+  {
+   "id": "profit-019",
+   "sec": "arithmetic",
+   "topic": "profit",
+   "sub": "successive discounts",
+   "d": 3,
+   "q": "An article marked ₹800 is sold for ₹608 after two successive discounts, the first being 20%. The second discount is:",
+   "o": [
+    "8%",
+    "10%",
+    "5%",
+    "4%"
+   ],
+   "a": 2,
+   "e": "After 20%: 800 × 0.8 = 640. Then 608/640 = 0.95, so the second discount is 5%."
+  },
+  {
+   "id": "profit-020",
+   "sec": "arithmetic",
+   "topic": "profit",
+   "sub": "marked price and successive discounts",
+   "d": 3,
+   "q": "A trader marks goods 50% above cost. He then gives successive discounts of 20% and 5%. His profit percent is:",
+   "o": [
+    "15%",
+    "14%",
+    "17.5%",
+    "25%"
+   ],
+   "a": 1,
+   "e": "Take CP = 100, MP = 150. After 20%: 120; after 5% on that: 120 × 0.95 = 114. Profit = 14%."
+  }
+ ]
+}

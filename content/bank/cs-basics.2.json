@@ -1,0 +1,404 @@
+{
+ "questions": [
+  {
+   "id": "basics-026",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "MS Word",
+   "d": 2,
+   "q": "The Mail Merge feature of MS Word is mainly used to",
+   "o": [
+    "create personalised copies of a letter from a data source",
+    "check spelling in a mail",
+    "send documents through the Internet only",
+    "compress a document before mailing"
+   ],
+   "a": 0,
+   "e": "Mail Merge combines a main document with a data source (names, addresses) to produce personalised letters or labels."
+  },
+  {
+   "id": "basics-027",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "MS Word",
+   "d": 2,
+   "q": "In MS Word, which shortcut moves the cursor to the end of the document?",
+   "o": [
+    "Ctrl + End",
+    "Ctrl + Home",
+    "End",
+    "Alt + End"
+   ],
+   "a": 0,
+   "e": "Ctrl+End goes to the end of the document, while End only goes to the end of the current line."
+  },
+  {
+   "id": "basics-028",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "MS Excel",
+   "d": 2,
+   "q": "Cells A1 to A5 contain 10, the text Delhi, 20, an empty cell and 30 respectively. What does `=COUNT(A1:A5)` return?",
+   "o": [
+    "5",
+    "4",
+    "3",
+    "2"
+   ],
+   "a": 2,
+   "e": "COUNT counts only numeric cells: 10, 20 and 30. Text and empty cells are ignored."
+  },
+  {
+   "id": "basics-029",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "MS Excel",
+   "d": 2,
+   "q": "Which of the following is a mixed cell reference in Excel?",
+   "o": [
+    "$A$1",
+    "A1",
+    "A$1:$B$2",
+    "A$1"
+   ],
+   "a": 3,
+   "e": "In A$1 only the row is fixed while the column can change. $A$1 is absolute and A1 is relative."
+  },
+  {
+   "id": "basics-030",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "MS Excel",
+   "d": 2,
+   "q": "In the formula `=VLOOKUP(B2, A1:D10, 3, FALSE)`, the number 3 indicates",
+   "o": [
+    "the column number of the table from which the result is returned",
+    "the row number of the result",
+    "the number of matches to find",
+    "the approximate match tolerance"
+   ],
+   "a": 0,
+   "e": "The third argument of VLOOKUP is the column index within the table array. FALSE asks for an exact match."
+  },
+  {
+   "id": "basics-031",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "MS Excel",
+   "d": 2,
+   "q": "Which type of chart is best suited to show each part's share of a whole?",
+   "o": [
+    "Line chart",
+    "Pie chart",
+    "Scatter chart",
+    "Stock chart"
+   ],
+   "a": 1,
+   "e": "A pie chart shows how parts add up to a total. A line chart is meant for trends over time."
+  },
+  {
+   "id": "basics-032",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "MS PowerPoint",
+   "d": 2,
+   "q": "Consider the following statements about MS PowerPoint.\nI. Pressing F5 starts the slide show from the first slide.\nII. Pressing Shift + F5 starts the slide show from the current slide.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Both are true. F5 begins the show from the beginning, while Shift+F5 begins it from the slide currently selected."
+  },
+  {
+   "id": "basics-033",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "MS PowerPoint",
+   "d": 2,
+   "q": "Consider the following statements about MS PowerPoint.\nI. Animation effects can be applied to objects such as text boxes and pictures within a slide.\nII. Slide transitions are applied to individual text boxes on a slide.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "Animations act on objects inside a slide. Transitions control how one whole slide replaces the previous one."
+  },
+  {
+   "id": "basics-034",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "MS Access",
+   "d": 2,
+   "q": "In MS Access, which object is used to produce formatted, printable output of data?",
+   "o": [
+    "Table",
+    "Query",
+    "Form",
+    "Report"
+   ],
+   "a": 3,
+   "e": "A Report presents and summarises data for printing. Tables store data, queries retrieve it and forms are for entry."
+  },
+  {
+   "id": "basics-035",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "Windows",
+   "d": 2,
+   "q": "Consider the following statements about Windows shortcuts.\nI. The shortcut Windows key + R locks the computer.\nII. The shortcut Windows key + E opens File Explorer.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "Only II is correct. Win+E opens File Explorer. Win+R opens the Run box; the lock shortcut is Win+L."
+  },
+  {
+   "id": "basics-036",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "viruses",
+   "d": 2,
+   "q": "Consider the following statements about malware.\nI. A Trojan horse replicates itself and spreads across a network on its own.\nII. A worm spreads across a network without attaching itself to a host file.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "Only II is correct. A worm is self-replicating and spreads on its own. A Trojan horse does not replicate; it relies on the user running it."
+  },
+  {
+   "id": "basics-037",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "memory types",
+   "d": 2,
+   "q": "Which of the following lists memories in decreasing order of speed?",
+   "o": [
+    "Registers, cache, RAM, hard disk",
+    "Cache, registers, RAM, hard disk",
+    "Registers, RAM, cache, hard disk",
+    "RAM, cache, registers, hard disk"
+   ],
+   "a": 0,
+   "e": "Registers are fastest, then cache, then main memory (RAM), then secondary storage such as a hard disk."
+  },
+  {
+   "id": "basics-038",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "memory types",
+   "d": 2,
+   "q": "Consider the following statements about ROM types.\nI. An EPROM chip is erased by exposing it to ultraviolet light.\nII. An EEPROM chip is erased by exposing it to ultraviolet light.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "Only I is correct. EPROM has a quartz window for UV erasure. EEPROM is erased electrically, without removing it from the circuit."
+  },
+  {
+   "id": "basics-039",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "printers",
+   "d": 2,
+   "q": "Consider the following statements about printers.\nI. A laser printer forms the image by striking an inked ribbon with pins.\nII. A dot-matrix printer uses a photosensitive drum and toner powder.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 3,
+   "e": "Neither is correct. A laser printer uses a photosensitive drum and toner, and a dot-matrix printer strikes an inked ribbon with pins."
+  },
+  {
+   "id": "basics-040",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "input devices",
+   "d": 2,
+   "q": "MICR technology is used mainly for processing",
+   "o": [
+    "bank cheques",
+    "bar codes on goods",
+    "answer sheets with pencil marks",
+    "photographs"
+   ],
+   "a": 0,
+   "e": "Magnetic Ink Character Recognition reads the magnetic-ink numbers printed on cheques. OMR reads marked answer sheets."
+  },
+  {
+   "id": "basics-041",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "email",
+   "d": 2,
+   "q": "Consider the following statements about email.\nI. SMTP is used for sending email.\nII. POP3 and IMAP are used for retrieving email from a mail server.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "SMTP pushes mail to servers, while POP3 and IMAP let a client fetch it. Both statements are correct."
+  },
+  {
+   "id": "basics-042",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "internet basics",
+   "d": 2,
+   "q": "A cookie in a web browser is",
+   "o": [
+    "a small text file stored by a website on the user's computer",
+    "a program that blocks pop-ups",
+    "a type of virus",
+    "the cache of downloaded images only"
+   ],
+   "a": 0,
+   "e": "Websites store cookies in the browser to remember sessions and preferences."
+  },
+  {
+   "id": "basics-043",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "MS Excel",
+   "d": 3,
+   "q": "Cells A1, A2 and A3 contain 5, 3 and 2. What is the value of `=A1+A2*A3^2`?",
+   "o": [
+    "32",
+    "17",
+    "64",
+    "121"
+   ],
+   "a": 1,
+   "e": "Exponent first: 2² = 4, then multiplication: 3 × 4 = 12, then addition: 5 + 12 = 17."
+  },
+  {
+   "id": "basics-044",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "MS Excel",
+   "d": 3,
+   "q": "A1 = 5 and A2 = 3. What does `=IF(AND(A1>3,A2>3),\"X\",IF(OR(A1>3,A2>3),\"Y\",\"Z\"))` return?",
+   "o": [
+    "X",
+    "Y",
+    "Z",
+    "FALSE"
+   ],
+   "a": 1,
+   "e": "A1>3 is true but A2>3 is false, so AND fails. OR is true, so the inner IF returns Y."
+  },
+  {
+   "id": "basics-045",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "MS Excel",
+   "d": 3,
+   "q": "What is the value of `=ROUND(2.567,1)+INT(-2.5)+MOD(-7,3)` in Excel?",
+   "o": [
+    "2.6",
+    "1.6",
+    "-1.4",
+    "0.6"
+   ],
+   "a": 1,
+   "e": "ROUND gives 2.6, INT(-2.5) rounds down to -3, and MOD(-7,3) takes the sign of the divisor giving 2. Sum = 1.6."
+  },
+  {
+   "id": "basics-046",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "MS Excel",
+   "d": 3,
+   "q": "A1:A3 contain 10, 20, 30 and B1:B3 contain Low, Mid, High. What does `=VLOOKUP(25,A1:B3,2,TRUE)` return?",
+   "o": [
+    "Low",
+    "High",
+    "Mid",
+    "#N/A"
+   ],
+   "a": 2,
+   "e": "With approximate match, VLOOKUP picks the largest value not exceeding 25, which is 20, and returns its column-2 entry: Mid."
+  },
+  {
+   "id": "basics-047",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "memory units",
+   "d": 3,
+   "q": "A file of 1.5 MB (binary convention) is stored on a disk with 512-byte sectors. How many sectors does the file occupy, ignoring any partial-sector rounding?",
+   "o": [
+    "1536",
+    "3000",
+    "3072",
+    "6144"
+   ],
+   "a": 2,
+   "e": "1.5 × 1024 × 1024 = 1,572,864 bytes. Dividing by 512 gives 3072 sectors."
+  },
+  {
+   "id": "basics-048",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "internet basics",
+   "d": 3,
+   "q": "A 12 MB file is downloaded over an 8 Mbps link with no overhead. Taking 1 MB = 8 megabits, the time needed is",
+   "o": [
+    "1.5 s",
+    "12 s",
+    "96 s",
+    "8 s"
+   ],
+   "a": 1,
+   "e": "12 MB = 96 megabits. At 8 megabits per second the time is 96 ÷ 8 = 12 seconds."
+  },
+  {
+   "id": "basics-049",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "MS Excel",
+   "d": 3,
+   "q": "The formula `=A1+$B1` is entered in cell C1 and then copied to cell D2. What does the formula in D2 become?",
+   "o": [
+    "B2+$B2",
+    "B1+$B1",
+    "A2+$B2",
+    "B2+$C2"
+   ],
+   "a": 0,
+   "e": "Moving one column right and one row down shifts relative parts: A1 becomes B2. $B1 keeps column B but the row becomes 2."
+  },
+  {
+   "id": "basics-050",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "translators",
+   "d": 3,
+   "q": "Which sequence correctly shows the stages through which a C source file passes before it is run?",
+   "o": [
+    "Preprocessing, compiling, assembling, linking, loading",
+    "Compiling, preprocessing, assembling, linking, loading",
+    "Preprocessing, assembling, compiling, linking, loading",
+    "Preprocessing, compiling, linking, assembling, loading"
+   ],
+   "a": 0,
+   "e": "The preprocessor expands directives, the compiler produces assembly, the assembler produces object code, the linker builds the executable and the loader runs it."
+  }
+ ]
+}

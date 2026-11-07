@@ -1,0 +1,164 @@
+{
+ "questions": [
+  {
+   "id": "work-001",
+   "sec": "arithmetic",
+   "topic": "work",
+   "sub": "two workers",
+   "d": 1,
+   "q": "A can do a piece of work in 12 days and B can do it in 24 days. Working together, they finish it in",
+   "o": [
+    "8 days",
+    "18 days",
+    "6 days",
+    "12 days"
+   ],
+   "a": 0,
+   "e": "Together they do 1/12 + 1/24 = 1/8 of the work a day, so 8 days."
+  },
+  {
+   "id": "work-002",
+   "sec": "arithmetic",
+   "topic": "work",
+   "sub": "pipe and leak",
+   "d": 1,
+   "q": "A pipe can fill a tank in 6 hours and another pipe can empty it in 12 hours. If both are opened together, the empty tank fills in",
+   "o": [
+    "9 hours",
+    "4 hours",
+    "18 hours",
+    "12 hours"
+   ],
+   "a": 3,
+   "e": "Net rate = 1/6 − 1/12 = 1/12 of the tank per hour, so 12 hours."
+  },
+  {
+   "id": "work-003",
+   "sec": "arithmetic",
+   "topic": "work",
+   "sub": "men and days",
+   "d": 1,
+   "q": "8 men can finish a job in 15 days. How many days will 12 men take to finish the same job?",
+   "o": [
+    "22.5 days",
+    "10 days",
+    "12 days",
+    "7 days"
+   ],
+   "a": 1,
+   "e": "Total work = 8 × 15 = 120 man-days, and 120 / 12 = 10 days."
+  },
+  {
+   "id": "work-004",
+   "sec": "arithmetic",
+   "topic": "work",
+   "sub": "partial work then remaining",
+   "d": 2,
+   "q": "A can finish a work in 12 days and B in 24 days. They work together for 4 days and then B leaves. A alone finishes the rest in",
+   "o": [
+    "4 days",
+    "8 days",
+    "12 days",
+    "6 days"
+   ],
+   "a": 3,
+   "e": "In 4 days they do 4 × 1/8 = 1/2 of the work. A does the remaining 1/2 in 12 × ½ = 6 days."
+  },
+  {
+   "id": "work-005",
+   "sec": "arithmetic",
+   "topic": "work",
+   "sub": "wages",
+   "d": 2,
+   "q": "A alone can do a job in 6 days and B alone in 12 days. They complete it together and are paid ₹1800. A's share is",
+   "o": [
+    "₹900",
+    "₹1200",
+    "₹1000",
+    "₹600"
+   ],
+   "a": 1,
+   "e": "Wages go in the ratio of work done, which is the ratio of efficiency 1/6 : 1/12 = 2 : 1. A gets 2/3 of 1800 = ₹1200."
+  },
+  {
+   "id": "work-006",
+   "sec": "arithmetic",
+   "topic": "work",
+   "sub": "inlet and outlet",
+   "d": 2,
+   "q": "Pipes A and B can fill a tank in 10 hours and 15 hours, and an outlet C can empty it in 30 hours. If all three are open, the empty tank fills in",
+   "o": [
+    "6 hours",
+    "8 hours",
+    "7.5 hours",
+    "9 hours"
+   ],
+   "a": 2,
+   "e": "Net rate = 1/10 + 1/15 − 1/30 = 4/30 = 2/15 of the tank per hour, so 15/2 = 7.5 hours."
+  },
+  {
+   "id": "work-007",
+   "sec": "arithmetic",
+   "topic": "work",
+   "sub": "efficiency ratio",
+   "d": 2,
+   "q": "A is twice as efficient as B. Together they finish a work in 18 days. A alone would take",
+   "o": [
+    "27 days",
+    "54 days",
+    "36 days",
+    "9 days"
+   ],
+   "a": 0,
+   "e": "If A takes x days, B takes 2x. So 1/x + 1/(2x) = 1/18, which gives 3/(2x) = 1/18 and x = 27 days."
+  },
+  {
+   "id": "work-008",
+   "sec": "arithmetic",
+   "topic": "work",
+   "sub": "pairwise work",
+   "d": 3,
+   "q": "A and B together can do a work in 12 days, B and C in 15 days, and C and A in 20 days. A alone can do it in",
+   "o": [
+    "20 days",
+    "30 days",
+    "60 days",
+    "24 days"
+   ],
+   "a": 1,
+   "e": "Adding the three rates gives 2(A + B + C) = 1/12 + 1/15 + 1/20 = 1/5, so A + B + C = 1/10. Then A = 1/10 − 1/15 = 1/30, so 30 days."
+  },
+  {
+   "id": "work-009",
+   "sec": "arithmetic",
+   "topic": "work",
+   "sub": "leak time",
+   "d": 3,
+   "q": "A tank is filled by a pump in 6 hours. Because of a leak, it takes 8 hours to fill. If the tank is full, the leak alone will empty it in",
+   "o": [
+    "48 hours",
+    "14 hours",
+    "12 hours",
+    "24 hours"
+   ],
+   "a": 3,
+   "e": "Leak rate = 1/6 − 1/8 = 1/24 of the tank per hour, so the leak empties a full tank in 24 hours."
+  },
+  {
+   "id": "work-010",
+   "sec": "arithmetic",
+   "topic": "work",
+   "sub": "leaves before end",
+   "d": 3,
+   "q": "A can complete a work in 20 days and B in 30 days. They start together, but A leaves 5 days before the work is finished. The work is completed in",
+   "o": [
+    "15 days",
+    "12 days",
+    "18 days",
+    "16 days"
+   ],
+   "a": 0,
+   "e": "Let the work last x days. B works x days and A works x − 5 days: (x − 5)/20 + x/30 = 1, so 3(x − 5) + 2x = 60 and x = 15."
+  }
+ ]
+}

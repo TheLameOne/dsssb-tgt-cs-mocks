@@ -1,0 +1,324 @@
+{
+ "questions": [
+  {
+   "id": "syllogism-001",
+   "sec": "reasoning",
+   "topic": "syllogism",
+   "sub": "syllogism",
+   "d": 1,
+   "q": "Statements (take them as true):\nAll pens are books.\nAll books are papers.\nConclusions:\nI. All pens are papers.\nII. All papers are pens.\nWhich of the following is correct?",
+   "o": [
+    "Only conclusion I follows",
+    "Only conclusion II follows",
+    "Both conclusions I and II follow",
+    "Neither conclusion I nor II follows"
+   ],
+   "a": 0,
+   "e": "Pens lie inside books, which lie inside papers, so all pens are papers. The reverse, all papers are pens, does not follow."
+  },
+  {
+   "id": "syllogism-002",
+   "sec": "reasoning",
+   "topic": "syllogism",
+   "sub": "syllogism",
+   "d": 1,
+   "q": "Statements (take them as true):\nAll cats are dogs.\nNo dog is a bird.\nConclusions:\nI. No cat is a bird.\nII. Some birds are cats.\nWhich of the following is correct?",
+   "o": [
+    "Only conclusion I follows",
+    "Only conclusion II follows",
+    "Both conclusions I and II follow",
+    "Neither conclusion I nor II follows"
+   ],
+   "a": 0,
+   "e": "Cats lie inside dogs, and dogs share nothing with birds, so no cat is a bird. The second conclusion contradicts this, so it is false."
+  },
+  {
+   "id": "syllogism-003",
+   "sec": "reasoning",
+   "topic": "syllogism",
+   "sub": "syllogism",
+   "d": 1,
+   "q": "Statements (take them as true):\nSome doctors are teachers.\nAll teachers are singers.\nConclusions:\nI. All doctors are singers.\nII. Some singers are doctors.\nWhich of the following is correct?",
+   "o": [
+    "Only conclusion I follows",
+    "Only conclusion II follows",
+    "Both conclusions I and II follow",
+    "Neither conclusion I nor II follows"
+   ],
+   "a": 1,
+   "e": "The doctors who are teachers are also singers, so some singers are doctors. Only some doctors are teachers, so all doctors being singers is not certain."
+  },
+  {
+   "id": "syllogism-004",
+   "sec": "reasoning",
+   "topic": "syllogism",
+   "sub": "syllogism",
+   "d": 1,
+   "q": "Statements (take them as true):\nNo flower is a stone.\nSome stones are rivers.\nConclusions:\nI. No river is a flower.\nII. Some rivers are not flowers.\nWhich of the following is correct?",
+   "o": [
+    "Only conclusion I follows",
+    "Only conclusion II follows",
+    "Both conclusions I and II follow",
+    "Neither conclusion I nor II follows"
+   ],
+   "a": 1,
+   "e": "The rivers that are stones cannot be flowers, so some rivers are not flowers. Other rivers might be flowers, so no river is a flower is not certain."
+  },
+  {
+   "id": "syllogism-005",
+   "sec": "reasoning",
+   "topic": "syllogism",
+   "sub": "syllogism",
+   "d": 1,
+   "q": "Statements (take them as true):\nAll tables are chairs.\nSome chairs are beds.\nConclusions:\nI. Some tables are beds.\nII. Some beds are tables.\nWhich of the following is correct?",
+   "o": [
+    "Only conclusion I follows",
+    "Only conclusion II follows",
+    "Both conclusions I and II follow",
+    "Neither conclusion I nor II follows"
+   ],
+   "a": 3,
+   "e": "The beds that are chairs may or may not be tables, since tables form only one part of chairs. So no link between tables and beds follows."
+  },
+  {
+   "id": "syllogism-006",
+   "sec": "reasoning",
+   "topic": "syllogism",
+   "sub": "syllogism",
+   "d": 1,
+   "q": "Statements (take them as true):\nSome wheels are tyres.\nAll tyres are rubber items.\nConclusions:\nI. Some wheels are rubber items.\nII. Some rubber items are tyres.\nWhich of the following is correct?",
+   "o": [
+    "Only conclusion I follows",
+    "Only conclusion II follows",
+    "Both conclusions I and II follow",
+    "Neither conclusion I nor II follows"
+   ],
+   "a": 2,
+   "e": "The wheels that are tyres are rubber items, so some wheels are rubber items. Those same tyres are rubber items, so some rubber items are tyres. Both follow."
+  },
+  {
+   "id": "syllogism-007",
+   "sec": "reasoning",
+   "topic": "syllogism",
+   "sub": "syllogism",
+   "d": 1,
+   "q": "Statements (take them as true):\nSome books are novels.\nConclusions:\nI. Some novels are books.\nII. Some books are not novels.\nWhich of the following is correct?",
+   "o": [
+    "Only conclusion I follows",
+    "Only conclusion II follows",
+    "Both conclusions I and II follow",
+    "Neither conclusion I nor II follows"
+   ],
+   "a": 0,
+   "e": "A 'some' statement can be reversed, so some novels are books. But some books being novels says nothing about books that are not novels."
+  },
+  {
+   "id": "syllogism-008",
+   "sec": "reasoning",
+   "topic": "syllogism",
+   "sub": "syllogism",
+   "d": 2,
+   "q": "Statements (take them as true):\nAll horses are animals.\nSome animals are wild things.\nConclusions:\nI. Some horses are wild things.\nII. No horse is a wild thing.\nWhich of the following is correct?",
+   "o": [
+    "Only conclusion I follows",
+    "Only conclusion II follows",
+    "Either conclusion I or II follows",
+    "Neither conclusion I nor II follows"
+   ],
+   "a": 2,
+   "e": "The wild animals may or may not be horses, so neither conclusion is certain by itself. They form a complementary pair, though: either some horses are wild or no horse is wild."
+  },
+  {
+   "id": "syllogism-009",
+   "sec": "reasoning",
+   "topic": "syllogism",
+   "sub": "syllogism",
+   "d": 2,
+   "q": "Statements (take them as true):\nAll pens are pencils.\nSome pencils are sticks.\nNo stick is a ruler.\nConclusions:\nI. Some pencils are not rulers.\nII. Some pens are not rulers.\nWhich of the following is correct?",
+   "o": [
+    "Only conclusion I follows",
+    "Only conclusion II follows",
+    "Both conclusions I and II follow",
+    "Neither conclusion I nor II follows"
+   ],
+   "a": 0,
+   "e": "The pencils that are sticks cannot be rulers, so some pencils are not rulers. Those pencils need not be pens, so the pens conclusion does not follow."
+  },
+  {
+   "id": "syllogism-010",
+   "sec": "reasoning",
+   "topic": "syllogism",
+   "sub": "syllogism",
+   "d": 2,
+   "q": "Statements (take them as true):\nSome cars are buses.\nSome buses are trucks.\nAll trucks are vans.\nConclusions:\nI. Some cars are vans.\nII. Some buses are vans.\nWhich of the following is correct?",
+   "o": [
+    "Only conclusion I follows",
+    "Only conclusion II follows",
+    "Both conclusions I and II follow",
+    "Neither conclusion I nor II follows"
+   ],
+   "a": 1,
+   "e": "The buses that are trucks are vans, so some buses are vans. The cars that are buses need not be trucks, so a link between cars and vans does not follow."
+  },
+  {
+   "id": "syllogism-011",
+   "sec": "reasoning",
+   "topic": "syllogism",
+   "sub": "syllogism",
+   "d": 2,
+   "q": "Statements (take them as true):\nAll roses are flowers.\nAll lilies are flowers.\nConclusions:\nI. All roses are lilies.\nII. Some roses are lilies.\nWhich of the following is correct?",
+   "o": [
+    "Only conclusion I follows",
+    "Only conclusion II follows",
+    "Both conclusions I and II follow",
+    "Neither conclusion I nor II follows"
+   ],
+   "a": 3,
+   "e": "Roses and lilies are both inside flowers but may be separate. Therefore neither all roses being lilies nor some roses being lilies is certain."
+  },
+  {
+   "id": "syllogism-012",
+   "sec": "reasoning",
+   "topic": "syllogism",
+   "sub": "syllogism",
+   "d": 2,
+   "q": "Statements (take them as true):\nNo bag is a box.\nSome trays are bags.\nConclusions:\nI. Some trays are not boxes.\nII. Some bags are trays.\nWhich of the following is correct?",
+   "o": [
+    "Only conclusion I follows",
+    "Only conclusion II follows",
+    "Both conclusions I and II follow",
+    "Neither conclusion I nor II follows"
+   ],
+   "a": 2,
+   "e": "The trays that are bags cannot be boxes, so some trays are not boxes. The same bags are trays, so some bags are trays. Both follow."
+  },
+  {
+   "id": "syllogism-013",
+   "sec": "reasoning",
+   "topic": "syllogism",
+   "sub": "syllogism",
+   "d": 2,
+   "q": "Statements (take them as true):\nSome birds are kites.\nAll kites are toys.\nNo toy is a game.\nConclusions:\nI. Some birds are toys.\nII. Some birds are not games.\nIII. No kite is a game.\nWhich of the following is correct?",
+   "o": [
+    "Only I and III follow",
+    "All of I, II and III follow",
+    "Only I and II follow",
+    "Only II and III follow"
+   ],
+   "a": 1,
+   "e": "The birds that are kites are toys, so some birds are toys, and those birds are not games. Kites lie inside toys, which share nothing with games, so no kite is a game. All three follow."
+  },
+  {
+   "id": "syllogism-014",
+   "sec": "reasoning",
+   "topic": "syllogism",
+   "sub": "syllogism",
+   "d": 2,
+   "q": "Statements (take them as true):\nAll shirts are cloths.\nSome cloths are red things.\nNo red thing is a brick.\nConclusions:\nI. Some cloths are not bricks.\nII. Some shirts are red things.\nIII. No shirt is a brick.\nWhich of the following is correct?",
+   "o": [
+    "Only I and II follow",
+    "Only I and III follow",
+    "None of the conclusions follows",
+    "Only conclusion I follows"
+   ],
+   "a": 3,
+   "e": "The cloths that are red cannot be bricks, so some cloths are not bricks. Shirts need not be red, and shirts could include bricks, so the other two do not follow."
+  },
+  {
+   "id": "syllogism-015",
+   "sec": "reasoning",
+   "topic": "syllogism",
+   "sub": "syllogism",
+   "d": 2,
+   "q": "Statements (take them as true):\nAll lamps are bulbs.\nNo bulb is a tube.\nConclusions:\nI. Some lamps are tubes.\nII. No lamp is a tube.\nWhich of the following is correct?",
+   "o": [
+    "Only conclusion I follows",
+    "Only conclusion II follows",
+    "Both conclusions I and II follow",
+    "Neither conclusion I nor II follows"
+   ],
+   "a": 1,
+   "e": "Lamps lie inside bulbs, and bulbs share nothing with tubes, so no lamp is a tube. Some lamps being tubes contradicts this."
+  },
+  {
+   "id": "syllogism-016",
+   "sec": "reasoning",
+   "topic": "syllogism",
+   "sub": "syllogism",
+   "d": 3,
+   "q": "Statements (take them as true):\nAll players are athletes.\nSome athletes are coaches.\nAll coaches are winners.\nConclusions:\nI. Some players are winners.\nII. Some athletes are winners.\nIII. Some winners are athletes.\nWhich of the following is correct?",
+   "o": [
+    "All of I, II and III follow",
+    "Only conclusion III follows",
+    "Only conclusion II follows",
+    "Only II and III follow"
+   ],
+   "a": 3,
+   "e": "Athletes who are coaches are winners, so some athletes are winners and some winners are athletes. Players need not be those coaches, so players being winners is not certain."
+  },
+  {
+   "id": "syllogism-017",
+   "sec": "reasoning",
+   "topic": "syllogism",
+   "sub": "syllogism",
+   "d": 3,
+   "q": "Statements (take them as true):\nSome nets are ropes.\nAll ropes are wires.\nNo wire is a cable.\nConclusions:\nI. All nets are wires.\nII. No rope is a cable.\nIII. Some wires are nets.\nWhich of the following is correct?",
+   "o": [
+    "Only conclusion II follows",
+    "Only conclusion III follows",
+    "Only II and III follow",
+    "All of I, II and III follow"
+   ],
+   "a": 2,
+   "e": "Ropes are wires and wires share nothing with cables, so no rope is a cable. The nets that are ropes are wires, so some wires are nets. Not every net need be a wire."
+  },
+  {
+   "id": "syllogism-018",
+   "sec": "reasoning",
+   "topic": "syllogism",
+   "sub": "syllogism",
+   "d": 3,
+   "q": "Statements (take them as true):\nSome hens are ducks.\nNo duck is a goose.\nAll swans are geese.\nConclusions:\nI. Some hens are not geese.\nII. Some swans are hens.\nIII. No swan is a duck.\nWhich of the following is correct?",
+   "o": [
+    "All of I, II and III follow",
+    "Only conclusion III follows",
+    "Only I and III follow",
+    "Only conclusion I follows"
+   ],
+   "a": 2,
+   "e": "The hens that are ducks cannot be geese, so some hens are not geese. Swans lie inside geese, which share nothing with ducks, so no swan is a duck. Some swans being hens is not certain."
+  },
+  {
+   "id": "syllogism-019",
+   "sec": "reasoning",
+   "topic": "syllogism",
+   "sub": "syllogism",
+   "d": 3,
+   "q": "Statements (take them as true):\nNo man is a worker.\nSome clerks are men.\nAll managers are workers.\nConclusions:\nI. Some clerks are not workers.\nII. No clerk is a manager.\nIII. Some managers are men.\nWhich of the following is correct?",
+   "o": [
+    "Only I and III follow",
+    "Only I and II follow",
+    "None of the conclusions follows",
+    "Only conclusion I follows"
+   ],
+   "a": 3,
+   "e": "The clerks who are men are not workers, so some clerks are not workers. Those clerks are not managers, but other clerks might be, so no clerk is a manager is not certain. Managers are workers, so none is a man."
+  },
+  {
+   "id": "syllogism-020",
+   "sec": "reasoning",
+   "topic": "syllogism",
+   "sub": "syllogism",
+   "d": 3,
+   "q": "Statements (take them as true):\nAll boys are students.\nSome students are athletes.\nAll athletes are singers.\nConclusions:\nI. Some boys are singers.\nII. No boy is a singer.\nWhich of the following is correct?",
+   "o": [
+    "Only conclusion I follows",
+    "Only conclusion II follows",
+    "Either conclusion I or II follows",
+    "Neither conclusion I nor II follows"
+   ],
+   "a": 2,
+   "e": "The students who are athletes are singers, but boys may or may not be among them. So some boys being singers is not certain, nor is no boy being a singer; one of the two must be true."
+  }
+ ]
+}

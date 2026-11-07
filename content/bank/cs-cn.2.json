@@ -1,0 +1,372 @@
+{
+ "questions": [
+  {
+   "id": "cn-025",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "MAC address",
+   "d": 1,
+   "q": "Consider the following statements about the Ethernet MAC address.\nI. It is 32 bits long.\nII. It is written as eight pairs of hexadecimal digits.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 3,
+   "e": "Neither is correct. A MAC address is 48 bits (six bytes), written as six pairs of hexadecimal digits. Eight pairs would make 64 bits."
+  },
+  {
+   "id": "cn-026",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "IGMP",
+   "d": 1,
+   "q": "Which protocol is used by hosts and routers to manage membership of multicast groups?",
+   "o": [
+    "IGMP",
+    "ICMP",
+    "ARP",
+    "RIP"
+   ],
+   "a": 0,
+   "e": "IGMP (Internet Group Management Protocol) lets a host tell its local router which multicast groups it wants to join."
+  },
+  {
+   "id": "cn-027",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "Ethernet",
+   "d": 1,
+   "q": "Classic wired Ethernet (IEEE 802.3) uses which medium access method?",
+   "o": [
+    "CSMA/CA",
+    "Token passing",
+    "Polling",
+    "CSMA/CD"
+   ],
+   "a": 3,
+   "e": "Ethernet senses the carrier and detects collisions. CSMA/CA is used in wireless LANs (IEEE 802.11)."
+  },
+  {
+   "id": "cn-028",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "OSI layers",
+   "d": 1,
+   "q": "Consider the following statements.\nI. The data link layer provides node-to-node delivery of frames.\nII. The transport layer provides process-to-process delivery.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Data link delivery is hop-by-hop between adjacent nodes, while the transport layer uses port numbers to deliver data between processes. Both are correct."
+  },
+  {
+   "id": "cn-029",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "IPv4 addressing",
+   "d": 1,
+   "q": "Which IP address is the loopback address used for testing the local TCP/IP stack?",
+   "o": [
+    "10.0.0.1",
+    "127.0.0.1",
+    "192.168.0.1",
+    "255.255.255.255"
+   ],
+   "a": 1,
+   "e": "Addresses in the block 127.0.0.0/8 loop back to the same host. 127.0.0.1 is the standard one."
+  },
+  {
+   "id": "cn-030",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "TCP and UDP",
+   "d": 1,
+   "q": "Consider the following statements.\nI. UDP is a connectionless protocol.\nII. TCP provides flow control and reliable delivery.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "UDP sends datagrams without setting up a connection. TCP uses acknowledgements, retransmission and a sliding window. Both statements are correct."
+  },
+  {
+   "id": "cn-031",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "ARP and RARP",
+   "d": 1,
+   "q": "Consider the following statements.\nI. ARP maps a MAC address to an IP address.\nII. RARP maps an IP address to a MAC address.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 3,
+   "e": "The two are swapped. ARP maps IP to MAC, and RARP maps MAC to IP. Neither statement is correct."
+  },
+  {
+   "id": "cn-032",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "Transmission modes",
+   "d": 1,
+   "q": "In ______ mode, communication can take place in both directions, but only one direction at a time.",
+   "o": [
+    "simplex",
+    "full duplex",
+    "half duplex",
+    "parallel"
+   ],
+   "a": 2,
+   "e": "Half duplex alternates directions, as in a walkie-talkie. Full duplex allows both directions at once."
+  },
+  {
+   "id": "cn-033",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "VoIP",
+   "d": 1,
+   "q": "In VoIP, the speech signal is digitised and carried over an IP network as ______.",
+   "o": [
+    "circuits",
+    "packets",
+    "analog waves",
+    "dedicated channels"
+   ],
+   "a": 1,
+   "e": "VoIP breaks digitised voice into small packets sent with protocols such as RTP over UDP. It does not need a dedicated circuit."
+  },
+  {
+   "id": "cn-034",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "Subnetting",
+   "d": 2,
+   "q": "How many usable host addresses are available in each subnet of a /26 network?",
+   "o": [
+    "62",
+    "64",
+    "60",
+    "126"
+   ],
+   "a": 0,
+   "e": "A /26 leaves 32 − 26 = 6 host bits, so 2⁶ = 64 addresses. Subtracting the network and broadcast addresses gives 62."
+  },
+  {
+   "id": "cn-035",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "Nyquist",
+   "d": 2,
+   "q": "A noiseless channel of bandwidth 4000 Hz carries a signal with 8 levels. By the Nyquist formula, the maximum bit rate is",
+   "o": [
+    "8000 bps",
+    "16000 bps",
+    "32000 bps",
+    "24000 bps"
+   ],
+   "a": 3,
+   "e": "Nyquist bit rate = 2 × B × log₂L = 2 × 4000 × log₂8 = 2 × 4000 × 3 = 24000 bps."
+  },
+  {
+   "id": "cn-036",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "Shannon",
+   "d": 2,
+   "q": "A channel has bandwidth 3000 Hz and signal-to-noise ratio 1023 (not in dB). By Shannon's formula its capacity is",
+   "o": [
+    "3000 bps",
+    "10230 bps",
+    "30000 bps",
+    "60000 bps"
+   ],
+   "a": 2,
+   "e": "C = B log₂(1 + SNR) = 3000 × log₂1024 = 3000 × 10 = 30000 bps."
+  },
+  {
+   "id": "cn-037",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "Wavelength",
+   "d": 2,
+   "q": "A signal of frequency 3 GHz travels at 3 × 10⁸ m/s in free space. Its wavelength is",
+   "o": [
+    "1 m",
+    "10 cm",
+    "1 cm",
+    "30 cm"
+   ],
+   "a": 1,
+   "e": "λ = c / f = 3 × 10⁸ / 3 × 10⁹ = 0.1 m = 10 cm."
+  },
+  {
+   "id": "cn-038",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "Stop-and-wait",
+   "d": 2,
+   "q": "In the stop-and-wait protocol, the propagation time equals the transmission time of a frame (a = Tp/Tt = 1). The link efficiency is",
+   "o": [
+    "33.3%",
+    "25%",
+    "50%",
+    "100%"
+   ],
+   "a": 0,
+   "e": "Efficiency = 1 / (1 + 2a) = 1 / 3, which is about 33.3%."
+  },
+  {
+   "id": "cn-039",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "Sliding window",
+   "d": 2,
+   "q": "With a 3-bit sequence number field, the maximum sender window size in the Go-Back-N protocol is",
+   "o": [
+    "8",
+    "4",
+    "3",
+    "7"
+   ],
+   "a": 3,
+   "e": "Go-Back-N needs window ≤ 2ⁿ − 1 = 7. A window of 8 would make a new frame indistinguishable from a retransmission."
+  },
+  {
+   "id": "cn-040",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "CRC",
+   "d": 2,
+   "q": "A CRC uses the generator polynomial x³ + x + 1. How many redundant bits are appended to the data?",
+   "o": [
+    "4",
+    "2",
+    "3",
+    "1"
+   ],
+   "a": 2,
+   "e": "The generator has degree 3, so 3 zeros are appended and the 3-bit remainder replaces them. The generator itself is the 4-bit pattern 1011."
+  },
+  {
+   "id": "cn-041",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "Hamming code",
+   "d": 2,
+   "q": "How many parity bits are needed to correct a single-bit error in 7 data bits using Hamming code?",
+   "o": [
+    "3",
+    "4",
+    "5",
+    "2"
+   ],
+   "a": 1,
+   "e": "The condition is 2ʳ ≥ m + r + 1. For m = 7, r = 3 gives 8 ≥ 11, which fails, but r = 4 gives 16 ≥ 12, which works."
+  },
+  {
+   "id": "cn-042",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "Error detection",
+   "d": 2,
+   "q": "The minimum Hamming distance required in a code to correct up to 2 bit errors is",
+   "o": [
+    "5",
+    "3",
+    "4",
+    "2"
+   ],
+   "a": 0,
+   "e": "To correct t errors the code needs distance 2t + 1. For t = 2 that is 5."
+  },
+  {
+   "id": "cn-043",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "Checksum",
+   "d": 2,
+   "q": "The Internet checksum used by IP, TCP and UDP is computed using",
+   "o": [
+    "two's complement multiplication",
+    "XOR of all bytes",
+    "polynomial division",
+    "one's complement addition of 16-bit words"
+   ],
+   "a": 3,
+   "e": "The sender adds the 16-bit words in one's complement arithmetic and complements the sum. The receiver repeats this and checks for all ones."
+  },
+  {
+   "id": "cn-044",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "ALOHA",
+   "d": 2,
+   "q": "Consider the following statements.\nI. The maximum throughput of pure ALOHA is about 36.8%.\nII. The maximum throughput of slotted ALOHA is about 18.4%.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 3,
+   "e": "The values are swapped. Pure ALOHA peaks at 1/(2e) ≈ 18.4%, slotted ALOHA at 1/e ≈ 36.8%."
+  },
+  {
+   "id": "cn-045",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "TCP",
+   "d": 2,
+   "q": "Consider the following statements about the TCP three-way handshake.\nI. The first segment is a SYN+ACK sent by the server.\nII. The last segment is an ACK sent by the client.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "Only II is correct. The client sends SYN first, the server replies with SYN+ACK, and the client completes the handshake with ACK."
+  },
+  {
+   "id": "cn-046",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "DHCP",
+   "d": 2,
+   "q": "Consider the following statements about DHCP.\nI. The DHCP server listens on UDP port 67.\nII. The DHCP client uses UDP port 68.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Both are true. DHCP runs over UDP, with port 67 at the server and port 68 at the client. Port 53 belongs to DNS."
+  },
+  {
+   "id": "cn-047",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "Routing",
+   "d": 2,
+   "q": "Which of the following statements about OSPF is NOT correct?",
+   "o": [
+    "Routers compute shortest paths using the Bellman-Ford algorithm",
+    "It is a link-state routing protocol",
+    "It is an interior gateway protocol",
+    "Each router builds a map of its area"
+   ],
+   "a": 0,
+   "e": "OSPF routers run Dijkstra's shortest path first algorithm on the link-state map. Bellman-Ford is used by distance-vector protocols such as RIP."
+  }
+ ]
+}

@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "id": "discipline-001", "sec": "method", "topic": "discipline", "sub": "PCK origin", "d": 1,
+      "q": "The concept of Pedagogical Content Knowledge (PCK) was introduced by",
+      "o": ["Jerome Bruner", "Benjamin Bloom", "Lee Shulman", "John Dewey"], "a": 2,
+      "e": "Lee Shulman introduced PCK in the mid-1980s to describe the blend of subject knowledge and pedagogy that is special to teachers."
+    },
+    {
+      "id": "discipline-002", "sec": "method", "topic": "discipline", "sub": "interdisciplinary teaching", "d": 1,
+      "q": "Teaching a theme by drawing on concepts and methods of two or more subjects together is called an ______ approach.",
+      "o": ["interdisciplinary", "intradisciplinary", "unidisciplinary", "non-disciplinary"], "a": 0,
+      "e": "An interdisciplinary approach integrates ideas from different disciplines around a theme or problem."
+    },
+    {
+      "id": "discipline-003", "sec": "method", "topic": "discipline", "sub": "core subjects", "d": 1,
+      "q": "A subject that all students must study irrespective of their interests is called a ______ subject.",
+      "o": ["elective", "core", "optional", "co-curricular"], "a": 1,
+      "e": "Core subjects are compulsory for all learners. Electives are chosen by students according to interest."
+    },
+    {
+      "id": "discipline-004", "sec": "method", "topic": "discipline", "sub": "nature of discipline", "d": 1,
+      "q": "Which of the following best describes an academic discipline?",
+      "o": ["A random collection of facts", "A school's code of conduct", "A teacher's lesson plan", "A branch of knowledge with its own concepts, methods and standards of inquiry"], "a": 3,
+      "e": "A discipline is an organised body of knowledge with characteristic concepts and ways of enquiry, such as physics or history."
+    },
+    {
+      "id": "discipline-005", "sec": "method", "topic": "discipline", "sub": "NCF 2005 subject boundaries", "d": 2,
+      "q": "Consider the following statements about NCF 2005.\nI. It favours strict compartmentalisation of knowledge into watertight subjects.\nII. It emphasises connecting school knowledge to life outside the school.\nWhich of the above is/are correct?",
+      "o": ["Only I", "Only II", "Both I and II", "Neither I nor II"], "a": 1,
+      "e": "NCF 2005 seeks to reduce rigid boundaries between subjects and to link learning with the child's life outside school."
+    },
+    {
+      "id": "discipline-006", "sec": "method", "topic": "discipline", "sub": "Shulman knowledge categories", "d": 2,
+      "q": "Which of the following is NOT among the categories of teacher knowledge listed by Shulman (1987)?",
+      "o": ["Content knowledge", "Knowledge of learners", "Technological knowledge", "Curriculum knowledge"], "a": 2,
+      "e": "Shulman's list covers content, general pedagogical, curriculum, pedagogical content, learners, contexts and educational ends. Technological knowledge was added later in TPACK."
+    },
+    {
+      "id": "discipline-007", "sec": "method", "topic": "discipline", "sub": "NEP 2020 subject separation", "d": 2,
+      "q": "NEP 2020 states that there will be no hard separation between",
+      "o": ["teachers and students", "arts and sciences, or between curricular and extracurricular activities", "primary and middle schools", "public and private schools"], "a": 1,
+      "e": "NEP 2020 removes rigid boundaries between arts and sciences and between curricular, co-curricular and extracurricular areas."
+    },
+    {
+      "id": "discipline-008", "sec": "method", "topic": "discipline", "sub": "discipline versus school subject", "d": 2,
+      "q": "Consider the following statements.\nI. A school subject is derived from a discipline, with content selected and organised for teaching and learning.\nII. A school subject is always identical to the discipline it is based on.\nWhich of the above is/are correct?",
+      "o": ["Only I", "Only II", "Both I and II", "Neither I nor II"], "a": 0,
+      "e": "School subjects are selections of disciplinary knowledge adapted to learners' age and needs. They are not identical to the full discipline."
+    },
+    {
+      "id": "discipline-009", "sec": "method", "topic": "discipline", "sub": "Schwab structure of discipline", "d": 3,
+      "q": "According to Schwab, the 'syntactic structure' of a discipline refers to",
+      "o": ["its list of prescribed textbooks", "the ways in which it establishes and verifies knowledge", "its main concepts and principles", "its place in the school timetable"], "a": 1,
+      "e": "Schwab's substantive structure is the discipline's concepts and frameworks. The syntactic structure is its methods of inquiry and canons of evidence."
+    },
+    {
+      "id": "discipline-010", "sec": "method", "topic": "discipline", "sub": "PCK example", "d": 3,
+      "q": "Which of the following is an example of pedagogical content knowledge (PCK) for a Computer Science teacher?",
+      "o": ["Knowing the syntax of the `for` loop", "Knowing that learners often confuse `=` with `==` and using a trace table to correct this", "Knowing the history of the C language", "Knowing the school's examination schedule"], "a": 1,
+      "e": "PCK joins content with teaching: it covers learners' common difficulties and the representations that remove them. Syntax or history alone is only content knowledge."
+    }
+  ]
+}

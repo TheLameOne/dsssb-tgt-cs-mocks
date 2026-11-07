@@ -1,0 +1,404 @@
+{
+ "questions": [
+  {
+   "id": "ds-026",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "infix to prefix",
+   "d": 2,
+   "q": "The prefix form of the infix expression `(A + B) * (C − D)` is",
+   "o": [
+    "*+AB−CD",
+    "+AB−CD*",
+    "−*+ABCD",
+    "*+AB−DC"
+   ],
+   "a": 0,
+   "e": "Write the operator before its two operands: + A B and − C D, then * before both. This gives * + A B − C D."
+  },
+  {
+   "id": "ds-027",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "postfix evaluation",
+   "d": 2,
+   "q": "What is the value of the postfix expression `8 2 3 ^ / 2 3 * + 5 −`, where ^ is exponentiation?",
+   "o": [
+    "7",
+    "−2",
+    "2",
+    "10"
+   ],
+   "a": 2,
+   "e": "2 3 ^ = 8, then 8 8 / = 1. 2 3 * = 6, then 1 + 6 = 7, and 7 − 5 = 2."
+  },
+  {
+   "id": "ds-028",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "circular queue",
+   "d": 2,
+   "q": "A circular queue uses an array of size 6 with indices 0 to 5. front = 4 is the index of the first element and rear = 1 is the index of the last element. The queue holds ______ elements.",
+   "o": [
+    "3",
+    "5",
+    "4",
+    "2"
+   ],
+   "a": 2,
+   "e": "The elements are at indices 4, 5, 0 and 1. The formula (rear − front + N) mod N + 1 = (1 − 4 + 6) mod 6 + 1 = 4."
+  },
+  {
+   "id": "ds-029",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "BST traversal",
+   "d": 2,
+   "q": "Keys 45, 30, 60, 20, 40, 55, 70, 35, 42 are inserted in this order into an empty binary search tree. Its post-order traversal is",
+   "o": [
+    "20 35 42 40 30 55 70 60 45",
+    "20 30 35 40 42 45 55 60 70",
+    "20 35 42 30 40 55 70 60 45",
+    "20 40 35 42 30 55 70 60 45"
+   ],
+   "a": 0,
+   "e": "45 is the root; 30 (children 20 and 40) is on the left. 40 has children 35 and 42. 60 has children 55 and 70. Post-order gives left, right, root at every node."
+  },
+  {
+   "id": "ds-030",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "BST deletion",
+   "d": 2,
+   "q": "Keys 50, 30, 70, 20, 40, 60, 80, 35, 45 are inserted into an empty BST. The node 30 is then deleted by replacing it with its in-order successor. The pre-order traversal of the resulting tree is",
+   "o": [
+    "50 20 40 35 45 70 60 80",
+    "50 40 20 35 45 70 60 80",
+    "50 35 20 40 70 60 80 45",
+    "50 35 20 40 45 70 60 80"
+   ],
+   "a": 3,
+   "e": "The in-order successor of 30 is 35, the smallest key of its right subtree. 35 replaces 30 and its old position is removed, leaving 40 with only the right child 45. Using the predecessor 20 instead gives a different tree."
+  },
+  {
+   "id": "ds-031",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "tree conversion",
+   "d": 2,
+   "q": "The pre-order traversal of a binary search tree is 50 30 20 40 70 60 80. Its post-order traversal is",
+   "o": [
+    "20 30 40 50 60 70 80",
+    "20 40 30 60 80 70 50",
+    "20 40 30 80 60 70 50",
+    "40 20 30 60 80 70 50"
+   ],
+   "a": 1,
+   "e": "50 is the root, 30 20 40 is the left subtree, and 70 60 80 is the right subtree. Post-order lists the left subtree 20 40 30, the right subtree 60 80 70, then 50."
+  },
+  {
+   "id": "ds-032",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "tree reconstruction",
+   "d": 2,
+   "q": "The pre-order traversal of a binary tree is A B D E C F and its in-order traversal is D B E A C F. Its post-order traversal is",
+   "o": [
+    "D B E F C A",
+    "D E B F C A",
+    "D E B C F A",
+    "E D B F C A"
+   ],
+   "a": 1,
+   "e": "A is the root. D B E is the left subtree, with B as its root and D, E as children. C F is the right subtree, with C as root and F as right child. Post-order gives D E B F C A."
+  },
+  {
+   "id": "ds-033",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "tree counting",
+   "d": 2,
+   "q": "The number of structurally distinct binary search trees that can be built with 4 distinct keys is",
+   "o": [
+    "12",
+    "16",
+    "24",
+    "14"
+   ],
+   "a": 3,
+   "e": "The count is the Catalan number C₄ = (1/5) × C(8, 4) = 70/5 = 14. 24 is 4!, the number of insertion orders."
+  },
+  {
+   "id": "ds-034",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "heap insertion",
+   "d": 2,
+   "q": "In the max-heap stored as the array [90, 70, 80, 40, 50, 60], the key 85 is inserted. The array becomes",
+   "o": [
+    "[90, 70, 85, 40, 50, 60, 80]",
+    "[90, 85, 80, 40, 50, 60, 70]",
+    "[90, 70, 80, 85, 50, 60, 40]",
+    "[85, 90, 80, 40, 50, 60, 70]"
+   ],
+   "a": 0,
+   "e": "85 goes at index 6. Its parent at index 2 is 80, which is smaller, so they swap. The next parent, 90, is larger, so the process stops."
+  },
+  {
+   "id": "ds-035",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "heapify",
+   "d": 2,
+   "q": "The array [9, 5, 6, 2, 3, 1, 8] is converted into a min-heap using the bottom-up (Floyd) heapify method. The resulting array is",
+   "o": [
+    "[1, 2, 3, 5, 6, 8, 9]",
+    "[1, 2, 6, 9, 3, 5, 8]",
+    "[1, 2, 6, 5, 3, 9, 8]",
+    "[1, 3, 2, 5, 9, 6, 8]"
+   ],
+   "a": 2,
+   "e": "Sift down from index 2: 6 swaps with its child 1. Index 1: 5 swaps with 2. Index 0: 9 swaps with the smaller child 1, then with 6. Result: [1, 2, 6, 5, 3, 9, 8]."
+  },
+  {
+   "id": "ds-036",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "hashing",
+   "d": 2,
+   "q": "A hash table of size 7 uses h(k) = k mod 7 with linear probing. Keys 15, 22, 8 and 29 are inserted in this order. The index at which 29 is stored is",
+   "o": [
+    "1",
+    "3",
+    "4",
+    "5"
+   ],
+   "a": 2,
+   "e": "All four keys hash to 1. 15 takes 1, 22 takes 2, 8 takes 3, and 29 probes 1, 2, 3 and finally lands at 4."
+  },
+  {
+   "id": "ds-037",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "bubble sort",
+   "d": 2,
+   "q": "Bubble sort (ascending, adjacent swaps, scanning from the left) is applied to [29, 10, 14, 37, 13, 5]. The array after the second pass is",
+   "o": [
+    "[10, 14, 13, 5, 29, 37]",
+    "[10, 14, 29, 13, 5, 37]",
+    "[10, 13, 5, 14, 29, 37]",
+    "[5, 10, 13, 14, 29, 37]"
+   ],
+   "a": 0,
+   "e": "Pass 1 gives [10, 14, 29, 13, 5, 37], with 37 fixed. Pass 2 moves 29 right until it meets 37: [10, 14, 13, 5, 29, 37]."
+  },
+  {
+   "id": "ds-038",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "quick sort",
+   "d": 2,
+   "q": "In quick sort with the Lomuto partition scheme (pivot is the last element, elements ≤ pivot move to the left), the first partition of [15, 22, 13, 27, 12, 10, 20, 25] produces",
+   "o": [
+    "[15, 22, 13, 12, 10, 20, 27, 25]",
+    "[10, 12, 13, 15, 20, 22, 25, 27]",
+    "[15, 13, 12, 10, 20, 22, 25, 27]",
+    "[15, 22, 13, 12, 10, 20, 25, 27]"
+   ],
+   "a": 3,
+   "e": "The pivot is 25. Elements ≤ 25 (15, 22, 13, 12, 10, 20) keep their relative order at the front, then the pivot is swapped into index 6 with 27 going to the end."
+  },
+  {
+   "id": "ds-039",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "radix sort",
+   "d": 2,
+   "q": "LSD radix sort (base 10) is applied to 531, 246, 812, 175, 603, 420, 98. After the first pass, on the units digit, the sequence is",
+   "o": [
+    "531, 812, 603, 175, 246, 420, 98",
+    "420, 531, 812, 603, 175, 246, 98",
+    "98, 175, 246, 420, 531, 603, 812",
+    "420, 812, 603, 531, 175, 246, 98"
+   ],
+   "a": 1,
+   "e": "Sorting stably by units digit: 0 (420), 1 (531), 2 (812), 3 (603), 5 (175), 6 (246), 8 (98)."
+  },
+  {
+   "id": "ds-040",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "AVL tree",
+   "d": 2,
+   "q": "What is the minimum number of nodes in an AVL tree of height 3 (a single-node tree has height 0)?",
+   "o": [
+    "8",
+    "7",
+    "10",
+    "15"
+   ],
+   "a": 1,
+   "e": "With N(h) = N(h−1) + N(h−2) + 1, N(0) = 1 and N(1) = 2, we get N(2) = 4 and N(3) = 7. 15 is the size of a perfect tree of height 3."
+  },
+  {
+   "id": "ds-041",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "B-tree",
+   "d": 2,
+   "q": "In a B-tree of order 5 (maximum 5 children per node), every non-root node must hold at least ______ keys.",
+   "o": [
+    "1",
+    "3",
+    "4",
+    "2"
+   ],
+   "a": 3,
+   "e": "A non-root node has at least ⌈5/2⌉ = 3 children, so at least 3 − 1 = 2 keys. The maximum is 4 keys."
+  },
+  {
+   "id": "ds-042",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "array address",
+   "d": 2,
+   "q": "A 2-D array `int A[10][20]` (4 bytes per element, 0-based) is stored in column-major order from base address 1000. The address of `A[2][3]` is",
+   "o": [
+    "1128",
+    "1172",
+    "1132",
+    "1048"
+   ],
+   "a": 0,
+   "e": "Column-major offset = (column × rows + row) = 3 × 10 + 2 = 32 elements = 128 bytes. The address is 1128. The row-major address would be 1172."
+  },
+  {
+   "id": "ds-043",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "heap sort",
+   "d": 3,
+   "q": "The array [40, 10, 30, 50, 20, 60] is first converted into a max-heap by bottom-up heapify, and then the maximum is extracted once (last element moved to root and sifted down). The first five array positions now hold",
+   "o": [
+    "[50, 40, 30, 10, 20]",
+    "[50, 20, 40, 10, 30]",
+    "[50, 30, 40, 10, 20]",
+    "[40, 30, 10, 50, 20]"
+   ],
+   "a": 2,
+   "e": "Heapify gives [60, 50, 40, 10, 20, 30]. Remove 60: 30 goes to the root, swaps with the larger child 50, and stops (10 and 20 are smaller). Result [50, 30, 40, 10, 20]."
+  },
+  {
+   "id": "ds-044",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "hashing",
+   "d": 3,
+   "q": "A table of size 11 uses double hashing with h₁(k) = k mod 11 and h₂(k) = 7 − (k mod 7). Keys 20, 34, 45, 70 and 56 are inserted in this order. The index at which 56 is stored is",
+   "o": [
+    "1",
+    "5",
+    "8",
+    "9"
+   ],
+   "a": 2,
+   "e": "20 goes to 9, 34 to 1, 45 collides at 1 and moves by h₂ = 4 to 5, and 70 goes to 4. For 56: h₁ = 1 is occupied and h₂ = 7 − 0 = 7, so the next probe is 8, which is free."
+  },
+  {
+   "id": "ds-045",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "AVL tree",
+   "d": 3,
+   "q": "Keys 10, 20, 30, 40, 50, 25 are inserted in this order into an empty AVL tree. The pre-order traversal of the final tree is",
+   "o": [
+    "30 20 10 25 40 50",
+    "30 20 10 40 25 50",
+    "20 10 30 25 40 50",
+    "30 10 20 25 40 50"
+   ],
+   "a": 0,
+   "e": "After 50 the tree is 20 (children 10 and 40), with 40 having children 30 and 50. Inserting 25 as left child of 30 unbalances the root (right-left case). The double rotation makes 30 the root with 20 (10, 25) and 40 (right child 50)."
+  },
+  {
+   "id": "ds-046",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "insertion sort",
+   "d": 3,
+   "q": "Insertion sort that moves elements using adjacent swaps is applied to [5, 1, 4, 2, 3, 9, 7]. The total number of swaps performed is",
+   "o": [
+    "6",
+    "9",
+    "12",
+    "7"
+   ],
+   "a": 3,
+   "e": "Swaps equal the number of inversions: (5,1), (5,4), (5,2), (5,3), (4,2), (4,3) and (9,7), which makes 7."
+  },
+  {
+   "id": "ds-047",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "infix to postfix",
+   "d": 3,
+   "q": "Treating ^ as right associative with highest precedence, the postfix form of `A + B * C ^ D ^ E − F / G` is",
+   "o": [
+    "ABCD^E^*+FG/−",
+    "ABCDE^^*+FG/−",
+    "ABC^D^E*+FG/−",
+    "ABCDE^^*+F/G−"
+   ],
+   "a": 1,
+   "e": "D ^ E is evaluated first (right associativity), then C ^ (D^E), giving C D E ^ ^. Multiply by B, add A, then subtract F G /. A left-associative reading would give ABCD^E^*+FG/−."
+  },
+  {
+   "id": "ds-048",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "B-tree",
+   "d": 3,
+   "q": "Keys 10, 20, 30, 40, 50, 60, 70 are inserted in this order into an empty B-tree of order 3 (at most 2 keys per node; a node with 3 keys splits and its middle key moves up). The key in the root is",
+   "o": [
+    "20",
+    "40",
+    "30",
+    "60"
+   ],
+   "a": 1,
+   "e": "After 50 the tree is root [20, 40] with leaves [10], [30], [50]. Adding 60 and 70 makes leaf [50, 60, 70], which pushes 60 up. The root [20, 40, 60] overflows and 40 moves up as the new root."
+  },
+  {
+   "id": "ds-049",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "graph traversal",
+   "d": 3,
+   "q": "A directed graph has adjacency lists A: B, C; B: D, E; C: F; D: F; E: C; F: (none). A recursive DFS starts at A and always scans neighbours in the listed order. The order in which vertices are first visited is",
+   "o": [
+    "A B C D E F",
+    "A B D E C F",
+    "A C F B D E",
+    "A B D F E C"
+   ],
+   "a": 3,
+   "e": "Visit A, then B, then D, then F (dead end). Back at B the next neighbour is E, whose neighbour C is unvisited, so C follows. The visit order is A B D F E C."
+  },
+  {
+   "id": "ds-050",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "array address",
+   "d": 3,
+   "q": "A 3-D array `A[-2..5][3..9][0..4]` with 2-byte elements is stored in row-major order from base address 500. The address of `A[1][5][2]` is",
+   "o": [
+    "734",
+    "732",
+    "716",
+    "740"
+   ],
+   "a": 0,
+   "e": "Dimensions are 8 × 7 × 5. Offset = ((1+2) × 7 + (5−3)) × 5 + (2−0) = (21 + 2) × 5 + 2 = 117 elements = 234 bytes. 500 + 234 = 734."
+  }
+ ]
+}

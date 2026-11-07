@@ -1,0 +1,324 @@
+{
+ "questions": [
+  {
+   "id": "numbers-001",
+   "sec": "arithmetic",
+   "topic": "numbers",
+   "sub": "divisibility by 3",
+   "d": 1,
+   "q": "What is the smallest digit x for which the number 52x4 is divisible by 3?",
+   "o": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "a": 0,
+   "e": "A number is divisible by 3 when its digit sum is. 5 + 2 + x + 4 = 11 + x, and the smallest digit making it a multiple of 3 is x = 1 (sum 12)."
+  },
+  {
+   "id": "numbers-002",
+   "sec": "arithmetic",
+   "topic": "numbers",
+   "sub": "divisibility by 11",
+   "d": 1,
+   "q": "If the number 84x6 is divisible by 11, the digit x is:",
+   "o": [
+    "0",
+    "1",
+    "5",
+    "2"
+   ],
+   "a": 3,
+   "e": "Alternate digit sums must differ by 0 or a multiple of 11. (8 + x) − (4 + 6) = x − 2 = 0, so x = 2. Check: 8426 = 11 × 766."
+  },
+  {
+   "id": "numbers-003",
+   "sec": "arithmetic",
+   "topic": "numbers",
+   "sub": "primes",
+   "d": 1,
+   "q": "How many prime numbers lie between 20 and 40?",
+   "o": [
+    "3",
+    "5",
+    "4",
+    "6"
+   ],
+   "a": 2,
+   "e": "The primes are 23, 29, 31 and 37, which makes 4. Note that 21, 25, 27, 33, 35 and 39 are odd but composite."
+  },
+  {
+   "id": "numbers-004",
+   "sec": "arithmetic",
+   "topic": "numbers",
+   "sub": "unit digit",
+   "d": 1,
+   "q": "The unit digit of 3⁴⁵ is:",
+   "o": [
+    "1",
+    "3",
+    "7",
+    "9"
+   ],
+   "a": 1,
+   "e": "Unit digits of powers of 3 repeat as 3, 9, 7, 1 with period 4. Since 45 = 4 × 11 + 1, the unit digit is that of 3¹, which is 3."
+  },
+  {
+   "id": "numbers-005",
+   "sec": "arithmetic",
+   "topic": "numbers",
+   "sub": "remainder by 9",
+   "d": 1,
+   "q": "What is the remainder when 3457 is divided by 9?",
+   "o": [
+    "1",
+    "3",
+    "5",
+    "7"
+   ],
+   "a": 0,
+   "e": "The remainder on division by 9 equals the remainder of the digit sum. 3 + 4 + 5 + 7 = 19, and 19 = 2 × 9 + 1, so the remainder is 1."
+  },
+  {
+   "id": "numbers-006",
+   "sec": "arithmetic",
+   "topic": "numbers",
+   "sub": "LCM",
+   "d": 1,
+   "q": "The LCM of 12, 15 and 20 is:",
+   "o": [
+    "30",
+    "120",
+    "180",
+    "60"
+   ],
+   "a": 3,
+   "e": "12 = 2² × 3, 15 = 3 × 5, 20 = 2² × 5. Taking the highest powers gives 2² × 3 × 5 = 60."
+  },
+  {
+   "id": "numbers-007",
+   "sec": "arithmetic",
+   "topic": "numbers",
+   "sub": "HCF",
+   "d": 1,
+   "q": "The HCF of 36, 48 and 84 is:",
+   "o": [
+    "6",
+    "4",
+    "12",
+    "24"
+   ],
+   "a": 2,
+   "e": "36 = 2² × 3², 48 = 2⁴ × 3, 84 = 2² × 3 × 7. The common part is 2² × 3 = 12."
+  },
+  {
+   "id": "numbers-008",
+   "sec": "arithmetic",
+   "topic": "numbers",
+   "sub": "HCF and LCM",
+   "d": 1,
+   "q": "The product of two numbers is 720 and one of them is 36. If the HCF of the two numbers is 4, what is their LCM?",
+   "o": [
+    "144",
+    "180",
+    "20",
+    "720"
+   ],
+   "a": 1,
+   "e": "HCF × LCM = product of the numbers, so LCM = 720 ÷ 4 = 180. The other number is 20, and LCM(36, 20) = 180 confirms it."
+  },
+  {
+   "id": "numbers-009",
+   "sec": "arithmetic",
+   "topic": "numbers",
+   "sub": "primes",
+   "d": 1,
+   "q": "Which of the following is a prime number?",
+   "o": [
+    "97",
+    "91",
+    "87",
+    "93"
+   ],
+   "a": 0,
+   "e": "91 = 7 × 13, 87 = 3 × 29 and 93 = 3 × 31 are composite. 97 has no divisor up to 9, so it is prime."
+  },
+  {
+   "id": "numbers-010",
+   "sec": "arithmetic",
+   "topic": "numbers",
+   "sub": "LCM bells",
+   "d": 2,
+   "q": "Three bells toll at intervals of 12 s, 15 s and 18 s. They toll together at the start. How many times will they toll together in the next 30 minutes, counting the start?",
+   "o": [
+    "10",
+    "12",
+    "9",
+    "11"
+   ],
+   "a": 3,
+   "e": "LCM(12, 15, 18) = 180 s = 3 minutes. In 30 minutes they coincide at 0, 3, 6, ..., 30 minutes, which is 10 + 1 = 11 times."
+  },
+  {
+   "id": "numbers-011",
+   "sec": "arithmetic",
+   "topic": "numbers",
+   "sub": "HCF remainders",
+   "d": 2,
+   "q": "What is the greatest number that divides 245 and 1029 leaving remainder 5 in each case?",
+   "o": [
+    "8",
+    "32",
+    "16",
+    "5"
+   ],
+   "a": 2,
+   "e": "The number must divide 245 − 5 = 240 and 1029 − 5 = 1024. HCF(240, 1024) = 16, which is greater than the remainder 5."
+  },
+  {
+   "id": "numbers-012",
+   "sec": "arithmetic",
+   "topic": "numbers",
+   "sub": "LCM remainders",
+   "d": 2,
+   "q": "The smallest number which leaves remainder 5 when divided by each of 8, 12 and 15 is:",
+   "o": [
+    "120",
+    "125",
+    "115",
+    "245"
+   ],
+   "a": 1,
+   "e": "LCM(8, 12, 15) = 120. Adding the common remainder gives 120 + 5 = 125."
+  },
+  {
+   "id": "numbers-013",
+   "sec": "arithmetic",
+   "topic": "numbers",
+   "sub": "unit digit",
+   "d": 2,
+   "q": "The unit digit of 7⁹⁵ + 3⁵⁸ is:",
+   "o": [
+    "2",
+    "0",
+    "6",
+    "8"
+   ],
+   "a": 0,
+   "e": "Powers of 7 and 3 both have period 4. 95 = 4×23 + 3 so 7⁹⁵ ends in 3; 58 = 4×14 + 2 so 3⁵⁸ ends in 9. Then 3 + 9 = 12 ends in 2."
+  },
+  {
+   "id": "numbers-014",
+   "sec": "arithmetic",
+   "topic": "numbers",
+   "sub": "remainder of powers",
+   "d": 2,
+   "q": "What is the remainder when 2⁵⁰ is divided by 7?",
+   "o": [
+    "1",
+    "2",
+    "6",
+    "4"
+   ],
+   "a": 3,
+   "e": "2³ = 8 leaves remainder 1 on division by 7. Since 50 = 3×16 + 2, 2⁵⁰ leaves the same remainder as 2² = 4."
+  },
+  {
+   "id": "numbers-015",
+   "sec": "arithmetic",
+   "topic": "numbers",
+   "sub": "divisibility by 72",
+   "d": 2,
+   "q": "If the four-digit number 1x6y is divisible by 72, then x + y equals:",
+   "o": [
+    "9",
+    "10",
+    "11",
+    "13"
+   ],
+   "a": 2,
+   "e": "Need divisibility by 8 (last three digits x6y) and by 9 (7 + x + y a multiple of 9). Only x = 3, y = 8 satisfies both: 1368 = 72 × 19."
+  },
+  {
+   "id": "numbers-016",
+   "sec": "arithmetic",
+   "topic": "numbers",
+   "sub": "number of factors",
+   "d": 2,
+   "q": "How many positive factors does 360 have?",
+   "o": [
+    "18",
+    "24",
+    "30",
+    "12"
+   ],
+   "a": 1,
+   "e": "360 = 2³ × 3² × 5. The number of factors is (3 + 1)(2 + 1)(1 + 1) = 4 × 3 × 2 = 24."
+  },
+  {
+   "id": "numbers-017",
+   "sec": "arithmetic",
+   "topic": "numbers",
+   "sub": "LCM remainders",
+   "d": 3,
+   "q": "What is the greatest four-digit number which leaves remainder 7 when divided by each of 12, 15 and 20?",
+   "o": [
+    "9967",
+    "9960",
+    "9907",
+    "9987"
+   ],
+   "a": 0,
+   "e": "LCM(12, 15, 20) = 60. The largest multiple of 60 below 10000 is 9960 (60 × 166). Adding the remainder 7 gives 9967."
+  },
+  {
+   "id": "numbers-018",
+   "sec": "arithmetic",
+   "topic": "numbers",
+   "sub": "remainders factorial",
+   "d": 3,
+   "q": "What is the remainder when 1! + 2! + 3! + … + 50! is divided by 7?",
+   "o": [
+    "1",
+    "3",
+    "0",
+    "5"
+   ],
+   "a": 3,
+   "e": "From 7! onwards every term is a multiple of 7. So only 1 + 2 + 6 + 24 + 120 + 720 = 873 matters, and 873 = 7 × 124 + 5, so the remainder is 5."
+  },
+  {
+   "id": "numbers-019",
+   "sec": "arithmetic",
+   "topic": "numbers",
+   "sub": "HCF pairs",
+   "d": 3,
+   "q": "The sum of two numbers is 216 and their HCF is 27. How many such pairs of numbers are possible (taking (a, b) and (b, a) as the same pair)?",
+   "o": [
+    "1",
+    "3",
+    "2",
+    "4"
+   ],
+   "a": 2,
+   "e": "Write the numbers as 27a and 27b with a + b = 8 and a, b coprime. The pairs are (1, 7) and (3, 5); (2, 6) and (4, 4) share factors. So there are 2 pairs."
+  },
+  {
+   "id": "numbers-020",
+   "sec": "arithmetic",
+   "topic": "numbers",
+   "sub": "HCF LCM ratio",
+   "d": 3,
+   "q": "Three numbers are in the ratio 3 : 4 : 5 and their LCM is 2400. Their HCF is:",
+   "o": [
+    "20",
+    "40",
+    "60",
+    "80"
+   ],
+   "a": 1,
+   "e": "Let the numbers be 3k, 4k, 5k. Their LCM is 3·4·5·k = 60k = 2400, so k = 40. Since 3, 4, 5 have no common factor, the HCF is k = 40."
+  }
+ ]
+}

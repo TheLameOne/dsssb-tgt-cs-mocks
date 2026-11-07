@@ -1,0 +1,324 @@
+{
+ "questions": [
+  {
+   "id": "ratio-001",
+   "sec": "arithmetic",
+   "topic": "ratio",
+   "sub": "sharing in a ratio",
+   "d": 1,
+   "q": "₹450 is divided between A and B in the ratio 2 : 3. B's share is:",
+   "o": [
+    "₹270",
+    "₹180",
+    "₹225",
+    "₹300"
+   ],
+   "a": 0,
+   "e": "B gets 3/(2 + 3) of 450 = 3/5 × 450 = ₹270. ₹180 is A's share."
+  },
+  {
+   "id": "ratio-002",
+   "sec": "arithmetic",
+   "topic": "ratio",
+   "sub": "ratio of two numbers",
+   "d": 1,
+   "q": "Two numbers are in the ratio 3 : 5 and their sum is 96. The smaller number is:",
+   "o": [
+    "30",
+    "32",
+    "60",
+    "36"
+   ],
+   "a": 3,
+   "e": "The sum has 3 + 5 = 8 parts, each equal to 96 ÷ 8 = 12. The smaller number is 3 × 12 = 36."
+  },
+  {
+   "id": "ratio-003",
+   "sec": "arithmetic",
+   "topic": "ratio",
+   "sub": "proportion",
+   "d": 1,
+   "q": "If 4 : 9 :: 16 : x, then x equals:",
+   "o": [
+    "24",
+    "32",
+    "36",
+    "64"
+   ],
+   "a": 2,
+   "e": "In a proportion, 4 × x = 9 × 16, so x = 144 ÷ 4 = 36."
+  },
+  {
+   "id": "ratio-004",
+   "sec": "arithmetic",
+   "topic": "ratio",
+   "sub": "mean proportion",
+   "d": 1,
+   "q": "The mean proportional between 4 and 25 is:",
+   "o": [
+    "12.5",
+    "10",
+    "14.5",
+    "15"
+   ],
+   "a": 1,
+   "e": "The mean proportional of a and b is √(ab) = √100 = 10."
+  },
+  {
+   "id": "ratio-005",
+   "sec": "arithmetic",
+   "topic": "ratio",
+   "sub": "direct variation",
+   "d": 1,
+   "q": "12 pens cost ₹90. What is the cost of 20 pens at the same rate?",
+   "o": [
+    "₹150",
+    "₹120",
+    "₹135",
+    "₹180"
+   ],
+   "a": 0,
+   "e": "One pen costs 90 ÷ 12 = ₹7.50, so 20 pens cost 20 × 7.50 = ₹150."
+  },
+  {
+   "id": "ratio-006",
+   "sec": "arithmetic",
+   "topic": "ratio",
+   "sub": "ages",
+   "d": 1,
+   "q": "A father is three times as old as his son. The sum of their ages is 48 years. The son's age is:",
+   "o": [
+    "16 years",
+    "9 years",
+    "18 years",
+    "12 years"
+   ],
+   "a": 3,
+   "e": "Ages are in the ratio 3 : 1 with 4 parts totalling 48, so one part is 12. The son is 12 years old."
+  },
+  {
+   "id": "ratio-007",
+   "sec": "arithmetic",
+   "topic": "ratio",
+   "sub": "partnership",
+   "d": 1,
+   "q": "A and B invest ₹3000 and ₹5000 in a business for the same period. Out of a profit of ₹4000, A's share is:",
+   "o": [
+    "₹1600",
+    "₹2000",
+    "₹1500",
+    "₹2500"
+   ],
+   "a": 2,
+   "e": "Profit is shared in the ratio 3 : 5. A's share = 3/8 × 4000 = ₹1500."
+  },
+  {
+   "id": "ratio-008",
+   "sec": "arithmetic",
+   "topic": "ratio",
+   "sub": "inverse variation",
+   "d": 1,
+   "q": "8 men can finish a job in 12 days. In how many days can 6 men finish it?",
+   "o": [
+    "9 days",
+    "16 days",
+    "15 days",
+    "18 days"
+   ],
+   "a": 1,
+   "e": "Total work = 8 × 12 = 96 man-days. With 6 men it takes 96 ÷ 6 = 16 days."
+  },
+  {
+   "id": "ratio-009",
+   "sec": "arithmetic",
+   "topic": "ratio",
+   "sub": "compound ratio",
+   "d": 1,
+   "q": "If A : B = 2 : 3 and B : C = 4 : 5, then A : C is:",
+   "o": [
+    "8 : 15",
+    "2 : 5",
+    "6 : 5",
+    "10 : 12"
+   ],
+   "a": 0,
+   "e": "A/C = (A/B) × (B/C) = 2/3 × 4/5 = 8/15."
+  },
+  {
+   "id": "ratio-010",
+   "sec": "arithmetic",
+   "topic": "ratio",
+   "sub": "mixtures",
+   "d": 2,
+   "q": "A mixture of 40 L has milk and water in the ratio 3 : 1. If 10 L of water is added, the new ratio of milk to water is:",
+   "o": [
+    "3 : 1",
+    "2 : 1",
+    "4 : 3",
+    "3 : 2"
+   ],
+   "a": 3,
+   "e": "Milk = 30 L and water = 10 L. After adding 10 L water, water = 20 L, so milk : water = 30 : 20 = 3 : 2."
+  },
+  {
+   "id": "ratio-011",
+   "sec": "arithmetic",
+   "topic": "ratio",
+   "sub": "ages",
+   "d": 2,
+   "q": "The present ages of two persons are in the ratio 3 : 5. After 10 years the ratio will be 2 : 3. The sum of their present ages is:",
+   "o": [
+    "72 years",
+    "64 years",
+    "80 years",
+    "100 years"
+   ],
+   "a": 2,
+   "e": "Let the ages be 3k and 5k. Then 3(3k + 10) = 2(5k + 10) gives k = 10, so the ages are 30 and 50 and their sum is 80."
+  },
+  {
+   "id": "ratio-012",
+   "sec": "arithmetic",
+   "topic": "ratio",
+   "sub": "partnership with time",
+   "d": 2,
+   "q": "A invests ₹5000 for 12 months and B invests ₹6000 for 8 months. Of a total profit of ₹9000, A's share is:",
+   "o": [
+    "₹4500",
+    "₹5000",
+    "₹4000",
+    "₹4800"
+   ],
+   "a": 1,
+   "e": "Profit is shared in the ratio of capital × time: 60000 : 48000 = 5 : 4. A's share = 5/9 × 9000 = ₹5000."
+  },
+  {
+   "id": "ratio-013",
+   "sec": "arithmetic",
+   "topic": "ratio",
+   "sub": "alligation",
+   "d": 2,
+   "q": "Rice at ₹40 per kg is mixed with rice at ₹50 per kg to get a mixture worth ₹46 per kg. The ratio of the cheaper to the dearer rice is:",
+   "o": [
+    "2 : 3",
+    "3 : 2",
+    "1 : 1",
+    "4 : 3"
+   ],
+   "a": 0,
+   "e": "By alligation, cheaper : dearer = (50 − 46) : (46 − 40) = 4 : 6 = 2 : 3."
+  },
+  {
+   "id": "ratio-014",
+   "sec": "arithmetic",
+   "topic": "ratio",
+   "sub": "incomes and expenditures",
+   "d": 2,
+   "q": "The incomes of two persons are in the ratio 5 : 4 and their expenditures in the ratio 3 : 2. If each saves ₹1600, the income of the first is:",
+   "o": [
+    "₹3200",
+    "₹5000",
+    "₹4800",
+    "₹4000"
+   ],
+   "a": 3,
+   "e": "Let incomes be 5a and 4a, expenditures 3b and 2b. 5a − 3b = 1600 and 4a − 2b = 1600. Solving gives a = 800, so the first income is 5a = ₹4000."
+  },
+  {
+   "id": "ratio-015",
+   "sec": "arithmetic",
+   "topic": "ratio",
+   "sub": "percentage and ratio",
+   "d": 2,
+   "q": "The salaries of A, B and C are in the ratio 2 : 3 : 5. They get increments of 15%, 10% and 20% respectively. The new ratio of their salaries is:",
+   "o": [
+    "23 : 30 : 60",
+    "46 : 66 : 100",
+    "23 : 33 : 60",
+    "2 : 3 : 5"
+   ],
+   "a": 2,
+   "e": "Multiply each term: 2 × 1.15 = 2.3, 3 × 1.1 = 3.3 and 5 × 1.2 = 6.0. The ratio is 2.3 : 3.3 : 6 = 23 : 33 : 60."
+  },
+  {
+   "id": "ratio-016",
+   "sec": "arithmetic",
+   "topic": "ratio",
+   "sub": "compound variation",
+   "d": 2,
+   "q": "15 men working 8 hours a day can build a wall in 20 days. In how many days can 10 men working 6 hours a day build it?",
+   "o": [
+    "30 days",
+    "40 days",
+    "32 days",
+    "45 days"
+   ],
+   "a": 1,
+   "e": "Work = 15 × 8 × 20 = 2400 man-hours. Per day, 10 men × 6 hours = 60 man-hours, so days = 2400 ÷ 60 = 40."
+  },
+  {
+   "id": "ratio-017",
+   "sec": "arithmetic",
+   "topic": "ratio",
+   "sub": "replacement mixtures",
+   "d": 3,
+   "q": "A vessel holds 40 L of pure milk. 4 L is drawn out and replaced by water, and the same is done once more. The ratio of milk to water in the final mixture is:",
+   "o": [
+    "81 : 19",
+    "9 : 1",
+    "4 : 1",
+    "80 : 20"
+   ],
+   "a": 0,
+   "e": "Each step keeps 9/10 of the milk, so milk = 40 × (9/10)² = 32.4 L and water = 7.6 L. The ratio is 32.4 : 7.6 = 324 : 76 = 81 : 19."
+  },
+  {
+   "id": "ratio-018",
+   "sec": "arithmetic",
+   "topic": "ratio",
+   "sub": "ages",
+   "d": 3,
+   "q": "The present ages of A and B are in the ratio 5 : 7. Four years ago the sum of their ages was 40 years. B's age six years from now will be:",
+   "o": [
+    "28 years",
+    "32 years",
+    "40 years",
+    "34 years"
+   ],
+   "a": 3,
+   "e": "Let the ages be 5k and 7k. Four years ago, (5k − 4) + (7k − 4) = 40 gives 12k = 48, so k = 4. B is 28 now and 34 after six years."
+  },
+  {
+   "id": "ratio-019",
+   "sec": "arithmetic",
+   "topic": "ratio",
+   "sub": "partnership with entry",
+   "d": 3,
+   "q": "A starts a business with ₹40,000. B joins after 4 months with ₹60,000 and C joins after 8 months with ₹90,000. At the end of the year the profit is ₹11,000. C's share is:",
+   "o": [
+    "₹4,000",
+    "₹3,500",
+    "₹3,000",
+    "₹2,250"
+   ],
+   "a": 2,
+   "e": "Capital × months: A = 40000 × 12, B = 60000 × 8, C = 90000 × 4, which are in the ratio 4 : 4 : 3. C's share = 3/11 × 11000 = ₹3000."
+  },
+  {
+   "id": "ratio-020",
+   "sec": "arithmetic",
+   "topic": "ratio",
+   "sub": "coins",
+   "d": 3,
+   "q": "A bag holds ₹1, 50-paise and 25-paise coins in the ratio 3 : 4 : 6. The total value is ₹195. The number of 25-paise coins is:",
+   "o": [
+    "120",
+    "180",
+    "90",
+    "150"
+   ],
+   "a": 1,
+   "e": "With 3k, 4k, 6k coins the value is 3k + 2k + 1.5k = 6.5k rupees. 6.5k = 195 gives k = 30, so 25-paise coins = 6k = 180."
+  }
+ ]
+}

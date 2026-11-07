@@ -1,0 +1,164 @@
+{
+ "questions": [
+  {
+   "id": "improve-001",
+   "sec": "english",
+   "topic": "improve",
+   "sub": "simple present agreement",
+   "d": 1,
+   "q": "Choose the option that best replaces the part in bold. If the sentence is already correct, choose 'No improvement'.\nHe **go** to school every day.",
+   "o": [
+    "goes",
+    "going",
+    "gone",
+    "No improvement"
+   ],
+   "a": 0,
+   "e": "A singular subject in the simple present needs a verb ending in -s: 'goes'."
+  },
+  {
+   "id": "improve-002",
+   "sec": "english",
+   "topic": "improve",
+   "sub": "simple past with time marker",
+   "d": 1,
+   "q": "Choose the option that best replaces the part in bold. If the sentence is already correct, choose 'No improvement'.\nShe **has gone** to Mumbai last week.",
+   "o": [
+    "goes",
+    "went",
+    "had been going",
+    "No improvement"
+   ],
+   "a": 1,
+   "e": "A finished past time marker such as 'last week' calls for the simple past 'went', not the present perfect."
+  },
+  {
+   "id": "improve-003",
+   "sec": "english",
+   "topic": "improve",
+   "sub": "plural subject",
+   "d": 1,
+   "q": "Choose the option that best replaces the part in bold. If the sentence is already correct, choose 'No improvement'.\nThe children **plays** in the park.",
+   "o": [
+    "playing",
+    "is playing",
+    "play",
+    "No improvement"
+   ],
+   "a": 2,
+   "e": "'Children' is plural, so the verb is 'play'."
+  },
+  {
+   "id": "improve-004",
+   "sec": "english",
+   "topic": "improve",
+   "sub": "senior to",
+   "d": 1,
+   "q": "Choose the option that best replaces the part in bold. If the sentence is already correct, choose 'No improvement'.\nHe is **senior than** me by two years.",
+   "o": [
+    "senior to",
+    "more senior than",
+    "seniorer than",
+    "No improvement"
+   ],
+   "a": 0,
+   "e": "Words like senior, junior, superior and inferior take 'to', not 'than'."
+  },
+  {
+   "id": "improve-005",
+   "sec": "english",
+   "topic": "improve",
+   "sub": "gerund after to",
+   "d": 2,
+   "q": "Choose the option that best replaces the part in bold. If the sentence is already correct, choose 'No improvement'.\nI am looking forward **to meet** you.",
+   "o": [
+    "for meeting",
+    "to meeting",
+    "to have met",
+    "No improvement"
+   ],
+   "a": 1,
+   "e": "In 'look forward to', 'to' is a preposition and is followed by a gerund: 'to meeting'."
+  },
+  {
+   "id": "improve-006",
+   "sec": "english",
+   "topic": "improve",
+   "sub": "despite",
+   "d": 2,
+   "q": "Choose the option that best replaces the part in bold. If the sentence is already correct, choose 'No improvement'.\n**Despite of** the rain, the match continued.",
+   "o": [
+    "Despite from",
+    "In despite of",
+    "Despite",
+    "No improvement"
+   ],
+   "a": 2,
+   "e": "'Despite' takes no 'of'. 'In spite of' is also correct, but it is not among the options."
+  },
+  {
+   "id": "improve-007",
+   "sec": "english",
+   "topic": "improve",
+   "sub": "double negative",
+   "d": 2,
+   "q": "Choose the option that best replaces the part in bold. If the sentence is already correct, choose 'No improvement'.\nShe **scarcely never** goes out at night.",
+   "o": [
+    "scarcely ever",
+    "scarcely not ever",
+    "not scarcely ever",
+    "No improvement"
+   ],
+   "a": 0,
+   "e": "'Scarcely' is already negative. 'Scarcely ever' is the correct idiom."
+  },
+  {
+   "id": "improve-008",
+   "sec": "english",
+   "topic": "improve",
+   "sub": "agreement with together with",
+   "d": 2,
+   "q": "Choose the option that best replaces the part in bold. If the sentence is already correct, choose 'No improvement'.\nThe teacher, **together with her students, are** visiting the museum.",
+   "o": [
+    "and her students is",
+    "together with her students, is",
+    "together with her students were",
+    "No improvement"
+   ],
+   "a": 1,
+   "e": "The verb agrees with the main subject 'teacher', so 'is' is needed. The 'together with' phrase does not change the number."
+  },
+  {
+   "id": "improve-009",
+   "sec": "english",
+   "topic": "improve",
+   "sub": "third conditional",
+   "d": 3,
+   "q": "Choose the option that best replaces the part in bold. If the sentence is already correct, choose 'No improvement'.\nI would have helped you if you **told** me earlier.",
+   "o": [
+    "would tell",
+    "have told",
+    "had told",
+    "No improvement"
+   ],
+   "a": 2,
+   "e": "A third conditional needs 'if + past perfect' with 'would have + past participle': 'had told'."
+  },
+  {
+   "id": "improve-010",
+   "sec": "english",
+   "topic": "improve",
+   "sub": "present perfect continuous",
+   "d": 3,
+   "q": "Choose the option that best replaces the part in bold. If the sentence is already correct, choose 'No improvement'.\nShe **has been working** here since 2019.",
+   "o": [
+    "is working",
+    "works",
+    "worked",
+    "No improvement"
+   ],
+   "a": 3,
+   "e": "'Since 2019' calls for the present perfect continuous, so the bold part is already correct."
+  }
+ ]
+}

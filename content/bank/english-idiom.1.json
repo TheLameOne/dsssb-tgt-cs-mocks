@@ -1,0 +1,324 @@
+{
+ "questions": [
+  {
+   "id": "idiom-001",
+   "sec": "english",
+   "topic": "idiom",
+   "sub": "meaning",
+   "d": 1,
+   "q": "Choose the meaning of the idiom: a piece of cake",
+   "o": [
+    "A sweet gift",
+    "A small share",
+    "A very easy task",
+    "A festive treat"
+   ],
+   "a": 2,
+   "e": "A piece of cake is something very easy to do."
+  },
+  {
+   "id": "idiom-002",
+   "sec": "english",
+   "topic": "idiom",
+   "sub": "meaning",
+   "d": 1,
+   "q": "Choose the meaning of the idiom: to break the ice",
+   "o": [
+    "To break something fragile",
+    "To ease tension at a first meeting",
+    "To become very angry",
+    "To end a friendship"
+   ],
+   "a": 1,
+   "e": "Breaking the ice means starting conversation so that people feel at ease."
+  },
+  {
+   "id": "idiom-003",
+   "sec": "english",
+   "topic": "idiom",
+   "sub": "meaning",
+   "d": 1,
+   "q": "Choose the meaning of the idiom: once in a blue moon",
+   "o": [
+    "Very rarely",
+    "Every night",
+    "Quite often",
+    "Late at night"
+   ],
+   "a": 0,
+   "e": "Once in a blue moon means extremely seldom."
+  },
+  {
+   "id": "idiom-004",
+   "sec": "english",
+   "topic": "idiom",
+   "sub": "meaning",
+   "d": 1,
+   "q": "Choose the meaning of the idiom: under the weather",
+   "o": [
+    "Feeling slightly ill",
+    "Standing in the rain",
+    "Very cheerful",
+    "Easily annoyed"
+   ],
+   "a": 0,
+   "e": "Under the weather means unwell."
+  },
+  {
+   "id": "idiom-005",
+   "sec": "english",
+   "topic": "idiom",
+   "sub": "meaning",
+   "d": 1,
+   "q": "Choose the meaning of the idiom: to spill the beans",
+   "o": [
+    "To waste food",
+    "To cook in a hurry",
+    "To cause an accident",
+    "To reveal a secret"
+   ],
+   "a": 3,
+   "e": "Spilling the beans means disclosing secret information."
+  },
+  {
+   "id": "idiom-006",
+   "sec": "english",
+   "topic": "idiom",
+   "sub": "meaning",
+   "d": 1,
+   "q": "Choose the meaning of the idiom: to hit the nail on the head",
+   "o": [
+    "To work very hard",
+    "To repair a house",
+    "To say exactly the right thing",
+    "To hurt oneself"
+   ],
+   "a": 2,
+   "e": "Hitting the nail on the head means being exactly right about something."
+  },
+  {
+   "id": "idiom-007",
+   "sec": "english",
+   "topic": "idiom",
+   "sub": "meaning",
+   "d": 1,
+   "q": "Choose the meaning of the idiom: to cost an arm and a leg",
+   "o": [
+    "To cause an injury",
+    "To be very expensive",
+    "To be quite cheap",
+    "To be worth repairing"
+   ],
+   "a": 1,
+   "e": "Costing an arm and a leg means being extremely expensive."
+  },
+  {
+   "id": "idiom-008",
+   "sec": "english",
+   "topic": "idiom",
+   "sub": "meaning",
+   "d": 1,
+   "q": "Choose the meaning of the idiom: to burn the midnight oil",
+   "o": [
+    "To work or study late into the night",
+    "To waste fuel",
+    "To start a fire",
+    "To sleep very early"
+   ],
+   "a": 0,
+   "e": "Burning the midnight oil means working late at night."
+  },
+  {
+   "id": "idiom-009",
+   "sec": "english",
+   "topic": "idiom",
+   "sub": "meaning",
+   "d": 1,
+   "q": "Choose the meaning of the idiom: to bark up the wrong tree",
+   "o": [
+    "To scold loudly",
+    "To climb with difficulty",
+    "To protect a friend",
+    "To pursue a mistaken course"
+   ],
+   "a": 3,
+   "e": "Barking up the wrong tree means making a wrong assumption or choosing the wrong target."
+  },
+  {
+   "id": "idiom-010",
+   "sec": "english",
+   "topic": "idiom",
+   "sub": "meaning",
+   "d": 1,
+   "q": "Choose the meaning of the idiom: to bite the bullet",
+   "o": [
+    "To eat very fast",
+    "To refuse to listen",
+    "To start a quarrel",
+    "To face an unpleasant task bravely"
+   ],
+   "a": 3,
+   "e": "Biting the bullet means facing something difficult with courage."
+  },
+  {
+   "id": "idiom-011",
+   "sec": "english",
+   "topic": "idiom",
+   "sub": "meaning",
+   "d": 2,
+   "q": "Choose the meaning of the idiom: to beat around the bush",
+   "o": [
+    "To search a garden",
+    "To hit someone lightly",
+    "To avoid coming to the main point",
+    "To act very bravely"
+   ],
+   "a": 2,
+   "e": "Beating around the bush means talking indirectly instead of getting to the point."
+  },
+  {
+   "id": "idiom-012",
+   "sec": "english",
+   "topic": "idiom",
+   "sub": "meaning",
+   "d": 2,
+   "q": "Choose the meaning of the idiom: the last straw",
+   "o": [
+    "A cheap replacement",
+    "The final trouble that makes a situation unbearable",
+    "The best available choice",
+    "A sign of good luck"
+   ],
+   "a": 1,
+   "e": "The last straw is the final problem after which one can bear no more."
+  },
+  {
+   "id": "idiom-013",
+   "sec": "english",
+   "topic": "idiom",
+   "sub": "situation",
+   "d": 2,
+   "q": "Choose the idiom that fits the situation.\nA man who is himself careless about money criticises his friend for the same fault.",
+   "o": [
+    "A bolt from the blue",
+    "A storm in a teacup",
+    "The pot calling the kettle black",
+    "A red herring"
+   ],
+   "a": 2,
+   "e": "The pot calling the kettle black describes someone accusing others of a fault he has himself."
+  },
+  {
+   "id": "idiom-014",
+   "sec": "english",
+   "topic": "idiom",
+   "sub": "meaning",
+   "d": 2,
+   "q": "Choose the meaning of the idiom: to turn a blind eye",
+   "o": [
+    "To lose one's sight",
+    "To look away in fear",
+    "To examine closely",
+    "To deliberately ignore something"
+   ],
+   "a": 3,
+   "e": "Turning a blind eye means pretending not to notice something wrong."
+  },
+  {
+   "id": "idiom-015",
+   "sec": "english",
+   "topic": "idiom",
+   "sub": "situation",
+   "d": 2,
+   "q": "Choose the idiom that fits the situation.\nAfter months of heavy losses, the owner finally decided to quit the business.",
+   "o": [
+    "Take the bull by the horns",
+    "Turn over a new leaf",
+    "Break the ice",
+    "Throw in the towel"
+   ],
+   "a": 3,
+   "e": "To throw in the towel is to admit defeat and give up."
+  },
+  {
+   "id": "idiom-016",
+   "sec": "english",
+   "topic": "idiom",
+   "sub": "meaning",
+   "d": 2,
+   "q": "Choose the meaning of the idiom: to be on cloud nine",
+   "o": [
+    "To be in great danger",
+    "To be very confused",
+    "To be extremely happy",
+    "To be lost in the sky"
+   ],
+   "a": 2,
+   "e": "Being on cloud nine means being extremely joyful."
+  },
+  {
+   "id": "idiom-017",
+   "sec": "english",
+   "topic": "idiom",
+   "sub": "meaning",
+   "d": 3,
+   "q": "Choose the meaning of the idiom: to cut the Gordian knot",
+   "o": [
+    "To tie a complicated knot",
+    "To solve a difficult problem by a bold stroke",
+    "To end a partnership",
+    "To waste time on details"
+   ],
+   "a": 1,
+   "e": "The Gordian knot was cut by Alexander with a sword; the idiom means solving a hard problem decisively."
+  },
+  {
+   "id": "idiom-018",
+   "sec": "english",
+   "topic": "idiom",
+   "sub": "meaning",
+   "d": 3,
+   "q": "Choose the meaning of the idiom: the sword of Damocles",
+   "o": [
+    "A weapon of great skill",
+    "A sign of victory",
+    "A constant threat of impending danger",
+    "A symbol of justice"
+   ],
+   "a": 2,
+   "e": "The sword of Damocles hung by a single hair over his head, so it stands for ever-present danger."
+  },
+  {
+   "id": "idiom-019",
+   "sec": "english",
+   "topic": "idiom",
+   "sub": "meaning",
+   "d": 3,
+   "q": "Choose the meaning of the idiom: to carry coals to Newcastle",
+   "o": [
+    "To work very hard",
+    "To take a risk",
+    "To do someone a favour",
+    "To do something quite unnecessary"
+   ],
+   "a": 3,
+   "e": "Newcastle was a coal-mining town, so carrying coals there is pointless."
+  },
+  {
+   "id": "idiom-020",
+   "sec": "english",
+   "topic": "idiom",
+   "sub": "situation",
+   "d": 3,
+   "q": "Choose the idiom that fits the situation.\nA veteran actor announced his retirement and gave his final stage performance.",
+   "o": [
+    "Red herring",
+    "Dark horse",
+    "White elephant",
+    "Swan song"
+   ],
+   "a": 3,
+   "e": "A swan song is a final performance or work before retirement or death."
+  }
+ ]
+}

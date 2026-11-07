@@ -1,0 +1,324 @@
+{
+ "questions": [
+  {
+   "id": "statement-001",
+   "sec": "reasoning",
+   "topic": "statement",
+   "sub": "argument",
+   "d": 1,
+   "q": "Statement: Should plastic carry bags be banned in cities?\nArguments:\nI. Yes, they block drains and harm animals that swallow them.\nII. No, they are cheap to produce.\nWhich of the following is correct?",
+   "o": [
+    "Only argument I is strong",
+    "Only argument II is strong",
+    "Both arguments I and II are strong",
+    "Neither argument I nor II is strong"
+   ],
+   "a": 0,
+   "e": "The harm to drains and animals is a direct, important reason. Low cost of production does not answer the objection, so it is weak."
+  },
+  {
+   "id": "statement-002",
+   "sec": "reasoning",
+   "topic": "statement",
+   "sub": "argument",
+   "d": 1,
+   "q": "Statement: Should every school provide safe drinking water for its students?\nArguments:\nI. No, schools already have many other expenses.\nII. Yes, clean water is essential for the health of children.\nWhich of the following is correct?",
+   "o": [
+    "Only argument I is strong",
+    "Only argument II is strong",
+    "Both arguments I and II are strong",
+    "Neither argument I nor II is strong"
+   ],
+   "a": 1,
+   "e": "Children's health is a direct and weighty reason for the facility. Other expenses do not outweigh a basic need, so the first argument is weak."
+  },
+  {
+   "id": "statement-003",
+   "sec": "reasoning",
+   "topic": "statement",
+   "sub": "assumption",
+   "d": 1,
+   "q": "Statement: An advertisement says, \"Drink Amrit tea and stay fresh all day.\"\nAssumptions:\nI. Some people want to stay fresh through the day.\nII. Everyone in the country drinks tea.",
+   "o": [
+    "Only assumption I is implicit",
+    "Only assumption II is implicit",
+    "Both assumptions I and II are implicit",
+    "Neither assumption I nor II is implicit"
+   ],
+   "a": 0,
+   "e": "An advertiser assumes that some buyers want the benefit offered. Nothing in the advertisement assumes that everyone drinks tea."
+  },
+  {
+   "id": "statement-004",
+   "sec": "reasoning",
+   "topic": "statement",
+   "sub": "courses of action",
+   "d": 1,
+   "q": "Statement: Many students fell ill after eating food from their school canteen.\nCourses of action:\nI. The canteen food should be tested and the canteen closed until it is found safe.\nII. The school should be shut down for a whole year.",
+   "o": [
+    "Only course of action I follows",
+    "Only course of action II follows",
+    "Both courses of action I and II follow",
+    "Neither course of action I nor II follows"
+   ],
+   "a": 0,
+   "e": "Testing the food and pausing the canteen deals directly with the cause. Closing the whole school for a year is an extreme step that does not follow."
+  },
+  {
+   "id": "statement-005",
+   "sec": "reasoning",
+   "topic": "statement",
+   "sub": "courses of action",
+   "d": 1,
+   "q": "Statement: A bridge on a busy road has developed deep cracks.\nCourses of action:\nI. All roads in the city should be closed to traffic.\nII. Heavy vehicles should be stopped from using the bridge until it is repaired.",
+   "o": [
+    "Only course of action I follows",
+    "Only course of action II follows",
+    "Both courses of action I and II follow",
+    "Neither course of action I nor II follows"
+   ],
+   "a": 1,
+   "e": "Keeping heavy vehicles off the damaged bridge and repairing it is a sensible step. Closing every road in the city is out of proportion."
+  },
+  {
+   "id": "statement-006",
+   "sec": "reasoning",
+   "topic": "statement",
+   "sub": "conclusion",
+   "d": 1,
+   "q": "Statement: Only members with a library card can borrow books from the college library. Rohit borrowed a book from the college library.\nConclusions:\nI. Rohit is a student of the college.\nII. Rohit has a library card.",
+   "o": [
+    "Only conclusion I follows",
+    "Only conclusion II follows",
+    "Both conclusions I and II follow",
+    "Neither conclusion I nor II follows"
+   ],
+   "a": 1,
+   "e": "Borrowing needs a library card, so Rohit must have one. The rule does not say that the members are only students, so the first does not follow."
+  },
+  {
+   "id": "statement-007",
+   "sec": "reasoning",
+   "topic": "statement",
+   "sub": "assumption",
+   "d": 1,
+   "q": "Statement: \"Carry an umbrella today, as the weather office has forecast rain.\"\nAssumptions:\nI. The weather office's forecasts are usually reliable.\nII. An umbrella gives protection from rain.",
+   "o": [
+    "Only assumption I is implicit",
+    "Only assumption II is implicit",
+    "Both assumptions I and II are implicit",
+    "Neither assumption I nor II is implicit"
+   ],
+   "a": 2,
+   "e": "The advice makes sense only if the forecast can be trusted and an umbrella actually keeps one dry. Both are taken for granted."
+  },
+  {
+   "id": "statement-008",
+   "sec": "reasoning",
+   "topic": "statement",
+   "sub": "argument",
+   "d": 2,
+   "q": "Statement: Should first-aid training be made compulsory in schools?\nArguments:\nI. Yes, it helps students save lives in emergencies.\nII. Yes, it builds confidence and a sense of responsibility in students.\nWhich of the following is correct?",
+   "o": [
+    "Only argument I is strong",
+    "Only argument II is strong",
+    "Both arguments I and II are strong",
+    "Neither argument I nor II is strong"
+   ],
+   "a": 2,
+   "e": "Saving lives and building responsibility are both relevant and important benefits, so both arguments are strong."
+  },
+  {
+   "id": "statement-009",
+   "sec": "reasoning",
+   "topic": "statement",
+   "sub": "assumption",
+   "d": 2,
+   "q": "Statement: The principal told the teachers, \"Submit your lesson plans before the term begins so that the syllabus is completed on time.\"\nAssumptions:\nI. Planning in advance helps in completing the syllabus on time.\nII. No teacher currently prepares any lesson plan.",
+   "o": [
+    "Only assumption I is implicit",
+    "Only assumption II is implicit",
+    "Both assumptions I and II are implicit",
+    "Neither assumption I nor II is implicit"
+   ],
+   "a": 0,
+   "e": "The instruction relies on advance planning helping with timely completion. It does not assume that nobody plans at present."
+  },
+  {
+   "id": "statement-010",
+   "sec": "reasoning",
+   "topic": "statement",
+   "sub": "assumption",
+   "d": 2,
+   "q": "Statement: A notice says, \"Install solar water heaters and halve your electricity bill.\"\nAssumptions:\nI. Solar water heaters are supplied free to every household.\nII. Many people wish to reduce their electricity bills.",
+   "o": [
+    "Only assumption I is implicit",
+    "Only assumption II is implicit",
+    "Both assumptions I and II are implicit",
+    "Neither assumption I nor II is implicit"
+   ],
+   "a": 1,
+   "e": "The appeal works only if people want lower bills. Nothing suggests the heaters are free, so the first is not assumed."
+  },
+  {
+   "id": "statement-011",
+   "sec": "reasoning",
+   "topic": "statement",
+   "sub": "courses of action",
+   "d": 2,
+   "q": "Statement: Many accidents occur at night on a stretch of highway because of poor visibility.\nCourses of action:\nI. Street lights should be installed along that stretch.\nII. Police patrolling on the stretch at night should be increased.",
+   "o": [
+    "Only course of action I follows",
+    "Only course of action II follows",
+    "Both courses of action I and II follow",
+    "Neither course of action I nor II follows"
+   ],
+   "a": 2,
+   "e": "Better lighting tackles the poor visibility directly, and more night patrolling helps reduce risky driving. Both are sensible and relevant steps."
+  },
+  {
+   "id": "statement-012",
+   "sec": "reasoning",
+   "topic": "statement",
+   "sub": "conclusion",
+   "d": 2,
+   "q": "Statement: Every employee of the firm with at least five years of service is eligible for a loan. Anil is an employee of the firm with seven years of service.\nConclusions:\nI. Anil is eligible for a loan.\nII. Anil will certainly take a loan.",
+   "o": [
+    "Only conclusion I follows",
+    "Only conclusion II follows",
+    "Both conclusions I and II follow",
+    "Neither conclusion I nor II follows"
+   ],
+   "a": 0,
+   "e": "Seven years is more than five, so Anil meets the condition and is eligible. Being eligible does not mean he will take the loan."
+  },
+  {
+   "id": "statement-013",
+   "sec": "reasoning",
+   "topic": "statement",
+   "sub": "conclusion",
+   "d": 2,
+   "q": "Statement: Some teachers of the school are members of the sports committee. Every member of the sports committee attended the annual meeting.\nConclusions:\nI. Some teachers of the school attended the annual meeting.\nII. Every teacher of the school attended the annual meeting.",
+   "o": [
+    "Only conclusion I follows",
+    "Only conclusion II follows",
+    "Both conclusions I and II follow",
+    "Neither conclusion I nor II follows"
+   ],
+   "a": 0,
+   "e": "The teachers who are on the committee attended the meeting, so some teachers attended. Teachers outside the committee may not have attended."
+  },
+  {
+   "id": "statement-014",
+   "sec": "reasoning",
+   "topic": "statement",
+   "sub": "argument",
+   "d": 2,
+   "q": "Statement: Should junk food be banned in school canteens?\nArguments:\nI. No, because junk food tastes good.\nII. Yes, because it harms children's health and ability to concentrate.\nWhich of the following is correct?",
+   "o": [
+    "Only argument I is strong",
+    "Only argument II is strong",
+    "Both arguments I and II are strong",
+    "Neither argument I nor II is strong"
+   ],
+   "a": 1,
+   "e": "Harm to children's health is a strong, direct reason. Taste is a personal preference and does not answer the health concern, so it is weak."
+  },
+  {
+   "id": "statement-015",
+   "sec": "reasoning",
+   "topic": "statement",
+   "sub": "argument",
+   "d": 2,
+   "q": "Statement: Should school uniforms be abolished?\nArguments:\nI. Yes, because some students do not like the colour of the uniform.\nII. Yes, because shops selling casual clothes will earn more.\nWhich of the following is correct?",
+   "o": [
+    "Only argument I is strong",
+    "Only argument II is strong",
+    "Both arguments I and II are strong",
+    "Neither argument I nor II is strong"
+   ],
+   "a": 3,
+   "e": "Dislike of a colour and the profits of some shops are trivial matters. Neither is a weighty reason to abolish uniforms, so both are weak."
+  },
+  {
+   "id": "statement-016",
+   "sec": "reasoning",
+   "topic": "statement",
+   "sub": "conclusion",
+   "d": 3,
+   "q": "Statements: Every student with full attendance receives a book prize. No suspended student receives a book prize.\nConclusions:\nI. No suspended student has full attendance.\nII. Every student who receives a book prize has full attendance.",
+   "o": [
+    "Only conclusion I follows",
+    "Only conclusion II follows",
+    "Both conclusions I and II follow",
+    "Neither conclusion I nor II follows"
+   ],
+   "a": 0,
+   "e": "A suspended student with full attendance would receive a prize, which contradicts the second statement. The second conclusion reverses the first statement, which is not allowed."
+  },
+  {
+   "id": "statement-017",
+   "sec": "reasoning",
+   "topic": "statement",
+   "sub": "conclusion",
+   "d": 3,
+   "q": "Statements: Only graduates can apply for the post of clerk. Sunil is not a graduate.\nConclusions:\nI. Sunil has not applied for the post of clerk.\nII. Sunil is not eligible to apply for the post of clerk.",
+   "o": [
+    "Only conclusion I follows",
+    "Only conclusion II follows",
+    "Both conclusions I and II follow",
+    "Neither conclusion I nor II follows"
+   ],
+   "a": 1,
+   "e": "The rule is about eligibility, so a non-graduate like Sunil is not eligible. It does not tell us whether he actually applied, so conclusion I does not follow."
+  },
+  {
+   "id": "statement-018",
+   "sec": "reasoning",
+   "topic": "statement",
+   "sub": "assumption",
+   "d": 3,
+   "q": "Statement: \"The new pest-resistant seed raises crop yield, so the government should give it free to small farmers.\"\nAssumptions:\nI. Small farmers may not be able to buy the seed on their own.\nII. The pest-resistant seed damages the soil.",
+   "o": [
+    "Only assumption I is implicit",
+    "Only assumption II is implicit",
+    "Both assumptions I and II are implicit",
+    "Neither assumption I nor II is implicit"
+   ],
+   "a": 0,
+   "e": "Free distribution is suggested because small farmers might otherwise not afford the seed. A claim that the seed damages the soil would work against the proposal."
+  },
+  {
+   "id": "statement-019",
+   "sec": "reasoning",
+   "topic": "statement",
+   "sub": "conclusion",
+   "d": 3,
+   "q": "Statement: A study found that students who sleep at least eight hours score higher marks in tests on average.\nConclusions:\nI. Every student who sleeps eight hours scores high marks.\nII. A student who sleeps less than eight hours can never score high marks.",
+   "o": [
+    "Only conclusion I follows",
+    "Only conclusion II follows",
+    "Both conclusions I and II follow",
+    "Neither conclusion I nor II follows"
+   ],
+   "a": 3,
+   "e": "The finding speaks only about averages. It does not guarantee high marks for each such student, nor rule out high marks for those who sleep less."
+  },
+  {
+   "id": "statement-020",
+   "sec": "reasoning",
+   "topic": "statement",
+   "sub": "courses of action",
+   "d": 3,
+   "q": "Statement: Heavy rain has pushed a river above the danger mark and villages on its bank may be flooded.\nCourses of action:\nI. People living in the low-lying villages should be shifted to safe shelters.\nII. Relief camps with food and medical aid should be set up for the shifted people.",
+   "o": [
+    "Only course of action I follows",
+    "Only course of action II follows",
+    "Both courses of action I and II follow",
+    "Neither course of action I nor II follows"
+   ],
+   "a": 2,
+   "e": "Moving people to safety protects them from the flood, and relief camps look after those who are moved. Both steps are practical and follow from the situation."
+  }
+ ]
+}

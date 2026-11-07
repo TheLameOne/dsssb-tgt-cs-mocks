@@ -1,0 +1,324 @@
+{
+ "questions": [
+  {
+   "id": "comm-001",
+   "sec": "cs",
+   "topic": "comm",
+   "sub": "communication process",
+   "d": 1,
+   "q": "The person who originates and sends a message in the communication process is called the ______.",
+   "o": [
+    "receiver",
+    "sender",
+    "decoder",
+    "medium"
+   ],
+   "a": 1,
+   "e": "The sender (encoder) starts the communication. The receiver decodes the message and gives feedback."
+  },
+  {
+   "id": "comm-002",
+   "sec": "cs",
+   "topic": "comm",
+   "sub": "barriers",
+   "d": 1,
+   "q": "Using technical jargon that the receiver does not understand is an example of a ______ barrier.",
+   "o": [
+    "physical",
+    "semantic",
+    "psychological",
+    "organisational"
+   ],
+   "a": 1,
+   "e": "Semantic barriers arise from the meaning of words, language and jargon."
+  },
+  {
+   "id": "comm-003",
+   "sec": "cs",
+   "topic": "comm",
+   "sub": "channels",
+   "d": 1,
+   "q": "The grapevine is an example of ______ communication.",
+   "o": [
+    "formal",
+    "informal",
+    "downward",
+    "legal"
+   ],
+   "a": 1,
+   "e": "The grapevine is an informal network of rumours and talk, not part of the official structure."
+  },
+  {
+   "id": "comm-004",
+   "sec": "cs",
+   "topic": "comm",
+   "sub": "business letters",
+   "d": 1,
+   "q": "A letter written by a buyer to a seller asking for prices, terms and availability of goods is a(n)",
+   "o": [
+    "enquiry letter",
+    "complaint letter",
+    "sales letter",
+    "order letter"
+   ],
+   "a": 0,
+   "e": "An enquiry letter seeks information before buying. An order letter is sent after the terms are accepted."
+  },
+  {
+   "id": "comm-005",
+   "sec": "cs",
+   "topic": "comm",
+   "sub": "memos",
+   "d": 1,
+   "q": "A memorandum is mainly used for ______ communication in an organisation.",
+   "o": [
+    "internal",
+    "external to customers",
+    "advertising",
+    "legal"
+   ],
+   "a": 0,
+   "e": "A memo is a short written message circulated within the organisation."
+  },
+  {
+   "id": "comm-006",
+   "sec": "cs",
+   "topic": "comm",
+   "sub": "business organisation",
+   "d": 1,
+   "q": "Consider the following statements about a sole proprietorship.\nI. The liability of the owner is unlimited.\nII. The business has no legal existence separate from the owner.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Both are true. The proprietor and the business are legally one, so personal assets can be used to meet business debts."
+  },
+  {
+   "id": "comm-007",
+   "sec": "cs",
+   "topic": "comm",
+   "sub": "Taylor",
+   "d": 1,
+   "q": "Consider the following statements about management thinkers.\nI. Henri Fayol is known as the father of scientific management.\nII. F. W. Taylor is known as the father of scientific management.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "Only II is correct. Taylor developed scientific management. Fayol is known for administrative (general) management."
+  },
+  {
+   "id": "comm-008",
+   "sec": "cs",
+   "topic": "comm",
+   "sub": "Maslow",
+   "d": 1,
+   "q": "Which of the following is NOT one of the needs in Maslow's hierarchy of needs?",
+   "o": [
+    "Safety needs",
+    "Social needs",
+    "Esteem needs",
+    "Production needs"
+   ],
+   "a": 3,
+   "e": "Production needs are not part of the hierarchy. Maslow's five levels are physiological, safety, social, esteem and self-actualisation."
+  },
+  {
+   "id": "comm-009",
+   "sec": "cs",
+   "topic": "comm",
+   "sub": "parts of speech",
+   "d": 1,
+   "q": "In the sentence \"She sings sweetly\", the word \"sweetly\" is a(n)",
+   "o": [
+    "adjective",
+    "adverb",
+    "noun",
+    "verb"
+   ],
+   "a": 1,
+   "e": "\"Sweetly\" tells how she sings, so it modifies the verb and is an adverb."
+  },
+  {
+   "id": "comm-010",
+   "sec": "cs",
+   "topic": "comm",
+   "sub": "cooperative society",
+   "d": 1,
+   "q": "Regarding a cooperative society, consider the following.\nI. A member's voting power depends on the number of shares held.\nII. It is formed mainly to maximise profit for outside investors.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 3,
+   "e": "Neither is correct. Voting follows one member, one vote, whatever the shareholding. A cooperative exists mainly to serve its members."
+  },
+  {
+   "id": "comm-011",
+   "sec": "cs",
+   "topic": "comm",
+   "sub": "Fayol",
+   "d": 2,
+   "q": "According to Fayol's principle of unity of command, an employee should receive orders from",
+   "o": [
+    "only one superior",
+    "two or more superiors",
+    "the owner only",
+    "a committee"
+   ],
+   "a": 0,
+   "e": "Unity of command avoids conflicting orders by giving each employee a single boss."
+  },
+  {
+   "id": "comm-012",
+   "sec": "cs",
+   "topic": "comm",
+   "sub": "reports",
+   "d": 2,
+   "q": "A report submitted at regular intervals, such as weekly or monthly, is called a ______ report.",
+   "o": [
+    "special",
+    "periodic",
+    "informal",
+    "oral"
+   ],
+   "a": 1,
+   "e": "Periodic (routine) reports are prepared at fixed intervals, unlike special reports on one particular matter."
+  },
+  {
+   "id": "comm-013",
+   "sec": "cs",
+   "topic": "comm",
+   "sub": "leadership styles",
+   "d": 2,
+   "q": "A leader who gives the group complete freedom in decision making and hardly interferes is following the ______ style.",
+   "o": [
+    "autocratic",
+    "laissez-faire",
+    "democratic",
+    "bureaucratic"
+   ],
+   "a": 1,
+   "e": "Laissez-faire (free-rein) leadership leaves decisions to subordinates."
+  },
+  {
+   "id": "comm-014",
+   "sec": "cs",
+   "topic": "comm",
+   "sub": "management",
+   "d": 2,
+   "q": "Management by Objectives (MBO) was popularised by",
+   "o": [
+    "Peter Drucker",
+    "F. W. Taylor",
+    "Abraham Maslow",
+    "Henri Fayol"
+   ],
+   "a": 0,
+   "e": "Peter Drucker introduced MBO in The Practice of Management (1954)."
+  },
+  {
+   "id": "comm-015",
+   "sec": "cs",
+   "topic": "comm",
+   "sub": "précis",
+   "d": 2,
+   "q": "Consider the following statements about a précis.\nI. A good précis is about one-half of the length of the original passage.\nII. A précis is normally written in the first person.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 3,
+   "e": "Neither is correct. A précis is usually about one-third of the original, and it is written in the third person, not the first."
+  },
+  {
+   "id": "comm-016",
+   "sec": "cs",
+   "topic": "comm",
+   "sub": "Maslow",
+   "d": 2,
+   "q": "Which of the following lists Maslow's needs correctly from the lowest to the highest?",
+   "o": [
+    "Physiological, safety, social, esteem, self-actualisation",
+    "Safety, physiological, social, esteem, self-actualisation",
+    "Physiological, social, safety, esteem, self-actualisation",
+    "Physiological, safety, esteem, social, self-actualisation"
+   ],
+   "a": 0,
+   "e": "The order is physiological, safety, social (belonging), esteem and self-actualisation."
+  },
+  {
+   "id": "comm-017",
+   "sec": "cs",
+   "topic": "comm",
+   "sub": "Taylor",
+   "d": 3,
+   "q": "Taylor's functional foremanship divides supervision among ______ specialist foremen.",
+   "o": [
+    "four",
+    "six",
+    "eight",
+    "ten"
+   ],
+   "a": 2,
+   "e": "Taylor proposed eight foremen: four in the planning department and four on the shop floor."
+  },
+  {
+   "id": "comm-018",
+   "sec": "cs",
+   "topic": "comm",
+   "sub": "motivation",
+   "d": 3,
+   "q": "According to Herzberg's two-factor theory, which of the following is NOT a hygiene factor?",
+   "o": [
+    "Salary",
+    "Company policy",
+    "Job security",
+    "Recognition"
+   ],
+   "a": 3,
+   "e": "Recognition is a motivator. Salary, company policy and job security are hygiene factors, which prevent dissatisfaction but do not motivate."
+  },
+  {
+   "id": "comm-019",
+   "sec": "cs",
+   "topic": "comm",
+   "sub": "Fayol",
+   "d": 3,
+   "q": "In Fayol's scalar chain, the \"gang plank\" is",
+   "o": [
+    "a direct cross link between employees at the same level, with their superiors informed",
+    "the topmost authority in the organisation",
+    "a penalty for breaking the chain",
+    "a bonus scheme for managers"
+   ],
+   "a": 0,
+   "e": "The gang plank lets people at the same level communicate directly for speed, while their superiors are kept informed."
+  },
+  {
+   "id": "comm-020",
+   "sec": "cs",
+   "topic": "comm",
+   "sub": "forms of organisation",
+   "d": 3,
+   "q": "Consider the following statements.\nI. A private company can freely invite the public to buy its shares.\nII. A partnership firm under the Indian Partnership Act, 1932 is a legal entity separate from its partners.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 3,
+   "e": "A private company cannot invite the public to subscribe to its shares, and a partnership firm has no separate legal entity from its partners."
+  }
+ ]
+}

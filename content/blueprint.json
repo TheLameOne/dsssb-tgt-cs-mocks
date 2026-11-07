@@ -1,0 +1,205 @@
+{
+  "exam": {
+    "name": "DSSSB TGT Computer Science",
+    "postCode": "41/26",
+    "advt": "03/2026",
+    "department": "Directorate of Education",
+    "durationMin": 120,
+    "totalQuestions": 200,
+    "correctMarks": 1,
+    "wrongMarks": 0.25,
+    "firstShift": "2026-11-27",
+    "lastShift": "2026-12-04"
+  },
+  "mocks": [
+    { "id": "mock-01", "title": "Mock 1", "level": "low" },
+    { "id": "mock-02", "title": "Mock 2", "level": "low" },
+    { "id": "mock-03", "title": "Mock 3", "level": "low" },
+    { "id": "mock-04", "title": "Mock 4", "level": "same" },
+    { "id": "mock-05", "title": "Mock 5", "level": "same" },
+    { "id": "mock-06", "title": "Mock 6", "level": "same" },
+    { "id": "mock-07", "title": "Mock 7", "level": "same" },
+    { "id": "mock-08", "title": "Mock 8", "level": "high" },
+    { "id": "mock-09", "title": "Mock 9", "level": "high" },
+    { "id": "mock-10", "title": "Mock 10", "level": "high" }
+  ],
+  "mix": {
+    "low": [0.8, 0.2, 0],
+    "high": [0.1, 0.4, 0.5]
+  },
+  "sections": [
+    {
+      "key": "reasoning",
+      "name": "General Intelligence and Reasoning Ability",
+      "short": "Reasoning",
+      "part": "A",
+      "count": 20,
+      "sameMix": [0.15, 0.6, 0.25],
+      "topics": {
+        "analogy": { "name": "Analogy", "perMock": 2 },
+        "classification": { "name": "Classification", "perMock": 2 },
+        "series": { "name": "Number and letter series", "perMock": 2 },
+        "coding": { "name": "Coding-decoding", "perMock": 2 },
+        "blood": { "name": "Blood relations", "perMock": 1 },
+        "direction": { "name": "Direction sense", "perMock": 1 },
+        "venn": { "name": "Logical Venn diagrams", "perMock": 1 },
+        "syllogism": { "name": "Syllogism", "perMock": 2 },
+        "arrangement": { "name": "Sitting arrangement and ranking", "perMock": 2 },
+        "operations": { "name": "Mathematical operations", "perMock": 1 },
+        "statement": { "name": "Statement-based reasoning", "perMock": 2 },
+        "analytical": { "name": "Analytical reasoning, assertion and reason", "perMock": 1 },
+        "visual": { "name": "Cubes, dice, clocks and mirror images", "perMock": 1 }
+      }
+    },
+    {
+      "key": "ga",
+      "name": "General Awareness",
+      "short": "General Awareness",
+      "part": "A",
+      "count": 20,
+      "sameMix": [0.25, 0.5, 0.25],
+      "topics": {
+        "current": { "name": "Current events", "perMock": 4 },
+        "history": { "name": "History", "perMock": 3 },
+        "geography": { "name": "Geography", "perMock": 3 },
+        "polity": { "name": "Polity and Constitution", "perMock": 3 },
+        "economics-ga": { "name": "Economics", "perMock": 2 },
+        "science": { "name": "Everyday science and research", "perMock": 2 },
+        "culture": { "name": "Art and culture", "perMock": 2 },
+        "misc-ga": { "name": "Sports and organisations", "perMock": 1 }
+      }
+    },
+    {
+      "key": "arithmetic",
+      "name": "Arithmetical and Numerical Ability",
+      "short": "Arithmetic",
+      "part": "A",
+      "count": 20,
+      "sameMix": [0.35, 0.5, 0.15],
+      "topics": {
+        "numbers": { "name": "Number system, LCM and HCF", "perMock": 2 },
+        "simplify": { "name": "Simplification, fractions and decimals", "perMock": 1 },
+        "percent": { "name": "Percentage", "perMock": 2 },
+        "ratio": { "name": "Ratio and proportion", "perMock": 2 },
+        "average": { "name": "Average", "perMock": 1 },
+        "profit": { "name": "Profit, loss and discount", "perMock": 2 },
+        "interest": { "name": "Simple and compound interest", "perMock": 2 },
+        "mensuration": { "name": "Mensuration", "perMock": 2 },
+        "work": { "name": "Time and work", "perMock": 1 },
+        "distance": { "name": "Time and distance", "perMock": 2 },
+        "di": { "name": "Data interpretation", "perMock": 3 }
+      }
+    },
+    {
+      "key": "english",
+      "name": "English Language and Comprehension",
+      "short": "English",
+      "part": "A",
+      "count": 20,
+      "sameMix": [0.45, 0.45, 0.1],
+      "topics": {
+        "synonym": { "name": "Synonyms", "perMock": 1 },
+        "antonym": { "name": "Antonyms", "perMock": 1 },
+        "spelling": { "name": "Spelling", "perMock": 2 },
+        "idiom": { "name": "Idioms and phrases", "perMock": 2 },
+        "oneword": { "name": "One-word substitution", "perMock": 1 },
+        "blanks": { "name": "Fill in the blanks", "perMock": 3 },
+        "error": { "name": "Error spotting", "perMock": 2 },
+        "improve": { "name": "Sentence improvement", "perMock": 1 },
+        "rearrange": { "name": "Sentence rearrangement", "perMock": 2 },
+        "comprehension": { "name": "Reading comprehension", "perMock": 5, "grouped": true }
+      }
+    },
+    {
+      "key": "hindi",
+      "name": "Hindi Language and Comprehension",
+      "short": "Hindi",
+      "part": "A",
+      "count": 20,
+      "sameMix": [0.45, 0.45, 0.1],
+      "topics": {
+        "paryay": { "name": "पर्यायवाची", "perMock": 2 },
+        "vilom": { "name": "विलोम", "perMock": 2 },
+        "ekshabd": { "name": "वाक्यांश के लिए एक शब्द", "perMock": 1 },
+        "muhavare": { "name": "मुहावरे और लोकोक्तियाँ", "perMock": 2 },
+        "sandhi": { "name": "संधि", "perMock": 1 },
+        "samas": { "name": "समास", "perMock": 1 },
+        "tatsam": { "name": "तत्सम और तद्भव", "perMock": 1 },
+        "shuddhi": { "name": "शुद्ध वाक्य और वर्तनी", "perMock": 2 },
+        "rikt": { "name": "रिक्त स्थान", "perMock": 2 },
+        "viram": { "name": "विराम चिह्न", "perMock": 1 },
+        "gadyansh": { "name": "अपठित गद्यांश", "perMock": 5, "grouped": true }
+      }
+    },
+    {
+      "key": "cs",
+      "name": "Computer Science",
+      "short": "Computer Science",
+      "part": "B",
+      "count": 90,
+      "sameMix": [0.5, 0.43, 0.07],
+      "topics": {
+        "cn": { "name": "Computer networks and TCP/IP", "perMock": 7, "syllabus": [17, 31] },
+        "digital": { "name": "Digital electronics", "perMock": 6, "syllabus": [7] },
+        "se": { "name": "Software engineering", "perMock": 5, "syllabus": [13] },
+        "os": { "name": "Operating systems", "perMock": 5, "syllabus": [15] },
+        "ds": { "name": "Data structures using C", "perMock": 5, "syllabus": [4] },
+        "basics": { "name": "Computer basics and PC software", "perMock": 5, "syllabus": [3] },
+        "dbms": { "name": "Database management systems", "perMock": 5, "syllabus": [8] },
+        "coa": { "name": "Computer architecture", "perMock": 3, "syllabus": [9] },
+        "graphics": { "name": "Computer graphics and multimedia", "perMock": 3, "syllabus": [25] },
+        "java": { "name": "Java programming", "perMock": 3, "syllabus": [14] },
+        "economics": { "name": "Business economics", "perMock": 3, "syllabus": [16] },
+        "math": { "name": "Mathematics", "perMock": 3, "syllabus": [1] },
+        "mis": { "name": "Management information systems", "perMock": 3, "syllabus": [23] },
+        "stats": { "name": "Statistical techniques", "perMock": 3, "syllabus": [30] },
+        "internet": { "name": "Internet programming", "perMock": 3, "syllabus": [26] },
+        "c": { "name": "Programming with C", "perMock": 2, "syllabus": [4] },
+        "problem": { "name": "Problem solving and programming", "perMock": 2, "syllabus": [29] },
+        "accounts": { "name": "Financial accounting", "perMock": 2, "syllabus": [11] },
+        "webdesign": { "name": "Website design and front-end tools", "perMock": 2, "syllabus": [10, 14] },
+        "dotnet": { "name": ".NET programming", "perMock": 2, "syllabus": [18] },
+        "linux": { "name": "Linux environment", "perMock": 2, "syllabus": [19] },
+        "comm": { "name": "Business communication and management", "perMock": 2, "syllabus": [2, 28] },
+        "km": { "name": "Knowledge management and new economy", "perMock": 2, "syllabus": [27] },
+        "daa": { "name": "Design and analysis of algorithms", "perMock": 2, "syllabus": [21] },
+        "mobile": { "name": "Mobile computing", "perMock": 2, "syllabus": [24] },
+        "physics": { "name": "Basics of physics", "perMock": 2, "syllabus": [6] },
+        "numerical": { "name": "Numerical techniques and interpolation", "perMock": 2, "syllabus": [12, 32] },
+        "ecommerce": { "name": "E-commerce", "perMock": 1, "syllabus": [20] },
+        "fit": { "name": "Fundamentals of information technology", "perMock": 1, "syllabus": [5] },
+        "security": { "name": "Computer network security", "perMock": 1, "syllabus": [22] },
+        "cpp": { "name": "C++ and object-oriented programming", "perMock": 1, "syllabus": [4, 12] }
+      }
+    },
+    {
+      "key": "method",
+      "name": "Teaching Methodology",
+      "short": "Teaching Methodology",
+      "part": "B",
+      "count": 10,
+      "sameMix": [0.5, 0.43, 0.07],
+      "topics": {
+        "learning": { "name": "Learning and teaching", "perMock": 1 },
+        "language": { "name": "Language across the curriculum", "perMock": 1 },
+        "discipline": { "name": "Understanding discipline and subject", "perMock": 1 },
+        "gender": { "name": "Gender, school and society", "perMock": 1 },
+        "pedagogy": { "name": "Pedagogy of a school subject", "perMock": 1 },
+        "curriculum": { "name": "Knowledge and curriculum", "perMock": 1 },
+        "assessment": { "name": "Assessment for learning", "perMock": 1 },
+        "inclusive": { "name": "Creating an inclusive school", "perMock": 1 },
+        "childhood": { "name": "Childhood and growing up", "perMock": 1 },
+        "drama": { "name": "Drama and art in education", "perMock": 1 }
+      }
+    }
+  ],
+  "extras": {
+    "key": "bonus",
+    "name": "Beyond the official list",
+    "short": "Beyond the list",
+    "topics": {
+      "python": { "name": "Python", "total": 25 },
+      "emerging": { "name": "AI, IoT, cyber law and IT awareness", "total": 15 }
+    }
+  }
+}

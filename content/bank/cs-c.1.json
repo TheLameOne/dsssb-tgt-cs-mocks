@@ -1,0 +1,356 @@
+{
+ "questions": [
+  {
+   "id": "c-001",
+   "sec": "cs",
+   "topic": "c",
+   "sub": "strings and sizeof",
+   "d": 1,
+   "q": "What is the output of the following C code?",
+   "code": "char s[] = \"abc\";\nprintf(\"%d\", (int)sizeof(s));",
+   "lang": "c",
+   "o": [
+    "3",
+    "2",
+    "Undefined",
+    "4"
+   ],
+   "a": 3,
+   "e": "A string literal used to initialise a char array includes the terminating '\\0', so the array has 4 bytes. sizeof counts them all, unlike strlen."
+  },
+  {
+   "id": "c-002",
+   "sec": "cs",
+   "topic": "c",
+   "sub": "octal literals",
+   "d": 1,
+   "q": "What is the output of the following C code?",
+   "code": "printf(\"%d\", 010 + 10);",
+   "lang": "c",
+   "o": [
+    "18",
+    "20",
+    "11",
+    "Compile-time error"
+   ],
+   "a": 0,
+   "e": "A literal with a leading zero is octal, so 010 is 8. Then 8 + 10 = 18."
+  },
+  {
+   "id": "c-003",
+   "sec": "cs",
+   "topic": "c",
+   "sub": "modulo operator",
+   "d": 1,
+   "q": "In C99 and later, what is the output of the following code?",
+   "code": "printf(\"%d\", -7 % 3);",
+   "lang": "c",
+   "o": [
+    "1",
+    "2",
+    "-1",
+    "-2"
+   ],
+   "a": 2,
+   "e": "Since C99, integer division truncates towards zero, so -7 / 3 is -2 and the remainder -7 - (-2 × 3) = -1. The remainder takes the sign of the dividend."
+  },
+  {
+   "id": "c-004",
+   "sec": "cs",
+   "topic": "c",
+   "sub": "post-increment",
+   "d": 1,
+   "q": "What is the output of the following C code?",
+   "code": "int x = 5;\nint y = x++;\nprintf(\"%d %d\", x, y);",
+   "lang": "c",
+   "o": [
+    "5 5",
+    "5 6",
+    "6 5",
+    "6 6"
+   ],
+   "a": 2,
+   "e": "Post-increment yields the old value of x (5) to y and then increases x to 6."
+  },
+  {
+   "id": "c-005",
+   "sec": "cs",
+   "topic": "c",
+   "sub": "integer division",
+   "d": 1,
+   "q": "What is the output of the following C code?",
+   "code": "printf(\"%d\", 9 / 2 * 2 + 9 % 2);",
+   "lang": "c",
+   "o": [
+    "9",
+    "8",
+    "10",
+    "5"
+   ],
+   "a": 0,
+   "e": "9 / 2 is 4 using integer division, 4 × 2 = 8, and 9 % 2 = 1. Hence 8 + 1 = 9."
+  },
+  {
+   "id": "c-006",
+   "sec": "cs",
+   "topic": "c",
+   "sub": "comma operator",
+   "d": 1,
+   "q": "What is the output of the following C code?",
+   "code": "int a = (1, 2, 3);\nprintf(\"%d\", a);",
+   "lang": "c",
+   "o": [
+    "1",
+    "6",
+    "Compile-time error",
+    "3"
+   ],
+   "a": 3,
+   "e": "The comma operator evaluates its operands from left to right and the value of the whole expression is that of the last operand, which is 3."
+  },
+  {
+   "id": "c-007",
+   "sec": "cs",
+   "topic": "c",
+   "sub": "format specifiers",
+   "d": 1,
+   "q": "Which format specifier is used with printf to print an unsigned decimal integer?",
+   "o": [
+    "%i",
+    "%u",
+    "%f",
+    "%s"
+   ],
+   "a": 1,
+   "e": "%u prints an unsigned int in decimal. %i is the signed integer, %f is for floating point, and %s is for strings."
+  },
+  {
+   "id": "c-008",
+   "sec": "cs",
+   "topic": "c",
+   "sub": "storage classes",
+   "d": 1,
+   "q": "If no storage class is mentioned, a local variable declared inside a function in C belongs to the ______ storage class.",
+   "o": [
+    "static",
+    "auto",
+    "register",
+    "extern"
+   ],
+   "a": 1,
+   "e": "Local variables are automatic by default. They are created on entry to the block and destroyed on exit, and they hold garbage unless initialised."
+  },
+  {
+   "id": "c-009",
+   "sec": "cs",
+   "topic": "c",
+   "sub": "file handling",
+   "d": 1,
+   "q": "Consider the following statements about opening files with `fopen` in C.\nI. Mode \"a\" creates the file if it does not exist, and all writes go to the end of the file.\nII. Mode \"w\" on an existing file keeps its old contents and adds new data after them.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "I is true. II is false: mode \"w\" truncates an existing file to zero length, so the old contents are lost. Only \"a\" keeps the contents and appends."
+  },
+  {
+   "id": "c-010",
+   "sec": "cs",
+   "topic": "c",
+   "sub": "keywords",
+   "d": 1,
+   "q": "Which of the following is NOT a keyword in C?",
+   "o": [
+    "string",
+    "typedef",
+    "register",
+    "volatile"
+   ],
+   "a": 0,
+   "e": "C has no built-in string type: strings are arrays of char. typedef, register and volatile are all C keywords."
+  },
+  {
+   "id": "c-011",
+   "sec": "cs",
+   "topic": "c",
+   "sub": "preprocessor macros",
+   "d": 2,
+   "q": "What is the output of the following C code?",
+   "code": "#define SQ(x) x * x\n\nprintf(\"%d\", SQ(2 + 1));",
+   "lang": "c",
+   "o": [
+    "9",
+    "6",
+    "5",
+    "7"
+   ],
+   "a": 2,
+   "e": "A macro does plain text replacement, so SQ(2 + 1) becomes 2 + 1 * 2 + 1, which is 2 + 2 + 1 = 5. Writing ((x) * (x)) in the macro would give 9."
+  },
+  {
+   "id": "c-012",
+   "sec": "cs",
+   "topic": "c",
+   "sub": "struct and union",
+   "d": 2,
+   "q": "Assume a 4-byte int with 4-byte alignment. What is the output of the following code?",
+   "code": "struct S { char c; int i; };\nunion U { char c; int i; };\nprintf(\"%d %d\", (int)sizeof(struct S), (int)sizeof(union U));",
+   "lang": "c",
+   "o": [
+    "5 4",
+    "8 8",
+    "8 4",
+    "5 5"
+   ],
+   "a": 2,
+   "e": "The struct needs 3 padding bytes after c so that i is aligned, giving 8 bytes. A union's size is that of its largest member, which is 4 bytes."
+  },
+  {
+   "id": "c-013",
+   "sec": "cs",
+   "topic": "c",
+   "sub": "pointer arithmetic",
+   "d": 2,
+   "q": "What is the output of the following C code?",
+   "code": "int a[] = {10, 20, 30, 40};\nint *p = a + 2;\nprintf(\"%d\", *(p - 1) + p[1]);",
+   "lang": "c",
+   "o": [
+    "60",
+    "50",
+    "70",
+    "40"
+   ],
+   "a": 0,
+   "e": "p points to a[2]. *(p - 1) is a[1] = 20 and p[1] is a[3] = 40, so the sum is 60."
+  },
+  {
+   "id": "c-014",
+   "sec": "cs",
+   "topic": "c",
+   "sub": "recursion",
+   "d": 2,
+   "q": "What is the output of the following C code?",
+   "code": "int f(int n) {\n    if (n == 0) return 0;\n    return n % 10 + f(n / 10);\n}\nint main(void) {\n    printf(\"%d\", f(2749));\n    return 0;\n}",
+   "lang": "c",
+   "o": [
+    "4",
+    "2749",
+    "9",
+    "22"
+   ],
+   "a": 3,
+   "e": "The function adds the last digit to the result for the remaining digits: 9 + 4 + 7 + 2 = 22."
+  },
+  {
+   "id": "c-015",
+   "sec": "cs",
+   "topic": "c",
+   "sub": "static variables",
+   "d": 2,
+   "q": "What is the output of the following C code?",
+   "code": "int next(void) {\n    static int c = 10;\n    c += 5;\n    return c;\n}\nint main(void) {\n    int a = next();\n    int b = next();\n    int d = next();\n    printf(\"%d %d %d\", a, b, d);\n    return 0;\n}",
+   "lang": "c",
+   "o": [
+    "15 15 15",
+    "15 20 25",
+    "10 15 20",
+    "5 5 5"
+   ],
+   "a": 1,
+   "e": "A static local variable is initialised once and keeps its value between calls. It goes 10 to 15, then 20, then 25."
+  },
+  {
+   "id": "c-016",
+   "sec": "cs",
+   "topic": "c",
+   "sub": "operator precedence",
+   "d": 2,
+   "q": "What is the output of the following C code?",
+   "code": "printf(\"%d\", 1 << 2 + 1);",
+   "lang": "c",
+   "o": [
+    "5",
+    "8",
+    "7",
+    "3"
+   ],
+   "a": 1,
+   "e": "The additive operator + has higher precedence than the shift operator <<, so the expression is 1 << 3, which is 8."
+  },
+  {
+   "id": "c-017",
+   "sec": "cs",
+   "topic": "c",
+   "sub": "arrays and pointers",
+   "d": 3,
+   "q": "What is the output of the following C code?",
+   "code": "int a[2][3] = {{1, 2, 3}, {4, 5, 6}};\nprintf(\"%d\", *(*(a + 1) + 2) + *(a[0] + 1) * **a);",
+   "lang": "c",
+   "o": [
+    "9",
+    "7",
+    "15",
+    "8"
+   ],
+   "a": 3,
+   "e": "*(*(a + 1) + 2) is a[1][2] = 6. *(a[0] + 1) is a[0][1] = 2 and **a is a[0][0] = 1. Multiplication binds tighter, so 6 + 2 × 1 = 8."
+  },
+  {
+   "id": "c-018",
+   "sec": "cs",
+   "topic": "c",
+   "sub": "switch statement",
+   "d": 3,
+   "q": "What is the output of the following C code?",
+   "code": "int x = 2, r = 0;\nswitch (x) {\n    case 1: r += 1;\n    case 2: r += 2;\n    case 3: r += 3; break;\n    default: r += 10;\n}\nprintf(\"%d\", r);",
+   "lang": "c",
+   "o": [
+    "5",
+    "2",
+    "3",
+    "15"
+   ],
+   "a": 0,
+   "e": "Control jumps to case 2 and falls through into case 3 because there is no break after case 2. The break after case 3 stops it, so r = 2 + 3 = 5."
+  },
+  {
+   "id": "c-019",
+   "sec": "cs",
+   "topic": "c",
+   "sub": "unsigned arithmetic",
+   "d": 3,
+   "q": "What is the output of the following C code? (char is 8 bits)",
+   "code": "unsigned char c = 250;\nc += 10;\nprintf(\"%d\", c);",
+   "lang": "c",
+   "o": [
+    "260",
+    "10",
+    "4",
+    "0"
+   ],
+   "a": 2,
+   "e": "The sum 260 is converted back into an unsigned char, which is defined to wrap modulo 256. So the result is 260 − 256 = 4."
+  },
+  {
+   "id": "c-020",
+   "sec": "cs",
+   "topic": "c",
+   "sub": "bitwise operators",
+   "d": 3,
+   "q": "What is the output of the following C code?",
+   "code": "printf(\"%d\", 13 & 7 | 2 ^ 5);",
+   "lang": "c",
+   "o": [
+    "2",
+    "5",
+    "7",
+    "15"
+   ],
+   "a": 2,
+   "e": "Precedence is & first, then ^, then |. So 13 & 7 = 5, 2 ^ 5 = 7, and 5 | 7 = 7. Reading left to right would wrongly give 2."
+  }
+ ]
+}

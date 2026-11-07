@@ -1,0 +1,188 @@
+{
+ "questions": [
+  {
+   "id": "childhood-001",
+   "sec": "method",
+   "topic": "childhood",
+   "sub": "Erikson first stage",
+   "d": 1,
+   "q": "Erikson's first psychosocial crisis, occurring in infancy, is",
+   "o": [
+    "Autonomy vs shame and doubt",
+    "Trust vs mistrust",
+    "Initiative vs guilt",
+    "Industry vs inferiority"
+   ],
+   "a": 1,
+   "e": "In infancy the child develops trust if caregivers are reliable and responsive. Autonomy vs shame follows in early childhood."
+  },
+  {
+   "id": "childhood-002",
+   "sec": "method",
+   "topic": "childhood",
+   "sub": "Piaget object permanence",
+   "d": 1,
+   "q": "Object permanence is acquired in Piaget's ______ stage.",
+   "o": [
+    "preoperational",
+    "concrete operational",
+    "sensorimotor",
+    "formal operational"
+   ],
+   "a": 2,
+   "e": "In the sensorimotor stage (birth to about 2 years), infants learn that objects continue to exist when out of sight."
+  },
+  {
+   "id": "childhood-003",
+   "sec": "method",
+   "topic": "childhood",
+   "sub": "multiple intelligences",
+   "d": 1,
+   "q": "The theory of multiple intelligences was proposed by",
+   "o": [
+    "Howard Gardner",
+    "Alfred Binet",
+    "Charles Spearman",
+    "David Wechsler"
+   ],
+   "a": 0,
+   "e": "Howard Gardner (1983) proposed several relatively independent intelligences, such as linguistic, logical-mathematical and musical."
+  },
+  {
+   "id": "childhood-004",
+   "sec": "method",
+   "topic": "childhood",
+   "sub": "Baumrind parenting",
+   "d": 1,
+   "q": "Which parenting style combines warmth and responsiveness with firm limits?",
+   "o": [
+    "Authoritarian",
+    "Permissive",
+    "Neglectful",
+    "Authoritative"
+   ],
+   "a": 3,
+   "e": "Authoritative parents are warm and explain rules while setting clear limits. Authoritarian parents are strict and low in warmth."
+  },
+  {
+   "id": "childhood-005",
+   "sec": "method",
+   "topic": "childhood",
+   "sub": "Kohlberg",
+   "d": 2,
+   "q": "Consider the following statements about Kohlberg's theory of moral development.\nI. It has three levels, each with two stages.\nII. The law-and-order orientation belongs to the conventional level.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "The pre-conventional, conventional and post-conventional levels together hold six stages. Stage 4, law and order, falls in the conventional level."
+  },
+  {
+   "id": "childhood-006",
+   "sec": "method",
+   "topic": "childhood",
+   "sub": "IQ computation",
+   "d": 2,
+   "q": "A child with chronological age 10 years has a mental age of 12 years. Using the ratio formula, the child's IQ is",
+   "o": [
+    "83",
+    "100",
+    "120",
+    "122"
+   ],
+   "a": 2,
+   "e": "IQ = (MA ÷ CA) × 100 = (12 ÷ 10) × 100 = 120."
+  },
+  {
+   "id": "childhood-007",
+   "sec": "method",
+   "topic": "childhood",
+   "sub": "adolescence",
+   "d": 2,
+   "q": "G. Stanley Hall described adolescence as a period of",
+   "o": [
+    "calm and stability",
+    "storm and stress",
+    "latency",
+    "dormancy"
+   ],
+   "a": 1,
+   "e": "Hall, drawing on the German phrase Sturm und Drang, viewed adolescence as a turbulent period of emotional ups and downs."
+  },
+  {
+   "id": "childhood-008",
+   "sec": "method",
+   "topic": "childhood",
+   "sub": "heredity and environment",
+   "d": 2,
+   "q": "Which statement best reflects the accepted modern view of heredity and environment in child development?",
+   "o": [
+    "Heredity alone determines development",
+    "Environment alone determines development",
+    "Development is the result of continuous interaction between heredity and environment",
+    "Neither influences development after birth"
+   ],
+   "a": 2,
+   "e": "Heredity sets potentials and environment shapes how they are expressed, so the two interact throughout development."
+  },
+  {
+   "id": "childhood-009",
+   "sec": "method",
+   "topic": "childhood",
+   "sub": "Erikson stages",
+   "d": 3,
+   "q": "Match the stage of life with Erikson's psychosocial crisis.",
+   "table": {
+    "head": [
+     "List I",
+     "List II"
+    ],
+    "rows": [
+     [
+      "a. Infancy",
+      "1. Identity vs role confusion"
+     ],
+     [
+      "b. Early childhood (2–3 years)",
+      "2. Autonomy vs shame and doubt"
+     ],
+     [
+      "c. Middle childhood (6–11 years)",
+      "3. Trust vs mistrust"
+     ],
+     [
+      "d. Adolescence",
+      "4. Industry vs inferiority"
+     ]
+    ]
+   },
+   "o": [
+    "a-3, b-4, c-2, d-1",
+    "a-2, b-3, c-4, d-1",
+    "a-3, b-2, c-1, d-4",
+    "a-3, b-2, c-4, d-1"
+   ],
+   "a": 3,
+   "e": "Infancy: trust vs mistrust. Early childhood: autonomy vs shame and doubt. School years: industry vs inferiority. Adolescence: identity vs role confusion."
+  },
+  {
+   "id": "childhood-010",
+   "sec": "method",
+   "topic": "childhood",
+   "sub": "assimilation and accommodation",
+   "d": 3,
+   "q": "A child who calls every four-legged animal a 'dog' is told that a cow is not a dog, and then forms a new category for cows. In Piaget's terms, forming the new category is",
+   "o": [
+    "assimilation",
+    "accommodation",
+    "equilibrium",
+    "conservation"
+   ],
+   "a": 1,
+   "e": "Accommodation is changing or creating schemas to fit new information. Assimilation fits new input into an existing schema, as when the cow was first called a dog."
+  }
+ ]
+}

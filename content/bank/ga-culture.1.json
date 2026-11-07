@@ -1,0 +1,372 @@
+{
+ "questions": [
+  {
+   "id": "culture-001",
+   "sec": "ga",
+   "topic": "culture",
+   "sub": "classical dances",
+   "d": 1,
+   "q": "Kathakali is the classical dance form of which state?",
+   "o": [
+    "Kerala",
+    "Karnataka",
+    "Tamil Nadu",
+    "Odisha"
+   ],
+   "a": 0,
+   "e": "Kathakali is the elaborate dance-drama of Kerala, known for its heavy make-up and costumes."
+  },
+  {
+   "id": "culture-002",
+   "sec": "ga",
+   "topic": "culture",
+   "sub": "classical dances",
+   "d": 1,
+   "q": "Bharatanatyam is associated with",
+   "o": [
+    "Andhra Pradesh",
+    "Manipur",
+    "Tamil Nadu",
+    "Assam"
+   ],
+   "a": 2,
+   "e": "Bharatanatyam originated in the temples of Tamil Nadu. Kuchipudi belongs to Andhra Pradesh."
+  },
+  {
+   "id": "culture-003",
+   "sec": "ga",
+   "topic": "culture",
+   "sub": "fairs",
+   "d": 1,
+   "q": "The famous Pushkar Fair, known for its camel trading, is held in",
+   "o": [
+    "Gujarat",
+    "Rajasthan",
+    "Madhya Pradesh",
+    "Haryana"
+   ],
+   "a": 1,
+   "e": "The Pushkar Fair is held near Pushkar in Rajasthan around Kartik Purnima."
+  },
+  {
+   "id": "culture-004",
+   "sec": "ga",
+   "topic": "culture",
+   "sub": "festivals",
+   "d": 1,
+   "q": "Onam is the harvest festival of",
+   "o": [
+    "Punjab",
+    "Assam",
+    "Kerala",
+    "Gujarat"
+   ],
+   "a": 2,
+   "e": "Onam is celebrated mainly in Kerala in the month of Chingam (August–September)."
+  },
+  {
+   "id": "culture-005",
+   "sec": "ga",
+   "topic": "culture",
+   "sub": "Carnatic music",
+   "d": 1,
+   "q": "Which of the following is NOT a member of the Carnatic music trinity?",
+   "o": [
+    "Tyagaraja",
+    "Muthuswami Dikshitar",
+    "Syama Sastri",
+    "Purandara Dasa"
+   ],
+   "a": 3,
+   "e": "The trinity is Tyagaraja, Muthuswami Dikshitar and Syama Sastri. Purandara Dasa is called the father of Carnatic music, and he is not one of the three."
+  },
+  {
+   "id": "culture-006",
+   "sec": "ga",
+   "topic": "culture",
+   "sub": "UNESCO sites",
+   "d": 1,
+   "q": "The Taj Mahal, a UNESCO World Heritage Site, is located in",
+   "o": [
+    "Delhi",
+    "Jaipur",
+    "Agra",
+    "Lucknow"
+   ],
+   "a": 2,
+   "e": "The Taj Mahal at Agra, built by Shah Jahan, was inscribed in 1983."
+  },
+  {
+   "id": "culture-007",
+   "sec": "ga",
+   "topic": "culture",
+   "sub": "paintings",
+   "d": 1,
+   "q": "Madhubani painting is a folk art of",
+   "o": [
+    "Bihar",
+    "Maharashtra",
+    "Odisha",
+    "Rajasthan"
+   ],
+   "a": 0,
+   "e": "Madhubani (Mithila) painting comes from the Mithila region of Bihar. Warli is from Maharashtra and Pattachitra from Odisha."
+  },
+  {
+   "id": "culture-008",
+   "sec": "ga",
+   "topic": "culture",
+   "sub": "instruments",
+   "d": 1,
+   "q": "Pandit Ravi Shankar was a world-famous exponent of the",
+   "o": [
+    "sarod",
+    "santoor",
+    "sitar",
+    "shehnai"
+   ],
+   "a": 2,
+   "e": "Ravi Shankar was a sitar maestro. Ustad Amjad Ali Khan plays the sarod and Bismillah Khan the shehnai."
+  },
+  {
+   "id": "culture-009",
+   "sec": "ga",
+   "topic": "culture",
+   "sub": "classical dances",
+   "d": 2,
+   "q": "Consider the following statements about Sattriya\nI. It is a classical dance form of Assam.\nII. It developed in the Vaishnavite monasteries (satras) of Assam, in the tradition of Sankardeva.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Sattriya, recognised as a classical dance in 2000, grew in the satras of Assam and is linked to Sankardeva's Vaishnavite movement."
+  },
+  {
+   "id": "culture-010",
+   "sec": "ga",
+   "topic": "culture",
+   "sub": "festivals",
+   "d": 2,
+   "q": "The Hornbill Festival is celebrated in",
+   "o": [
+    "Mizoram",
+    "Nagaland",
+    "Sikkim",
+    "Manipur"
+   ],
+   "a": 1,
+   "e": "The Hornbill Festival is held every December in Nagaland, near Kohima."
+  },
+  {
+   "id": "culture-011",
+   "sec": "ga",
+   "topic": "culture",
+   "sub": "literature",
+   "d": 2,
+   "q": "Kalhana's Rajatarangini is a chronicle of the kings of",
+   "o": [
+    "Bengal",
+    "Gujarat",
+    "Kashmir",
+    "Delhi"
+   ],
+   "a": 2,
+   "e": "The Rajatarangini, written in Sanskrit in the 12th century, narrates the history of Kashmir's kings."
+  },
+  {
+   "id": "culture-012",
+   "sec": "ga",
+   "topic": "culture",
+   "sub": "Delhi landmarks",
+   "d": 2,
+   "q": "Consider the following statements about the Lotus Temple in Delhi\nI. It is a Bahá'í House of Worship.\nII. It was built by the Mughals in the 17th century.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "The Lotus Temple is a Bahá'í House of Worship completed in 1986, so it has no link with Mughal-era building."
+  },
+  {
+   "id": "culture-013",
+   "sec": "ga",
+   "topic": "culture",
+   "sub": "Delhi landmarks",
+   "d": 2,
+   "q": "Consider the following statements about Humayun's Tomb in Delhi\nI. It is a UNESCO World Heritage Site.\nII. It was built during the reign of Akbar.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Humayun's Tomb was inscribed in 1993 and was built from about 1565 to 1572, in Akbar's reign. Both statements are correct."
+  },
+  {
+   "id": "culture-014",
+   "sec": "ga",
+   "topic": "culture",
+   "sub": "Delhi landmarks",
+   "d": 2,
+   "q": "The architect of India Gate and the Viceroy's House (now Rashtrapati Bhavan) in New Delhi was",
+   "o": [
+    "Herbert Baker alone",
+    "Edwin Lutyens",
+    "Le Corbusier",
+    "Robert Tor Russell"
+   ],
+   "a": 1,
+   "e": "Edwin Lutyens designed India Gate and the Viceroy's House. Herbert Baker designed the Secretariat buildings."
+  },
+  {
+   "id": "culture-015",
+   "sec": "ga",
+   "topic": "culture",
+   "sub": "paintings",
+   "d": 2,
+   "q": "The Kangra school of miniature painting developed in",
+   "o": [
+    "Rajasthan",
+    "Bihar",
+    "Himachal Pradesh",
+    "Karnataka"
+   ],
+   "a": 2,
+   "e": "Kangra painting flourished in the Himalayan foothills of present Himachal Pradesh, with Radha–Krishna themes."
+  },
+  {
+   "id": "culture-016",
+   "sec": "ga",
+   "topic": "culture",
+   "sub": "UNESCO sites",
+   "d": 3,
+   "q": "Which of the following was NOT among the first Indian sites inscribed as World Heritage in 1983?",
+   "o": [
+    "Ajanta Caves",
+    "Ellora Caves",
+    "Agra Fort",
+    "Konark Sun Temple"
+   ],
+   "a": 3,
+   "e": "The 1983 batch had Agra Fort, Taj Mahal, Ajanta and Ellora. Konark Sun Temple was inscribed in 1984."
+  },
+  {
+   "id": "culture-017",
+   "sec": "ga",
+   "topic": "culture",
+   "sub": "UNESCO sites",
+   "d": 3,
+   "q": "The Sun Temple at Konark was built in the 13th century by which Eastern Ganga ruler?",
+   "o": [
+    "Anantavarman Chodaganga",
+    "Narasimhadeva I",
+    "Kapilendra",
+    "Anangabhima III"
+   ],
+   "a": 1,
+   "e": "Narasimhadeva I of the Eastern Ganga dynasty built the Konark temple in the form of a chariot of the Sun god."
+  },
+  {
+   "id": "culture-018",
+   "sec": "ga",
+   "topic": "culture",
+   "sub": "Carnatic music",
+   "d": 3,
+   "q": "The composer who used the mudra (signature) 'Guruguha' in his compositions was",
+   "o": [
+    "Tyagaraja",
+    "Syama Sastri",
+    "Muthuswami Dikshitar",
+    "Purandara Dasa"
+   ],
+   "a": 2,
+   "e": "Muthuswami Dikshitar signed his Sanskrit kritis with 'Guruguha'. Syama Sastri used 'Syama Krishna'."
+  },
+  {
+   "id": "culture-019",
+   "sec": "ga",
+   "topic": "culture",
+   "sub": "literature",
+   "d": 3,
+   "q": "Match the work with its author.",
+   "table": {
+    "head": [
+     "List I",
+     "List II"
+    ],
+    "rows": [
+     [
+      "a. Kamayani",
+      "1. Jayadeva"
+     ],
+     [
+      "b. Gitagovinda",
+      "2. Jaishankar Prasad"
+     ],
+     [
+      "c. Harshacharita",
+      "3. Ilango Adigal"
+     ],
+     [
+      "d. Silappatikaram",
+      "4. Banabhatta"
+     ]
+    ]
+   },
+   "o": [
+    "a-2, b-1, c-4, d-3",
+    "a-3, b-4, c-1, d-2",
+    "a-4, b-3, c-2, d-1",
+    "a-1, b-2, c-3, d-4"
+   ],
+   "a": 0,
+   "e": "Kamayani is by Jaishankar Prasad, Gitagovinda by Jayadeva, Harshacharita by Banabhatta and Silappatikaram by Ilango Adigal."
+  },
+  {
+   "id": "culture-020",
+   "sec": "ga",
+   "topic": "culture",
+   "sub": "festivals",
+   "d": 3,
+   "q": "Match the festival with the state in which it is celebrated.",
+   "table": {
+    "head": [
+     "List I",
+     "List II"
+    ],
+    "rows": [
+     [
+      "a. Wangala",
+      "1. Mizoram"
+     ],
+     [
+      "b. Chapchar Kut",
+      "2. Meghalaya"
+     ],
+     [
+      "c. Losoong",
+      "3. Jharkhand"
+     ],
+     [
+      "d. Sarhul",
+      "4. Sikkim"
+     ]
+    ]
+   },
+   "o": [
+    "a-2, b-4, c-1, d-3",
+    "a-1, b-2, c-3, d-4",
+    "a-2, b-1, c-4, d-3",
+    "a-3, b-4, c-2, d-1"
+   ],
+   "a": 2,
+   "e": "Wangala is the Garo festival of Meghalaya, Chapchar Kut is Mizoram's spring festival, Losoong is Sikkim's New Year and Sarhul is a Jharkhand tribal festival."
+  }
+ ]
+}

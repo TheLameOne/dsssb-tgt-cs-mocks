@@ -1,0 +1,324 @@
+{
+ "questions": [
+  {
+   "id": "mensuration-001",
+   "sec": "arithmetic",
+   "topic": "mensuration",
+   "sub": "rectangle area",
+   "d": 1,
+   "q": "The perimeter of a rectangle is 56 cm and its length is 16 cm. Its area is",
+   "o": [
+    "448 cm²",
+    "192 cm²",
+    "224 cm²",
+    "168 cm²"
+   ],
+   "a": 1,
+   "e": "Length + breadth = 28, so breadth = 12 cm and area = 16 × 12 = 192 cm²."
+  },
+  {
+   "id": "mensuration-002",
+   "sec": "arithmetic",
+   "topic": "mensuration",
+   "sub": "triangle area",
+   "d": 1,
+   "q": "Find the area of a triangle with base 18 cm and height 12 cm.",
+   "o": [
+    "216 cm²",
+    "54 cm²",
+    "108 cm²",
+    "30 cm²"
+   ],
+   "a": 2,
+   "e": "Area = ½ × 18 × 12 = 108 cm². Omitting the ½ gives 216."
+  },
+  {
+   "id": "mensuration-003",
+   "sec": "arithmetic",
+   "topic": "mensuration",
+   "sub": "circle area",
+   "d": 1,
+   "q": "Using π = 22/7, the area of a circle of radius 14 cm is",
+   "o": [
+    "616 cm²",
+    "88 cm²",
+    "1232 cm²",
+    "308 cm²"
+   ],
+   "a": 0,
+   "e": "Area = πr² = 22/7 × 14 × 14 = 616 cm². 88 is the circumference and 1232 is 2πr²."
+  },
+  {
+   "id": "mensuration-004",
+   "sec": "arithmetic",
+   "topic": "mensuration",
+   "sub": "circumference",
+   "d": 1,
+   "q": "Using π = 22/7, the circumference of a circle of radius 21 cm is",
+   "o": [
+    "66 cm",
+    "132 cm",
+    "1386 cm",
+    "264 cm"
+   ],
+   "a": 1,
+   "e": "Circumference = 2πr = 2 × 22/7 × 21 = 132 cm."
+  },
+  {
+   "id": "mensuration-005",
+   "sec": "arithmetic",
+   "topic": "mensuration",
+   "sub": "rhombus area",
+   "d": 1,
+   "q": "The diagonals of a rhombus are 16 cm and 12 cm. Its area is",
+   "o": [
+    "192 cm²",
+    "48 cm²",
+    "56 cm²",
+    "96 cm²"
+   ],
+   "a": 3,
+   "e": "Area = ½ × d₁ × d₂ = ½ × 16 × 12 = 96 cm²."
+  },
+  {
+   "id": "mensuration-006",
+   "sec": "arithmetic",
+   "topic": "mensuration",
+   "sub": "trapezium area",
+   "d": 1,
+   "q": "A trapezium has parallel sides 12 cm and 20 cm, and the distance between them is 8 cm. Its area is",
+   "o": [
+    "128 cm²",
+    "256 cm²",
+    "96 cm²",
+    "160 cm²"
+   ],
+   "a": 0,
+   "e": "Area = ½ × (12 + 20) × 8 = 128 cm²."
+  },
+  {
+   "id": "mensuration-007",
+   "sec": "arithmetic",
+   "topic": "mensuration",
+   "sub": "cuboid volume",
+   "d": 1,
+   "q": "The volume of a cuboid of length 12 cm, breadth 5 cm and height 4 cm is",
+   "o": [
+    "256 cm³",
+    "120 cm³",
+    "240 cm³",
+    "60 cm³"
+   ],
+   "a": 2,
+   "e": "Volume = 12 × 5 × 4 = 240 cm³. 256 is its total surface area in cm²."
+  },
+  {
+   "id": "mensuration-008",
+   "sec": "arithmetic",
+   "topic": "mensuration",
+   "sub": "cylinder volume",
+   "d": 1,
+   "q": "Using π = 22/7, the volume of a cylinder with radius 7 cm and height 10 cm is",
+   "o": [
+    "440 cm³",
+    "4620 cm³",
+    "1540 cm³",
+    "770 cm³"
+   ],
+   "a": 2,
+   "e": "Volume = πr²h = 22/7 × 49 × 10 = 1540 cm³. 440 is the curved surface area."
+  },
+  {
+   "id": "mensuration-009",
+   "sec": "arithmetic",
+   "topic": "mensuration",
+   "sub": "sphere surface",
+   "d": 1,
+   "q": "Using π = 22/7, the surface area of a sphere of radius 10.5 cm is",
+   "o": [
+    "1386 cm²",
+    "346.5 cm²",
+    "693 cm²",
+    "4851 cm²"
+   ],
+   "a": 0,
+   "e": "Surface area = 4πr² = 4 × 22/7 × 10.5 × 10.5 = 1386 cm². 4851 is the volume."
+  },
+  {
+   "id": "mensuration-010",
+   "sec": "arithmetic",
+   "topic": "mensuration",
+   "sub": "cone curved surface",
+   "d": 2,
+   "q": "Using π = 22/7, the curved surface area of a cone with base radius 7 cm and height 24 cm is",
+   "o": [
+    "528 cm²",
+    "704 cm²",
+    "1100 cm²",
+    "550 cm²"
+   ],
+   "a": 3,
+   "e": "Slant height = √(7² + 24²) = 25 cm. CSA = πrl = 22/7 × 7 × 25 = 550 cm². 704 is the total surface area."
+  },
+  {
+   "id": "mensuration-011",
+   "sec": "arithmetic",
+   "topic": "mensuration",
+   "sub": "rhombus side and diagonal",
+   "d": 2,
+   "q": "A rhombus has side 10 cm and one diagonal 12 cm. Its area is",
+   "o": [
+    "120 cm²",
+    "96 cm²",
+    "80 cm²",
+    "192 cm²"
+   ],
+   "a": 1,
+   "e": "Half-diagonals and the side form a right triangle: other half-diagonal = √(100 − 36) = 8, so the other diagonal is 16 cm. Area = ½ × 12 × 16 = 96 cm²."
+  },
+  {
+   "id": "mensuration-012",
+   "sec": "arithmetic",
+   "topic": "mensuration",
+   "sub": "percentage change area",
+   "d": 2,
+   "q": "The length of a rectangle is increased by 20% and its breadth is decreased by 10%. The area",
+   "o": [
+    "increases by 10%",
+    "increases by 6%",
+    "increases by 12%",
+    "increases by 8%"
+   ],
+   "a": 3,
+   "e": "New area = 1.2 × 0.9 = 1.08 of the old area, so it increases by 8%. Simply adding 20 and −10 gives the wrong 10%."
+  },
+  {
+   "id": "mensuration-013",
+   "sec": "arithmetic",
+   "topic": "mensuration",
+   "sub": "circle radius doubled",
+   "d": 2,
+   "q": "If the radius of a circle is doubled, its area increases by",
+   "o": [
+    "100%",
+    "300%",
+    "200%",
+    "400%"
+   ],
+   "a": 1,
+   "e": "Area becomes (2r)² = 4 times the original, which is an increase of 300%."
+  },
+  {
+   "id": "mensuration-014",
+   "sec": "arithmetic",
+   "topic": "mensuration",
+   "sub": "cylinder total surface",
+   "d": 2,
+   "q": "Using π = 22/7, the total surface area of a cylinder with radius 7 cm and height 15 cm is",
+   "o": [
+    "660 cm²",
+    "814 cm²",
+    "968 cm²",
+    "2310 cm²"
+   ],
+   "a": 2,
+   "e": "TSA = 2πr(h + r) = 2 × 22/7 × 7 × 22 = 968 cm². 660 is only the curved part and 2310 is the volume."
+  },
+  {
+   "id": "mensuration-015",
+   "sec": "arithmetic",
+   "topic": "mensuration",
+   "sub": "cuboid surface",
+   "d": 2,
+   "q": "The total surface area of a cuboid measuring 10 cm × 8 cm × 5 cm is",
+   "o": [
+    "340 cm²",
+    "170 cm²",
+    "400 cm²",
+    "240 cm²"
+   ],
+   "a": 0,
+   "e": "TSA = 2(lb + bh + hl) = 2(80 + 40 + 50) = 340 cm². 170 forgets the factor 2."
+  },
+  {
+   "id": "mensuration-016",
+   "sec": "arithmetic",
+   "topic": "mensuration",
+   "sub": "Heron's formula",
+   "d": 2,
+   "q": "Find the area of a triangle with sides 13 cm, 14 cm and 15 cm.",
+   "o": [
+    "91 cm²",
+    "84 cm²",
+    "105 cm²",
+    "168 cm²"
+   ],
+   "a": 1,
+   "e": "s = 21, so area = √(21 × 8 × 7 × 6) = √7056 = 84 cm²."
+  },
+  {
+   "id": "mensuration-017",
+   "sec": "arithmetic",
+   "topic": "mensuration",
+   "sub": "melt sphere into cylinder",
+   "d": 3,
+   "q": "A solid metal sphere of radius 9 cm is melted and recast into a solid cylinder of radius 6 cm. The height of the cylinder is",
+   "o": [
+    "18 cm",
+    "24 cm",
+    "36 cm",
+    "27 cm"
+   ],
+   "a": 3,
+   "e": "4/3 × π × 9³ = π × 6² × h gives 972 = 36h, so h = 27 cm."
+  },
+  {
+   "id": "mensuration-018",
+   "sec": "arithmetic",
+   "topic": "mensuration",
+   "sub": "melt hemisphere into cone",
+   "d": 3,
+   "q": "A solid hemisphere of radius 6 cm is melted and recast into a cone of height 12 cm. The radius of the cone's base is",
+   "o": [
+    "6 cm",
+    "4 cm",
+    "8 cm",
+    "12 cm"
+   ],
+   "a": 0,
+   "e": "⅔π × 6³ = ⅓π r² × 12 gives 144 = 4r², so r² = 36 and r = 6 cm."
+  },
+  {
+   "id": "mensuration-019",
+   "sec": "arithmetic",
+   "topic": "mensuration",
+   "sub": "rhombus from perimeter",
+   "d": 3,
+   "q": "The perimeter of a rhombus is 52 cm and one of its diagonals is 24 cm. Its area is",
+   "o": [
+    "156 cm²",
+    "312 cm²",
+    "120 cm²",
+    "130 cm²"
+   ],
+   "a": 2,
+   "e": "Side = 13 cm. Half of the given diagonal is 12, so the other half is √(169 − 144) = 5 and the other diagonal is 10 cm. Area = ½ × 24 × 10 = 120 cm²."
+  },
+  {
+   "id": "mensuration-020",
+   "sec": "arithmetic",
+   "topic": "mensuration",
+   "sub": "cylinder percentage change",
+   "d": 3,
+   "q": "The radius of a cylinder is decreased by 20% and its height is increased by 25%. Its volume",
+   "o": [
+    "increases by 5%",
+    "decreases by 15%",
+    "decreases by 20%",
+    "remains unchanged"
+   ],
+   "a": 2,
+   "e": "New volume = 0.8² × 1.25 = 0.8 of the old, a decrease of 20%. Volume depends on the square of the radius."
+  }
+ ]
+}

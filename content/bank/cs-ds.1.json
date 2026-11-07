@@ -1,0 +1,404 @@
+{
+ "questions": [
+  {
+   "id": "ds-001",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "stacks",
+   "d": 1,
+   "q": "Which of the following is NOT an application of a stack?",
+   "o": [
+    "Managing function calls and recursion",
+    "Evaluating postfix expressions",
+    "Matching parentheses in an expression",
+    "Scheduling tasks in first-come first-served order"
+   ],
+   "a": 3,
+   "e": "First-come first-served scheduling needs FIFO order, which is the behaviour of a queue. Function calls, postfix evaluation and parenthesis matching all rely on last-in first-out behaviour."
+  },
+  {
+   "id": "ds-002",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "postfix notation",
+   "d": 1,
+   "q": "In postfix (reverse Polish) notation, a binary operator is written ______ its two operands.",
+   "o": [
+    "after",
+    "before",
+    "between",
+    "around"
+   ],
+   "a": 0,
+   "e": "Postfix places the operator after its operands, for example AB+. Prefix places it before, and infix places it between them."
+  },
+  {
+   "id": "ds-003",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "postfix evaluation",
+   "d": 1,
+   "q": "The value of the postfix expression `5 3 + 2 *` is",
+   "o": [
+    "11",
+    "25",
+    "16",
+    "13"
+   ],
+   "a": 2,
+   "e": "Scanning left to right: 5 3 + gives 8, then 8 2 * gives 16."
+  },
+  {
+   "id": "ds-004",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "circular queue",
+   "d": 1,
+   "q": "In a circular queue stored in an array of size N, with one cell always kept empty, the queue is full when",
+   "o": [
+    "front == rear",
+    "rear == N − 1",
+    "(rear + 1) mod N == front",
+    "(front + 1) mod N == rear"
+   ],
+   "a": 2,
+   "e": "If advancing rear by one (modulo N) would land on front, no free cell is left. front == rear is the empty condition."
+  },
+  {
+   "id": "ds-005",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "binary tree properties",
+   "d": 1,
+   "q": "The maximum number of nodes in a binary tree of height h (a single-node tree has height 0) is",
+   "o": [
+    "2^(h+1) − 1",
+    "2^h − 1",
+    "2^h",
+    "2^(h+1)"
+   ],
+   "a": 0,
+   "e": "Level i has at most 2^i nodes, so the total is 1 + 2 + 4 + ... + 2^h = 2^(h+1) − 1."
+  },
+  {
+   "id": "ds-006",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "BST traversal",
+   "d": 1,
+   "q": "Consider the following statements about a binary search tree (BST) with distinct keys.\nI. Its in-order traversal visits the keys in ascending order.\nII. Its pre-order traversal always visits the keys in ascending order.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "I is true. II is false: pre-order visits the root before its left subtree, so a root having a smaller left child is visited before that child."
+  },
+  {
+   "id": "ds-007",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "binary tree properties",
+   "d": 1,
+   "q": "A binary tree has n nodes. The total number of null child pointers in its linked representation is",
+   "o": [
+    "n",
+    "n + 1",
+    "n − 1",
+    "2n"
+   ],
+   "a": 1,
+   "e": "The 2n child pointers include n − 1 that point to real nodes (one per edge). The remaining 2n − (n − 1) = n + 1 are null."
+  },
+  {
+   "id": "ds-008",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "searching",
+   "d": 1,
+   "q": "The worst-case time complexity of binary search on a sorted array of n elements is",
+   "o": [
+    "O(n)",
+    "O(log n)",
+    "O(n log n)",
+    "O(1)"
+   ],
+   "a": 1,
+   "e": "Each comparison halves the search range, so at most about log₂ n + 1 comparisons are needed."
+  },
+  {
+   "id": "ds-009",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "sorting stability",
+   "d": 1,
+   "q": "Consider the following statements about sorting algorithms.\nI. Standard quick sort is a stable sorting algorithm.\nII. Merge sort is a stable sorting algorithm.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "Merge sort is stable because equal elements keep their relative order while merging. Standard quick sort is not stable, since partitioning swaps elements across long distances; so I is false."
+  },
+  {
+   "id": "ds-010",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "hashing",
+   "d": 1,
+   "q": "Which of the following is NOT a collision resolution technique in hashing?",
+   "o": [
+    "Linear probing",
+    "Double hashing",
+    "Separate chaining",
+    "Folding method"
+   ],
+   "a": 3,
+   "e": "Folding is a way of computing the hash value from a key, not of resolving collisions. Linear probing and double hashing are open addressing techniques, and separate chaining uses linked lists."
+  },
+  {
+   "id": "ds-011",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "graph traversal",
+   "d": 1,
+   "q": "Breadth first search of a graph uses a ______ and depth first search (non-recursive) uses a ______.",
+   "o": [
+    "stack, queue",
+    "queue, queue",
+    "queue, stack",
+    "stack, stack"
+   ],
+   "a": 2,
+   "e": "BFS explores the oldest discovered vertex first (FIFO queue). Iterative DFS explores the most recently discovered vertex first (LIFO stack)."
+  },
+  {
+   "id": "ds-012",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "graph representation",
+   "d": 1,
+   "q": "Consider the following statements about graph representations for a graph with V vertices and E edges.\nI. An adjacency matrix needs O(V + E) space.\nII. For a sparse graph, an adjacency matrix needs less space than an adjacency list.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 3,
+   "e": "An adjacency matrix always needs O(V²) space whatever E is, so I is false. For a sparse graph E is much smaller than V², so the adjacency list with O(V + E) space is smaller, making II false."
+  },
+  {
+   "id": "ds-013",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "array address",
+   "d": 1,
+   "q": "A 2-D array `A[5][8]` with 2-byte elements is stored in row-major order with base address 2000 and 0-based indices. The address of `A[3][4]` is",
+   "o": [
+    "2056",
+    "2058",
+    "2046",
+    "2028"
+   ],
+   "a": 0,
+   "e": "Offset = (3 × 8 + 4) elements = 28 elements = 56 bytes, so the address is 2000 + 56 = 2056. 2046 is what column-major order would give."
+  },
+  {
+   "id": "ds-014",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "priority queue",
+   "d": 1,
+   "q": "Which data structure gives an efficient priority queue with O(log n) insertion and O(log n) removal of the minimum?",
+   "o": [
+    "Sorted linked list",
+    "Stack",
+    "Circular queue",
+    "Binary heap"
+   ],
+   "a": 3,
+   "e": "A binary heap keeps the smallest key at the root and restores order by sifting up or down along one root-to-leaf path, which takes O(log n)."
+  },
+  {
+   "id": "ds-015",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "linked list",
+   "d": 1,
+   "q": "Regarding insertion of a new node at the beginning of a singly linked list that has a head pointer, consider the following.\nI. It requires traversing the whole list to reach the first node.\nII. It takes constant time, since only the new node's link and the head pointer change.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "The head pointer already gives access to the first node, so no traversal is needed and the operation takes O(1) time. I is false and II is true."
+  },
+  {
+   "id": "ds-016",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "sorting",
+   "d": 1,
+   "q": "The maximum number of swaps that selection sort performs on n elements is ______.",
+   "o": [
+    "n",
+    "n − 1",
+    "n(n − 1)/2",
+    "n²"
+   ],
+   "a": 1,
+   "e": "Each pass places the next minimum with at most one swap, and n − 1 passes are enough. Comparisons, not swaps, are O(n²)."
+  },
+  {
+   "id": "ds-017",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "data structure types",
+   "d": 1,
+   "q": "Which of the following is NOT a linear data structure?",
+   "o": [
+    "Array",
+    "Stack",
+    "Linked list",
+    "Tree"
+   ],
+   "a": 3,
+   "e": "A tree has a hierarchical, one-to-many relationship between elements. Arrays, stacks and linked lists store elements in a sequence."
+  },
+  {
+   "id": "ds-018",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "stacks and queues",
+   "d": 1,
+   "q": "Consider the following statements.\nI. A stack can be used to check whether the brackets in an expression are balanced.\nII. A queue is the data structure normally used to implement depth first search iteratively.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "Matching brackets are paired last-opened first-closed, which suits a stack. Iterative DFS uses a stack; a queue gives BFS."
+  },
+  {
+   "id": "ds-019",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "complete binary tree",
+   "d": 1,
+   "q": "The height of a complete binary tree with n nodes (a single-node tree has height 0) is",
+   "o": [
+    "⌈log₂ n⌉",
+    "n/2",
+    "⌊log₂ n⌋",
+    "n − 1"
+   ],
+   "a": 2,
+   "e": "Levels are filled completely from the top, so the last level index is ⌊log₂ n⌋. For n = 6, height is 2."
+  },
+  {
+   "id": "ds-020",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "doubly linked list",
+   "d": 1,
+   "q": "Each node of a doubly linked list contains",
+   "o": [
+    "data and one pointer",
+    "two pointers and no data",
+    "data and two pointers",
+    "data and three pointers"
+   ],
+   "a": 2,
+   "e": "A node stores the data item, a pointer to the previous node and a pointer to the next node. That is what allows traversal in both directions."
+  },
+  {
+   "id": "ds-021",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "tree traversal",
+   "d": 1,
+   "q": "Which of the following is NOT a depth-first traversal of a binary tree?",
+   "o": [
+    "Pre-order",
+    "In-order",
+    "Post-order",
+    "Level-order"
+   ],
+   "a": 3,
+   "e": "Level-order visits nodes level by level using a queue, which is breadth-first. Pre-order, in-order and post-order all go deep into a subtree before moving on."
+  },
+  {
+   "id": "ds-022",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "tree properties",
+   "d": 1,
+   "q": "Consider the following statements about a tree with n nodes.\nI. It has exactly n − 1 edges.\nII. It is connected and contains no cycle.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Both are true. A tree is a connected acyclic graph, and any such graph on n nodes has exactly n − 1 edges."
+  },
+  {
+   "id": "ds-023",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "sorting",
+   "d": 1,
+   "q": "Which of the following sorting methods does NOT work by comparing keys with each other?",
+   "o": [
+    "Merge sort",
+    "Radix sort",
+    "Heap sort",
+    "Quick sort"
+   ],
+   "a": 1,
+   "e": "Radix sort distributes keys into buckets digit by digit. The other three are comparison sorts."
+  },
+  {
+   "id": "ds-024",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "hashing",
+   "d": 1,
+   "q": "In hashing, separate chaining resolves a collision by",
+   "o": [
+    "probing for the next empty slot",
+    "keeping all keys of the same slot in a linked list",
+    "applying a second hash function",
+    "discarding the new key"
+   ],
+   "a": 1,
+   "e": "Each table slot holds the head of a list, and colliding keys are added to that list. Probing and second hash functions belong to open addressing."
+  },
+  {
+   "id": "ds-025",
+   "sec": "cs",
+   "topic": "ds",
+   "sub": "infix to postfix",
+   "d": 2,
+   "q": "The postfix form of the infix expression `A * (B + C) / D − E` is",
+   "o": [
+    "ABC+*DE/−",
+    "AB*C+D/E−",
+    "ABCD+*/E−",
+    "ABC+*D/E−"
+   ],
+   "a": 3,
+   "e": "B + C comes first (BC+), then A times that (ABC+*), then divide by D (ABC+*D/), and finally subtract E. * and / have equal precedence and associate left to right."
+  }
+ ]
+}

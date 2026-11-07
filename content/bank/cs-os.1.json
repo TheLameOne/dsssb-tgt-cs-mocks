@@ -1,0 +1,404 @@
+{
+ "questions": [
+  {
+   "id": "os-001",
+   "sec": "cs",
+   "topic": "os",
+   "sub": "types of OS",
+   "d": 1,
+   "q": "Which type of operating system executes a group of similar jobs together, without any user interaction while the jobs run?",
+   "o": [
+    "Time-sharing operating system",
+    "Batch operating system",
+    "Real-time operating system",
+    "Distributed operating system"
+   ],
+   "a": 1,
+   "e": "A batch OS collects similar jobs and runs them one after another with no interaction. Time-sharing systems serve interactive users in turn."
+  },
+  {
+   "id": "os-002",
+   "sec": "cs",
+   "topic": "os",
+   "sub": "types of OS",
+   "d": 1,
+   "q": "Which of the following is NOT true of a hard real-time operating system?",
+   "o": [
+    "Every task must meet its deadline",
+    "It is used in systems such as flight control and pacemakers",
+    "A late result is still acceptable with reduced quality",
+    "A missed deadline is treated as a system failure"
+   ],
+   "a": 2,
+   "e": "Late results are tolerated only in soft real-time systems. In a hard real-time system a missed deadline is a system failure."
+  },
+  {
+   "id": "os-003",
+   "sec": "cs",
+   "topic": "os",
+   "sub": "kernel",
+   "d": 1,
+   "q": "The kernel of an operating system is ______.",
+   "o": [
+    "the program that only interprets commands typed by the user",
+    "a utility that compresses and archives files",
+    "the program in ROM that tests the hardware at power-on",
+    "the core program that stays in main memory and manages the CPU, memory and devices"
+   ],
+   "a": 3,
+   "e": "The kernel is the central part of the OS, always resident in memory. Command interpretation is the job of the shell, and the power-on test is done by the BIOS/POST."
+  },
+  {
+   "id": "os-004",
+   "sec": "cs",
+   "topic": "os",
+   "sub": "system calls",
+   "d": 1,
+   "q": "A system call is used by a user program to ______.",
+   "o": [
+    "call a function defined in the same program",
+    "convert source code into machine code",
+    "request a service from the operating system kernel",
+    "access any hardware directly without protection checks"
+   ],
+   "a": 2,
+   "e": "System calls are the controlled interface through which user programs ask the kernel for services such as file I/O or process creation."
+  },
+  {
+   "id": "os-005",
+   "sec": "cs",
+   "topic": "os",
+   "sub": "system calls",
+   "d": 1,
+   "q": "Consider the following statements about system calls.\nI. A system call switches the CPU from kernel mode to user mode.\nII. A system call switches the CPU from user mode to kernel mode.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "Only II is correct. A trap instruction moves the CPU from user mode into privileged kernel mode, and the mode is restored on return."
+  },
+  {
+   "id": "os-006",
+   "sec": "cs",
+   "topic": "os",
+   "sub": "process states",
+   "d": 1,
+   "q": "A process that is waiting for an I/O operation to complete is in the ______ state.",
+   "o": [
+    "waiting (blocked)",
+    "ready",
+    "running",
+    "new"
+   ],
+   "a": 0,
+   "e": "A process leaves the running state and enters the waiting (blocked) state when it requests I/O. It returns to ready when the I/O completes."
+  },
+  {
+   "id": "os-007",
+   "sec": "cs",
+   "topic": "os",
+   "sub": "PCB",
+   "d": 1,
+   "q": "Which of the following is NOT stored in the process control block (PCB) of a process?",
+   "o": [
+    "The process state",
+    "The program counter",
+    "The contents of CPU registers",
+    "The source code listing of the program"
+   ],
+   "a": 3,
+   "e": "The PCB holds the process state, program counter, registers, scheduling and memory-management information. Source code is not kept in the PCB."
+  },
+  {
+   "id": "os-008",
+   "sec": "cs",
+   "topic": "os",
+   "sub": "dispatcher",
+   "d": 1,
+   "q": "Which of the following is NOT a function of the dispatcher?",
+   "o": [
+    "Choosing which process in the ready queue runs next",
+    "Switching context",
+    "Switching to user mode",
+    "Jumping to the proper location in the user program"
+   ],
+   "a": 0,
+   "e": "Choosing the next process from the ready queue is the job of the short-term scheduler. The dispatcher only hands over the CPU: it switches context, switches to user mode and jumps to the correct location."
+  },
+  {
+   "id": "os-009",
+   "sec": "cs",
+   "topic": "os",
+   "sub": "threads",
+   "d": 1,
+   "q": "Consider the following statements about threads of the same process.\nI. They share a common stack.\nII. Each thread has its own separate code section.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 3,
+   "e": "Neither is correct. Threads share the code, data and open files of the process, but each thread has its own stack, registers and program counter."
+  },
+  {
+   "id": "os-010",
+   "sec": "cs",
+   "topic": "os",
+   "sub": "context switch",
+   "d": 1,
+   "q": "The time taken for a context switch is ______.",
+   "o": [
+    "pure overhead, since the system does no useful work for any process during it",
+    "useful work done on behalf of the running process",
+    "always equal to the time quantum",
+    "zero on all modern hardware"
+   ],
+   "a": 0,
+   "e": "During a context switch the kernel only saves and restores process state, so the time is overhead. It depends on hardware support and is not zero."
+  },
+  {
+   "id": "os-011",
+   "sec": "cs",
+   "topic": "os",
+   "sub": "CPU scheduling",
+   "d": 1,
+   "q": "Consider the following statements about CPU scheduling of processes that all arrive at time 0.\nI. Round Robin gives the minimum average waiting time.\nII. Shortest Job First gives the minimum average waiting time.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "Only II is correct. SJF is provably optimal for average waiting time. Round Robin favours response time and usually has a higher average waiting time."
+  },
+  {
+   "id": "os-012",
+   "sec": "cs",
+   "topic": "os",
+   "sub": "CPU scheduling",
+   "d": 1,
+   "q": "In first-come first-served scheduling, short processes waiting behind one long CPU-bound process is called the ______ effect.",
+   "o": [
+    "thrashing",
+    "aging",
+    "convoy",
+    "starvation"
+   ],
+   "a": 2,
+   "e": "The convoy effect makes short processes queue behind a long one in FCFS, lowering CPU and device utilisation."
+  },
+  {
+   "id": "os-025",
+   "sec": "cs",
+   "topic": "os",
+   "sub": "deadlock",
+   "d": 2,
+   "q": "Consider the following statements about deadlock and starvation.\nI. In a deadlock, a set of processes wait indefinitely for events that only another process in the set can cause.\nII. Starvation can occur only if a deadlock exists in the system.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "Statement I defines deadlock correctly. Starvation can happen without deadlock, for example a low-priority process that never gets the CPU under priority scheduling."
+  },
+  {
+   "id": "os-026",
+   "sec": "cs",
+   "topic": "os",
+   "sub": "threads",
+   "d": 2,
+   "q": "Consider the following statements about threads.\nI. Each thread has its own program counter and register set.\nII. Threads of the same process share its code section and data section.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "A thread keeps its own PC, registers and stack, while code, data and open files are shared among the threads of one process. Both statements are correct."
+  },
+  {
+   "id": "os-027",
+   "sec": "cs",
+   "topic": "os",
+   "sub": "CPU scheduling",
+   "d": 2,
+   "q": "Consider the following statements about CPU scheduling.\nI. SJF scheduling can never cause starvation.\nII. Round-robin scheduling works without any timer interrupt.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 3,
+   "e": "SJF can starve long jobs if short jobs keep arriving. Round robin needs a timer interrupt to preempt the running process after its quantum. Both statements are false."
+  },
+  {
+   "id": "os-028",
+   "sec": "cs",
+   "topic": "os",
+   "sub": "deadlock",
+   "d": 2,
+   "q": "Consider the following statements about deadlock avoidance.\nI. A system in an unsafe state is always in deadlock.\nII. A system in a safe state can never become deadlocked.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "An unsafe state only means deadlock is possible, not certain. A safe state has a sequence in which all processes can finish, so deadlock cannot occur from it."
+  },
+  {
+   "id": "os-029",
+   "sec": "cs",
+   "topic": "os",
+   "sub": "CPU scheduling",
+   "d": 2,
+   "q": "Three processes P1, P2 and P3 arrive at time 0 with CPU bursts of 6, 3 and 3 ms respectively and are served in that order by FCFS. What is the average turnaround time?",
+   "o": [
+    "7 ms",
+    "9 ms",
+    "10 ms",
+    "12 ms"
+   ],
+   "a": 1,
+   "e": "Completion times are 6, 9 and 12 ms. All arrive at 0, so turnaround times are 6, 9, 12 and the average is 27/3 = 9 ms."
+  },
+  {
+   "id": "os-030",
+   "sec": "cs",
+   "topic": "os",
+   "sub": "CPU scheduling",
+   "d": 2,
+   "q": "Four processes arrive at time 0 with CPU bursts of 6, 8, 7 and 3 ms. Using non-preemptive SJF, the average waiting time is ______.",
+   "o": [
+    "7 ms",
+    "6.5 ms",
+    "9 ms",
+    "10.5 ms"
+   ],
+   "a": 0,
+   "e": "Order is 3, 6, 7, 8. Waiting times are 0, 3, 9 and 16, so the average is 28/4 = 7 ms."
+  },
+  {
+   "id": "os-031",
+   "sec": "cs",
+   "topic": "os",
+   "sub": "CPU scheduling",
+   "d": 2,
+   "q": "Processes P1, P2 and P3 arrive at time 0 with bursts 3, 4 and 2 ms and priorities 2, 1 and 3 respectively (a smaller number means higher priority). With non-preemptive priority scheduling, the waiting time of P3 is ______.",
+   "o": [
+    "4 ms",
+    "6 ms",
+    "9 ms",
+    "7 ms"
+   ],
+   "a": 3,
+   "e": "The order is P2 (0-4), P1 (4-7), P3 (7-9). P3 starts at time 7 and arrived at 0, so it waits 7 ms."
+  },
+  {
+   "id": "os-032",
+   "sec": "cs",
+   "topic": "os",
+   "sub": "memory management",
+   "d": 2,
+   "q": "In a paged system, the TLB hit ratio is 80%, a TLB access takes 20 ns and a memory access takes 100 ns. With single-level paging, the effective memory access time is ______.",
+   "o": [
+    "120 ns",
+    "128 ns",
+    "140 ns",
+    "160 ns"
+   ],
+   "a": 2,
+   "e": "Hit: 20 + 100 = 120 ns. Miss: 20 + 100 + 100 = 220 ns. EAT = 0.8 × 120 + 0.2 × 220 = 96 + 44 = 140 ns."
+  },
+  {
+   "id": "os-033",
+   "sec": "cs",
+   "topic": "os",
+   "sub": "memory management",
+   "d": 2,
+   "q": "A process of size 10,500 bytes is loaded into a paged system with a page size of 4096 bytes. The internal fragmentation in its last page is ______.",
+   "o": [
+    "404 bytes",
+    "1788 bytes",
+    "2308 bytes",
+    "3596 bytes"
+   ],
+   "a": 1,
+   "e": "The process needs 3 pages = 12,288 bytes. Wasted space is 12,288 − 10,500 = 1788 bytes."
+  },
+  {
+   "id": "os-043",
+   "sec": "cs",
+   "topic": "os",
+   "sub": "CPU scheduling",
+   "d": 3,
+   "q": "Four processes arrive and need CPU bursts as follows: P1 (arrival 0, burst 8), P2 (1, 4), P3 (2, 9), P4 (3, 5). Using Shortest Remaining Time First (preemptive SJF), the average waiting time is ______.",
+   "o": [
+    "5.5 ms",
+    "7.75 ms",
+    "8.75 ms",
+    "6.5 ms"
+   ],
+   "a": 3,
+   "e": "Order: P1 0-1, P2 1-5, P4 5-10, P1 10-17, P3 17-26. Waits: P1 9, P2 0, P3 15, P4 2. Sum 26, average 6.5 ms."
+  },
+  {
+   "id": "os-044",
+   "sec": "cs",
+   "topic": "os",
+   "sub": "deadlock",
+   "d": 3,
+   "q": "A system has 10 units of one resource type. P0 holds 3 and may need up to 9, P1 holds 2 and may need up to 4, P2 holds 2 and may need up to 7. The number of distinct safe sequences is ______.",
+   "o": [
+    "0",
+    "2",
+    "1",
+    "3"
+   ],
+   "a": 2,
+   "e": "Available = 10 − 7 = 3. Needs are P0 6, P1 2, P2 5. Only P1 can start, giving 5 free; then P0 (6) cannot run but P2 (5) can, giving 7; then P0. Only <P1, P2, P0> is safe."
+  },
+  {
+   "id": "os-045",
+   "sec": "cs",
+   "topic": "os",
+   "sub": "page replacement",
+   "d": 3,
+   "q": "A process with 3 initially empty frames references pages 5, 4, 3, 2, 5, 4, 1, 5, 4, 3, 2, 1 in this order. The number of page faults under LRU replacement is ______.",
+   "o": [
+    "9",
+    "10",
+    "8",
+    "7"
+   ],
+   "a": 1,
+   "e": "Only the references to 5 and 4 after page 1 hit (2 hits). The other 10 references fault. Note that FIFO gives 9 faults here, so LRU is worse for this string."
+  },
+  {
+   "id": "os-046",
+   "sec": "cs",
+   "topic": "os",
+   "sub": "paging",
+   "d": 3,
+   "q": "A system uses 32-bit virtual addresses, 8 KB pages and 4-byte page-table entries, with two-level paging in which each inner page table exactly fills one page. The number of bits used for the outer page-table index is ______.",
+   "o": [
+    "8",
+    "9",
+    "10",
+    "11"
+   ],
+   "a": 0,
+   "e": "Offset = 13 bits. A page holds 2¹³/4 = 2¹¹ entries, so the inner index is 11 bits. Outer index = 32 − 13 − 11 = 8 bits."
+  }
+ ]
+}

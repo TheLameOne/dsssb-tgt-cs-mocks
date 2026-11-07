@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "id": "assessment-001", "sec": "method", "topic": "assessment", "sub": "summative assessment", "d": 1,
+      "q": "An assessment conducted at the end of a term mainly to assign grades is",
+      "o": ["formative", "diagnostic", "summative", "placement"], "a": 2,
+      "e": "Summative assessment judges learning at the end of a unit or term. Formative assessment happens during teaching to improve learning."
+    },
+    {
+      "id": "assessment-002", "sec": "method", "topic": "assessment", "sub": "PARAKH", "d": 1,
+      "q": "PARAKH, the national assessment centre proposed under NEP 2020, stands for",
+      "o": ["Performance Appraisal, Review, and Analysis of Knowledge for Holistic Development", "Performance Assessment, Review, and Analysis of Knowledge for Higher Development", "Progress Assessment, Review, and Analysis of Knowledge for Holistic Development", "Performance Assessment, Review, and Analysis of Knowledge for Holistic Development"], "a": 3,
+      "e": "PARAKH is Performance Assessment, Review, and Analysis of Knowledge for Holistic Development, set up under NCERT."
+    },
+    {
+      "id": "assessment-003", "sec": "method", "topic": "assessment", "sub": "validity", "d": 1,
+      "q": "The validity of a test is the extent to which it measures what it is intended to ______.",
+      "o": ["repeat", "measure", "reward", "teach"], "a": 1,
+      "e": "A valid test measures the trait or learning outcome it was designed to measure."
+    },
+    {
+      "id": "assessment-004", "sec": "method", "topic": "assessment", "sub": "diagnostic testing", "d": 1,
+      "q": "A test designed to identify the specific areas where a learner has difficulty is called a ______ test.",
+      "o": ["placement", "achievement", "aptitude", "diagnostic"], "a": 3,
+      "e": "Diagnostic tests locate learners' specific strengths and weaknesses so that remedial teaching can be planned."
+    },
+    {
+      "id": "assessment-005", "sec": "method", "topic": "assessment", "sub": "of, for and as learning", "d": 2,
+      "q": "Consider the following statements.\nI. Assessment as learning involves students monitoring and reflecting on their own learning.\nII. Assessment of learning is done mainly during teaching so that the teacher can adjust instruction.\nWhich of the above is/are correct?",
+      "o": ["Only I", "Only II", "Both I and II", "Neither I nor II"], "a": 0,
+      "e": "Assessment for learning guides instruction during teaching. Assessment of learning reports achievement after learning, so II is wrong."
+    },
+    {
+      "id": "assessment-006", "sec": "method", "topic": "assessment", "sub": "norm-referenced testing", "d": 2,
+      "q": "A teacher reports that a student scored at the 85th percentile in the class test. This is an example of ______ referenced interpretation.",
+      "o": ["criterion", "domain", "self", "norm"], "a": 3,
+      "e": "A percentile compares a student with the group, which is norm-referenced. Criterion-referenced scores compare performance with a fixed standard."
+    },
+    {
+      "id": "assessment-007", "sec": "method", "topic": "assessment", "sub": "formative tools", "d": 2,
+      "q": "Which of the following is NOT a typical tool of formative assessment?",
+      "o": ["Classroom observation", "Short class quiz", "Peer feedback", "Annual board examination"], "a": 3,
+      "e": "The annual board examination is summative. The other three are used during teaching to give feedback."
+    },
+    {
+      "id": "assessment-008", "sec": "method", "topic": "assessment", "sub": "reliability", "d": 2,
+      "q": "If a test gives nearly the same scores when administered again to the same group, it is said to have high ______.",
+      "o": ["validity", "reliability", "difficulty", "novelty"], "a": 1,
+      "e": "Consistency of scores over repeated testing is reliability (test-retest). Validity concerns whether the right trait is measured."
+    },
+    {
+      "id": "assessment-009", "sec": "method", "topic": "assessment", "sub": "Bloom's levels in test items", "d": 3,
+      "q": "A test item asks students to 'judge which of two sorting algorithms is better for nearly sorted data and justify the choice'. This item tests which level of Bloom's revised taxonomy?",
+      "o": ["Apply", "Analyse", "Create", "Evaluate"], "a": 3,
+      "e": "Judging and justifying against criteria are Evaluate-level tasks. Compare or differentiate would be Analyse, and design or produce would be Create."
+    },
+    {
+      "id": "assessment-010", "sec": "method", "topic": "assessment", "sub": "reliability and validity", "d": 3,
+      "q": "Consider the following statements.\nI. A test can be reliable without being valid.\nII. A valid test must also be reliable.\nWhich of the above is/are correct?",
+      "o": ["Only I", "Only II", "Both I and II", "Neither I nor II"], "a": 2,
+      "e": "A test may give consistent scores yet measure the wrong thing. But if scores are inconsistent, the test cannot be valid: reliability is necessary but not sufficient."
+    }
+  ]
+}

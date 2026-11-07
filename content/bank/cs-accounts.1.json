@@ -1,0 +1,348 @@
+{
+ "questions": [
+  {
+   "id": "accounts-001",
+   "sec": "cs",
+   "topic": "accounts",
+   "sub": "golden rules",
+   "d": 1,
+   "q": "Consider the following statements about the golden rules of accounting.\nI. For a personal account, debit the giver and credit the receiver.\nII. For a real account, debit what comes in and credit what goes out.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "Only II is correct. For a personal account the receiver is debited and the giver is credited, so I is reversed. II states the real-account rule correctly."
+  },
+  {
+   "id": "accounts-002",
+   "sec": "cs",
+   "topic": "accounts",
+   "sub": "journal entry",
+   "d": 1,
+   "q": "The journal entry for machinery purchased for cash is:",
+   "o": [
+    "Cash A/c Dr to Machinery A/c",
+    "Purchases A/c Dr to Cash A/c",
+    "Machinery A/c Dr to Cash A/c",
+    "Machinery A/c Dr to Capital A/c"
+   ],
+   "a": 2,
+   "e": "Machinery is a real account and comes into the business, so it is debited. Cash goes out, so it is credited. Purchases A/c is used only for goods meant for resale."
+  },
+  {
+   "id": "accounts-003",
+   "sec": "cs",
+   "topic": "accounts",
+   "sub": "accounting concepts",
+   "d": 1,
+   "q": "The accounting concept which assumes that a business will continue its operations for the foreseeable future is the ______ concept.",
+   "o": [
+    "business entity",
+    "money measurement",
+    "going concern",
+    "accrual"
+   ],
+   "a": 2,
+   "e": "Under the going concern concept, the business is assumed not to be closing down, so assets are shown at cost less depreciation rather than at forced-sale value."
+  },
+  {
+   "id": "accounts-004",
+   "sec": "cs",
+   "topic": "accounts",
+   "sub": "trial balance",
+   "d": 1,
+   "q": "A trial balance is prepared mainly to check the ______ of the ledger accounts.",
+   "o": [
+    "arithmetical accuracy",
+    "profitability",
+    "financial position",
+    "valuation of assets"
+   ],
+   "a": 0,
+   "e": "A trial balance tests whether total debit balances equal total credit balances. It does not show profit or financial position, which come from the final accounts."
+  },
+  {
+   "id": "accounts-005",
+   "sec": "cs",
+   "topic": "accounts",
+   "sub": "capital vs revenue",
+   "d": 1,
+   "q": "Which of the following is NOT a capital expenditure?",
+   "o": [
+    "Purchase of a delivery van",
+    "Purchase of machinery for the factory",
+    "Construction of a new warehouse",
+    "Salaries paid to the staff"
+   ],
+   "a": 3,
+   "e": "Salaries are consumed within the year, so they are revenue expenditure. A van, machinery and a warehouse create long-term assets, so they are capital expenditure."
+  },
+  {
+   "id": "accounts-006",
+   "sec": "cs",
+   "topic": "accounts",
+   "sub": "cash book",
+   "d": 1,
+   "q": "In a double-column cash book, which of the following is a contra entry?",
+   "o": [
+    "Cash deposited into the bank",
+    "Goods sold for cash",
+    "Rent paid in cash",
+    "Cash received from a debtor"
+   ],
+   "a": 0,
+   "e": "A contra entry has both its debit and credit in the cash book, here the bank column and the cash column. The other transactions involve an outside account."
+  },
+  {
+   "id": "accounts-007",
+   "sec": "cs",
+   "topic": "accounts",
+   "sub": "trading account",
+   "d": 1,
+   "q": "Sales are ₹5,00,000, sales returns are ₹20,000 and cost of goods sold is ₹3,80,000. The gross profit is",
+   "o": [
+    "₹1,20,000",
+    "₹1,00,000",
+    "₹1,40,000",
+    "₹80,000"
+   ],
+   "a": 1,
+   "e": "Net sales = 5,00,000 − 20,000 = 4,80,000. Gross profit = 4,80,000 − 3,80,000 = ₹1,00,000. Ignoring returns gives the wrong figure ₹1,20,000."
+  },
+  {
+   "id": "accounts-008",
+   "sec": "cs",
+   "topic": "accounts",
+   "sub": "ratios",
+   "d": 1,
+   "q": "The current ratio is calculated as",
+   "o": [
+    "current liabilities ÷ current assets",
+    "quick assets ÷ current liabilities",
+    "current assets ÷ current liabilities",
+    "current assets ÷ total assets"
+   ],
+   "a": 2,
+   "e": "Current ratio = current assets ÷ current liabilities. It measures short-term solvency. Dividing quick assets instead gives the quick (acid-test) ratio."
+  },
+  {
+   "id": "accounts-009",
+   "sec": "cs",
+   "topic": "accounts",
+   "sub": "accounting equation",
+   "d": 1,
+   "q": "A firm's total assets are ₹8,00,000 and its outside liabilities are ₹3,00,000. Using the accounting equation, the owner's capital is",
+   "o": [
+    "₹11,00,000",
+    "₹3,00,000",
+    "₹8,00,000",
+    "₹5,00,000"
+   ],
+   "a": 3,
+   "e": "Assets = Liabilities + Capital, so Capital = 8,00,000 − 3,00,000 = ₹5,00,000."
+  },
+  {
+   "id": "accounts-010",
+   "sec": "cs",
+   "topic": "accounts",
+   "sub": "books of original entry",
+   "d": 1,
+   "q": "Which of the following is NOT a book of original entry?",
+   "o": [
+    "Journal",
+    "Cash book",
+    "Purchases book",
+    "Ledger"
+   ],
+   "a": 3,
+   "e": "Transactions are first recorded in journal, cash book and subsidiary books. The ledger is the book of final entry, where journal entries are posted."
+  },
+  {
+   "id": "accounts-011",
+   "sec": "cs",
+   "topic": "accounts",
+   "sub": "depreciation SLM",
+   "d": 2,
+   "q": "A machine costs ₹1,20,000 and has an estimated scrap value of ₹20,000 and a life of 5 years. Annual depreciation under the straight line method is",
+   "o": [
+    "₹24,000",
+    "₹20,000",
+    "₹18,000",
+    "₹22,000"
+   ],
+   "a": 1,
+   "e": "Depreciation = (cost − scrap) ÷ life = (1,20,000 − 20,000) ÷ 5 = ₹20,000. Using cost alone would give ₹24,000."
+  },
+  {
+   "id": "accounts-012",
+   "sec": "cs",
+   "topic": "accounts",
+   "sub": "depreciation WDV",
+   "d": 2,
+   "q": "An asset costing ₹50,000 is depreciated at 20% per annum on the written-down value method. The depreciation for the second year is",
+   "o": [
+    "₹10,000",
+    "₹9,000",
+    "₹8,000",
+    "₹7,500"
+   ],
+   "a": 2,
+   "e": "Year 1 depreciation is 10,000, leaving a WDV of 40,000. Year 2 depreciation is 20% of 40,000 = ₹8,000."
+  },
+  {
+   "id": "accounts-013",
+   "sec": "cs",
+   "topic": "accounts",
+   "sub": "conventions",
+   "d": 2,
+   "q": "Consider the following statements.\nI. Conservatism requires provision for all probable losses but no anticipation of profits.\nII. Under the money measurement concept, the efficiency of employees is recorded in the books.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "Only monetary facts are recorded under the money measurement concept, so employee efficiency is not entered. Statement I correctly describes conservatism."
+  },
+  {
+   "id": "accounts-014",
+   "sec": "cs",
+   "topic": "accounts",
+   "sub": "bank reconciliation",
+   "d": 2,
+   "q": "The cash book shows a bank balance (debit) of ₹10,000. Cheques issued for ₹2,000 are not yet presented and cheques deposited for ₹3,000 are not yet collected. The balance as per the pass book is",
+   "o": [
+    "₹11,000",
+    "₹15,000",
+    "₹5,000",
+    "₹9,000"
+   ],
+   "a": 3,
+   "e": "Cheques issued but not presented add back: 10,000 + 2,000 = 12,000. Cheques not yet collected reduce it: 12,000 − 3,000 = ₹9,000."
+  },
+  {
+   "id": "accounts-015",
+   "sec": "cs",
+   "topic": "accounts",
+   "sub": "errors",
+   "d": 2,
+   "q": "Which of the following errors will NOT affect the agreement of the trial balance?",
+   "o": [
+    "Wrong totalling of the sales book",
+    "Complete omission of a transaction from the books",
+    "Posting an amount to the wrong side of an account",
+    "Posting a wrong amount to only one account"
+   ],
+   "a": 1,
+   "e": "If a transaction is omitted completely, neither debit nor credit is recorded, so totals still agree. The other errors upset the equality of the totals."
+  },
+  {
+   "id": "accounts-016",
+   "sec": "cs",
+   "topic": "accounts",
+   "sub": "concepts match",
+   "d": 2,
+   "q": "Match the concept in List I with its meaning in List II.",
+   "table": {
+    "head": [
+     "List I",
+     "List II"
+    ],
+    "rows": [
+     [
+      "a. Business entity",
+      "1. Same accounting policies are followed year after year"
+     ],
+     [
+      "b. Materiality",
+      "2. Anticipate no profit but provide for all possible losses"
+     ],
+     [
+      "c. Consistency",
+      "3. Owner and business are treated as separate"
+     ],
+     [
+      "d. Conservatism",
+      "4. Insignificant items need not be shown separately"
+     ]
+    ]
+   },
+   "o": [
+    "a-3, b-4, c-1, d-2",
+    "a-3, b-1, c-4, d-2",
+    "a-1, b-4, c-3, d-2",
+    "a-3, b-4, c-2, d-1"
+   ],
+   "a": 0,
+   "e": "Business entity separates owner and business, materiality allows ignoring trivial items, consistency means unchanged policies, and conservatism covers losses but not profits."
+  },
+  {
+   "id": "accounts-017",
+   "sec": "cs",
+   "topic": "accounts",
+   "sub": "depreciation part year",
+   "d": 3,
+   "q": "A machine costing ₹2,40,000 is bought on 1 July 2023. The accounting year ends on 31 March. Depreciation is 10% per annum on the written-down value, charged pro rata from the date of purchase. The depreciation for the year ended 31 March 2025 is",
+   "o": [
+    "₹24,000",
+    "₹21,600",
+    "₹18,000",
+    "₹22,200"
+   ],
+   "a": 3,
+   "e": "Year 1: 2,40,000 × 10% × 9/12 = 18,000, leaving WDV 2,22,000. Year 2 is a full year: 10% of 2,22,000 = ₹22,200."
+  },
+  {
+   "id": "accounts-018",
+   "sec": "cs",
+   "topic": "accounts",
+   "sub": "sale of asset",
+   "d": 3,
+   "q": "An asset costing ₹1,00,000 is depreciated at 10% per annum on the original cost (straight line, no scrap value). It is sold for ₹62,000 at the end of the third year. The result of the sale is",
+   "o": [
+    "profit of ₹8,000",
+    "loss of ₹10,900",
+    "loss of ₹38,000",
+    "loss of ₹8,000"
+   ],
+   "a": 3,
+   "e": "Depreciation for 3 years is 30,000, so book value is 70,000. Sale price 62,000 gives a loss of ₹8,000. ₹10,900 would result only if WDV were used."
+  },
+  {
+   "id": "accounts-019",
+   "sec": "cs",
+   "topic": "accounts",
+   "sub": "liquidity ratios",
+   "d": 3,
+   "q": "A firm's current ratio is 2:1 and its working capital is ₹1,50,000. If inventory is ₹60,000, the quick ratio is",
+   "o": [
+    "2:1",
+    "1.5:1",
+    "1.2:1",
+    "1.6:1"
+   ],
+   "a": 3,
+   "e": "Current liabilities = working capital = 1,50,000, so current assets = 3,00,000. Quick assets = 3,00,000 − 60,000 = 2,40,000. Quick ratio = 2,40,000 ÷ 1,50,000 = 1.6:1."
+  },
+  {
+   "id": "accounts-020",
+   "sec": "cs",
+   "topic": "accounts",
+   "sub": "rectification",
+   "d": 3,
+   "q": "Goods purchased on credit from Ravi for ₹4,500 were correctly debited to Purchases A/c, but credited to Ravi's account as ₹5,400. The difference was put to Suspense A/c. The rectifying entry is",
+   "o": [
+    "Suspense A/c Dr ₹900 to Ravi A/c",
+    "Purchases A/c Dr ₹900 to Suspense A/c",
+    "Ravi A/c Dr ₹900 to Purchases A/c",
+    "Ravi A/c Dr ₹900 to Suspense A/c"
+   ],
+   "a": 3,
+   "e": "Ravi's account is over-credited by 900, so credits exceed debits and Suspense was debited 900. To correct, debit Ravi A/c 900 and credit Suspense A/c 900."
+  }
+ ]
+}

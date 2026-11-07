@@ -1,0 +1,164 @@
+{
+ "questions": [
+  {
+   "id": "antonym-001",
+   "sec": "english",
+   "topic": "antonym",
+   "sub": "common adjective",
+   "d": 1,
+   "q": "Choose the word opposite in meaning to ANCIENT.",
+   "o": [
+    "Old",
+    "Historic",
+    "Modern",
+    "Antique"
+   ],
+   "a": 2,
+   "e": "Ancient means very old; modern is its opposite. The other three are near-synonyms."
+  },
+  {
+   "id": "antonym-002",
+   "sec": "english",
+   "topic": "antonym",
+   "sub": "character adjective",
+   "d": 1,
+   "q": "Choose the word opposite in meaning to BRAVE.",
+   "o": [
+    "Bold",
+    "Cowardly",
+    "Daring",
+    "Fearless"
+   ],
+   "a": 1,
+   "e": "Brave means courageous; cowardly means lacking courage."
+  },
+  {
+   "id": "antonym-003",
+   "sec": "english",
+   "topic": "antonym",
+   "sub": "common verb",
+   "d": 1,
+   "q": "Choose the word opposite in meaning to INCREASE.",
+   "o": [
+    "Decrease",
+    "Expand",
+    "Grow",
+    "Rise"
+   ],
+   "a": 0,
+   "e": "To increase is to become greater; to decrease is to become less."
+  },
+  {
+   "id": "antonym-004",
+   "sec": "english",
+   "topic": "antonym",
+   "sub": "common noun",
+   "d": 1,
+   "q": "Choose the word opposite in meaning to VICTORY.",
+   "o": [
+    "Defeat",
+    "Triumph",
+    "Success",
+    "Conquest"
+   ],
+   "a": 0,
+   "e": "Victory means winning; defeat means losing."
+  },
+  {
+   "id": "antonym-005",
+   "sec": "english",
+   "topic": "antonym",
+   "sub": "quantity adjective",
+   "d": 2,
+   "q": "Choose the word opposite in meaning to SCARCE.",
+   "o": [
+    "Rare",
+    "Meagre",
+    "Limited",
+    "Plentiful"
+   ],
+   "a": 3,
+   "e": "Scarce means in short supply; plentiful means available in large amounts."
+  },
+  {
+   "id": "antonym-006",
+   "sec": "english",
+   "topic": "antonym",
+   "sub": "physical adjective",
+   "d": 2,
+   "q": "Choose the word opposite in meaning to TRANSPARENT.",
+   "o": [
+    "Clear",
+    "Thin",
+    "Opaque",
+    "Bright"
+   ],
+   "a": 2,
+   "e": "Transparent lets light pass through; opaque does not."
+  },
+  {
+   "id": "antonym-007",
+   "sec": "english",
+   "topic": "antonym",
+   "sub": "character adjective",
+   "d": 2,
+   "q": "Choose the word opposite in meaning to HOSTILE.",
+   "o": [
+    "Fierce",
+    "Friendly",
+    "Rigid",
+    "Distant"
+   ],
+   "a": 1,
+   "e": "Hostile means unfriendly or antagonistic; friendly is the opposite."
+  },
+  {
+   "id": "antonym-008",
+   "sec": "english",
+   "topic": "antonym",
+   "sub": "character adjective",
+   "d": 2,
+   "q": "Choose the word opposite in meaning to DILIGENT.",
+   "o": [
+    "Indolent",
+    "Careful",
+    "Hardworking",
+    "Sincere"
+   ],
+   "a": 0,
+   "e": "Diligent means hardworking; indolent means lazy."
+  },
+  {
+   "id": "antonym-009",
+   "sec": "english",
+   "topic": "antonym",
+   "sub": "Latinate adjective",
+   "d": 3,
+   "q": "Choose the word opposite in meaning to LOQUACIOUS.",
+   "o": [
+    "Talkative",
+    "Garrulous",
+    "Voluble",
+    "Taciturn"
+   ],
+   "a": 3,
+   "e": "Loquacious means very talkative; taciturn means habitually silent. The other three are synonyms of loquacious."
+  },
+  {
+   "id": "antonym-010",
+   "sec": "english",
+   "topic": "antonym",
+   "sub": "Latinate adjective",
+   "d": 3,
+   "q": "Choose the word opposite in meaning to EPHEMERAL.",
+   "o": [
+    "Brief",
+    "Fleeting",
+    "Fragile",
+    "Eternal"
+   ],
+   "a": 3,
+   "e": "Ephemeral means lasting a very short time; eternal means lasting forever."
+  }
+ ]
+}

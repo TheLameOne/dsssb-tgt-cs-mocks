@@ -1,0 +1,438 @@
+{
+ "questions": [
+  {
+   "id": "python-001",
+   "sec": "bonus",
+   "topic": "python",
+   "sub": "identifiers",
+   "d": 1,
+   "q": "Which of the following is a valid identifier in Python?",
+   "o": [
+    "2nd_value",
+    "my-var",
+    "class",
+    "_total"
+   ],
+   "a": 3,
+   "e": "An identifier may contain letters, digits and underscores but cannot start with a digit. Hyphens are not allowed, and `class` is a reserved keyword."
+  },
+  {
+   "id": "python-002",
+   "sec": "bonus",
+   "topic": "python",
+   "sub": "comments",
+   "d": 1,
+   "q": "Which symbol is used to write a single-line comment in Python?",
+   "o": [
+    "//",
+    "#",
+    "--",
+    "/*"
+   ],
+   "a": 1,
+   "e": "A line starting with `#` is a comment in Python. `//` is the floor-division operator, and Python has no `/* */` comment syntax."
+  },
+  {
+   "id": "python-003",
+   "sec": "bonus",
+   "topic": "python",
+   "sub": "data types",
+   "d": 1,
+   "q": "What is the output of the following code?",
+   "code": "print(type(5 / 2))",
+   "lang": "python",
+   "o": [
+    "<class 'int'>",
+    "<class 'float'>",
+    "<class 'double'>",
+    "<class 'number'>"
+   ],
+   "a": 1,
+   "e": "In Python 3, the `/` operator always returns a float, even when both operands are integers. Python has no `double` type."
+  },
+  {
+   "id": "python-004",
+   "sec": "bonus",
+   "topic": "python",
+   "sub": "mutability",
+   "d": 1,
+   "q": "Which of the following Python data types is immutable?",
+   "o": [
+    "list",
+    "dict",
+    "set",
+    "tuple"
+   ],
+   "a": 3,
+   "e": "A tuple cannot be changed after creation. Lists, dictionaries and sets are mutable."
+  },
+  {
+   "id": "python-005",
+   "sec": "bonus",
+   "topic": "python",
+   "sub": "slicing",
+   "d": 1,
+   "q": "What is the output of the following code?",
+   "code": "print(\"hello\"[1:4])",
+   "lang": "python",
+   "o": [
+    "hel",
+    "ello",
+    "ell",
+    "hell"
+   ],
+   "a": 2,
+   "e": "The slice `[1:4]` takes indices 1, 2 and 3 and excludes index 4, giving 'ell'."
+  },
+  {
+   "id": "python-006",
+   "sec": "bonus",
+   "topic": "python",
+   "sub": "string methods",
+   "d": 1,
+   "q": "What is the output of the following code?",
+   "code": "print(len(\"  hi  \".strip()))",
+   "lang": "python",
+   "o": [
+    "6",
+    "2",
+    "4",
+    "0"
+   ],
+   "a": 1,
+   "e": "`strip()` removes leading and trailing whitespace, leaving 'hi', whose length is 2."
+  },
+  {
+   "id": "python-007",
+   "sec": "bonus",
+   "topic": "python",
+   "sub": "ord",
+   "d": 1,
+   "q": "What is the output of the following code?",
+   "code": "print(ord('A'))",
+   "lang": "python",
+   "o": [
+    "97",
+    "66",
+    "65",
+    "1"
+   ],
+   "a": 2,
+   "e": "`ord()` returns the Unicode code point of a character. The code point of 'A' is 65, while 'a' is 97."
+  },
+  {
+   "id": "python-008",
+   "sec": "bonus",
+   "topic": "python",
+   "sub": "lists",
+   "d": 1,
+   "q": "What is the output of the following code?",
+   "code": "a = [1, 2]\na.append([3, 4])\nprint(len(a))",
+   "lang": "python",
+   "o": [
+    "4",
+    "3",
+    "2",
+    "Error"
+   ],
+   "a": 1,
+   "e": "`append()` adds its argument as a single element, so the list becomes [1, 2, [3, 4]] with length 3. `extend()` would add 3 and 4 separately."
+  },
+  {
+   "id": "python-009",
+   "sec": "bonus",
+   "topic": "python",
+   "sub": "dictionaries",
+   "d": 1,
+   "q": "What is the output of the following code?",
+   "code": "d = {'a': 1, 'b': 2}\nprint(d.get('c', 0))",
+   "lang": "python",
+   "o": [
+    "0",
+    "None",
+    "KeyError",
+    "Error"
+   ],
+   "a": 0,
+   "e": "`get(key, default)` returns the default value when the key is absent, instead of raising KeyError. Here it returns 0."
+  },
+  {
+   "id": "python-010",
+   "sec": "bonus",
+   "topic": "python",
+   "sub": "sets",
+   "d": 1,
+   "q": "What is the output of the following code?",
+   "code": "print(len({1, 2, 2, 3, 3, 3}))",
+   "lang": "python",
+   "o": [
+    "6",
+    "3",
+    "2",
+    "Error"
+   ],
+   "a": 1,
+   "e": "A set stores only unique elements, so the duplicates are dropped and it holds {1, 2, 3}."
+  },
+  {
+   "id": "python-011",
+   "sec": "bonus",
+   "topic": "python",
+   "sub": "pandas",
+   "d": 1,
+   "q": "In the pandas library, the two-dimensional labelled table of rows and columns is called a",
+   "o": [
+    "Series",
+    "Array",
+    "DataFrame",
+    "Panel list"
+   ],
+   "a": 2,
+   "e": "A DataFrame is the 2-D tabular structure of pandas. A Series is one-dimensional."
+  },
+  {
+   "id": "python-012",
+   "sec": "bonus",
+   "topic": "python",
+   "sub": "exceptions",
+   "d": 1,
+   "q": "Executing `int(\"abc\")` in Python raises which exception?",
+   "o": [
+    "TypeError",
+    "ValueError",
+    "NameError",
+    "SyntaxError"
+   ],
+   "a": 1,
+   "e": "The argument has the right type (string) but an inappropriate value that cannot be converted, so `ValueError` is raised."
+  },
+  {
+   "id": "python-013",
+   "sec": "bonus",
+   "topic": "python",
+   "sub": "control flow",
+   "d": 2,
+   "q": "What is the output of the following code?",
+   "code": "for i in range(2, 10, 3):\n    print(i, end=' ')",
+   "lang": "python",
+   "o": [
+    "2 5 8",
+    "2 5 8 10",
+    "2 4 6 8",
+    "3 6 9"
+   ],
+   "a": 0,
+   "e": "`range(2, 10, 3)` starts at 2 and steps by 3 up to but not including 10, giving 2, 5 and 8."
+  },
+  {
+   "id": "python-014",
+   "sec": "bonus",
+   "topic": "python",
+   "sub": "slicing",
+   "d": 2,
+   "q": "What is the output of the following code?",
+   "code": "print(\"computer\"[::2])",
+   "lang": "python",
+   "o": [
+    "cmue",
+    "optr",
+    "computer",
+    "cmpt"
+   ],
+   "a": 0,
+   "e": "With step 2 from the start, the characters at indices 0, 2, 4 and 6 are taken: c, m, u, e."
+  },
+  {
+   "id": "python-015",
+   "sec": "bonus",
+   "topic": "python",
+   "sub": "sets",
+   "d": 2,
+   "q": "What is the output of the following code?",
+   "code": "a = {1, 2, 3}\nb = {3, 4}\nprint(sorted(a ^ b))",
+   "lang": "python",
+   "o": [
+    "[3]",
+    "[1, 2, 3, 4]",
+    "[1, 2, 4]",
+    "[1, 2]"
+   ],
+   "a": 2,
+   "e": "The `^` operator gives the symmetric difference: elements in exactly one set. The common element 3 is excluded, leaving 1, 2 and 4."
+  },
+  {
+   "id": "python-016",
+   "sec": "bonus",
+   "topic": "python",
+   "sub": "tuples and lists",
+   "d": 2,
+   "q": "Consider the following statements.\nI. A tuple cannot be modified after it is created.\nII. A list can be used as a key in a dictionary.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "Dictionary keys must be hashable, and a list is mutable and unhashable, so Statement II is false. Statement I is true."
+  },
+  {
+   "id": "python-017",
+   "sec": "bonus",
+   "topic": "python",
+   "sub": "exceptions",
+   "d": 2,
+   "q": "What is the output of the following code?",
+   "code": "try:\n    print(\"A\")\n    x = 1 / 0\nexcept ZeroDivisionError:\n    print(\"B\")\nfinally:\n    print(\"C\")",
+   "lang": "python",
+   "o": [
+    "A C",
+    "A B",
+    "A B C",
+    "B C"
+   ],
+   "a": 2,
+   "e": "'A' prints first, then the division raises ZeroDivisionError, so 'B' prints. The `finally` block always runs, printing 'C'."
+  },
+  {
+   "id": "python-018",
+   "sec": "bonus",
+   "topic": "python",
+   "sub": "pandas",
+   "d": 2,
+   "q": "In pandas, which function combines two DataFrames on a common column in the manner of an SQL join?",
+   "o": [
+    "concat()",
+    "merge()",
+    "stack()",
+    "sort_values()"
+   ],
+   "a": 1,
+   "e": "`merge()` performs database-style joins on key columns. `concat()` simply stacks objects along an axis."
+  },
+  {
+   "id": "python-019",
+   "sec": "bonus",
+   "topic": "python",
+   "sub": "modules",
+   "d": 2,
+   "q": "What is the output of the following code?",
+   "code": "import math as m\nprint(m.floor(-2.5))",
+   "lang": "python",
+   "o": [
+    "-2",
+    "-3",
+    "-2.5",
+    "2"
+   ],
+   "a": 1,
+   "e": "`floor()` returns the greatest integer not greater than the value. For -2.5 that is -3, not -2."
+  },
+  {
+   "id": "python-020",
+   "sec": "bonus",
+   "topic": "python",
+   "sub": "file modes",
+   "d": 2,
+   "q": "Which file mode in Python raises FileExistsError if the file already exists?",
+   "o": [
+    "'w'",
+    "'a'",
+    "'x'",
+    "'r+'"
+   ],
+   "a": 2,
+   "e": "Mode 'x' is exclusive creation and fails if the file exists. 'w' would truncate the existing file instead."
+  },
+  {
+   "id": "python-021",
+   "sec": "bonus",
+   "topic": "python",
+   "sub": "functions",
+   "d": 3,
+   "q": "What is the output of the following code?",
+   "code": "def add(x, items=[]):\n    items.append(x)\n    return items\n\nprint(add(1))\nprint(add(2))",
+   "lang": "python",
+   "o": [
+    "[1] [2]",
+    "[1] [1, 2]",
+    "[1, 2] [1, 2]",
+    "Error"
+   ],
+   "a": 1,
+   "e": "The default list is created once when the function is defined and is shared across calls. The second call therefore appends to the same list."
+  },
+  {
+   "id": "python-022",
+   "sec": "bonus",
+   "topic": "python",
+   "sub": "lists",
+   "d": 3,
+   "q": "What is the output of the following code?",
+   "code": "a = [1, 2, 3]\nb = a\nb += [4]\na = a + [5]\nprint(a, b)",
+   "lang": "python",
+   "o": [
+    "[1, 2, 3, 5] [1, 2, 3, 4]",
+    "[1, 2, 3, 4, 5] [1, 2, 3, 4, 5]",
+    "[1, 2, 3, 5] [1, 2, 3, 4, 5]",
+    "[1, 2, 3, 4, 5] [1, 2, 3, 4]"
+   ],
+   "a": 3,
+   "e": "`b += [4]` modifies the shared list in place, so a is also [1, 2, 3, 4] at that point. Then `a + [5]` builds a new list [1, 2, 3, 4, 5], and b stays [1, 2, 3, 4]."
+  },
+  {
+   "id": "python-023",
+   "sec": "bonus",
+   "topic": "python",
+   "sub": "strings",
+   "d": 3,
+   "q": "What is the output of the following code?",
+   "code": "print(sum(ord(c) - ord('a') for c in \"cab\"))",
+   "lang": "python",
+   "o": [
+    "3",
+    "0",
+    "6",
+    "294"
+   ],
+   "a": 0,
+   "e": "The values of ord(c) − ord('a') are 2, 0 and 1 for c, a and b. Their sum is 3."
+  },
+  {
+   "id": "python-024",
+   "sec": "bonus",
+   "topic": "python",
+   "sub": "control flow",
+   "d": 3,
+   "q": "What is the output of the following code?",
+   "code": "for i in range(5):\n    if i == 3:\n        break\nelse:\n    print(\"done\")\nprint(i)",
+   "lang": "python",
+   "o": [
+    "done 3",
+    "done 4",
+    "3",
+    "4"
+   ],
+   "a": 2,
+   "e": "The `else` clause of a loop runs only if the loop ends without `break`. Here break occurs at i = 3, so 'done' is not printed and only 3 is printed."
+  },
+  {
+   "id": "python-025",
+   "sec": "bonus",
+   "topic": "python",
+   "sub": "scope",
+   "d": 3,
+   "q": "What is the output of the following code?",
+   "code": "x = 10\ndef f():\n    x = 5\n    def g():\n        global x\n        x += 1\n        return x\n    return g()\nprint(f(), x)",
+   "lang": "python",
+   "o": [
+    "6 10",
+    "11 11",
+    "6 6",
+    "11 10"
+   ],
+   "a": 1,
+   "e": "`global x` in g refers to the module-level x (10), not the local x = 5 in f. It becomes 11, and both the return value and the global x are 11."
+  }
+ ]
+}

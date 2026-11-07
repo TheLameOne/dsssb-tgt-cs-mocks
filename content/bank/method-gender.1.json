@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "id": "gender-001", "sec": "method", "topic": "gender", "sub": "sex versus gender", "d": 1,
+      "q": "In social science, 'gender' refers to",
+      "o": ["biological differences between males and females", "socially constructed roles and expectations for men and women", "the number of males in a population", "a person's blood group"], "a": 1,
+      "e": "Sex is biological, whereas gender is the set of roles and expectations that society attaches to being male or female."
+    },
+    {
+      "id": "gender-002", "sec": "method", "topic": "gender", "sub": "Beti Bachao Beti Padhao", "d": 1,
+      "q": "The Beti Bachao Beti Padhao scheme was launched in 2015 from",
+      "o": ["Jaipur", "Panipat", "Lucknow", "Bhopal"], "a": 1,
+      "e": "The scheme was launched at Panipat, Haryana, to address the declining child sex ratio and promote girls' education."
+    },
+    {
+      "id": "gender-003", "sec": "method", "topic": "gender", "sub": "POSH Act", "d": 1,
+      "q": "The Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act was passed in ______.",
+      "o": ["1997", "2005", "2013", "2019"], "a": 2,
+      "e": "The POSH Act came in 2013 and gave legal force to the Vishaka guidelines of 1997. The 2005 Act deals with domestic violence."
+    },
+    {
+      "id": "gender-004", "sec": "method", "topic": "gender", "sub": "KGBV", "d": 1,
+      "q": "Kasturba Gandhi Balika Vidyalayas (KGBV) are residential schools meant mainly for",
+      "o": ["boys of urban families", "children of government employees", "all children at the university level", "girls from disadvantaged sections in educationally backward blocks"], "a": 3,
+      "e": "KGBVs provide residential schooling to girls from SC, ST, OBC, minority and BPL families, mainly in educationally backward blocks."
+    },
+    {
+      "id": "gender-005", "sec": "method", "topic": "gender", "sub": "gender concepts", "d": 2,
+      "q": "Consider the following statements.\nI. Sex and gender are identical terms.\nII. Gender roles are fixed by biology and do not vary across cultures.\nWhich of the above is/are correct?",
+      "o": ["Only I", "Only II", "Both I and II", "Neither I nor II"], "a": 3,
+      "e": "Sex is biological while gender is socially constructed, so the two differ. Gender roles vary across cultures and change over time."
+    },
+    {
+      "id": "gender-006", "sec": "method", "topic": "gender", "sub": "schools and stereotypes", "d": 2,
+      "q": "Which of the following is NOT a way in which schools may reinforce gender stereotypes?",
+      "o": ["Textbooks showing women mostly as homemakers", "Assigning cleaning duties to girls and sports to boys", "Seating boys and girls in separate rows", "Using gender-neutral examples and equal participation"], "a": 3,
+      "e": "Gender-neutral examples and equal participation challenge stereotypes. The other practices reinforce fixed ideas about what boys and girls do."
+    },
+    {
+      "id": "gender-007", "sec": "method", "topic": "gender", "sub": "National Policy for Empowerment of Women", "d": 2,
+      "q": "The National Policy for the Empowerment of Women was adopted in",
+      "o": ["2001", "1986", "1992", "2013"], "a": 0,
+      "e": "The policy was adopted in 2001, which was also declared Women's Empowerment Year."
+    },
+    {
+      "id": "gender-008", "sec": "method", "topic": "gender", "sub": "gender-inclusive classroom", "d": 2,
+      "q": "A teacher notices that boys dominate the use of computers in the lab while girls hesitate to take turns. The most appropriate response is to",
+      "o": ["let the boys continue, since they are more confident", "form mixed groups, rotate hands-on turns and encourage girls to participate", "move the girls to a separate lab permanently", "ask the girls to only take notes"], "a": 1,
+      "e": "A gender-inclusive classroom gives equal opportunity and encouragement to all learners. Rotating turns in mixed groups does this directly."
+    },
+    {
+      "id": "gender-009", "sec": "method", "topic": "gender", "sub": "Gender Inclusion Fund", "d": 3,
+      "q": "Consider the following statements about NEP 2020.\nI. It proposes a Gender Inclusion Fund.\nII. The fund is meant for girls as well as transgender students.\nWhich of the above is/are correct?",
+      "o": ["Only I", "Only II", "Both I and II", "Neither I nor II"], "a": 2,
+      "e": "NEP 2020 sets up a Gender Inclusion Fund to help provide equitable quality education to all girls and transgender students."
+    },
+    {
+      "id": "gender-010", "sec": "method", "topic": "gender", "sub": "Gender Parity Index", "d": 3,
+      "q": "In a block there are 500 school-age girls, of whom 400 are enrolled, and 400 school-age boys, of whom 360 are enrolled. The Gender Parity Index (female rate ÷ male rate) is",
+      "o": ["9/8", "8/9", "10/9", "9/10"], "a": 1,
+      "e": "Girls' rate is 400/500 = 0.8 and boys' rate is 360/400 = 0.9. GPI = 0.8/0.9 = 8/9, which is below 1, so girls are disadvantaged."
+    }
+  ]
+}

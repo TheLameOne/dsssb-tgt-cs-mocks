@@ -1,0 +1,324 @@
+{
+ "questions": [
+  {
+   "id": "science-001",
+   "sec": "ga",
+   "topic": "science",
+   "sub": "vitamins",
+   "d": 1,
+   "q": "Deficiency of which vitamin causes scurvy?",
+   "o": [
+    "Vitamin A",
+    "Vitamin B1",
+    "Vitamin C",
+    "Vitamin D"
+   ],
+   "a": 2,
+   "e": "Scurvy, marked by bleeding gums, results from lack of Vitamin C (ascorbic acid)."
+  },
+  {
+   "id": "science-002",
+   "sec": "ga",
+   "topic": "science",
+   "sub": "human body",
+   "d": 1,
+   "q": "The largest organ of the human body is the",
+   "o": [
+    "liver",
+    "skin",
+    "lungs",
+    "small intestine"
+   ],
+   "a": 1,
+   "e": "The skin is the largest organ by surface area and weight. The liver is the largest internal organ and gland."
+  },
+  {
+   "id": "science-003",
+   "sec": "ga",
+   "topic": "science",
+   "sub": "plants",
+   "d": 1,
+   "q": "During photosynthesis, green plants absorb ______ from the air.",
+   "o": [
+    "oxygen",
+    "nitrogen",
+    "carbon dioxide",
+    "hydrogen"
+   ],
+   "a": 2,
+   "e": "Plants take in carbon dioxide and, with water and sunlight, make glucose and release oxygen."
+  },
+  {
+   "id": "science-004",
+   "sec": "ga",
+   "topic": "science",
+   "sub": "physics units",
+   "d": 1,
+   "q": "The SI unit of electric charge is the",
+   "o": [
+    "ampere",
+    "volt",
+    "coulomb",
+    "ohm"
+   ],
+   "a": 2,
+   "e": "Electric charge is measured in coulomb. Ampere is the unit of current, volt of potential difference and ohm of resistance."
+  },
+  {
+   "id": "science-005",
+   "sec": "ga",
+   "topic": "science",
+   "sub": "chemistry",
+   "d": 1,
+   "q": "The chemical name of baking soda is",
+   "o": [
+    "sodium carbonate",
+    "sodium bicarbonate",
+    "calcium carbonate",
+    "sodium chloride"
+   ],
+   "a": 1,
+   "e": "Baking soda is sodium hydrogencarbonate, NaHCO₃. Washing soda is sodium carbonate."
+  },
+  {
+   "id": "science-006",
+   "sec": "ga",
+   "topic": "science",
+   "sub": "simple devices",
+   "d": 1,
+   "q": "The wing mirror fitted on the side of a vehicle to see traffic behind is a",
+   "o": [
+    "plane mirror",
+    "concave mirror",
+    "convex mirror",
+    "cylindrical mirror"
+   ],
+   "a": 2,
+   "e": "A convex mirror always forms a smaller, erect image and gives a wide field of view, so it suits a wing mirror."
+  },
+  {
+   "id": "science-007",
+   "sec": "ga",
+   "topic": "science",
+   "sub": "ISRO",
+   "d": 1,
+   "q": "India's first satellite, launched in 1975, was",
+   "o": [
+    "Bhaskara",
+    "Aryabhata",
+    "INSAT-1A",
+    "Rohini"
+   ],
+   "a": 1,
+   "e": "Aryabhata was launched on 19 April 1975 with a Soviet rocket. Bhaskara followed in 1979."
+  },
+  {
+   "id": "science-008",
+   "sec": "ga",
+   "topic": "science",
+   "sub": "medical devices",
+   "d": 1,
+   "q": "A sphygmomanometer is used to measure",
+   "o": [
+    "body temperature",
+    "blood pressure",
+    "heart rate",
+    "lung capacity"
+   ],
+   "a": 1,
+   "e": "A sphygmomanometer measures blood pressure. A clinical thermometer measures body temperature."
+  },
+  {
+   "id": "science-009",
+   "sec": "ga",
+   "topic": "science",
+   "sub": "ISRO",
+   "d": 2,
+   "q": "Consider the following statements about the Mars Orbiter Mission (Mangalyaan)\nI. It entered the orbit of Mars in September 2014.\nII. India succeeded in reaching Mars orbit on its very first attempt.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Mangalyaan entered Mars orbit on 24 September 2014, making India the first country to do so on its first attempt."
+  },
+  {
+   "id": "science-010",
+   "sec": "ga",
+   "topic": "science",
+   "sub": "vitamins",
+   "d": 2,
+   "q": "Which vitamin contains the metal cobalt?",
+   "o": [
+    "Vitamin B12",
+    "Vitamin B6",
+    "Vitamin K",
+    "Vitamin E"
+   ],
+   "a": 0,
+   "e": "Vitamin B12 (cobalamin) contains cobalt. Its deficiency leads to pernicious anaemia."
+  },
+  {
+   "id": "science-011",
+   "sec": "ga",
+   "topic": "science",
+   "sub": "research institutions",
+   "d": 2,
+   "q": "The Indian Institute of Science, Bengaluru, was set up in 1909 mainly through the initiative of",
+   "o": [
+    "Homi Bhabha",
+    "C. V. Raman",
+    "Jamsetji Tata",
+    "Vikram Sarabhai"
+   ],
+   "a": 2,
+   "e": "Jamsetji Tata proposed and funded the Indian Institute of Science, with support from the Mysore state."
+  },
+  {
+   "id": "science-012",
+   "sec": "ga",
+   "topic": "science",
+   "sub": "chemistry",
+   "d": 2,
+   "q": "Plaster of Paris is chemically",
+   "o": [
+    "calcium sulphate dihydrate",
+    "calcium sulphate hemihydrate",
+    "calcium carbonate",
+    "calcium oxide"
+   ],
+   "a": 1,
+   "e": "Plaster of Paris is CaSO₄·½H₂O, made by heating gypsum (CaSO₄·2H₂O) to about 373 K."
+  },
+  {
+   "id": "science-013",
+   "sec": "ga",
+   "topic": "science",
+   "sub": "sound",
+   "d": 2,
+   "q": "Consider the following statements about sound\nI. It travels faster in water than in air.\nII. It can travel through a vacuum.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "Sound is a mechanical wave needing a medium, and it moves faster in liquids than in gases. It cannot pass through vacuum."
+  },
+  {
+   "id": "science-014",
+   "sec": "ga",
+   "topic": "science",
+   "sub": "light",
+   "d": 2,
+   "q": "Consider the following statements about the blue colour of the sky\nI. It is caused by scattering of sunlight by air molecules.\nII. Red light is scattered more than blue light.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "Rayleigh scattering is stronger for shorter wavelengths, so blue is scattered more than red. Statement II is therefore wrong."
+  },
+  {
+   "id": "science-015",
+   "sec": "ga",
+   "topic": "science",
+   "sub": "electric devices",
+   "d": 2,
+   "q": "A fuse wire used in electrical circuits is made of a material with",
+   "o": [
+    "high melting point and low resistance",
+    "a low melting point",
+    "high melting point and high resistance",
+    "very high conductivity and high melting point"
+   ],
+   "a": 1,
+   "e": "A fuse is made of a tin–lead alloy with a low melting point, so it melts and breaks the circuit when excess current flows."
+  },
+  {
+   "id": "science-016",
+   "sec": "ga",
+   "topic": "science",
+   "sub": "Moon missions",
+   "d": 3,
+   "q": "Consider the following statements about India's Moon missions\nI. The Vikram lander of Chandrayaan-2 made a successful soft landing in 2019.\nII. India became the fourth country to soft-land on the Moon with Chandrayaan-3 in 2023.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "Chandrayaan-2's lander crashed near the surface in September 2019. Chandrayaan-3 landed on 23 August 2023, after the USSR, USA and China."
+  },
+  {
+   "id": "science-017",
+   "sec": "ga",
+   "topic": "science",
+   "sub": "circuits",
+   "d": 3,
+   "q": "A 12 V battery is connected to a 4 Ω resistor in series with a parallel combination of 6 Ω and 3 Ω resistors. The current drawn from the battery is",
+   "o": [
+    "1 A",
+    "2 A",
+    "3 A",
+    "4 A"
+   ],
+   "a": 1,
+   "e": "6 Ω and 3 Ω in parallel give 2 Ω. Total resistance = 4 + 2 = 6 Ω, so I = 12 ÷ 6 = 2 A."
+  },
+  {
+   "id": "science-018",
+   "sec": "ga",
+   "topic": "science",
+   "sub": "acid-base",
+   "d": 3,
+   "q": "What volume of 0.2 M NaOH solution is needed to neutralise exactly 20 mL of 0.1 M H₂SO₄?",
+   "o": [
+    "10 mL",
+    "20 mL",
+    "40 mL",
+    "5 mL"
+   ],
+   "a": 1,
+   "e": "H₂SO₄ gives 2 H⁺ per molecule: 20 × 0.1 × 2 = 4 mmol H⁺. NaOH volume = 4 ÷ 0.2 = 20 mL."
+  },
+  {
+   "id": "science-019",
+   "sec": "ga",
+   "topic": "science",
+   "sub": "lenses",
+   "d": 3,
+   "q": "A concave lens has a focal length of 25 cm. Its power is",
+   "o": [
+    "+4 D",
+    "−4 D",
+    "−0.25 D",
+    "+0.25 D"
+   ],
+   "a": 1,
+   "e": "Power = 1/f in metres = 1/(−0.25) = −4 dioptre. A concave lens has a negative focal length."
+  },
+  {
+   "id": "science-020",
+   "sec": "ga",
+   "topic": "science",
+   "sub": "CSIR labs",
+   "d": 3,
+   "q": "Which of the following CSIR laboratory–city pairs is NOT correctly matched?",
+   "o": [
+    "CFTRI – Mysuru",
+    "NCL – Pune",
+    "CECRI – Karaikudi",
+    "NGRI – Bengaluru"
+   ],
+   "a": 3,
+   "e": "The National Geophysical Research Institute (NGRI) is in Hyderabad. CFTRI is at Mysuru, NCL at Pune and CECRI at Karaikudi."
+  }
+ ]
+}

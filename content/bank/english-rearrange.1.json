@@ -1,0 +1,324 @@
+{
+ "questions": [
+  {
+   "id": "rearrange-001",
+   "sec": "english",
+   "topic": "rearrange",
+   "sub": "subject-verb-object",
+   "d": 1,
+   "q": "Rearrange the parts P, Q, R and S to form a meaningful sentence.\nP: organises\nQ: every year.\nR: a science exhibition\nS: Our school",
+   "o": [
+    "SPRQ",
+    "PQRS",
+    "QRPS",
+    "RSQP"
+   ],
+   "a": 0,
+   "e": "The subject 'Our school' comes first, then the verb 'organises', its object and the time phrase: 'Our school organises a science exhibition every year.'"
+  },
+  {
+   "id": "rearrange-002",
+   "sec": "english",
+   "topic": "rearrange",
+   "sub": "relative clause",
+   "d": 1,
+   "q": "Rearrange the parts P, Q, R and S to form a meaningful sentence.\nP: who won the race\nQ: received\nR: The boy\nS: a gold medal.",
+   "o": [
+    "SRQP",
+    "QPSR",
+    "PRSQ",
+    "RPQS"
+   ],
+   "a": 3,
+   "e": "'The boy who won the race received a gold medal.' The relative clause follows the noun it describes."
+  },
+  {
+   "id": "rearrange-003",
+   "sec": "english",
+   "topic": "rearrange",
+   "sub": "proverb",
+   "d": 1,
+   "q": "Rearrange the parts P, Q, R and S to form a meaningful sentence.\nP: the best\nQ: Honesty\nR: policy.\nS: is",
+   "o": [
+    "SQPR",
+    "RPQS",
+    "QSPR",
+    "PRSQ"
+   ],
+   "a": 2,
+   "e": "The well-known proverb reads 'Honesty is the best policy.'"
+  },
+  {
+   "id": "rearrange-004",
+   "sec": "english",
+   "topic": "rearrange",
+   "sub": "adverbial phrases",
+   "d": 1,
+   "q": "Rearrange the parts P, Q, R and S to form a meaningful sentence.\nP: The train\nQ: two hours late.\nR: arrived\nS: at the station",
+   "o": [
+    "QSRP",
+    "PRSQ",
+    "RPQS",
+    "SQPR"
+   ],
+   "a": 1,
+   "e": "'The train arrived at the station two hours late.' Subject, verb, place, then the extent of delay."
+  },
+  {
+   "id": "rearrange-005",
+   "sec": "english",
+   "topic": "rearrange",
+   "sub": "simple statement",
+   "d": 1,
+   "q": "Rearrange the parts P, Q, R and S to form a meaningful sentence.\nP: on festivals.\nQ: makes\nR: tasty sweets\nS: My mother",
+   "o": [
+    "SQRP",
+    "RSPQ",
+    "QRSP",
+    "PRQS"
+   ],
+   "a": 0,
+   "e": "'My mother makes tasty sweets on festivals.' The subject comes first and the time phrase last."
+  },
+  {
+   "id": "rearrange-006",
+   "sec": "english",
+   "topic": "rearrange",
+   "sub": "infinitive of purpose",
+   "d": 1,
+   "q": "Rearrange the parts P, Q, R and S to form a meaningful sentence.\nP: go to the library\nQ: for their exams.\nR: Many students\nS: to prepare",
+   "o": [
+    "PRQS",
+    "SQRP",
+    "QSPR",
+    "RPSQ"
+   ],
+   "a": 3,
+   "e": "'Many students go to the library to prepare for their exams.' The infinitive 'to prepare' is followed by 'for their exams'."
+  },
+  {
+   "id": "rearrange-007",
+   "sec": "english",
+   "topic": "rearrange",
+   "sub": "daily routine",
+   "d": 1,
+   "q": "Rearrange the sentences P, Q, R and S to form a meaningful paragraph.\nP: After having breakfast, he picked up his bag.\nQ: Ravi woke up early in the morning.\nR: Finally, he left for school on his bicycle.\nS: He took a bath and wore his school uniform.",
+   "o": [
+    "PQRS",
+    "SRQP",
+    "QSPR",
+    "RPSQ"
+   ],
+   "a": 2,
+   "e": "The paragraph follows the time order of the morning. It begins with waking up and ends with 'Finally', which marks the last step."
+  },
+  {
+   "id": "rearrange-008",
+   "sec": "english",
+   "topic": "rearrange",
+   "sub": "story sequence",
+   "d": 1,
+   "q": "Rearrange the sentences P, Q, R and S to form a meaningful paragraph.\nP: A crow was very thirsty.\nQ: It dropped pebbles into the pot one by one.\nR: It found a pot with a little water at the bottom.\nS: The water rose, and the crow drank it happily.",
+   "o": [
+    "SQRP",
+    "PRQS",
+    "QPSR",
+    "RPQS"
+   ],
+   "a": 1,
+   "e": "The story runs from the problem (thirst), to the pot, the action with pebbles and the result."
+  },
+  {
+   "id": "rearrange-009",
+   "sec": "english",
+   "topic": "rearrange",
+   "sub": "process description",
+   "d": 1,
+   "q": "Rearrange the sentences P, Q, R and S to form a meaningful paragraph.\nP: Dark clouds gather in the sky.\nQ: Soon heavy rain begins to fall.\nR: Farmers rejoice as their fields get water.\nS: The monsoon arrives in India in June.",
+   "o": [
+    "SPQR",
+    "PQRS",
+    "RSQP",
+    "QRSP"
+   ],
+   "a": 0,
+   "e": "The events follow in natural order: arrival, clouds, rain, and the farmers' reaction. 'Soon' signals the rain comes after the clouds."
+  },
+  {
+   "id": "rearrange-010",
+   "sec": "english",
+   "topic": "rearrange",
+   "sub": "pronoun reference",
+   "d": 1,
+   "q": "Rearrange the sentences P, Q, R and S to form a meaningful paragraph.\nP: They also process this data very quickly.\nQ: They can store a huge amount of data.\nR: Computers have changed the way we work.\nS: That is why offices today depend heavily on them.",
+   "o": [
+    "PQRS",
+    "SRQP",
+    "QPSR",
+    "RQPS"
+   ],
+   "a": 3,
+   "e": "The topic sentence comes first. 'They also' must follow the sentence on storing data, and 'That is why' gives the conclusion."
+  },
+  {
+   "id": "rearrange-011",
+   "sec": "english",
+   "topic": "rearrange",
+   "sub": "relative clause with whose",
+   "d": 2,
+   "q": "Rearrange the parts P, Q, R and S to form a meaningful sentence.\nP: received a national award.\nQ: was widely praised\nR: whose research on solar energy\nS: The scientist",
+   "o": [
+    "PQRS",
+    "QRSP",
+    "SRQP",
+    "RSPQ"
+   ],
+   "a": 2,
+   "e": "'The scientist whose research on solar energy was widely praised received a national award.' The clause with 'whose' sits right after the noun it describes."
+  },
+  {
+   "id": "rearrange-012",
+   "sec": "english",
+   "topic": "rearrange",
+   "sub": "despite + noun phrase",
+   "d": 2,
+   "q": "Rearrange the parts P, Q, R and S to form a meaningful sentence.\nP: and continued till evening.\nQ: Despite the heavy rain,\nR: was not called off\nS: the match",
+   "o": [
+    "PQRS",
+    "QSRP",
+    "SRQP",
+    "QRSP"
+   ],
+   "a": 1,
+   "e": "'Despite the heavy rain, the match was not called off and continued till evening.' The opening phrase leads to the subject, the verb phrase, and the added action."
+  },
+  {
+   "id": "rearrange-013",
+   "sec": "english",
+   "topic": "rearrange",
+   "sub": "not only ... but also",
+   "d": 2,
+   "q": "Rearrange the parts P, Q, R and S to form a meaningful sentence.\nP: win the first prize\nQ: but she also\nR: broke the previous record.\nS: Not only did she",
+   "o": [
+    "SPQR",
+    "PQRS",
+    "SRPQ",
+    "QRSP"
+   ],
+   "a": 0,
+   "e": "'Not only did she win the first prize but she also broke the previous record.' 'Not only' is paired with 'but also', and 'did' needs the base form 'win'."
+  },
+  {
+   "id": "rearrange-014",
+   "sec": "english",
+   "topic": "rearrange",
+   "sub": "linking words - however",
+   "d": 2,
+   "q": "Rearrange the sentences P, Q, R and S to form a meaningful paragraph.\nP: Therefore, we must avoid wasting it.\nQ: This makes freshwater a precious resource.\nR: Water covers most of the Earth's surface.\nS: However, only a tiny fraction of it is fresh and fit to drink.",
+   "o": [
+    "PQRS",
+    "SPQR",
+    "QRPS",
+    "RSQP"
+   ],
+   "a": 3,
+   "e": "The facts build up: abundant water, the contrast signalled by 'However', the consequence ('This makes') and finally the advice ('Therefore')."
+  },
+  {
+   "id": "rearrange-015",
+   "sec": "english",
+   "topic": "rearrange",
+   "sub": "chronology - Republic Day",
+   "d": 2,
+   "q": "Rearrange the sentences P, Q, R and S to form a meaningful paragraph.\nP: Since then, it is celebrated every year as Republic Day.\nQ: The Indian Constitution came into effect on 26 January 1950.\nR: On that day, India became a sovereign republic.\nS: The date was chosen because the Purna Swaraj resolution had been declared on 26 January 1930.",
+   "o": [
+    "PQRS",
+    "SPQR",
+    "QRSP",
+    "RQPS"
+   ],
+   "a": 2,
+   "e": "'On that day' needs the date from the first sentence before it. The explanation of the date follows, and 'Since then' closes the paragraph."
+  },
+  {
+   "id": "rearrange-016",
+   "sec": "english",
+   "topic": "rearrange",
+   "sub": "cause and effect - sleep",
+   "d": 2,
+   "q": "Rearrange the sentences P, Q, R and S to form a meaningful paragraph.\nP: Hence, a lack of sleep affects both memory and mood.\nQ: In reality, the brain uses this time to repair itself.\nR: Many people think that sleep is a waste of time.\nS: It stores memories and clears away harmful waste.",
+   "o": [
+    "PQRS",
+    "RQSP",
+    "QRSP",
+    "SPRQ"
+   ],
+   "a": 1,
+   "e": "The common belief comes first, 'In reality' corrects it, 'It stores' explains how the brain repairs itself, and 'Hence' draws the conclusion."
+  },
+  {
+   "id": "rearrange-017",
+   "sec": "english",
+   "topic": "rearrange",
+   "sub": "inversion after negative adverb",
+   "d": 3,
+   "q": "Rearrange the parts P, Q, R and S to form a meaningful sentence.\nP: so generous and humble.\nQ: find a person\nR: Rarely\nS: do we",
+   "o": [
+    "RSQP",
+    "PQRS",
+    "RQSP",
+    "SQRP"
+   ],
+   "a": 0,
+   "e": "A negative adverb at the start forces inversion: 'Rarely do we find a person so generous and humble.'"
+  },
+  {
+   "id": "rearrange-018",
+   "sec": "english",
+   "topic": "rearrange",
+   "sub": "chronological history of tea",
+   "d": 3,
+   "q": "Rearrange the sentences P, Q, R and S to form a meaningful paragraph.\nP: Tea was first cultivated in China, where it was used as a medicine.\nQ: Today, India is among the largest producers of tea in the world.\nR: The British, who developed a liking for it, began growing it in India in the nineteenth century.\nS: It later spread to Japan and, much later, to Europe through traders.",
+   "o": [
+    "QRSP",
+    "SPQR",
+    "RQPS",
+    "PSRQ"
+   ],
+   "a": 3,
+   "e": "The paragraph moves from origin in China, to spread abroad, to the British growing tea in India, and finally to the present ('Today')."
+  },
+  {
+   "id": "rearrange-019",
+   "sec": "english",
+   "topic": "rearrange",
+   "sub": "argument flow - technology",
+   "d": 3,
+   "q": "Rearrange the sentences P, Q, R and S to form a meaningful paragraph.\nP: Such small connections reduce loneliness and improve their health.\nQ: Thus, the real issue is not technology itself but the way we use it.\nR: Yet, for the elderly living far from their families, a simple video call can be a lifeline.\nS: Many believe that technology isolates people from one another.",
+   "o": [
+    "PQRS",
+    "RSPQ",
+    "SRPQ",
+    "QPSR"
+   ],
+   "a": 2,
+   "e": "The common belief is stated first, 'Yet' presents the counter-example, 'Such small connections' refers back to the video call, and 'Thus' concludes."
+  },
+  {
+   "id": "rearrange-020",
+   "sec": "english",
+   "topic": "rearrange",
+   "sub": "logical steps - problem solving",
+   "d": 3,
+   "q": "Rearrange the sentences P, Q, R and S to form a meaningful paragraph.\nP: The first step in solving any problem is to understand it clearly.\nQ: Each of these must then be tested against the available resources.\nR: Once this is done, one can list the possible solutions.\nS: Only the one that passes this test deserves to be put into action.",
+   "o": [
+    "PQRS",
+    "PRQS",
+    "RSQP",
+    "QSPR"
+   ],
+   "a": 1,
+   "e": "Understanding comes first, then listing solutions ('Once this is done'), then testing 'each of these', and finally acting on the one that passes."
+  }
+ ]
+}

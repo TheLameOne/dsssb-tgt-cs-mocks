@@ -1,0 +1,164 @@
+{
+ "questions": [
+  {
+   "id": "direction-001",
+   "sec": "reasoning",
+   "topic": "direction",
+   "sub": "distance",
+   "d": 1,
+   "q": "Ravi walks 12 m towards the north, turns right and walks 5 m. How far is he from his starting point?",
+   "o": [
+    "13 m",
+    "7 m",
+    "17 m",
+    "11 m"
+   ],
+   "a": 0,
+   "e": "The two legs are perpendicular, so the distance is √(12² + 5²) = √169 = 13 m."
+  },
+  {
+   "id": "direction-002",
+   "sec": "reasoning",
+   "topic": "direction",
+   "sub": "shadow",
+   "d": 1,
+   "q": "Early in the morning, Mohit stands so that his shadow falls exactly to his left. Which direction is he facing?",
+   "o": [
+    "South",
+    "North",
+    "West",
+    "East"
+   ],
+   "a": 1,
+   "e": "In the morning the Sun is in the east, so shadows fall towards the west. His left hand points west, so he is facing north."
+  },
+  {
+   "id": "direction-003",
+   "sec": "reasoning",
+   "topic": "direction",
+   "sub": "turns",
+   "d": 1,
+   "q": "Seema is facing south. She turns left, then turns right, and then turns right again. Which direction is she now facing?",
+   "o": [
+    "North",
+    "West",
+    "East",
+    "South"
+   ],
+   "a": 1,
+   "e": "Facing south, a left turn gives east. A right turn from east gives south, and another right turn gives west."
+  },
+  {
+   "id": "direction-004",
+   "sec": "reasoning",
+   "topic": "direction",
+   "sub": "multi-leg",
+   "d": 2,
+   "q": "Hari faces east and walks 20 m. He turns left and walks 10 m, then turns left again and walks 30 m. How far is he from the starting point and in which direction?",
+   "o": [
+    "10√2 m, north-west",
+    "20 m, north-west",
+    "10√2 m, south-west",
+    "10 m, north"
+   ],
+   "a": 0,
+   "e": "Taking the start as (0, 0) with east as +x, he reaches (20, 0), then (20, 10), then (−10, 10). The distance is √(10² + 10²) = 10√2 m, and he is to the north-west."
+  },
+  {
+   "id": "direction-005",
+   "sec": "reasoning",
+   "topic": "direction",
+   "sub": "shadow",
+   "d": 2,
+   "q": "At sunset, Anil and Bala stand facing each other. Bala's shadow falls exactly to the right of Anil. Which direction is Bala facing?",
+   "o": [
+    "North",
+    "South",
+    "East",
+    "West"
+   ],
+   "a": 1,
+   "e": "At sunset shadows fall towards the east. East is on Anil's right, so Anil faces north. Bala faces Anil, so Bala faces south."
+  },
+  {
+   "id": "direction-006",
+   "sec": "reasoning",
+   "topic": "direction",
+   "sub": "relative position",
+   "d": 2,
+   "q": "Town A is 9 km north of town B. Town C is 12 km east of town A. Town D is 9 km south of town C. How far is town D from town B, and in which direction from B?",
+   "o": [
+    "15 km, north-east",
+    "12 km, south-east",
+    "12 km, east",
+    "9 km, east"
+   ],
+   "a": 2,
+   "e": "Take B as (0, 0). Then A is (0, 9), C is (12, 9) and D is (12, 0). So D is 12 km due east of B."
+  },
+  {
+   "id": "direction-007",
+   "sec": "reasoning",
+   "topic": "direction",
+   "sub": "angle turns",
+   "d": 2,
+   "q": "A boy is facing north-west. He turns 90° clockwise, then 135° anticlockwise, and then 45° clockwise. Which direction is he facing now?",
+   "o": [
+    "West",
+    "North",
+    "North-west",
+    "South-west"
+   ],
+   "a": 2,
+   "e": "Using bearings from north: 315° + 90° = 45°, then 45° − 135° = −90° = 270°, then 270° + 45° = 315°, which is north-west."
+  },
+  {
+   "id": "direction-008",
+   "sec": "reasoning",
+   "topic": "direction",
+   "sub": "multi-leg",
+   "d": 3,
+   "q": "Deepak starts from a point and walks 20 m north. He turns right and walks 25 m, turns right and walks 8 m, then turns right again and walks 13 m. How far is he from the starting point and in which direction?",
+   "o": [
+    "12 m, east",
+    "12√2 m, north-east",
+    "12√2 m, south-east",
+    "13 m, north-east"
+   ],
+   "a": 1,
+   "e": "With east as +x and north as +y, he goes to (0, 20), (25, 20), (25, 12) and finally (12, 12). The distance is 12√2 m, and the point lies to the north-east."
+  },
+  {
+   "id": "direction-009",
+   "sec": "reasoning",
+   "topic": "direction",
+   "sub": "angle turns",
+   "d": 3,
+   "q": "A man is facing south-east. He turns 90° anticlockwise, then 135° clockwise, then 225° anticlockwise, and finally 270° clockwise. Which direction is he facing at the end?",
+   "o": [
+    "North-east",
+    "South-west",
+    "North-west",
+    "South"
+   ],
+   "a": 1,
+   "e": "Bearings from north: 135° − 90° = 45°; 45° + 135° = 180°; 180° − 225° = −45° = 315°; 315° + 270° = 585° = 225°, which is south-west."
+  },
+  {
+   "id": "direction-010",
+   "sec": "reasoning",
+   "topic": "direction",
+   "sub": "multi-leg",
+   "d": 3,
+   "q": "At sunrise, Rahul stands facing the Sun. He turns 135° anticlockwise and walks 5√2 m. He then turns 90° clockwise and walks another 5√2 m. How far is he from his starting point and in which direction?",
+   "o": [
+    "10√2 m, north",
+    "10 m, south",
+    "10 m, north-east",
+    "10 m, north"
+   ],
+   "a": 3,
+   "e": "Facing east, 135° anticlockwise gives north-west, so he reaches (−5, 5). Turning 90° clockwise he faces north-east and reaches (0, 10). He is 10 m due north of the start."
+  }
+ ]
+}

@@ -1,0 +1,338 @@
+{
+ "questions": [
+  {
+   "id": "problem-001",
+   "sec": "cs",
+   "topic": "problem",
+   "sub": "flowcharts",
+   "d": 1,
+   "q": "In a flowchart, a diamond (rhombus) shaped symbol is used to represent",
+   "o": [
+    "input or output",
+    "start or stop",
+    "a decision or condition test",
+    "a processing step"
+   ],
+   "a": 2,
+   "e": "The diamond has one entry and two or more exits labelled such as Yes/No, and it shows a decision. The parallelogram is for input/output and the oval for start/stop."
+  },
+  {
+   "id": "problem-002",
+   "sec": "cs",
+   "topic": "problem",
+   "sub": "algorithms",
+   "d": 1,
+   "q": "Which of the following is NOT a required property of an algorithm?",
+   "o": [
+    "Dependence on a particular programming language",
+    "Finiteness",
+    "Definiteness",
+    "Effectiveness"
+   ],
+   "a": 0,
+   "e": "An algorithm must terminate (finiteness), have unambiguous steps (definiteness), use basic feasible operations (effectiveness), and have input and output. It is independent of any programming language."
+  },
+  {
+   "id": "problem-003",
+   "sec": "cs",
+   "topic": "problem",
+   "sub": "flowcharts",
+   "d": 1,
+   "q": "Consider the following statements about flowchart symbols.\nI. The parallelogram is used to represent a decision.\nII. The diamond is used to represent input and output.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 3,
+   "e": "Both swap the symbols. The parallelogram represents input and output, and the diamond represents a decision with branches such as Yes and No."
+  },
+  {
+   "id": "problem-004",
+   "sec": "cs",
+   "topic": "problem",
+   "sub": "translators",
+   "d": 1,
+   "q": "Consider the following statements about language translators.\nI. An interpreter translates the entire program into machine code before execution begins.\nII. A compiler translates the entire program into machine code before execution begins.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "A compiler translates the whole source program first and the result is then run. An interpreter translates and executes statements one at a time, so I is false."
+  },
+  {
+   "id": "problem-005",
+   "sec": "cs",
+   "topic": "problem",
+   "sub": "translators",
+   "d": 1,
+   "q": "An assembler translates a program written in ______ into machine code.",
+   "o": [
+    "a high-level language",
+    "assembly language",
+    "pseudocode",
+    "the object code of a compiler"
+   ],
+   "a": 1,
+   "e": "An assembler maps the mnemonics of an assembly language to the corresponding machine instructions, usually one to one. High-level languages need a compiler or interpreter."
+  },
+  {
+   "id": "problem-006",
+   "sec": "cs",
+   "topic": "problem",
+   "sub": "structured programming",
+   "d": 1,
+   "q": "Which of the following is NOT a basic control structure of structured programming?",
+   "o": [
+    "Sequence",
+    "Selection",
+    "Iteration",
+    "Unconditional jump (GOTO)"
+   ],
+   "a": 3,
+   "e": "Structured programming is built from sequence, selection and iteration, and avoids unconditional jumps. GOTO is not one of the basic structures."
+  },
+  {
+   "id": "problem-007",
+   "sec": "cs",
+   "topic": "problem",
+   "sub": "top-down design",
+   "d": 1,
+   "q": "In top-down design, a problem is solved by",
+   "o": [
+    "breaking it into smaller sub-problems, refining step by step",
+    "first writing the lowest-level routines and joining them",
+    "writing the whole program as one block",
+    "converting it directly into machine code"
+   ],
+   "a": 0,
+   "e": "Top-down design (stepwise refinement) starts from the overall task and splits it into smaller sub-tasks until each is simple enough to code. Starting from low-level routines is bottom-up design."
+  },
+  {
+   "id": "problem-008",
+   "sec": "cs",
+   "topic": "problem",
+   "sub": "debugging",
+   "d": 1,
+   "q": "A program compiles and runs without any message but gives wrong results. This is most likely a ______ error.",
+   "o": [
+    "syntax",
+    "lexical",
+    "logical",
+    "linker"
+   ],
+   "a": 2,
+   "e": "Syntax errors are caught by the compiler. A logical error lies in the algorithm itself, so the program runs but produces wrong output."
+  },
+  {
+   "id": "problem-009",
+   "sec": "cs",
+   "topic": "problem",
+   "sub": "problem solving",
+   "d": 1,
+   "q": "The first step in solving a problem with a computer is to",
+   "o": [
+    "write the program",
+    "test the program",
+    "draw the flowchart",
+    "define and understand the problem"
+   ],
+   "a": 3,
+   "e": "The usual order is: define the problem, design the algorithm or flowchart, code, test and debug, and document. Without a clear problem definition the later steps are wasted."
+  },
+  {
+   "id": "problem-010",
+   "sec": "cs",
+   "topic": "problem",
+   "sub": "paradigms",
+   "d": 1,
+   "q": "Prolog belongs to which programming paradigm?",
+   "o": [
+    "Functional programming",
+    "Logic programming",
+    "Procedural programming",
+    "Object-oriented programming"
+   ],
+   "a": 1,
+   "e": "Prolog programs are sets of facts and rules, and the system answers queries by logical inference. Lisp and Haskell are functional languages."
+  },
+  {
+   "id": "problem-011",
+   "sec": "cs",
+   "topic": "problem",
+   "sub": "pseudocode trace",
+   "d": 2,
+   "q": "What is printed by the following pseudocode?",
+   "code": "s ← 0\nFOR i ← 1 TO 6\n    IF i MOD 2 = 0 THEN\n        s ← s + i\n    ELSE\n        s ← s − 1\n    END IF\nEND FOR\nPRINT s",
+   "lang": "pseudocode",
+   "o": [
+    "12",
+    "6",
+    "9",
+    "21"
+   ],
+   "a": 2,
+   "e": "For odd i (1, 3, 5) the ELSE part subtracts 1 each time, giving −3. For even i (2, 4, 6) the sum 12 is added. The result is 12 − 3 = 9."
+  },
+  {
+   "id": "problem-012",
+   "sec": "cs",
+   "topic": "problem",
+   "sub": "pseudocode trace",
+   "d": 2,
+   "q": "What is printed by the following pseudocode?",
+   "code": "n ← 4825\ns ← 0\nWHILE n > 0\n    s ← s + (n MOD 10)\n    n ← n DIV 10\nEND WHILE\nPRINT s",
+   "lang": "pseudocode",
+   "o": [
+    "19",
+    "4825",
+    "20",
+    "11"
+   ],
+   "a": 0,
+   "e": "The loop peels off digits from the right: 5, 2, 8, 4. Their sum is 5 + 2 + 8 + 4 = 19. DIV is integer division."
+  },
+  {
+   "id": "problem-013",
+   "sec": "cs",
+   "topic": "problem",
+   "sub": "subprograms",
+   "d": 2,
+   "q": "What is printed by the following pseudocode, in which the parameter is passed by value?",
+   "code": "PROCEDURE Change(a)\n    a ← a + 5\nEND PROCEDURE\nx ← 10\nCALL Change(x)\nPRINT x",
+   "lang": "pseudocode",
+   "o": [
+    "15",
+    "5",
+    "10",
+    "0"
+   ],
+   "a": 2,
+   "e": "With call by value the procedure works on a copy of x. The change a ← a + 5 affects only the copy, so the original x stays 10."
+  },
+  {
+   "id": "problem-014",
+   "sec": "cs",
+   "topic": "problem",
+   "sub": "paradigms",
+   "d": 2,
+   "q": "Consider the following statements about programming languages.\nI. C is a procedural programming language.\nII. Prolog is a functional programming language.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "I is correct, as C is organised around procedures (functions). II is wrong, because Prolog is a logic programming language. Functional languages include Lisp and Haskell."
+  },
+  {
+   "id": "problem-015",
+   "sec": "cs",
+   "topic": "problem",
+   "sub": "testing",
+   "d": 2,
+   "q": "In black-box testing, the test cases are designed from",
+   "o": [
+    "the specification, without looking at the code",
+    "the internal structure and paths of the code",
+    "the compiler's object code",
+    "the control flow graph of the program"
+   ],
+   "a": 0,
+   "e": "Black-box testing checks inputs against expected outputs from the requirements, ignoring the implementation. Designing tests from code paths and control flow graphs is white-box testing."
+  },
+  {
+   "id": "problem-016",
+   "sec": "cs",
+   "topic": "problem",
+   "sub": "modular programming",
+   "d": 2,
+   "q": "Consider the following statements about a well-designed modular program.\nI. Each module should have high cohesion.\nII. Modules should have high coupling with one another.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "Good design has high cohesion inside each module and low coupling between modules, which keeps modules easy to understand, test and change. II is false."
+  },
+  {
+   "id": "problem-017",
+   "sec": "cs",
+   "topic": "problem",
+   "sub": "pseudocode trace",
+   "d": 3,
+   "q": "What is printed by the following pseudocode?",
+   "code": "count ← 0\nFOR i ← 1 TO 4\n    FOR j ← 1 TO i\n        IF (i + j) MOD 3 = 0 THEN\n            count ← count + 1\n        END IF\n    END FOR\nEND FOR\nPRINT count",
+   "lang": "pseudocode",
+   "o": [
+    "2",
+    "4",
+    "5",
+    "3"
+   ],
+   "a": 3,
+   "e": "The pairs (i, j) with j ≤ i and i + j divisible by 3 are (2, 1), (3, 3) and (4, 2). The pair (1, 2) is not allowed since j ≤ i. So count = 3."
+  },
+  {
+   "id": "problem-018",
+   "sec": "cs",
+   "topic": "problem",
+   "sub": "recursion trace",
+   "d": 3,
+   "q": "What is printed by the following pseudocode?",
+   "code": "FUNCTION F(n)\n    IF n <= 1 THEN\n        RETURN 1\n    END IF\n    RETURN F(n − 1) + F(n − 2)\nEND FUNCTION\nPRINT F(6)",
+   "lang": "pseudocode",
+   "o": [
+    "8",
+    "13",
+    "21",
+    "12"
+   ],
+   "a": 1,
+   "e": "F(0) = F(1) = 1, then F(2) = 2, F(3) = 3, F(4) = 5, F(5) = 8 and F(6) = 13. Since the base case returns 1 rather than n, the sequence starts 1, 1, 2, 3, 5, 8, 13."
+  },
+  {
+   "id": "problem-019",
+   "sec": "cs",
+   "topic": "problem",
+   "sub": "pseudocode trace",
+   "d": 3,
+   "q": "What is printed by the following pseudocode?",
+   "code": "a ← 48\nb ← 18\ncount ← 0\nWHILE b ≠ 0\n    t ← b\n    b ← a MOD b\n    a ← t\n    count ← count + 1\nEND WHILE\nPRINT count, a",
+   "lang": "pseudocode",
+   "o": [
+    "2 6",
+    "3 6",
+    "3 18",
+    "4 6"
+   ],
+   "a": 1,
+   "e": "The pairs (a, b) go (48, 18) → (18, 12) → (12, 6) → (6, 0), so the loop body runs 3 times and a ends as 6, the GCD of 48 and 18."
+  },
+  {
+   "id": "problem-020",
+   "sec": "cs",
+   "topic": "problem",
+   "sub": "pseudocode trace",
+   "d": 3,
+   "q": "What is printed by the following pseudocode?",
+   "code": "n ← 6\nsteps ← 0\nWHILE n ≠ 1\n    IF n MOD 2 = 0 THEN\n        n ← n DIV 2\n    ELSE\n        n ← 3 * n + 1\n    END IF\n    steps ← steps + 1\nEND WHILE\nPRINT steps",
+   "lang": "pseudocode",
+   "o": [
+    "6",
+    "9",
+    "10",
+    "8"
+   ],
+   "a": 3,
+   "e": "n runs 6 → 3 → 10 → 5 → 16 → 8 → 4 → 2 → 1. That is 8 updates, so steps = 8."
+  }
+ ]
+}

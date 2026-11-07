@@ -1,0 +1,508 @@
+{
+ "questions": [
+  {
+   "id": "polity-001",
+   "sec": "ga",
+   "topic": "polity",
+   "sub": "making",
+   "d": 1,
+   "q": "Who was the Chairman of the Drafting Committee of the Constituent Assembly?",
+   "o": [
+    "Rajendra Prasad",
+    "B. R. Ambedkar",
+    "Jawaharlal Nehru",
+    "Sardar Patel"
+   ],
+   "a": 1,
+   "e": "Dr B. R. Ambedkar chaired the Drafting Committee. Dr Rajendra Prasad was the President of the Constituent Assembly."
+  },
+  {
+   "id": "polity-002",
+   "sec": "ga",
+   "topic": "polity",
+   "sub": "making",
+   "d": 1,
+   "q": "Consider the following statements.\nI. The Constitution of India came into effect on 26 January 1950.\nII. It was adopted by the Constituent Assembly on 26 January 1949.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "The Constitution was adopted on 26 November 1949 and came into force on 26 January 1950."
+  },
+  {
+   "id": "polity-003",
+   "sec": "ga",
+   "topic": "polity",
+   "sub": "Parliament",
+   "d": 1,
+   "q": "The minimum age to become a member of the Lok Sabha is",
+   "o": [
+    "18 years",
+    "21 years",
+    "25 years",
+    "30 years"
+   ],
+   "a": 2,
+   "e": "A candidate for the Lok Sabha must be at least 25 years old, while for the Rajya Sabha the minimum age is 30."
+  },
+  {
+   "id": "polity-004",
+   "sec": "ga",
+   "topic": "polity",
+   "sub": "Parliament",
+   "d": 1,
+   "q": "The ex officio Chairman of the Rajya Sabha is the",
+   "o": [
+    "Prime Minister",
+    "Speaker",
+    "Vice-President",
+    "Chief Justice of India"
+   ],
+   "a": 2,
+   "e": "The Vice-President of India is the ex officio Chairman of the Rajya Sabha."
+  },
+  {
+   "id": "polity-005",
+   "sec": "ga",
+   "topic": "polity",
+   "sub": "fundamental rights",
+   "d": 1,
+   "q": "Article 21 of the Constitution deals with",
+   "o": [
+    "Equality before law",
+    "Freedom of speech",
+    "Protection of life and personal liberty",
+    "Freedom of religion"
+   ],
+   "a": 2,
+   "e": "Article 21 guarantees protection of life and personal liberty. Article 14 is equality before law, 19 is freedoms and 25 is freedom of religion."
+  },
+  {
+   "id": "polity-006",
+   "sec": "ga",
+   "topic": "polity",
+   "sub": "fundamental duties",
+   "d": 1,
+   "q": "Consider the following statements.\nI. The Fundamental Duties are listed in Part IVA of the Constitution.\nII. They were part of the original Constitution of 1950.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "Fundamental Duties (Article 51A) were added by the 42nd Amendment in 1976 on the Swaran Singh Committee's recommendation."
+  },
+  {
+   "id": "polity-007",
+   "sec": "ga",
+   "topic": "polity",
+   "sub": "President",
+   "d": 1,
+   "q": "The President of India is elected for a term of",
+   "o": [
+    "5 years",
+    "6 years",
+    "7 years",
+    "4 years"
+   ],
+   "a": 0,
+   "e": "The President holds office for five years from taking the oath and is eligible for re-election."
+  },
+  {
+   "id": "polity-008",
+   "sec": "ga",
+   "topic": "polity",
+   "sub": "fundamental rights",
+   "d": 1,
+   "q": "How many Fundamental Rights are recognised in the Constitution at present?",
+   "o": [
+    "Five",
+    "Six",
+    "Seven",
+    "Eight"
+   ],
+   "a": 1,
+   "e": "There are six: equality, freedom, against exploitation, freedom of religion, cultural and educational rights, and constitutional remedies. The right to property was removed by the 44th Amendment."
+  },
+  {
+   "id": "polity-009",
+   "sec": "ga",
+   "topic": "polity",
+   "sub": "judiciary",
+   "d": 1,
+   "q": "The Chief Justice of India is appointed by the",
+   "o": [
+    "President",
+    "Parliament",
+    "Law Minister",
+    "Prime Minister"
+   ],
+   "a": 0,
+   "e": "The President appoints the CJI under Article 124, after consultation with judges as the Constitution and practice require."
+  },
+  {
+   "id": "polity-010",
+   "sec": "ga",
+   "topic": "polity",
+   "sub": "Panchayati Raj",
+   "d": 1,
+   "q": "Consider the following statements.\nI. The 73rd Amendment gave constitutional status to Panchayati Raj institutions.\nII. The 74th Amendment relates to urban local bodies (municipalities).\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "The 73rd Amendment (1992) added Part IX for panchayats, and the 74th added Part IXA for municipalities."
+  },
+  {
+   "id": "polity-011",
+   "sec": "ga",
+   "topic": "polity",
+   "sub": "Union",
+   "d": 1,
+   "q": "Article 1 describes India, that is Bharat, as a",
+   "o": [
+    "Federation of States",
+    "Union of States",
+    "Confederation",
+    "Republic of Provinces"
+   ],
+   "a": 1,
+   "e": "Article 1 says India, that is Bharat, shall be a Union of States. The word Union shows that the federation is indestructible."
+  },
+  {
+   "id": "polity-012",
+   "sec": "ga",
+   "topic": "polity",
+   "sub": "Delhi",
+   "d": 2,
+   "q": "Consider the following statements.\nI. Article 239AA, giving Delhi the status of National Capital Territory, was inserted by the 69th Amendment in 1991.\nII. The Delhi Legislative Assembly has 70 members.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "The 69th Amendment (1991) created the NCT of Delhi with a Legislative Assembly and Council of Ministers. The Assembly has 70 seats."
+  },
+  {
+   "id": "polity-013",
+   "sec": "ga",
+   "topic": "polity",
+   "sub": "finance",
+   "d": 2,
+   "q": "The Finance Commission is constituted under Article",
+   "o": [
+    "110",
+    "148",
+    "280",
+    "324"
+   ],
+   "a": 2,
+   "e": "Article 280 provides for a Finance Commission every five years. Article 148 is the CAG and 324 the Election Commission."
+  },
+  {
+   "id": "polity-014",
+   "sec": "ga",
+   "topic": "polity",
+   "sub": "DPSP",
+   "d": 2,
+   "q": "Consider the following statements.\nI. Directive Principles of State Policy are enforceable in a court of law.\nII. Directive Principles are contained in Part IV of the Constitution.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "DPSP (Articles 36-51 in Part IV) are non-justiciable, though they are fundamental in governance."
+  },
+  {
+   "id": "polity-015",
+   "sec": "ga",
+   "topic": "polity",
+   "sub": "emergency",
+   "d": 2,
+   "q": "President's Rule in a state on failure of the constitutional machinery is imposed under Article",
+   "o": [
+    "356",
+    "360",
+    "365",
+    "352"
+   ],
+   "a": 0,
+   "e": "Article 356 allows President's Rule. Article 352 concerns national emergency and 360 financial emergency."
+  },
+  {
+   "id": "polity-016",
+   "sec": "ga",
+   "topic": "polity",
+   "sub": "Parliament",
+   "d": 2,
+   "q": "Consider the following statements.\nI. A Money Bill can be introduced only in the Lok Sabha.\nII. The Rajya Sabha can reject a Money Bill.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "Under Article 109 the Rajya Sabha can only make recommendations on a Money Bill within 14 days, which the Lok Sabha may accept or reject. It cannot reject it."
+  },
+  {
+   "id": "polity-017",
+   "sec": "ga",
+   "topic": "polity",
+   "sub": "judiciary",
+   "d": 2,
+   "q": "Consider the following statements.\nI. A Supreme Court judge retires at the age of 65.\nII. A High Court judge retires at the age of 65.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "Supreme Court judges retire at 65, while High Court judges retire at 62."
+  },
+  {
+   "id": "polity-018",
+   "sec": "ga",
+   "topic": "polity",
+   "sub": "constitutional bodies",
+   "d": 2,
+   "q": "The Union Public Service Commission is established under Article",
+   "o": [
+    "280",
+    "315",
+    "324",
+    "338"
+   ],
+   "a": 1,
+   "e": "Article 315 provides for the Union and State Public Service Commissions. Article 324 is for the Election Commission."
+  },
+  {
+   "id": "polity-019",
+   "sec": "ga",
+   "topic": "polity",
+   "sub": "amendment",
+   "d": 2,
+   "q": "The procedure for amendment of the Constitution is laid down in Article",
+   "o": [
+    "352",
+    "356",
+    "368",
+    "370"
+   ],
+   "a": 2,
+   "e": "Article 368 provides the power of Parliament to amend the Constitution and its procedure."
+  },
+  {
+   "id": "polity-020",
+   "sec": "ga",
+   "topic": "polity",
+   "sub": "constitutional bodies",
+   "d": 2,
+   "q": "The Election Commission of India is a constitutional body under Article",
+   "o": [
+    "324",
+    "148",
+    "280",
+    "315"
+   ],
+   "a": 0,
+   "e": "Article 324 vests the superintendence, direction and control of elections in the Election Commission."
+  },
+  {
+   "id": "polity-021",
+   "sec": "ga",
+   "topic": "polity",
+   "sub": "constitutional bodies",
+   "d": 2,
+   "q": "The Comptroller and Auditor General of India is provided for in Article",
+   "o": [
+    "148",
+    "124",
+    "165",
+    "315"
+   ],
+   "a": 0,
+   "e": "Article 148 provides for the CAG, who audits the accounts of the Union and the states."
+  },
+  {
+   "id": "polity-022",
+   "sec": "ga",
+   "topic": "polity",
+   "sub": "fundamental rights",
+   "d": 2,
+   "q": "Consider the following statements.\nI. Article 21A, the right to education, was inserted by the 44th Amendment.\nII. Article 21A guarantees free and compulsory education to children aged 6 to 14 years.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "Article 21A was inserted by the 86th Amendment (2002) and covers children aged 6-14."
+  },
+  {
+   "id": "polity-023",
+   "sec": "ga",
+   "topic": "polity",
+   "sub": "writs",
+   "d": 2,
+   "q": "Consider the following statements.\nI. The Supreme Court can issue writs under Article 32.\nII. High Courts can issue writs under Article 226.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Article 32 empowers the Supreme Court and Article 226 the High Courts to issue writs such as habeas corpus and mandamus."
+  },
+  {
+   "id": "polity-024",
+   "sec": "ga",
+   "topic": "polity",
+   "sub": "fundamental rights",
+   "d": 3,
+   "q": "Match the Articles with their subject.",
+   "table": {
+    "head": [
+     "List I",
+     "List II"
+    ],
+    "rows": [
+     [
+      "a. Article 17",
+      "1. Prohibition of employment of children in hazardous work"
+     ],
+     [
+      "b. Article 23",
+      "2. Right to constitutional remedies"
+     ],
+     [
+      "c. Article 24",
+      "3. Abolition of untouchability"
+     ],
+     [
+      "d. Article 32",
+      "4. Prohibition of trafficking and forced labour"
+     ]
+    ]
+   },
+   "o": [
+    "a-3, b-4, c-1, d-2",
+    "a-3, b-1, c-4, d-2",
+    "a-4, b-3, c-1, d-2",
+    "a-3, b-4, c-2, d-1"
+   ],
+   "a": 0,
+   "e": "Article 17 abolishes untouchability, 23 prohibits trafficking and forced labour, 24 bars child labour in hazardous work under 14, and 32 gives constitutional remedies."
+  },
+  {
+   "id": "polity-025",
+   "sec": "ga",
+   "topic": "polity",
+   "sub": "President",
+   "d": 3,
+   "q": "A resolution to impeach the President must be moved after 14 days' notice and passed by a majority of not less than ______ of the total membership of each House.",
+   "o": [
+    "one-half",
+    "two-thirds",
+    "three-fourths",
+    "three-fifths"
+   ],
+   "a": 1,
+   "e": "Under Article 61, a two-thirds majority of the total membership of each House is needed to remove the President for violating the Constitution."
+  },
+  {
+   "id": "polity-026",
+   "sec": "ga",
+   "topic": "polity",
+   "sub": "judiciary",
+   "d": 3,
+   "q": "The doctrine of the 'basic structure' of the Constitution was laid down in",
+   "o": [
+    "Kesavananda Bharati case (1973)",
+    "Minerva Mills case (1980)",
+    "A. K. Gopalan case (1950)",
+    "Golaknath case (1967)"
+   ],
+   "a": 0,
+   "e": "In Kesavananda Bharati v. State of Kerala (1973) the Supreme Court held that Parliament cannot alter the basic structure while amending the Constitution."
+  },
+  {
+   "id": "polity-027",
+   "sec": "ga",
+   "topic": "polity",
+   "sub": "amendment",
+   "d": 3,
+   "q": "Consider the following statements.\nI. The 42nd Amendment lowered the voting age from 21 to 18 years.\nII. The 61st Amendment (1988) lowered the voting age from 21 to 18 years.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "The 61st Amendment lowered the voting age for Lok Sabha and Assembly elections to 18. The 42nd Amendment (1976) added Fundamental Duties."
+  },
+  {
+   "id": "polity-028",
+   "sec": "ga",
+   "topic": "polity",
+   "sub": "Delhi",
+   "d": 3,
+   "q": "Under Article 239AA, which subject is outside the legislative competence of the Delhi Legislative Assembly?",
+   "o": [
+    "Public health",
+    "Police",
+    "Primary education",
+    "Electricity"
+   ],
+   "a": 1,
+   "e": "Public order, police and land are excluded from the Delhi Assembly's power and remain with the Union."
+  },
+  {
+   "id": "polity-029",
+   "sec": "ga",
+   "topic": "polity",
+   "sub": "Parliament",
+   "d": 3,
+   "q": "The maximum strength of the Rajya Sabha under the Constitution is",
+   "o": [
+    "238",
+    "245",
+    "250",
+    "252"
+   ],
+   "a": 2,
+   "e": "Article 80 fixes a maximum of 250 members: 238 representatives of states and UTs and 12 nominated by the President."
+  },
+  {
+   "id": "polity-030",
+   "sec": "ga",
+   "topic": "polity",
+   "sub": "Parliament",
+   "d": 3,
+   "q": "Consider the following statements.\nI. The quorum of the Lok Sabha is one-fourth of its total members.\nII. The quorum of the Lok Sabha is one-twentieth of its total members.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 3,
+   "e": "Under Article 100, the quorum for each House is one-tenth of its total number of members, including the presiding officer."
+  }
+ ]
+}

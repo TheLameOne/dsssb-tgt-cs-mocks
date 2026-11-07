@@ -1,0 +1,164 @@
+{
+ "questions": [
+  {
+   "id": "oneword-001",
+   "sec": "english",
+   "topic": "oneword",
+   "sub": "person",
+   "d": 1,
+   "q": "Choose the one word for: a person who does not believe in the existence of God",
+   "o": [
+    "Pessimist",
+    "Optimist",
+    "Atheist",
+    "Cynic"
+   ],
+   "a": 2,
+   "e": "An atheist denies the existence of God."
+  },
+  {
+   "id": "oneword-002",
+   "sec": "english",
+   "topic": "oneword",
+   "sub": "government",
+   "d": 1,
+   "q": "Choose the one word for: government of the people, by the people and for the people",
+   "o": [
+    "Autocracy",
+    "Democracy",
+    "Aristocracy",
+    "Theocracy"
+   ],
+   "a": 1,
+   "e": "Democracy is rule by the people."
+  },
+  {
+   "id": "oneword-003",
+   "sec": "english",
+   "topic": "oneword",
+   "sub": "collector",
+   "d": 1,
+   "q": "Choose the one word for: a person who collects postage stamps",
+   "o": [
+    "Philatelist",
+    "Numismatist",
+    "Bibliophile",
+    "Cartographer"
+   ],
+   "a": 0,
+   "e": "A philatelist collects stamps; a numismatist collects coins."
+  },
+  {
+   "id": "oneword-004",
+   "sec": "english",
+   "topic": "oneword",
+   "sub": "animal",
+   "d": 1,
+   "q": "Choose the one word for: an animal that eats both plants and flesh",
+   "o": [
+    "Omnivore",
+    "Herbivore",
+    "Carnivore",
+    "Insectivore"
+   ],
+   "a": 0,
+   "e": "An omnivore eats both plant and animal food."
+  },
+  {
+   "id": "oneword-005",
+   "sec": "english",
+   "topic": "oneword",
+   "sub": "person",
+   "d": 2,
+   "q": "Choose the one word for: a person who walks in his sleep",
+   "o": [
+    "Insomniac",
+    "Hypnotist",
+    "Pacifist",
+    "Somnambulist"
+   ],
+   "a": 3,
+   "e": "A somnambulist is a sleepwalker; an insomniac cannot sleep."
+  },
+  {
+   "id": "oneword-006",
+   "sec": "english",
+   "topic": "oneword",
+   "sub": "fear",
+   "d": 2,
+   "q": "Choose the one word for: an abnormal fear of closed spaces",
+   "o": [
+    "Agoraphobia",
+    "Hydrophobia",
+    "Claustrophobia",
+    "Xenophobia"
+   ],
+   "a": 2,
+   "e": "Claustrophobia is fear of confined spaces. Agoraphobia is fear of open places."
+  },
+  {
+   "id": "oneword-007",
+   "sec": "english",
+   "topic": "oneword",
+   "sub": "adjective",
+   "d": 2,
+   "q": "Choose the one word for: that which cannot be read",
+   "o": [
+    "Inaudible",
+    "Illegible",
+    "Invisible",
+    "Incorrigible"
+   ],
+   "a": 1,
+   "e": "Illegible means impossible to read."
+  },
+  {
+   "id": "oneword-008",
+   "sec": "english",
+   "topic": "oneword",
+   "sub": "writing",
+   "d": 2,
+   "q": "Choose the one word for: the story of a person's life written by that person himself",
+   "o": [
+    "Autobiography",
+    "Biography",
+    "Chronicle",
+    "Obituary"
+   ],
+   "a": 0,
+   "e": "An autobiography is written by the subject; a biography is written by another."
+  },
+  {
+   "id": "oneword-009",
+   "sec": "english",
+   "topic": "oneword",
+   "sub": "government",
+   "d": 3,
+   "q": "Choose the one word for: rule by a small group of people",
+   "o": [
+    "Plutocracy",
+    "Meritocracy",
+    "Anarchy",
+    "Oligarchy"
+   ],
+   "a": 3,
+   "e": "Oligarchy means government by a few. Plutocracy is rule by the wealthy, and anarchy is the absence of government."
+  },
+  {
+   "id": "oneword-010",
+   "sec": "english",
+   "topic": "oneword",
+   "sub": "adjective",
+   "d": 3,
+   "q": "Choose the one word for: a person who is incapable of being corrected or reformed",
+   "o": [
+    "Inexorable",
+    "Incredible",
+    "Indelible",
+    "Incorrigible"
+   ],
+   "a": 3,
+   "e": "Incorrigible means impossible to correct. Inexorable means unable to be stopped."
+  }
+ ]
+}

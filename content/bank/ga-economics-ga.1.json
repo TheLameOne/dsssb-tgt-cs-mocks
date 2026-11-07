@@ -1,0 +1,348 @@
+{
+ "questions": [
+  {
+   "id": "economics-ga-001",
+   "sec": "ga",
+   "topic": "economics-ga",
+   "sub": "GDP",
+   "d": 1,
+   "q": "GDP measures the total ______ of all final goods and services produced within a country in a year.",
+   "o": [
+    "physical weight",
+    "market value",
+    "number of workers",
+    "foreign exchange earned"
+   ],
+   "a": 1,
+   "e": "Gross Domestic Product is the market value of final goods and services produced within the domestic territory in a year."
+  },
+  {
+   "id": "economics-ga-002",
+   "sec": "ga",
+   "topic": "economics-ga",
+   "sub": "deflation",
+   "d": 1,
+   "q": "A sustained fall in the general price level of goods and services is called",
+   "o": [
+    "inflation",
+    "deflation",
+    "stagflation",
+    "disinflation"
+   ],
+   "a": 1,
+   "e": "Deflation is a sustained fall in the general price level. Disinflation is only a slowdown in the rate of inflation."
+  },
+  {
+   "id": "economics-ga-003",
+   "sec": "ga",
+   "topic": "economics-ga",
+   "sub": "NITI Aayog",
+   "d": 1,
+   "q": "NITI Aayog replaced which body in January 2015?",
+   "o": [
+    "Finance Commission",
+    "National Development Council",
+    "Planning Commission",
+    "Election Commission"
+   ],
+   "a": 2,
+   "e": "NITI Aayog was set up on 1 January 2015 in place of the Planning Commission, which dated from 1950."
+  },
+  {
+   "id": "economics-ga-004",
+   "sec": "ga",
+   "topic": "economics-ga",
+   "sub": "GST",
+   "d": 1,
+   "q": "GST was implemented in India with effect from",
+   "o": [
+    "1 April 2016",
+    "1 July 2017",
+    "1 April 2017",
+    "1 January 2018"
+   ],
+   "a": 1,
+   "e": "Goods and Services Tax came into force on 1 July 2017."
+  },
+  {
+   "id": "economics-ga-005",
+   "sec": "ga",
+   "topic": "economics-ga",
+   "sub": "RBI tools",
+   "d": 1,
+   "q": "How many members does the Monetary Policy Committee (MPC) of the RBI have?",
+   "o": [
+    "Four",
+    "Five",
+    "Six",
+    "Seven"
+   ],
+   "a": 2,
+   "e": "The MPC has six members: three from the RBI, including the Governor as chairperson, and three nominated by the Central Government."
+  },
+  {
+   "id": "economics-ga-006",
+   "sec": "ga",
+   "topic": "economics-ga",
+   "sub": "taxes",
+   "d": 1,
+   "q": "Which of the following is a direct tax?",
+   "o": [
+    "Goods and Services Tax",
+    "Customs duty",
+    "Income tax",
+    "Excise duty"
+   ],
+   "a": 2,
+   "e": "A direct tax is paid by the person on whom it is levied, as with income tax. GST, customs and excise duty are indirect taxes."
+  },
+  {
+   "id": "economics-ga-007",
+   "sec": "ga",
+   "topic": "economics-ga",
+   "sub": "RBI founding",
+   "d": 1,
+   "q": "The Reserve Bank of India began operations in the year",
+   "o": [
+    "1925",
+    "1935",
+    "1949",
+    "1955"
+   ],
+   "a": 1,
+   "e": "The RBI was established on 1 April 1935 under the RBI Act, 1934. It was nationalised on 1 January 1949."
+  },
+  {
+   "id": "economics-ga-008",
+   "sec": "ga",
+   "topic": "economics-ga",
+   "sub": "currency notes",
+   "d": 1,
+   "q": "The back of the ₹500 note of the Mahatma Gandhi (New) Series shows which monument?",
+   "o": [
+    "Red Fort",
+    "Sanchi Stupa",
+    "Konark Sun Temple",
+    "Rani ki Vav"
+   ],
+   "a": 0,
+   "e": "The ₹500 note carries an image of the Red Fort with the Indian flag. Sanchi Stupa is on ₹200, Rani ki Vav on ₹100 and Konark on ₹10."
+  },
+  {
+   "id": "economics-ga-009",
+   "sec": "ga",
+   "topic": "economics-ga",
+   "sub": "fiscal deficit",
+   "d": 2,
+   "q": "Fiscal deficit is the excess of total expenditure of the government over its",
+   "o": [
+    "total receipts excluding borrowings",
+    "tax revenue alone",
+    "total receipts including borrowings",
+    "revenue receipts plus interest"
+   ],
+   "a": 0,
+   "e": "Fiscal deficit = total expenditure − (revenue receipts + non-debt capital receipts), that is, the amount the government must borrow."
+  },
+  {
+   "id": "economics-ga-010",
+   "sec": "ga",
+   "topic": "economics-ga",
+   "sub": "money supply",
+   "d": 2,
+   "q": "In India, the money supply measure M3 is commonly known as",
+   "o": [
+    "narrow money",
+    "broad money",
+    "high-powered money",
+    "reserve money"
+   ],
+   "a": 1,
+   "e": "M3 is broad money, which adds time deposits with banks to M1. M1 is narrow money, and reserve money (M0) is also called high-powered money."
+  },
+  {
+   "id": "economics-ga-011",
+   "sec": "ga",
+   "topic": "economics-ga",
+   "sub": "Five-Year Plans",
+   "d": 2,
+   "q": "The Second Five-Year Plan (1956–61), which stressed rapid industrialisation with priority to heavy industry, was based on the model of",
+   "o": [
+    "Harrod–Domar",
+    "P. C. Mahalanobis",
+    "J. M. Keynes",
+    "Lewis–Fei"
+   ],
+   "a": 1,
+   "e": "The Second Plan followed the Mahalanobis model, favouring capital goods industries. The First Plan used a Harrod–Domar type model."
+  },
+  {
+   "id": "economics-ga-012",
+   "sec": "ga",
+   "topic": "economics-ga",
+   "sub": "banks founding",
+   "d": 2,
+   "q": "The Imperial Bank of India was renamed the State Bank of India in the year",
+   "o": [
+    "1935",
+    "1949",
+    "1955",
+    "1969"
+   ],
+   "a": 2,
+   "e": "The State Bank of India Act, 1955 converted the Imperial Bank into SBI. The RBI had been formed earlier, in 1935."
+  },
+  {
+   "id": "economics-ga-013",
+   "sec": "ga",
+   "topic": "economics-ga",
+   "sub": "currency notes",
+   "d": 2,
+   "q": "Consider the following statements about Indian currency\nI. The ₹1 note is issued by the Reserve Bank of India like all other notes.\nII. The ₹1 note is issued by the Ministry of Finance, Government of India.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "The ₹1 note and coins are issued under the authority of the Government of India (Finance Ministry). The RBI issues notes of ₹2 and above."
+  },
+  {
+   "id": "economics-ga-014",
+   "sec": "ga",
+   "topic": "economics-ga",
+   "sub": "Planning Commission",
+   "d": 2,
+   "q": "Consider the following statements about the Planning Commission\nI. It was a constitutional body.\nII. It was set up in 1950 by an executive resolution of the Government of India.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "The Planning Commission was neither constitutional nor statutory. It was created by a Cabinet resolution in March 1950."
+  },
+  {
+   "id": "economics-ga-015",
+   "sec": "ga",
+   "topic": "economics-ga",
+   "sub": "GST",
+   "d": 2,
+   "q": "Consider the following statements about GST\nI. It is a destination-based tax on consumption.\nII. The Centre levies IGST on inter-state supply of goods and services.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "GST is levied where consumption takes place, and IGST is the Centre's levy on inter-state supplies. Both statements are correct."
+  },
+  {
+   "id": "economics-ga-016",
+   "sec": "ga",
+   "topic": "economics-ga",
+   "sub": "SLR",
+   "d": 3,
+   "q": "Consider the following statements about the Statutory Liquidity Ratio (SLR)\nI. Banks must maintain it only as cash deposited with the RBI.\nII. Banks maintain it in liquid assets such as cash, gold and approved securities.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "SLR is held by banks themselves in liquid assets such as cash, gold and government securities. Balances kept with the RBI are the CRR."
+  },
+  {
+   "id": "economics-ga-017",
+   "sec": "ga",
+   "topic": "economics-ga",
+   "sub": "Five-Year Plans",
+   "d": 3,
+   "q": "After the Third Five-Year Plan ended in 1966, planning was suspended and three one-year plans were followed. This period (1966–69) is known as the",
+   "o": [
+    "Plan holiday",
+    "Rolling plan",
+    "Bonus plan",
+    "Interim plan"
+   ],
+   "a": 0,
+   "e": "The failure of the Third Plan, the wars and the drought led to three Annual Plans, called the Plan Holiday. The Fourth Plan began in 1969."
+  },
+  {
+   "id": "economics-ga-018",
+   "sec": "ga",
+   "topic": "economics-ga",
+   "sub": "primary deficit",
+   "d": 3,
+   "q": "A government has total expenditure of ₹500 crore, receipts excluding borrowings of ₹380 crore and interest payments of ₹40 crore. Its primary deficit is",
+   "o": [
+    "₹120 crore",
+    "₹80 crore",
+    "₹160 crore",
+    "₹40 crore"
+   ],
+   "a": 1,
+   "e": "Fiscal deficit = 500 − 380 = ₹120 crore. Primary deficit = fiscal deficit − interest payments = 120 − 40 = ₹80 crore."
+  },
+  {
+   "id": "economics-ga-019",
+   "sec": "ga",
+   "topic": "economics-ga",
+   "sub": "GDP deflator",
+   "d": 3,
+   "q": "If nominal GDP of an economy is ₹600 crore and real GDP is ₹500 crore, the GDP deflator is",
+   "o": [
+    "83.3",
+    "110",
+    "120",
+    "150"
+   ],
+   "a": 2,
+   "e": "GDP deflator = (nominal GDP ÷ real GDP) × 100 = (600 ÷ 500) × 100 = 120."
+  },
+  {
+   "id": "economics-ga-020",
+   "sec": "ga",
+   "topic": "economics-ga",
+   "sub": "currency note images",
+   "d": 3,
+   "q": "Match the Mahatma Gandhi (New) Series notes with the monument shown on the back.",
+   "table": {
+    "head": [
+     "List I",
+     "List II"
+    ],
+    "rows": [
+     [
+      "a. ₹10",
+      "1. Hampi chariot"
+     ],
+     [
+      "b. ₹50",
+      "2. Sanchi Stupa"
+     ],
+     [
+      "c. ₹100",
+      "3. Konark Sun Temple"
+     ],
+     [
+      "d. ₹200",
+      "4. Rani ki Vav"
+     ]
+    ]
+   },
+   "o": [
+    "a-3, b-1, c-4, d-2",
+    "a-1, b-2, c-3, d-4",
+    "a-3, b-4, c-1, d-2",
+    "a-2, b-3, c-4, d-1"
+   ],
+   "a": 0,
+   "e": "₹10 shows Konark Sun Temple, ₹50 the stone chariot at Hampi, ₹100 Rani ki Vav and ₹200 Sanchi Stupa."
+  }
+ ]
+}

@@ -1,0 +1,484 @@
+{
+ "questions": [
+  {
+   "id": "coa-001",
+   "sec": "cs",
+   "topic": "coa",
+   "sub": "architecture",
+   "d": 1,
+   "q": "In the von Neumann architecture, ______.",
+   "o": [
+    "instructions and data use separate memories and buses",
+    "instructions and data are stored in the same memory",
+    "only data is stored in memory",
+    "programs are fixed by wiring and cannot be changed"
+   ],
+   "a": 1,
+   "e": "The von Neumann (stored-program) model keeps both program and data in one memory. Separate memories are the Harvard design."
+  },
+  {
+   "id": "coa-002",
+   "sec": "cs",
+   "topic": "coa",
+   "sub": "architecture",
+   "d": 1,
+   "q": "Regarding computer architectures, consider the following statements.\nI. The Harvard architecture uses separate memories for instructions and data.\nII. The von Neumann architecture stores instructions and data in the same memory.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Both are true. Harvard keeps separate memories and buses, so an instruction fetch and a data access can overlap. Von Neumann uses one shared memory."
+  },
+  {
+   "id": "coa-003",
+   "sec": "cs",
+   "topic": "coa",
+   "sub": "registers",
+   "d": 1,
+   "q": "Consider the following statements about CPU registers.\nI. The instruction register holds the address of the next instruction to be fetched.\nII. The program counter holds the address of the next instruction to be fetched.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "Only II is correct. The program counter points to the next instruction. The instruction register holds the instruction currently being decoded and executed."
+  },
+  {
+   "id": "coa-004",
+   "sec": "cs",
+   "topic": "coa",
+   "sub": "registers",
+   "d": 1,
+   "q": "The register that holds the instruction currently being executed is the ______.",
+   "o": [
+    "program counter",
+    "stack pointer",
+    "instruction register",
+    "status register"
+   ],
+   "a": 2,
+   "e": "The instruction register (IR) stores the fetched instruction while the control unit decodes and executes it."
+  },
+  {
+   "id": "coa-005",
+   "sec": "cs",
+   "topic": "coa",
+   "sub": "registers",
+   "d": 1,
+   "q": "The memory address register (MAR) holds ______.",
+   "o": [
+    "the data read from or to be written to memory",
+    "the address of the memory location to be read or written",
+    "the address of the next instruction only",
+    "the result of the last ALU operation"
+   ],
+   "a": 1,
+   "e": "The MAR supplies the address to memory; the memory data register (MDR) holds the data being transferred."
+  },
+  {
+   "id": "coa-006",
+   "sec": "cs",
+   "topic": "coa",
+   "sub": "instruction cycle",
+   "d": 1,
+   "q": "The correct sequence of the basic instruction cycle is ______.",
+   "o": [
+    "fetch, decode, execute",
+    "decode, fetch, execute",
+    "execute, fetch, decode",
+    "fetch, execute, decode"
+   ],
+   "a": 0,
+   "e": "An instruction is first fetched from memory, then decoded, and finally executed."
+  },
+  {
+   "id": "coa-007",
+   "sec": "cs",
+   "topic": "coa",
+   "sub": "RISC and CISC",
+   "d": 1,
+   "q": "Which of the following is NOT a characteristic of RISC processors?",
+   "o": [
+    "Fixed-length instructions",
+    "A load/store architecture",
+    "A large number of complex addressing modes",
+    "Simple instructions, many of which finish in one cycle"
+   ],
+   "a": 2,
+   "e": "RISC offers few, simple addressing modes. A large number of complex addressing modes is a feature of CISC. RISC uses fixed-length instructions and only load and store touch memory."
+  },
+  {
+   "id": "coa-008",
+   "sec": "cs",
+   "topic": "coa",
+   "sub": "Flynn's taxonomy",
+   "d": 1,
+   "q": "In Flynn's taxonomy, a conventional single-processor computer is classified as ______.",
+   "o": [
+    "SIMD",
+    "MISD",
+    "SISD",
+    "MIMD"
+   ],
+   "a": 2,
+   "e": "SISD means single instruction stream, single data stream, which describes a uniprocessor."
+  },
+  {
+   "id": "coa-009",
+   "sec": "cs",
+   "topic": "coa",
+   "sub": "address lines",
+   "d": 1,
+   "q": "A byte-addressable memory of 64 KB needs ______ address lines.",
+   "o": [
+    "14",
+    "16",
+    "15",
+    "17"
+   ],
+   "a": 1,
+   "e": "64 KB = 2¹⁶ bytes, so 16 address lines are needed."
+  },
+  {
+   "id": "coa-010",
+   "sec": "cs",
+   "topic": "coa",
+   "sub": "addressing modes",
+   "d": 1,
+   "q": "In immediate addressing mode, the operand is ______.",
+   "o": [
+    "specified within the instruction itself",
+    "held in a register named by the instruction",
+    "stored at the memory address given in the instruction",
+    "stored at the address held in a register"
+   ],
+   "a": 0,
+   "e": "In immediate mode the constant value is part of the instruction, so no extra memory access is needed for the operand."
+  },
+  {
+   "id": "coa-011",
+   "sec": "cs",
+   "topic": "coa",
+   "sub": "DMA",
+   "d": 1,
+   "q": "The main purpose of a DMA controller is to ______.",
+   "o": [
+    "increase the clock speed of the CPU",
+    "translate virtual addresses to physical addresses",
+    "decode instructions",
+    "transfer blocks of data between an I/O device and memory without CPU involvement for each word"
+   ],
+   "a": 3,
+   "e": "DMA lets the controller move data directly to or from memory, interrupting the CPU only when the whole transfer is complete."
+  },
+  {
+   "id": "coa-012",
+   "sec": "cs",
+   "topic": "coa",
+   "sub": "memory hierarchy",
+   "d": 1,
+   "q": "Which of the following statements about the memory hierarchy is NOT correct?",
+   "o": [
+    "CPU registers are the fastest storage",
+    "Magnetic disk is faster than cache memory",
+    "Cache memory is faster than main memory",
+    "Main memory is faster than magnetic disk"
+   ],
+   "a": 1,
+   "e": "Speed falls going down the hierarchy: registers, cache, main memory, then disk. So disk is slower than cache, not faster."
+  },
+  {
+   "id": "coa-013",
+   "sec": "cs",
+   "topic": "coa",
+   "sub": "bus",
+   "d": 1,
+   "q": "The bus that carries the address generated by the CPU to memory is called the ______ bus.",
+   "o": [
+    "data",
+    "address",
+    "control",
+    "power"
+   ],
+   "a": 1,
+   "e": "The address bus is unidirectional from the CPU to memory. The data bus carries data and the control bus carries signals such as read and write."
+  },
+  {
+   "id": "coa-014",
+   "sec": "cs",
+   "topic": "coa",
+   "sub": "I/O transfer",
+   "d": 1,
+   "q": "Consider the following statements about I/O techniques.\nI. In programmed I/O, the CPU is free to run other programs while the device gets ready.\nII. In DMA, the CPU must transfer every word between the device and memory.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 3,
+   "e": "Neither is correct. In programmed I/O the CPU busy-waits on the device status. In DMA the controller moves the block and interrupts the CPU only at the end."
+  },
+  {
+   "id": "coa-015",
+   "sec": "cs",
+   "topic": "coa",
+   "sub": "cache",
+   "d": 2,
+   "q": "A system has 32-bit addresses and a direct-mapped cache of 32 KB with a block size of 16 bytes. The number of tag bits is ______.",
+   "o": [
+    "15",
+    "16",
+    "18",
+    "17"
+   ],
+   "a": 3,
+   "e": "Offset = 4 bits. Lines = 32 KB / 16 B = 2048, so index = 11 bits. Tag = 32 − 11 − 4 = 17 bits."
+  },
+  {
+   "id": "coa-016",
+   "sec": "cs",
+   "topic": "coa",
+   "sub": "pipelining",
+   "d": 2,
+   "q": "A 5-stage pipeline executes 100 instructions with no stalls. The number of clock cycles required is ______.",
+   "o": [
+    "100",
+    "105",
+    "104",
+    "500"
+   ],
+   "a": 2,
+   "e": "Cycles = k + n − 1 = 5 + 100 − 1 = 104."
+  },
+  {
+   "id": "coa-017",
+   "sec": "cs",
+   "topic": "coa",
+   "sub": "pipelining",
+   "d": 2,
+   "q": "Consider the following statements about pipeline hazards.\nI. A data hazard occurs when an instruction depends on the result of an earlier instruction that is still in the pipeline.\nII. A structural hazard occurs when two instructions need the same hardware resource in the same clock cycle.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Both are correct definitions. Control hazards, the third type, arise from branches."
+  },
+  {
+   "id": "coa-018",
+   "sec": "cs",
+   "topic": "coa",
+   "sub": "DMA",
+   "d": 2,
+   "q": "In which DMA mode does the controller transfer one word at a time by taking a single bus cycle from the CPU between its own bus accesses?",
+   "o": [
+    "Cycle stealing",
+    "Burst mode",
+    "Transparent mode",
+    "Polling mode"
+   ],
+   "a": 0,
+   "e": "Cycle stealing interleaves DMA transfers with CPU bus use, one word at a time. Burst mode keeps the bus for the entire block."
+  },
+  {
+   "id": "coa-019",
+   "sec": "cs",
+   "topic": "coa",
+   "sub": "control unit",
+   "d": 2,
+   "q": "Consider the following statements about control units.\nI. Microprogrammed control units are generally faster than hardwired control units.\nII. A hardwired control unit is built from logic gates, flip-flops and decoders.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "Hardwired control is faster because there is no control-memory access. It is built from logic circuits. Statement II is correct and I is false."
+  },
+  {
+   "id": "coa-020",
+   "sec": "cs",
+   "topic": "coa",
+   "sub": "floating point",
+   "d": 2,
+   "q": "The exponent bias in the IEEE 754 single-precision format is ______.",
+   "o": [
+    "128",
+    "126",
+    "127",
+    "1023"
+   ],
+   "a": 2,
+   "e": "Single precision has an 8-bit exponent with bias 127. Double precision uses 11 bits with bias 1023."
+  },
+  {
+   "id": "coa-021",
+   "sec": "cs",
+   "topic": "coa",
+   "sub": "memory organisation",
+   "d": 2,
+   "q": "How many 1K × 4-bit memory chips are required to build a 4K × 8-bit memory?",
+   "o": [
+    "4",
+    "8",
+    "6",
+    "16"
+   ],
+   "a": 1,
+   "e": "Total bits are 4096 × 8; each chip has 1024 × 4 bits, so 32768 / 4096 = 8 chips (4 rows of 2 chips)."
+  },
+  {
+   "id": "coa-022",
+   "sec": "cs",
+   "topic": "coa",
+   "sub": "cache",
+   "d": 2,
+   "q": "A cache is accessed first and main memory is accessed only on a miss. The hit ratio is 0.9, cache access time 10 ns and memory access time 100 ns. The average access time is ______.",
+   "o": [
+    "20 ns",
+    "19 ns",
+    "30 ns",
+    "19.9 ns"
+   ],
+   "a": 0,
+   "e": "EAT = 0.9 × 10 + 0.1 × (10 + 100) = 9 + 11 = 20 ns."
+  },
+  {
+   "id": "coa-023",
+   "sec": "cs",
+   "topic": "coa",
+   "sub": "interrupts",
+   "d": 2,
+   "q": "In a vectored interrupt scheme, ______.",
+   "o": [
+    "the CPU polls every device to find the source",
+    "interrupts are ignored until the current program ends",
+    "the DMA controller services the interrupt",
+    "the interrupting device supplies the address of its service routine to the CPU"
+   ],
+   "a": 3,
+   "e": "A vectored interrupt gives the CPU a vector pointing straight to the right interrupt service routine, which avoids polling."
+  },
+  {
+   "id": "coa-024",
+   "sec": "cs",
+   "topic": "coa",
+   "sub": "addressing modes",
+   "d": 2,
+   "q": "In PC-relative addressing, the offset is +50 and the PC holds 2000 (already pointing to the next instruction). The effective address is ______.",
+   "o": [
+    "2000",
+    "50",
+    "2050",
+    "2051"
+   ],
+   "a": 2,
+   "e": "EA = PC + offset = 2000 + 50 = 2050."
+  },
+  {
+   "id": "coa-025",
+   "sec": "cs",
+   "topic": "coa",
+   "sub": "virtual memory",
+   "d": 2,
+   "q": "Consider the following statements about virtual memory.\nI. Virtual addresses are translated into physical addresses by the DMA controller.\nII. The memory management unit translates virtual addresses using page tables and the TLB.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "Only II is correct. The MMU performs the translation. A DMA controller only moves blocks of data between I/O devices and memory."
+  },
+  {
+   "id": "coa-026",
+   "sec": "cs",
+   "topic": "coa",
+   "sub": "cache",
+   "d": 3,
+   "q": "A system has 32-bit addresses and a 4-way set-associative cache of 64 KB with a block size of 64 bytes. The number of tag bits is ______.",
+   "o": [
+    "18",
+    "16",
+    "17",
+    "20"
+   ],
+   "a": 0,
+   "e": "Blocks = 1024, sets = 1024/4 = 256, so index = 8 bits. Offset = 6 bits. Tag = 32 − 8 − 6 = 18 bits."
+  },
+  {
+   "id": "coa-027",
+   "sec": "cs",
+   "topic": "coa",
+   "sub": "pipelining",
+   "d": 3,
+   "q": "A 6-stage pipeline has a clock period of 2 ns. The time needed to complete 50 instructions with no stalls is ______.",
+   "o": [
+    "100 ns",
+    "112 ns",
+    "600 ns",
+    "110 ns"
+   ],
+   "a": 3,
+   "e": "Cycles = 6 + 50 − 1 = 55; time = 55 × 2 = 110 ns. A non-pipelined unit would take 600 ns."
+  },
+  {
+   "id": "coa-028",
+   "sec": "cs",
+   "topic": "coa",
+   "sub": "floating point",
+   "d": 3,
+   "q": "The 32-bit word 0x40A00000 is interpreted as an IEEE 754 single-precision number. Its value is ______.",
+   "o": [
+    "2.5",
+    "10.0",
+    "5.0",
+    "1.25"
+   ],
+   "a": 2,
+   "e": "Sign 0, exponent 10000001 = 129, so 2^(129−127) = 4. Mantissa 1.01₂ = 1.25. Value = 1.25 × 4 = 5.0."
+  },
+  {
+   "id": "coa-029",
+   "sec": "cs",
+   "topic": "coa",
+   "sub": "instruction formats",
+   "d": 3,
+   "q": "A 16-bit instruction has a 4-bit opcode and three 4-bit operand fields in the three-address format. Fourteen three-address and thirty-one two-address instructions are needed, using expanding opcodes. The maximum number of one-address instructions possible is ______.",
+   "o": [
+    "15",
+    "16",
+    "32",
+    "1"
+   ],
+   "a": 1,
+   "e": "Two spare 4-bit opcodes give 2 × 16 = 32 two-address codes; 31 are used, leaving 1. That one gives 1 × 16 = 16 one-address codes."
+  },
+  {
+   "id": "coa-030",
+   "sec": "cs",
+   "topic": "coa",
+   "sub": "pipelining",
+   "d": 3,
+   "q": "A non-pipelined instruction takes 12 ns. It is split into 4 stages of 3, 2, 4 and 3 ns, with a latch delay of 1 ns per stage in the pipelined design. The speedup for a large number of instructions is ______.",
+   "o": [
+    "2.4",
+    "3.0",
+    "4.0",
+    "1.5"
+   ],
+   "a": 0,
+   "e": "Pipeline clock = max stage delay + latch = 4 + 1 = 5 ns. Speedup = 12 / 5 = 2.4."
+  }
+ ]
+}

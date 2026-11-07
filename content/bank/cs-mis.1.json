@@ -1,0 +1,508 @@
+{
+ "questions": [
+  {
+   "id": "mis-001",
+   "sec": "cs",
+   "topic": "mis",
+   "sub": "TPS",
+   "d": 1,
+   "q": "What is the full form of TPS in the context of information systems?",
+   "o": [
+    "Transaction Processing System",
+    "Transfer Protocol System",
+    "Technical Planning System",
+    "Transaction Planning Support"
+   ],
+   "a": 0,
+   "e": "A Transaction Processing System records and processes routine day-to-day business transactions such as sales, billing and payroll."
+  },
+  {
+   "id": "mis-002",
+   "sec": "cs",
+   "topic": "mis",
+   "sub": "levels and systems",
+   "d": 1,
+   "q": "Consider the following statements about Transaction Processing Systems (TPS).\nI. TPS mainly serve the operational level of an organisation.\nII. TPS record the day-to-day business transactions such as sales and payroll.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Both are true. TPS handle routine, high-volume transactions and mainly serve operational-level staff."
+  },
+  {
+   "id": "mis-003",
+   "sec": "cs",
+   "topic": "mis",
+   "sub": "DSS",
+   "d": 1,
+   "q": "Consider the following statements about a Decision Support System (DSS).\nI. A DSS is most useful for completely programmed, routine decisions.\nII. A DSS is meant to replace the manager's judgement entirely.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 3,
+   "e": "A DSS supports managers in semi-structured decisions by providing data and models, while the final judgement stays with the manager. Both statements are false."
+  },
+  {
+   "id": "mis-004",
+   "sec": "cs",
+   "topic": "mis",
+   "sub": "EIS",
+   "d": 1,
+   "q": "Consider the following statements about Executive Information Systems (EIS).\nI. An EIS is designed mainly for the needs of senior management.\nII. An EIS is used mainly for clerical data entry at the operational level.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "I is true. II is false: an EIS gives top managers summarised, easy-to-read information for strategic decisions, whereas clerical data entry is a function of transaction processing systems."
+  },
+  {
+   "id": "mis-005",
+   "sec": "cs",
+   "topic": "mis",
+   "sub": "ERP",
+   "d": 1,
+   "q": "What is the full form of ERP?",
+   "o": [
+    "Enterprise Resource Planning",
+    "Enterprise Record Processing",
+    "Electronic Resource Planning",
+    "Enterprise Requirement Planning"
+   ],
+   "a": 0,
+   "e": "ERP integrates functions such as finance, HR, manufacturing and sales on a single database and software suite."
+  },
+  {
+   "id": "mis-006",
+   "sec": "cs",
+   "topic": "mis",
+   "sub": "CRM",
+   "d": 1,
+   "q": "CRM stands for ______.",
+   "o": [
+    "Customer Resource Management",
+    "Customer Relationship Management",
+    "Corporate Relationship Model",
+    "Client Records Management"
+   ],
+   "a": 1,
+   "e": "CRM systems manage all interactions with customers to build loyalty and increase sales."
+  },
+  {
+   "id": "mis-007",
+   "sec": "cs",
+   "topic": "mis",
+   "sub": "SCM",
+   "d": 1,
+   "q": "Supply Chain Management (SCM) primarily deals with ______.",
+   "o": [
+    "designing the organisation's website",
+    "recruiting and training employees",
+    "coordinating the flow of materials, information and finance from suppliers to customers",
+    "auditing the financial statements"
+   ],
+   "a": 2,
+   "e": "SCM links suppliers, manufacturers, distributors and customers so that goods and information flow efficiently."
+  },
+  {
+   "id": "mis-008",
+   "sec": "cs",
+   "topic": "mis",
+   "sub": "BPR",
+   "d": 1,
+   "q": "The concept of Business Process Reengineering (BPR) was popularised by ______.",
+   "o": [
+    "Anthony and Simon",
+    "Porter and Kotler",
+    "Codd and Date",
+    "Hammer and Champy"
+   ],
+   "a": 3,
+   "e": "Michael Hammer and James Champy defined BPR as the fundamental rethinking and radical redesign of business processes."
+  },
+  {
+   "id": "mis-009",
+   "sec": "cs",
+   "topic": "mis",
+   "sub": "data warehouse",
+   "d": 1,
+   "q": "Which of the following is NOT a characteristic of a data warehouse as described by Inmon?",
+   "o": [
+    "Volatile",
+    "Subject-oriented",
+    "Integrated",
+    "Non-volatile"
+   ],
+   "a": 0,
+   "e": "Inmon describes a data warehouse as subject-oriented, integrated, time-variant and non-volatile. Data is not updated or deleted routinely, so it is not volatile."
+  },
+  {
+   "id": "mis-010",
+   "sec": "cs",
+   "topic": "mis",
+   "sub": "data mining",
+   "d": 1,
+   "q": "Discovering previously unknown patterns and relationships in large databases is called ______.",
+   "o": [
+    "data entry",
+    "data mining",
+    "data hiding",
+    "data redundancy"
+   ],
+   "a": 1,
+   "e": "Data mining (a step in knowledge discovery in databases) uses statistical and machine learning methods to find hidden patterns in large data sets."
+  },
+  {
+   "id": "mis-011",
+   "sec": "cs",
+   "topic": "mis",
+   "sub": "Anthony's framework",
+   "d": 1,
+   "q": "Anthony's framework classifies managerial activity into strategic planning, management control and ______.",
+   "o": [
+    "human resource planning",
+    "financial auditing",
+    "operational control",
+    "system testing"
+   ],
+   "a": 2,
+   "e": "Robert Anthony's three levels are strategic planning, management control and operational control."
+  },
+  {
+   "id": "mis-012",
+   "sec": "cs",
+   "topic": "mis",
+   "sub": "Simon's model",
+   "d": 1,
+   "q": "Consider the following statements about Herbert Simon's decision-making model.\nI. The first phase of the model is design.\nII. The phases of the model are intelligence, design and choice.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "Simon's phases are intelligence, design and choice, in that order. The first phase is intelligence, where the problem is identified, so I is false."
+  },
+  {
+   "id": "mis-013",
+   "sec": "cs",
+   "topic": "mis",
+   "sub": "expert system",
+   "d": 1,
+   "q": "Which of the following is NOT a component of an expert system?",
+   "o": [
+    "Knowledge base",
+    "Inference engine",
+    "User interface",
+    "Compiler"
+   ],
+   "a": 3,
+   "e": "An expert system consists of a knowledge base, an inference engine and a user interface, often with an explanation facility. A compiler is system software for translating programs and is not part of it."
+  },
+  {
+   "id": "mis-014",
+   "sec": "cs",
+   "topic": "mis",
+   "sub": "Porter's five forces",
+   "d": 1,
+   "q": "Which of the following is NOT one of Porter's five competitive forces?",
+   "o": [
+    "Threat of new entrants",
+    "Bargaining power of government",
+    "Threat of substitute products",
+    "Bargaining power of suppliers"
+   ],
+   "a": 1,
+   "e": "Porter's forces are rivalry among existing firms, threat of new entrants, threat of substitutes, bargaining power of buyers and of suppliers."
+  },
+  {
+   "id": "mis-015",
+   "sec": "cs",
+   "topic": "mis",
+   "sub": "information quality",
+   "d": 2,
+   "q": "Information that reaches the decision maker when it is needed is said to have the quality of ______.",
+   "o": [
+    "accuracy",
+    "completeness",
+    "timeliness",
+    "relevance"
+   ],
+   "a": 2,
+   "e": "Timeliness means information is available in time for the decision. Accuracy means freedom from errors."
+  },
+  {
+   "id": "mis-016",
+   "sec": "cs",
+   "topic": "mis",
+   "sub": "TPS and MIS",
+   "d": 2,
+   "q": "Consider the following statements.\nI. The data collected by a TPS is used as input by an MIS.\nII. An MIS is used only at the operational level.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "MIS summarises TPS data into periodic reports mainly for middle management. It is not limited to the operational level, so statement II is wrong."
+  },
+  {
+   "id": "mis-017",
+   "sec": "cs",
+   "topic": "mis",
+   "sub": "matching systems",
+   "d": 2,
+   "q": "Match the system with the type of support it gives.",
+   "table": {
+    "head": [
+     "System",
+     "Typical support"
+    ],
+    "rows": [
+     [
+      "a. TPS",
+      "1. Routine transaction records"
+     ],
+     [
+      "b. MIS",
+      "2. Periodic summary reports"
+     ],
+     [
+      "c. DSS",
+      "3. What-if analytical models"
+     ],
+     [
+      "d. EIS",
+      "4. Drill-down dashboards for top management"
+     ]
+    ]
+   },
+   "o": [
+    "a-2, b-1, c-3, d-4",
+    "a-1, b-2, c-3, d-4",
+    "a-1, b-3, c-2, d-4",
+    "a-4, b-2, c-3, d-1"
+   ],
+   "a": 1,
+   "e": "TPS records routine transactions, MIS gives summary reports to middle managers, DSS offers what-if analysis, and EIS gives drill-down dashboards for senior management."
+  },
+  {
+   "id": "mis-018",
+   "sec": "cs",
+   "topic": "mis",
+   "sub": "generic strategies",
+   "d": 2,
+   "q": "Which of the following is NOT one of Porter's generic competitive strategies?",
+   "o": [
+    "Cost leadership",
+    "Market penetration",
+    "Differentiation",
+    "Focus"
+   ],
+   "a": 1,
+   "e": "Porter's generic strategies are cost leadership, differentiation and focus. Market penetration belongs to Ansoff's growth matrix."
+  },
+  {
+   "id": "mis-019",
+   "sec": "cs",
+   "topic": "mis",
+   "sub": "value chain",
+   "d": 2,
+   "q": "Which of the following is NOT a primary activity in Porter's value chain?",
+   "o": [
+    "Inbound logistics",
+    "Operations",
+    "Marketing and sales",
+    "Human resource management"
+   ],
+   "a": 3,
+   "e": "Human resource management is a support activity in Porter's value chain. The primary activities are inbound logistics, operations, outbound logistics, marketing and sales, and service."
+  },
+  {
+   "id": "mis-020",
+   "sec": "cs",
+   "topic": "mis",
+   "sub": "OLAP",
+   "d": 2,
+   "q": "Consider the following statements about data warehouses.\nI. A data warehouse is typically used for analytical processing (OLAP).\nII. An operational database supports OLTP, the day-to-day transaction processing.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Both are true. A data warehouse holds integrated historical data for analysis (OLAP), while operational databases support online transaction processing (OLTP)."
+  },
+  {
+   "id": "mis-021",
+   "sec": "cs",
+   "topic": "mis",
+   "sub": "association rules",
+   "d": 2,
+   "q": "Market basket analysis, which finds items that customers often buy together, is an application of ______.",
+   "o": [
+    "association rule mining",
+    "data encryption",
+    "network routing",
+    "relational normalisation"
+   ],
+   "a": 0,
+   "e": "Association rule mining finds rules such as 'customers who buy bread also buy butter' in transaction data."
+  },
+  {
+   "id": "mis-022",
+   "sec": "cs",
+   "topic": "mis",
+   "sub": "bullwhip effect",
+   "d": 2,
+   "q": "In supply chain management, the 'bullwhip effect' refers to ______.",
+   "o": [
+    "a sudden fall in raw material prices",
+    "small changes in customer demand causing larger swings in orders further up the chain",
+    "delays in payment by retailers",
+    "a breakdown of transport vehicles"
+   ],
+   "a": 1,
+   "e": "Demand variability is amplified as orders pass from retailer to wholesaler to manufacturer to supplier, due to forecasting and batching."
+  },
+  {
+   "id": "mis-023",
+   "sec": "cs",
+   "topic": "mis",
+   "sub": "decision types",
+   "d": 2,
+   "q": "Regarding decision types in Simon's classification, consider the following.\nI. Non-programmed decisions are routine and repetitive, with a definite procedure.\nII. Programmed decisions are routine and repetitive, handled by a definite procedure.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "Programmed decisions are routine and covered by set procedures. Non-programmed decisions are novel and unstructured, with no ready procedure, so I is false."
+  },
+  {
+   "id": "mis-024",
+   "sec": "cs",
+   "topic": "mis",
+   "sub": "system concepts",
+   "d": 2,
+   "q": "In systems theory, the tendency of a system to move towards disorder is called ______.",
+   "o": [
+    "synergy",
+    "equifinality",
+    "homeostasis",
+    "entropy"
+   ],
+   "a": 3,
+   "e": "Entropy is a measure of disorder. Open systems counter it by importing energy and information. Synergy means the whole is greater than the sum of the parts."
+  },
+  {
+   "id": "mis-025",
+   "sec": "cs",
+   "topic": "mis",
+   "sub": "prototyping",
+   "d": 2,
+   "q": "Which system development approach is most suitable when users cannot state their requirements clearly at the start?",
+   "o": [
+    "Prototyping",
+    "Waterfall model with frozen requirements",
+    "Critical path method",
+    "Systems audit"
+   ],
+   "a": 0,
+   "e": "Prototyping builds a working model for users to react to, refining the requirements through feedback. Waterfall needs requirements stable at the start."
+  },
+  {
+   "id": "mis-026",
+   "sec": "cs",
+   "topic": "mis",
+   "sub": "Anthony's levels",
+   "d": 3,
+   "q": "Consider the following statements about Anthony's framework.\nI. Operational control decisions are largely programmed and repetitive.\nII. Strategic planning relies heavily on external and future-oriented information.\nIII. Management control is concerned with the efficient and effective use of resources.\nWhich of the above are correct?",
+   "o": [
+    "I and II only",
+    "I, II and III",
+    "II and III only",
+    "I and III only"
+   ],
+   "a": 1,
+   "e": "All three are correct. Operational control is routine, strategic planning looks outward and ahead, and management control checks that resources are used efficiently and effectively to meet plans."
+  },
+  {
+   "id": "mis-027",
+   "sec": "cs",
+   "topic": "mis",
+   "sub": "BPR vs improvement",
+   "d": 3,
+   "q": "Which of the following best distinguishes BPR from continuous improvement (Kaizen)?",
+   "o": [
+    "BPR makes small step-by-step changes to existing processes",
+    "BPR is concerned only with machine maintenance",
+    "BPR makes radical, dramatic changes by redesigning processes from scratch",
+    "BPR never uses information technology"
+   ],
+   "a": 2,
+   "e": "BPR is radical redesign aimed at dramatic gains in cost, quality and speed, with IT as an enabler. Kaizen is gradual and incremental."
+  },
+  {
+   "id": "mis-028",
+   "sec": "cs",
+   "topic": "mis",
+   "sub": "ERP implementation",
+   "d": 3,
+   "q": "In an ERP implementation, the strategy in which the old and the new systems are run side by side for some time before the old one is retired is called ______.",
+   "o": [
+    "big-bang (direct) cutover",
+    "phased implementation",
+    "pilot-only conversion",
+    "parallel conversion"
+   ],
+   "a": 3,
+   "e": "Parallel conversion runs both systems together to verify results, so it is safest but costly. Big bang switches everything at once and phased moves module by module."
+  },
+  {
+   "id": "mis-029",
+   "sec": "cs",
+   "topic": "mis",
+   "sub": "star schema",
+   "d": 3,
+   "q": "In a data warehouse star schema, the central table that holds the measures (such as sales amount) and foreign keys to other tables is called the ______ table.",
+   "o": [
+    "fact",
+    "dimension",
+    "lookup",
+    "junk"
+   ],
+   "a": 0,
+   "e": "A star schema has one central fact table surrounded by dimension tables (time, product, store). A snowflake schema further normalises the dimensions."
+  },
+  {
+   "id": "mis-030",
+   "sec": "cs",
+   "topic": "mis",
+   "sub": "association confidence",
+   "d": 3,
+   "q": "Out of 100 shopping baskets, 40 contain bread and 30 contain both bread and butter. The confidence of the rule 'bread → butter' is ______.",
+   "o": [
+    "30%",
+    "75%",
+    "40%",
+    "25%"
+   ],
+   "a": 1,
+   "e": "Confidence = baskets with both / baskets with bread = 30/40 = 75%. The support of the rule is 30/100 = 30%."
+  }
+ ]
+}

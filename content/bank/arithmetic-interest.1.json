@@ -1,0 +1,324 @@
+{
+ "questions": [
+  {
+   "id": "interest-001",
+   "sec": "arithmetic",
+   "topic": "interest",
+   "sub": "SI amount",
+   "d": 1,
+   "q": "Find the simple interest on ₹8000 at 5% per annum for 3 years.",
+   "o": [
+    "₹400",
+    "₹1261",
+    "₹2400",
+    "₹1200"
+   ],
+   "a": 3,
+   "e": "SI = P × R × T / 100 = 8000 × 5 × 3 / 100 = ₹1200. ₹400 is only one year, and ₹1261 would be the compound interest."
+  },
+  {
+   "id": "interest-002",
+   "sec": "arithmetic",
+   "topic": "interest",
+   "sub": "SI rate",
+   "d": 1,
+   "q": "At what rate per annum will ₹1500 earn a simple interest of ₹270 in 3 years?",
+   "o": [
+    "6%",
+    "18%",
+    "9%",
+    "12%"
+   ],
+   "a": 0,
+   "e": "R = SI × 100 / (P × T) = 270 × 100 / (1500 × 3) = 6%. Forgetting to divide by the 3 years gives 18%."
+  },
+  {
+   "id": "interest-003",
+   "sec": "arithmetic",
+   "topic": "interest",
+   "sub": "SI time",
+   "d": 1,
+   "q": "In how many years will ₹2000 earn a simple interest of ₹480 at 8% per annum?",
+   "o": [
+    "2 years",
+    "4 years",
+    "3 years",
+    "6 years"
+   ],
+   "a": 2,
+   "e": "T = SI × 100 / (P × R) = 480 × 100 / (2000 × 8) = 3 years."
+  },
+  {
+   "id": "interest-004",
+   "sec": "arithmetic",
+   "topic": "interest",
+   "sub": "SI principal",
+   "d": 1,
+   "q": "A sum earns a simple interest of ₹360 in 2 years at 6% per annum. Find the sum.",
+   "o": [
+    "₹6000",
+    "₹1500",
+    "₹3000",
+    "₹2160"
+   ],
+   "a": 2,
+   "e": "P = SI × 100 / (R × T) = 360 × 100 / (6 × 2) = ₹3000. Using only R in the denominator gives ₹6000."
+  },
+  {
+   "id": "interest-005",
+   "sec": "arithmetic",
+   "topic": "interest",
+   "sub": "SI amount total",
+   "d": 1,
+   "q": "What amount will ₹5000 become in 2½ years at 4% simple interest per annum?",
+   "o": [
+    "₹5500",
+    "₹500",
+    "₹5200",
+    "₹5400"
+   ],
+   "a": 0,
+   "e": "SI = 5000 × 4 × 2.5 / 100 = ₹500, so the amount is 5000 + 500 = ₹5500. ₹500 alone is the interest."
+  },
+  {
+   "id": "interest-006",
+   "sec": "arithmetic",
+   "topic": "interest",
+   "sub": "CI two years",
+   "d": 1,
+   "q": "Find the compound interest on ₹10000 for 2 years at 10% per annum, compounded annually.",
+   "o": [
+    "₹2000",
+    "₹2200",
+    "₹1100",
+    "₹2100"
+   ],
+   "a": 3,
+   "e": "Amount = 10000 × 1.1 × 1.1 = 12100, so CI = ₹2100. ₹2000 is the simple interest."
+  },
+  {
+   "id": "interest-007",
+   "sec": "arithmetic",
+   "topic": "interest",
+   "sub": "CI amount",
+   "d": 1,
+   "q": "What is the amount on ₹4000 for 2 years at 5% per annum compound interest?",
+   "o": [
+    "₹4400",
+    "₹4410",
+    "₹4200",
+    "₹4100"
+   ],
+   "a": 1,
+   "e": "Amount = 4000 × 1.05 × 1.05 = ₹4410. ₹4400 is the simple-interest amount."
+  },
+  {
+   "id": "interest-008",
+   "sec": "arithmetic",
+   "topic": "interest",
+   "sub": "SI doubling",
+   "d": 1,
+   "q": "A sum of money doubles itself in 8 years at simple interest. The rate of interest per annum is",
+   "o": [
+    "8%",
+    "10%",
+    "15%",
+    "12.5%"
+   ],
+   "a": 3,
+   "e": "Interest equals the principal in 8 years, so 8 × R = 100 and R = 12.5%."
+  },
+  {
+   "id": "interest-009",
+   "sec": "arithmetic",
+   "topic": "interest",
+   "sub": "half-yearly CI",
+   "d": 1,
+   "q": "Find the compound interest on ₹8000 for 1 year at 10% per annum, compounded half-yearly.",
+   "o": [
+    "₹800",
+    "₹820",
+    "₹840",
+    "₹1000"
+   ],
+   "a": 1,
+   "e": "Rate is 5% per half-year for 2 half-years: 8000 × 1.05² = 8820, so CI = ₹820. ₹800 is the annual figure."
+  },
+  {
+   "id": "interest-010",
+   "sec": "arithmetic",
+   "topic": "interest",
+   "sub": "changing rates",
+   "d": 2,
+   "q": "A sum of ₹6000 is lent at 5% per annum simple interest for the first 2 years and at 6% per annum for the next 3 years. The total interest is",
+   "o": [
+    "₹1650",
+    "₹1800",
+    "₹1680",
+    "₹1500"
+   ],
+   "a": 2,
+   "e": "Interest = 6000 × 5 × 2 / 100 + 6000 × 6 × 3 / 100 = 600 + 1080 = ₹1680. Averaging 5% and 6% to 5.5% gives the wrong ₹1650."
+  },
+  {
+   "id": "interest-011",
+   "sec": "arithmetic",
+   "topic": "interest",
+   "sub": "yearly rates",
+   "d": 2,
+   "q": "₹5000 is invested at simple interest, with the rate 4% in the first year, 5% in the second year and 6% in the third year. The interest earned in 3 years is",
+   "o": [
+    "₹750",
+    "₹600",
+    "₹900",
+    "₹810"
+   ],
+   "a": 0,
+   "e": "Interest = 5000 × (4 + 5 + 6) / 100 = ₹750. Taking 4% or 6% for all 3 years gives ₹600 or ₹900."
+  },
+  {
+   "id": "interest-012",
+   "sec": "arithmetic",
+   "topic": "interest",
+   "sub": "CI three years",
+   "d": 2,
+   "q": "What is the compound interest on ₹8000 for 3 years at 10% per annum, compounded annually?",
+   "o": [
+    "₹2400",
+    "₹2648",
+    "₹2640",
+    "₹2848"
+   ],
+   "a": 1,
+   "e": "Amount = 8000 × 1.1³ = 10648, so CI = 10648 − 8000 = ₹2648. ₹2400 is the simple interest."
+  },
+  {
+   "id": "interest-013",
+   "sec": "arithmetic",
+   "topic": "interest",
+   "sub": "half-yearly 1.5 years",
+   "d": 2,
+   "q": "Find the compound interest on ₹16000 for 1½ years at 10% per annum, compounded half-yearly.",
+   "o": [
+    "₹2400",
+    "₹2480",
+    "₹2622",
+    "₹2522"
+   ],
+   "a": 3,
+   "e": "Rate 5% per half-year for 3 periods: 16000 × 1.05³ = 18522, so CI = ₹2522. ₹2400 is the simple interest."
+  },
+  {
+   "id": "interest-014",
+   "sec": "arithmetic",
+   "topic": "interest",
+   "sub": "CI minus SI two years",
+   "d": 2,
+   "q": "On ₹5000 at 8% per annum for 2 years, how much more is the compound interest than the simple interest?",
+   "o": [
+    "₹32",
+    "₹64",
+    "₹40",
+    "₹400"
+   ],
+   "a": 0,
+   "e": "For 2 years, CI − SI = P × (R/100)² = 5000 × 0.08² = ₹32."
+  },
+  {
+   "id": "interest-015",
+   "sec": "arithmetic",
+   "topic": "interest",
+   "sub": "CI find principal",
+   "d": 2,
+   "q": "A sum amounts to ₹6760 in 2 years at 4% per annum compound interest. The sum is",
+   "o": [
+    "₹6500",
+    "₹6000",
+    "₹6250",
+    "₹6400"
+   ],
+   "a": 2,
+   "e": "P × (26/25)² = 6760 gives P = 6760 × 625 / 676 = ₹6250."
+  },
+  {
+   "id": "interest-016",
+   "sec": "arithmetic",
+   "topic": "interest",
+   "sub": "interest in second year",
+   "d": 2,
+   "q": "₹5000 is invested for 2 years at 10% per annum compounded annually. The interest earned in the second year alone is",
+   "o": [
+    "₹500",
+    "₹525",
+    "₹550",
+    "₹1050"
+   ],
+   "a": 2,
+   "e": "After year 1 the amount is ₹5500, and 10% of it is ₹550. ₹500 is the first-year interest."
+  },
+  {
+   "id": "interest-017",
+   "sec": "arithmetic",
+   "topic": "interest",
+   "sub": "find P from CI-SI",
+   "d": 3,
+   "q": "The difference between the compound interest and the simple interest on a sum for 2 years at 8% per annum is ₹96. The sum is",
+   "o": [
+    "₹15000",
+    "₹1200",
+    "₹7500",
+    "₹12000"
+   ],
+   "a": 0,
+   "e": "CI − SI = P × (R/100)². So 96 = P × 64 / 10000, giving P = ₹15000."
+  },
+  {
+   "id": "interest-018",
+   "sec": "arithmetic",
+   "topic": "interest",
+   "sub": "CI minus SI three years",
+   "d": 3,
+   "q": "What is the difference between the compound interest and the simple interest on ₹10000 for 3 years at 10% per annum?",
+   "o": [
+    "₹300",
+    "₹210",
+    "₹331",
+    "₹310"
+   ],
+   "a": 3,
+   "e": "CI = 10000 × (1.331 − 1) = ₹3310 and SI = ₹3000, so the difference is ₹310. ₹331 is the CI per 1000."
+  },
+  {
+   "id": "interest-019",
+   "sec": "arithmetic",
+   "topic": "interest",
+   "sub": "SI and CI given",
+   "d": 3,
+   "q": "For a certain sum, the simple interest for 2 years is ₹600 and the compound interest for 2 years is ₹630. The sum is",
+   "o": [
+    "₹6000",
+    "₹3000",
+    "₹2500",
+    "₹3600"
+   ],
+   "a": 1,
+   "e": "CI − SI = 30 is the interest on the first year's SI of 300, so R = 30/300 × 100 = 10%. Then P = 600 × 100 / (10 × 2) = ₹3000."
+  },
+  {
+   "id": "interest-020",
+   "sec": "arithmetic",
+   "topic": "interest",
+   "sub": "annual vs half-yearly",
+   "d": 3,
+   "q": "₹8000 is invested for 1 year at 20% per annum. How much more interest is earned if it is compounded half-yearly than if it is compounded annually?",
+   "o": [
+    "₹160",
+    "₹40",
+    "₹120",
+    "₹80"
+   ],
+   "a": 3,
+   "e": "Half-yearly: 8000 × 1.1² = 9680, interest ₹1680. Annually: interest ₹1600. The difference is ₹80."
+  }
+ ]
+}

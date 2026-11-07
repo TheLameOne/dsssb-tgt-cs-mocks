@@ -1,0 +1,1329 @@
+{
+ "questions": [
+  {
+   "id": "di-001",
+   "sec": "arithmetic",
+   "topic": "di",
+   "sub": "bar ratio",
+   "d": 1,
+   "q": "The bar chart shows the number of students who passed the entrance test from five colleges in 2023. Study the chart and answer.\nThe ratio of passed students of college B to college D is",
+   "chart": {
+    "type": "bar",
+    "title": "Students passed in five colleges, 2023",
+    "unit": "students",
+    "labels": [
+     "A",
+     "B",
+     "C",
+     "D",
+     "E"
+    ],
+    "series": [
+     {
+      "name": "2023",
+      "values": [
+       120,
+       150,
+       90,
+       180,
+       110
+      ]
+     }
+    ]
+   },
+   "o": [
+    "5 : 6",
+    "6 : 5",
+    "1 : 2",
+    "2 : 3"
+   ],
+   "a": 0,
+   "e": "B : D = 150 : 180 = 5 : 6. The reverse order would be 6 : 5."
+  },
+  {
+   "id": "di-002",
+   "sec": "arithmetic",
+   "topic": "di",
+   "sub": "bar average",
+   "d": 1,
+   "q": "The bar chart shows the number of mobile phones sold by a shop in five months. Study the chart and answer.\nThe average number of phones sold per month is",
+   "chart": {
+    "type": "bar",
+    "title": "Mobile phones sold",
+    "unit": "phones",
+    "labels": [
+     "Jan",
+     "Feb",
+     "Mar",
+     "Apr",
+     "May"
+    ],
+    "series": [
+     {
+      "name": "Sold",
+      "values": [
+       40,
+       55,
+       35,
+       60,
+       50
+      ]
+     }
+    ]
+   },
+   "o": [
+    "50",
+    "48",
+    "40",
+    "52"
+   ],
+   "a": 1,
+   "e": "Total = 40 + 55 + 35 + 60 + 50 = 240, and 240 / 5 = 48."
+  },
+  {
+   "id": "di-003",
+   "sec": "arithmetic",
+   "topic": "di",
+   "sub": "bar increase",
+   "d": 1,
+   "q": "The bar chart shows the number of members of five libraries P to T in 2022 and 2023. Study the chart and answer.\nBy how many did the members of library R increase from 2022 to 2023?",
+   "chart": {
+    "type": "bar",
+    "title": "Library members",
+    "unit": "members",
+    "labels": [
+     "P",
+     "Q",
+     "R",
+     "S",
+     "T"
+    ],
+    "series": [
+     {
+      "name": "2022",
+      "values": [
+       200,
+       240,
+       160,
+       300,
+       180
+      ]
+     },
+     {
+      "name": "2023",
+      "values": [
+       220,
+       228,
+       200,
+       330,
+       162
+      ]
+     }
+    ]
+   },
+   "o": [
+    "20",
+    "200",
+    "60",
+    "40"
+   ],
+   "a": 3,
+   "e": "Library R grew from 160 to 200 members, an increase of 40."
+  },
+  {
+   "id": "di-004",
+   "sec": "arithmetic",
+   "topic": "di",
+   "sub": "bar percent of total",
+   "d": 1,
+   "q": "The bar chart shows the votes polled by five candidates P to T in an election. Study the chart and answer.\nThe percentage of the total votes polled that candidate S got is",
+   "chart": {
+    "type": "bar",
+    "title": "Votes polled",
+    "unit": "votes",
+    "labels": [
+     "P",
+     "Q",
+     "R",
+     "S",
+     "T"
+    ],
+    "series": [
+     {
+      "name": "Votes",
+      "values": [
+       200,
+       150,
+       100,
+       350,
+       200
+      ]
+     }
+    ]
+   },
+   "o": [
+    "35%",
+    "17.5%",
+    "3.5%",
+    "45%"
+   ],
+   "a": 0,
+   "e": "Total votes = 200 + 150 + 100 + 350 + 200 = 1000, and 350 / 1000 = 35%."
+  },
+  {
+   "id": "di-005",
+   "sec": "arithmetic",
+   "topic": "di",
+   "sub": "bar ratio of totals",
+   "d": 1,
+   "q": "The bar chart shows the number of boys and girls in classes VI to X of a school. Study the chart and answer.\nThe ratio of the total number of boys to the total number of girls is",
+   "chart": {
+    "type": "bar",
+    "title": "Boys and girls in school",
+    "unit": "students",
+    "labels": [
+     "VI",
+     "VII",
+     "VIII",
+     "IX",
+     "X"
+    ],
+    "series": [
+     {
+      "name": "Boys",
+      "values": [
+       30,
+       35,
+       40,
+       45,
+       50
+      ]
+     },
+     {
+      "name": "Girls",
+      "values": [
+       25,
+       30,
+       35,
+       40,
+       45
+      ]
+     }
+    ]
+   },
+   "o": [
+    "7 : 8",
+    "6 : 5",
+    "8 : 7",
+    "9 : 8"
+   ],
+   "a": 2,
+   "e": "Boys = 200 and girls = 175, so the ratio is 200 : 175 = 8 : 7."
+  },
+  {
+   "id": "di-006",
+   "sec": "arithmetic",
+   "topic": "di",
+   "sub": "bar percent increase",
+   "d": 2,
+   "q": "The bar chart shows the wheat production (in thousand tonnes) of five states in 2021 and 2022. Study the chart and answer.\nThe percentage increase in the production of Haryana (HR) from 2021 to 2022 is",
+   "chart": {
+    "type": "bar",
+    "title": "Wheat production",
+    "unit": "thousand tonnes",
+    "labels": [
+     "UP",
+     "PB",
+     "HR",
+     "MP",
+     "RJ"
+    ],
+    "series": [
+     {
+      "name": "2021",
+      "values": [
+       80,
+       120,
+       60,
+       100,
+       50
+      ]
+     },
+     {
+      "name": "2022",
+      "values": [
+       100,
+       132,
+       75,
+       90,
+       60
+      ]
+     }
+    ]
+   },
+   "o": [
+    "15%",
+    "20%",
+    "25%",
+    "30%"
+   ],
+   "a": 2,
+   "e": "Increase = 75 − 60 = 15, so the percentage increase is 15/60 × 100 = 25%. Dividing by 75 gives the wrong 20%."
+  },
+  {
+   "id": "di-007",
+   "sec": "arithmetic",
+   "topic": "di",
+   "sub": "bar statements",
+   "d": 2,
+   "q": "The bar chart shows the yearly sales (in hundreds) of phones and tablets by a dealer. Study the chart and answer.\nI. Phone sales increased every year from 2019 to 2022.\nII. The total sales in 2022 were twice the total sales in 2019.\nWhich of the statements is/are correct?",
+   "chart": {
+    "type": "bar",
+    "title": "Sales of phones and tablets",
+    "unit": "hundreds",
+    "labels": [
+     "2019",
+     "2020",
+     "2021",
+     "2022"
+    ],
+    "series": [
+     {
+      "name": "Phones",
+      "values": [
+       50,
+       60,
+       80,
+       100
+      ]
+     },
+     {
+      "name": "Tablets",
+      "values": [
+       30,
+       45,
+       40,
+       70
+      ]
+     }
+    ]
+   },
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "Phone sales rise 50, 60, 80, 100, so I is correct. Total sales were 80 in 2019 and 170 in 2022, which is not double (160), so II is wrong."
+  },
+  {
+   "id": "di-008",
+   "sec": "arithmetic",
+   "topic": "di",
+   "sub": "bar conditional average",
+   "d": 2,
+   "q": "The bar chart shows the yearly savings (in ₹ thousand) of Ravi and Sohan from 2019 to 2022. Study the chart and answer.\nThe average saving of Ravi, taken only over the years in which he saved more than Sohan, is",
+   "chart": {
+    "type": "bar",
+    "title": "Savings of Ravi and Sohan",
+    "unit": "₹ thousand",
+    "labels": [
+     "2019",
+     "2020",
+     "2021",
+     "2022"
+    ],
+    "series": [
+     {
+      "name": "Ravi",
+      "values": [
+       20,
+       25,
+       30,
+       35
+      ]
+     },
+     {
+      "name": "Sohan",
+      "values": [
+       15,
+       30,
+       25,
+       45
+      ]
+     }
+    ]
+   },
+   "o": [
+    "₹25 thousand",
+    "₹27.5 thousand",
+    "₹28.75 thousand",
+    "₹22.5 thousand"
+   ],
+   "a": 0,
+   "e": "Ravi saved more in 2019 (20 vs 15) and 2021 (30 vs 25). The average is (20 + 30)/2 = 25. The four-year average of 27.5 is wrong."
+  },
+  {
+   "id": "di-009",
+   "sec": "arithmetic",
+   "topic": "di",
+   "sub": "bar three series percent",
+   "d": 3,
+   "q": "The bar chart shows the sales (in lakh ₹) of three products X, Y and Z in four quarters. Study the chart and answer.\nThe total sales of Y in Q1 and Q2 together are what percentage of the total sales of all three products in Q3?",
+   "chart": {
+    "type": "bar",
+    "title": "Sales of three products",
+    "unit": "lakh ₹",
+    "labels": [
+     "Q1",
+     "Q2",
+     "Q3",
+     "Q4"
+    ],
+    "series": [
+     {
+      "name": "X",
+      "values": [
+       60,
+       80,
+       70,
+       90
+      ]
+     },
+     {
+      "name": "Y",
+      "values": [
+       40,
+       50,
+       60,
+       70
+      ]
+     },
+     {
+      "name": "Z",
+      "values": [
+       50,
+       70,
+       70,
+       80
+      ]
+     }
+    ]
+   },
+   "o": [
+    "37.5%",
+    "50%",
+    "40%",
+    "45%"
+   ],
+   "a": 3,
+   "e": "Y in Q1 and Q2 = 40 + 50 = 90. Total in Q3 = 70 + 60 + 70 = 200. So 90/200 × 100 = 45%. Using Q4's total of 240 gives 37.5%."
+  },
+  {
+   "id": "di-010",
+   "sec": "arithmetic",
+   "topic": "di",
+   "sub": "bar three series statements",
+   "d": 3,
+   "q": "The bar chart shows the number of employees in the Sales, IT and HR departments of a firm from 2020 to 2023. Study the chart and answer.\nI. In every year, HR employees were less than 20% of the total employees.\nII. IT employees in 2023 were 50% more than in 2020.\nWhich of the statements is/are correct?",
+   "chart": {
+    "type": "bar",
+    "title": "Employees by department",
+    "unit": "employees",
+    "labels": [
+     "2020",
+     "2021",
+     "2022",
+     "2023"
+    ],
+    "series": [
+     {
+      "name": "Sales",
+      "values": [
+       40,
+       50,
+       60,
+       80
+      ]
+     },
+     {
+      "name": "IT",
+      "values": [
+       60,
+       70,
+       70,
+       90
+      ]
+     },
+     {
+      "name": "HR",
+      "values": [
+       20,
+       20,
+       30,
+       30
+      ]
+     }
+    ]
+   },
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "HR shares are 16.7%, 14.3%, 18.75% and 15%, all below 20%, so I is correct. IT grew from 60 to 90, which is 50% more, so II is correct."
+  },
+  {
+   "id": "di-011",
+   "sec": "arithmetic",
+   "topic": "di",
+   "sub": "pie amount",
+   "d": 1,
+   "q": "The pie chart shows how a family spends its monthly salary of ₹40000. Study the chart and answer.\nThe amount spent on Education is",
+   "chart": {
+    "type": "pie",
+    "title": "Family budget",
+    "unit": "%",
+    "labels": [
+     "Food",
+     "Rent",
+     "Education",
+     "Travel",
+     "Savings"
+    ],
+    "series": [
+     {
+      "name": "Share",
+      "values": [
+       30,
+       25,
+       20,
+       10,
+       15
+      ]
+     }
+    ]
+   },
+   "o": [
+    "₹4000",
+    "₹8000",
+    "₹6000",
+    "₹10000"
+   ],
+   "a": 1,
+   "e": "20% of 40000 = ₹8000."
+  },
+  {
+   "id": "di-012",
+   "sec": "arithmetic",
+   "topic": "di",
+   "sub": "pie difference",
+   "d": 1,
+   "q": "The pie chart shows how 600 students of a college are distributed among four streams. Study the chart and answer.\nHow many more students are in Science than in Arts?",
+   "chart": {
+    "type": "pie",
+    "title": "Students by stream",
+    "unit": "students",
+    "labels": [
+     "Science",
+     "Commerce",
+     "Arts",
+     "Other"
+    ],
+    "series": [
+     {
+      "name": "Share",
+      "values": [
+       240,
+       180,
+       120,
+       60
+      ]
+     }
+    ]
+   },
+   "o": [
+    "60",
+    "180",
+    "240",
+    "120"
+   ],
+   "a": 3,
+   "e": "Science has 240 and Arts has 120, so the difference is 120."
+  },
+  {
+   "id": "di-013",
+   "sec": "arithmetic",
+   "topic": "di",
+   "sub": "pie ratio",
+   "d": 1,
+   "q": "The pie chart shows the share of 2400 votes won by five candidates A to E. Study the chart and answer.\nThe ratio of the votes of A to the votes of B is",
+   "chart": {
+    "type": "pie",
+    "title": "Votes won",
+    "unit": "%",
+    "labels": [
+     "A",
+     "B",
+     "C",
+     "D",
+     "E"
+    ],
+    "series": [
+     {
+      "name": "Share",
+      "values": [
+       35,
+       25,
+       20,
+       15,
+       5
+      ]
+     }
+    ]
+   },
+   "o": [
+    "5 : 7",
+    "7 : 5",
+    "7 : 4",
+    "7 : 3"
+   ],
+   "a": 1,
+   "e": "A : B = 35% : 25% = 7 : 5. The actual total of 2400 is not needed for a ratio."
+  },
+  {
+   "id": "di-014",
+   "sec": "arithmetic",
+   "topic": "di",
+   "sub": "pie money difference",
+   "d": 2,
+   "q": "The pie chart shows the expenditure of a company on five heads out of its total expenditure of ₹12 lakh. Study the chart and answer.\nThe expenditure on Tax exceeds that on Other by",
+   "chart": {
+    "type": "pie",
+    "title": "Company expenditure",
+    "unit": "%",
+    "labels": [
+     "Raw material",
+     "Wages",
+     "Rent",
+     "Tax",
+     "Other"
+    ],
+    "series": [
+     {
+      "name": "Share",
+      "values": [
+       40,
+       25,
+       15,
+       12,
+       8
+      ]
+     }
+    ]
+   },
+   "o": [
+    "₹4800",
+    "₹96000",
+    "₹48000",
+    "₹36000"
+   ],
+   "a": 2,
+   "e": "Difference = 12% − 8% = 4% of 12,00,000 = ₹48000."
+  },
+  {
+   "id": "di-015",
+   "sec": "arithmetic",
+   "topic": "di",
+   "sub": "pie angle",
+   "d": 2,
+   "q": "The pie chart shows the 720 books of a library by subject. Study the chart and answer.\nThe central angle of the sector for Science is",
+   "chart": {
+    "type": "pie",
+    "title": "Library books",
+    "unit": "books",
+    "labels": [
+     "Fiction",
+     "Science",
+     "History",
+     "Maths",
+     "Other"
+    ],
+    "series": [
+     {
+      "name": "Share",
+      "values": [
+       180,
+       150,
+       120,
+       90,
+       180
+      ]
+     }
+    ]
+   },
+   "o": [
+    "75°",
+    "60°",
+    "90°",
+    "150°"
+   ],
+   "a": 0,
+   "e": "Angle = 150/720 × 360° = 75°."
+  },
+  {
+   "id": "di-016",
+   "sec": "arithmetic",
+   "topic": "di",
+   "sub": "pie statements",
+   "d": 2,
+   "q": "The pie chart shows the share of five sources in the total power generation of 5000 MW in a state. Study the chart and answer.\nI. Coal alone generates more than all the other sources together.\nII. Solar generates 750 MW.\nWhich of the statements is/are correct?",
+   "chart": {
+    "type": "pie",
+    "title": "Power generation",
+    "unit": "%",
+    "labels": [
+     "Coal",
+     "Hydro",
+     "Solar",
+     "Wind",
+     "Nuclear"
+    ],
+    "series": [
+     {
+      "name": "Share",
+      "values": [
+       45,
+       20,
+       15,
+       12,
+       8
+      ]
+     }
+    ]
+   },
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "Coal is 45% while the others total 55%, so I is wrong. Solar is 15% of 5000 = 750 MW, so II is correct."
+  },
+  {
+   "id": "di-017",
+   "sec": "arithmetic",
+   "topic": "di",
+   "sub": "pie two step",
+   "d": 2,
+   "q": "The pie chart shows the 4000 students of a school by class. Study the chart and answer.\nIn Class VIII, 40% of the students are girls. The number of boys in Class VIII is",
+   "chart": {
+    "type": "pie",
+    "title": "Students by class",
+    "unit": "%",
+    "labels": [
+     "VI",
+     "VII",
+     "VIII",
+     "IX",
+     "X"
+    ],
+    "series": [
+     {
+      "name": "Share",
+      "values": [
+       15,
+       20,
+       25,
+       20,
+       20
+      ]
+     }
+    ]
+   },
+   "o": [
+    "400",
+    "600",
+    "1000",
+    "300"
+   ],
+   "a": 1,
+   "e": "Class VIII has 25% of 4000 = 1000 students. Boys are 60% of them, which is 600. The 400 is the number of girls."
+  },
+  {
+   "id": "di-018",
+   "sec": "arithmetic",
+   "topic": "di",
+   "sub": "pie shift",
+   "d": 2,
+   "q": "The pie chart shows the 900 employees of a company by department. Study the chart and answer.\nIf 45 employees are shifted from Tech to HR, the share of HR in the total becomes",
+   "chart": {
+    "type": "pie",
+    "title": "Employees by department",
+    "unit": "employees",
+    "labels": [
+     "HR",
+     "Tech",
+     "Sales",
+     "Admin"
+    ],
+    "series": [
+     {
+      "name": "Share",
+      "values": [
+       90,
+       360,
+       270,
+       180
+      ]
+     }
+    ]
+   },
+   "o": [
+    "10%",
+    "12.5%",
+    "20%",
+    "15%"
+   ],
+   "a": 3,
+   "e": "HR becomes 90 + 45 = 135, and 135/900 × 100 = 15%. The total stays 900. The old share was 10%."
+  },
+  {
+   "id": "di-019",
+   "sec": "arithmetic",
+   "topic": "di",
+   "sub": "pie revised",
+   "d": 3,
+   "q": "The pie chart shows the state budget of ₹2400 crore. Study the chart and answer.\nIf the amount on Health is increased by 20% and the amount on Roads is decreased by 10%, the new combined amount on Health and Roads is",
+   "chart": {
+    "type": "pie",
+    "title": "State budget",
+    "unit": "%",
+    "labels": [
+     "Education",
+     "Health",
+     "Roads",
+     "Agriculture",
+     "Others"
+    ],
+    "series": [
+     {
+      "name": "Share",
+      "values": [
+       25,
+       15,
+       20,
+       18,
+       22
+      ]
+     }
+    ]
+   },
+   "o": [
+    "₹864 crore",
+    "₹840 crore",
+    "₹900 crore",
+    "₹828 crore"
+   ],
+   "a": 0,
+   "e": "Health = 15% of 2400 = 360, which becomes 432. Roads = 20% of 2400 = 480, which becomes 432. The total is 864. The old total was 840."
+  },
+  {
+   "id": "di-020",
+   "sec": "arithmetic",
+   "topic": "di",
+   "sub": "pie transfer",
+   "d": 3,
+   "q": "The pie chart shows 1200 customers surveyed and the mobile brand each uses. Study the chart and answer.\nIf one-fifth of the users of A and one-sixth of the users of B shift to C, the share of C in the 1200 customers becomes",
+   "chart": {
+    "type": "pie",
+    "title": "Mobile brand users",
+    "unit": "customers",
+    "labels": [
+     "A",
+     "B",
+     "C",
+     "D",
+     "E"
+    ],
+    "series": [
+     {
+      "name": "Share",
+      "values": [
+       300,
+       240,
+       200,
+       260,
+       200
+      ]
+     }
+    ]
+   },
+   "o": [
+    "20%",
+    "30%",
+    "25%",
+    "22.5%"
+   ],
+   "a": 2,
+   "e": "One-fifth of A = 60 and one-sixth of B = 40, so C gets 200 + 100 = 300. This is 300/1200 = 25%."
+  },
+  {
+   "id": "di-021",
+   "sec": "arithmetic",
+   "topic": "di",
+   "sub": "line increase",
+   "d": 1,
+   "q": "The line chart shows the monthly sales (in lakh ₹) of a shop from January to June. Study the chart and answer.\nBy how much did the sales rise from April to June?",
+   "chart": {
+    "type": "line",
+    "title": "Monthly sales",
+    "unit": "lakh ₹",
+    "labels": [
+     "Jan",
+     "Feb",
+     "Mar",
+     "Apr",
+     "May",
+     "Jun"
+    ],
+    "series": [
+     {
+      "name": "Sales",
+      "values": [
+       12,
+       15,
+       18,
+       16,
+       20,
+       24
+      ]
+     }
+    ]
+   },
+   "o": [
+    "₹4 lakh",
+    "₹6 lakh",
+    "₹8 lakh",
+    "₹12 lakh"
+   ],
+   "a": 2,
+   "e": "Sales were 16 in April and 24 in June, a rise of ₹8 lakh."
+  },
+  {
+   "id": "di-022",
+   "sec": "arithmetic",
+   "topic": "di",
+   "sub": "line percent growth",
+   "d": 1,
+   "q": "The line chart shows the number of users (in thousands) of an app from 2019 to 2023. Study the chart and answer.\nThe percentage increase in users from 2021 to 2022 is",
+   "chart": {
+    "type": "line",
+    "title": "App users",
+    "unit": "thousands",
+    "labels": [
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023"
+    ],
+    "series": [
+     {
+      "name": "Users",
+      "values": [
+       50,
+       60,
+       48,
+       72,
+       90
+      ]
+     }
+    ]
+   },
+   "o": [
+    "50%",
+    "33⅓%",
+    "24%",
+    "20%"
+   ],
+   "a": 0,
+   "e": "Rise = 72 − 48 = 24 thousand, and 24/48 × 100 = 50%. Dividing by the new value 72 gives 33⅓%, which is wrong."
+  },
+  {
+   "id": "di-023",
+   "sec": "arithmetic",
+   "topic": "di",
+   "sub": "line two series",
+   "d": 2,
+   "q": "The line chart shows the exports and imports (in ₹ crore) of a country from 2018 to 2022. Study the chart and answer.\nIn which year was the excess of exports over imports the greatest?",
+   "chart": {
+    "type": "line",
+    "title": "Exports and imports",
+    "unit": "₹ crore",
+    "labels": [
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022"
+    ],
+    "series": [
+     {
+      "name": "Exports",
+      "values": [
+       40,
+       50,
+       60,
+       55,
+       70
+      ]
+     },
+     {
+      "name": "Imports",
+      "values": [
+       32,
+       45,
+       70,
+       60,
+       65
+      ]
+     }
+    ]
+   },
+   "o": [
+    "2020",
+    "2019",
+    "2022",
+    "2018"
+   ],
+   "a": 3,
+   "e": "Export minus import is 8, 5, −10, −5 and 5 for the five years. The greatest excess is 8 in 2018. In 2020 imports exceeded exports."
+  },
+  {
+   "id": "di-024",
+   "sec": "arithmetic",
+   "topic": "di",
+   "sub": "line average comparison",
+   "d": 2,
+   "q": "The line chart shows the annual production (in tonnes) of a factory from 2018 to 2023. Study the chart and answer.\nThe average production of the last three years exceeds that of the first three years by",
+   "chart": {
+    "type": "line",
+    "title": "Annual production",
+    "unit": "tonnes",
+    "labels": [
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023"
+    ],
+    "series": [
+     {
+      "name": "Output",
+      "values": [
+       120,
+       150,
+       135,
+       180,
+       165,
+       210
+      ]
+     }
+    ]
+   },
+   "o": [
+    "40 tonnes",
+    "50 tonnes",
+    "45 tonnes",
+    "60 tonnes"
+   ],
+   "a": 1,
+   "e": "First three years total 405, average 135. Last three total 555, average 185. The difference is 50 tonnes."
+  },
+  {
+   "id": "di-025",
+   "sec": "arithmetic",
+   "topic": "di",
+   "sub": "line statements",
+   "d": 3,
+   "q": "The line chart shows the cars sold (in hundreds) by dealers P and Q in five months. Study the chart and answer.\nI. Dealer Q sold more cars than P in exactly two months.\nII. The average monthly sales of P are higher than those of Q.\nWhich of the statements is/are correct?",
+   "chart": {
+    "type": "line",
+    "title": "Cars sold by two dealers",
+    "unit": "hundreds",
+    "labels": [
+     "Jan",
+     "Feb",
+     "Mar",
+     "Apr",
+     "May"
+    ],
+    "series": [
+     {
+      "name": "P",
+      "values": [
+       20,
+       25,
+       30,
+       35,
+       40
+      ]
+     },
+     {
+      "name": "Q",
+      "values": [
+       15,
+       30,
+       28,
+       40,
+       32
+      ]
+     }
+    ]
+   },
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Q beats P in Feb (30 > 25) and Apr (40 > 35) only, so I is correct. P averages 150/5 = 30 and Q averages 145/5 = 29, so II is correct."
+  },
+  {
+   "id": "di-026",
+   "sec": "arithmetic",
+   "topic": "di",
+   "sub": "table average",
+   "d": 1,
+   "q": "The table shows the marks of four students in three subjects, each out of 100. Study the table and answer.\nThe average marks of Anita in the three subjects is",
+   "table": {
+    "head": [
+     "Student",
+     "Maths",
+     "Science",
+     "English"
+    ],
+    "rows": [
+     [
+      "Rahul",
+      "68",
+      "75",
+      "70"
+     ],
+     [
+      "Anita",
+      "72",
+      "84",
+      "66"
+     ],
+     [
+      "Sunil",
+      "80",
+      "64",
+      "72"
+     ],
+     [
+      "Meena",
+      "90",
+      "78",
+      "87"
+     ]
+    ]
+   },
+   "o": [
+    "72",
+    "66",
+    "78",
+    "74"
+   ],
+   "a": 3,
+   "e": "Anita's total = 72 + 84 + 66 = 222, and 222 / 3 = 74."
+  },
+  {
+   "id": "di-027",
+   "sec": "arithmetic",
+   "topic": "di",
+   "sub": "table total growth",
+   "d": 1,
+   "q": "The table shows the sales (in ₹ lakh) of a company in four regions in 2022 and 2023. Study the table and answer.\nThe percentage increase in the company's total sales from 2022 to 2023 is",
+   "table": {
+    "head": [
+     "Region",
+     "2022",
+     "2023"
+    ],
+    "rows": [
+     [
+      "North",
+      "120",
+      "150"
+     ],
+     [
+      "South",
+      "100",
+      "120"
+     ],
+     [
+      "East",
+      "80",
+      "90"
+     ],
+     [
+      "West",
+      "60",
+      "90"
+     ]
+    ]
+   },
+   "o": [
+    "20%",
+    "25%",
+    "30%",
+    "15%"
+   ],
+   "a": 1,
+   "e": "Total 2022 = 360 and total 2023 = 450. Increase = 90, and 90/360 × 100 = 25%. Dividing by 450 gives 20%."
+  },
+  {
+   "id": "di-028",
+   "sec": "arithmetic",
+   "topic": "di",
+   "sub": "table highest percentage",
+   "d": 2,
+   "q": "The table shows the number of candidates who appeared and who qualified in a test from four states. Study the table and answer.\nWhich state has the highest percentage of qualified candidates?",
+   "table": {
+    "head": [
+     "State",
+     "Appeared",
+     "Qualified"
+    ],
+    "rows": [
+     [
+      "Delhi",
+      "400",
+      "300"
+     ],
+     [
+      "UP",
+      "500",
+      "350"
+     ],
+     [
+      "Bihar",
+      "300",
+      "240"
+     ],
+     [
+      "Rajasthan",
+      "200",
+      "150"
+     ]
+    ]
+   },
+   "o": [
+    "UP",
+    "Delhi",
+    "Bihar",
+    "Rajasthan"
+   ],
+   "a": 2,
+   "e": "Pass rates are Delhi 75%, UP 70%, Bihar 80% and Rajasthan 75%. Bihar is highest, although UP has the most qualified candidates."
+  },
+  {
+   "id": "di-029",
+   "sec": "arithmetic",
+   "topic": "di",
+   "sub": "table expression",
+   "d": 2,
+   "q": "The table shows the distance covered, petrol used and petrol price of a car in three months. Study the table and answer.\nThe total money spent on petrol in the three months is",
+   "table": {
+    "head": [
+     "Month",
+     "Distance (km)",
+     "Petrol (litres)",
+     "Price (₹/litre)"
+    ],
+    "rows": [
+     [
+      "Jan",
+      "600",
+      "40",
+      "100"
+     ],
+     [
+      "Feb",
+      "480",
+      "30",
+      "110"
+     ],
+     [
+      "Mar",
+      "720",
+      "45",
+      "100"
+     ]
+    ]
+   },
+   "o": [
+    "₹11800",
+    "₹11500",
+    "₹12000",
+    "₹11300"
+   ],
+   "a": 0,
+   "e": "Cost = 40 × 100 + 30 × 110 + 45 × 100 = 4000 + 3300 + 4500 = ₹11800. Pricing every litre at ₹100 gives ₹11500."
+  },
+  {
+   "id": "di-030",
+   "sec": "arithmetic",
+   "topic": "di",
+   "sub": "table statements",
+   "d": 3,
+   "q": "The table shows the area and yield of four crops on a farm. Production = area × yield. Study the table and answer.\nI. The production of Rice is more than that of Wheat.\nII. The production of Pulses is 400 quintals.\nWhich of the statements is/are correct?",
+   "table": {
+    "head": [
+     "Crop",
+     "Area (ha)",
+     "Yield (q/ha)"
+    ],
+    "rows": [
+     [
+      "Wheat",
+      "50",
+      "40"
+     ],
+     [
+      "Rice",
+      "40",
+      "50"
+     ],
+     [
+      "Maize",
+      "30",
+      "30"
+     ],
+     [
+      "Pulses",
+      "20",
+      "15"
+     ]
+    ]
+   },
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 3,
+   "e": "Wheat gives 50 × 40 = 2000 q and Rice gives 40 × 50 = 2000 q, so they are equal and I is wrong. Pulses give 20 × 15 = 300 q, so II is wrong."
+  }
+ ]
+}

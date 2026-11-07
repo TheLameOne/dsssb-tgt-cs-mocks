@@ -1,0 +1,324 @@
+{
+ "questions": [
+  {
+   "id": "percent-001",
+   "sec": "arithmetic",
+   "topic": "percent",
+   "sub": "percentage of a number",
+   "d": 1,
+   "q": "What is 35% of 240?",
+   "o": [
+    "84",
+    "72",
+    "86",
+    "96"
+   ],
+   "a": 0,
+   "e": "35% of 240 = 35 × 240 ÷ 100 = 84."
+  },
+  {
+   "id": "percent-002",
+   "sec": "arithmetic",
+   "topic": "percent",
+   "sub": "percentage of a number",
+   "d": 1,
+   "q": "45 is what percent of 180?",
+   "o": [
+    "20",
+    "35",
+    "40",
+    "25"
+   ],
+   "a": 3,
+   "e": "(45 ÷ 180) × 100 = 1/4 × 100 = 25%."
+  },
+  {
+   "id": "percent-003",
+   "sec": "arithmetic",
+   "topic": "percent",
+   "sub": "percentage change",
+   "d": 1,
+   "q": "A number 80 is increased by 25%. The new number is:",
+   "o": [
+    "105",
+    "120",
+    "100",
+    "95"
+   ],
+   "a": 2,
+   "e": "25% of 80 = 20, so the new number is 80 + 20 = 100."
+  },
+  {
+   "id": "percent-004",
+   "sec": "arithmetic",
+   "topic": "percent",
+   "sub": "reverse percentage",
+   "d": 1,
+   "q": "A number when increased by 20% becomes 156. The number is:",
+   "o": [
+    "124",
+    "130",
+    "125",
+    "135"
+   ],
+   "a": 1,
+   "e": "If the number is x, then 1.2x = 156, so x = 156 ÷ 1.2 = 130. Subtracting 20% of 156 would give a wrong answer."
+  },
+  {
+   "id": "percent-005",
+   "sec": "arithmetic",
+   "topic": "percent",
+   "sub": "fraction to percentage",
+   "d": 1,
+   "q": "3/8 expressed as a percentage is:",
+   "o": [
+    "37.5%",
+    "35%",
+    "38.5%",
+    "33.33%"
+   ],
+   "a": 0,
+   "e": "3/8 = 0.375, so it equals 37.5%."
+  },
+  {
+   "id": "percent-006",
+   "sec": "arithmetic",
+   "topic": "percent",
+   "sub": "percentage of a number",
+   "d": 1,
+   "q": "What is 12½% of 640?",
+   "o": [
+    "64",
+    "72",
+    "96",
+    "80"
+   ],
+   "a": 3,
+   "e": "12½% = 1/8, and 640 ÷ 8 = 80."
+  },
+  {
+   "id": "percent-007",
+   "sec": "arithmetic",
+   "topic": "percent",
+   "sub": "percentage of a number",
+   "d": 1,
+   "q": "A student scored 360 marks out of 450. The percentage of marks is:",
+   "o": [
+    "75%",
+    "82%",
+    "80%",
+    "85%"
+   ],
+   "a": 2,
+   "e": "(360 ÷ 450) × 100 = 80%."
+  },
+  {
+   "id": "percent-008",
+   "sec": "arithmetic",
+   "topic": "percent",
+   "sub": "price and consumption",
+   "d": 1,
+   "q": "The price of sugar rises by 25%. By what percent must a family cut its consumption so that its expenditure stays the same?",
+   "o": [
+    "25%",
+    "20%",
+    "16%",
+    "30%"
+   ],
+   "a": 1,
+   "e": "New price is 5/4 of old, so consumption must become 4/5, a cut of 1/5 = 20%. Reducing by 25% is the common slip."
+  },
+  {
+   "id": "percent-009",
+   "sec": "arithmetic",
+   "topic": "percent",
+   "sub": "population",
+   "d": 1,
+   "q": "The population of a town is 50,000. It increases by 10% in a year. The new population is:",
+   "o": [
+    "55000",
+    "51000",
+    "54000",
+    "60000"
+   ],
+   "a": 0,
+   "e": "10% of 50,000 = 5,000, so the new population is 55,000."
+  },
+  {
+   "id": "percent-010",
+   "sec": "arithmetic",
+   "topic": "percent",
+   "sub": "successive change",
+   "d": 2,
+   "q": "The price of an article is raised by 20% and then by 10%. The net increase is:",
+   "o": [
+    "30%",
+    "31%",
+    "33%",
+    "32%"
+   ],
+   "a": 3,
+   "e": "Net factor = 1.2 × 1.1 = 1.32, i.e. 32%. Simply adding 20 + 10 forgets the 2% on the earlier rise."
+  },
+  {
+   "id": "percent-011",
+   "sec": "arithmetic",
+   "topic": "percent",
+   "sub": "successive change",
+   "d": 2,
+   "q": "A quantity is first increased by 20% and then decreased by 20%. The net change is:",
+   "o": [
+    "No change",
+    "4% increase",
+    "4% decrease",
+    "2% decrease"
+   ],
+   "a": 2,
+   "e": "Net factor = 1.2 × 0.8 = 0.96, which is a 4% decrease."
+  },
+  {
+   "id": "percent-012",
+   "sec": "arithmetic",
+   "topic": "percent",
+   "sub": "election",
+   "d": 2,
+   "q": "In an election between two candidates, the winner gets 55% of the votes and wins by 1200 votes. The total number of votes polled is:",
+   "o": [
+    "10800",
+    "12000",
+    "13200",
+    "6000"
+   ],
+   "a": 1,
+   "e": "Winner − loser = 55% − 45% = 10% of the total, so 10% = 1200 and the total is 12000."
+  },
+  {
+   "id": "percent-013",
+   "sec": "arithmetic",
+   "topic": "percent",
+   "sub": "population",
+   "d": 2,
+   "q": "A town's population is 40,000. It grows 10% in the first year and 20% in the second. The population after two years is:",
+   "o": [
+    "52800",
+    "52000",
+    "50000",
+    "53200"
+   ],
+   "a": 0,
+   "e": "40,000 × 1.1 = 44,000, then 44,000 × 1.2 = 52,800."
+  },
+  {
+   "id": "percent-014",
+   "sec": "arithmetic",
+   "topic": "percent",
+   "sub": "overlapping percentages",
+   "d": 2,
+   "q": "In an examination, 70% of the candidates passed Mathematics, 80% passed English and 10% failed in both. The percentage who passed both subjects is:",
+   "o": [
+    "50%",
+    "70%",
+    "75%",
+    "60%"
+   ],
+   "a": 3,
+   "e": "Passed at least one = 100 − 10 = 90%. Both = 70 + 80 − 90 = 60%."
+  },
+  {
+   "id": "percent-015",
+   "sec": "arithmetic",
+   "topic": "percent",
+   "sub": "percentage comparison",
+   "d": 2,
+   "q": "If 30% of x equals 45% of y, then x is what percent of y?",
+   "o": [
+    "66⅔%",
+    "135%",
+    "150%",
+    "75%"
+   ],
+   "a": 2,
+   "e": "0.3x = 0.45y gives x/y = 0.45/0.3 = 1.5, so x is 150% of y."
+  },
+  {
+   "id": "percent-016",
+   "sec": "arithmetic",
+   "topic": "percent",
+   "sub": "pass marks",
+   "d": 2,
+   "q": "A student scoring 220 marks fails by 20 marks. If the pass mark is 40% of the maximum, the maximum marks are:",
+   "o": [
+    "550",
+    "600",
+    "500",
+    "650"
+   ],
+   "a": 1,
+   "e": "Pass mark = 220 + 20 = 240, which is 40% of the maximum. So maximum = 240 ÷ 0.4 = 600."
+  },
+  {
+   "id": "percent-017",
+   "sec": "arithmetic",
+   "topic": "percent",
+   "sub": "successive change",
+   "d": 3,
+   "q": "A number is increased by 20%, the result is decreased by 25%, and that result is increased by 10%. The net effect on the original number is:",
+   "o": [
+    "1% decrease",
+    "1% increase",
+    "5% increase",
+    "No change"
+   ],
+   "a": 0,
+   "e": "Factor = 1.2 × 0.75 × 1.1 = 0.99, so the number falls by 1%."
+  },
+  {
+   "id": "percent-018",
+   "sec": "arithmetic",
+   "topic": "percent",
+   "sub": "election",
+   "d": 3,
+   "q": "In a two-candidate election, 10% of the votes cast were invalid. The winner got 60% of the valid votes and won by 2160 votes. The total number of votes cast was:",
+   "o": [
+    "10800",
+    "13500",
+    "9720",
+    "12000"
+   ],
+   "a": 3,
+   "e": "Margin = 60% − 40% = 20% of valid votes = 2160, so valid votes = 10800. This is 90% of the votes cast, so total = 10800 ÷ 0.9 = 12000."
+  },
+  {
+   "id": "percent-019",
+   "sec": "arithmetic",
+   "topic": "percent",
+   "sub": "population",
+   "d": 3,
+   "q": "The population of a town rose by 25% two years ago and by 20% last year, and is now 54,000. What was it three years ago?",
+   "o": [
+    "30000",
+    "37500",
+    "36000",
+    "42000"
+   ],
+   "a": 2,
+   "e": "Present = original × 1.25 × 1.20 = 1.5 × original. So original = 54,000 ÷ 1.5 = 36,000."
+  },
+  {
+   "id": "percent-020",
+   "sec": "arithmetic",
+   "topic": "percent",
+   "sub": "savings",
+   "d": 3,
+   "q": "A man saves 20% of his income. His income rises by 25% and his expenditure rises by 10%. The percentage increase in his savings is:",
+   "o": [
+    "50%",
+    "85%",
+    "65%",
+    "75%"
+   ],
+   "a": 1,
+   "e": "Take income 100: expenditure 80, savings 20. Now income 125, expenditure 88, savings 37. Increase = 17/20 × 100 = 85%."
+  }
+ ]
+}

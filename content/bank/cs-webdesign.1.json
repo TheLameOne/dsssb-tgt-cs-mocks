@@ -1,0 +1,326 @@
+{
+ "questions": [
+  {
+   "id": "webdesign-001",
+   "sec": "cs",
+   "topic": "webdesign",
+   "sub": "HTML basics",
+   "d": 1,
+   "q": "What is the full form of HTML?",
+   "o": [
+    "HyperText Markup Language",
+    "HighText Machine Language",
+    "HyperText Management Language",
+    "Hyperlink and Text Markup Language"
+   ],
+   "a": 0,
+   "e": "HTML is HyperText Markup Language, the standard language for describing the structure of web pages."
+  },
+  {
+   "id": "webdesign-002",
+   "sec": "cs",
+   "topic": "webdesign",
+   "sub": "navigation and usability",
+   "d": 1,
+   "q": "A trail of links such as Home > Products > Laptops, shown at the top of a page to tell users where they are in the site hierarchy, is called ______.",
+   "o": [
+    "a site map",
+    "a breadcrumb trail",
+    "a splash screen",
+    "a sidebar"
+   ],
+   "a": 1,
+   "e": "A breadcrumb trail shows the path from the home page to the current page and helps navigation. A site map is a separate page listing all pages."
+  },
+  {
+   "id": "webdesign-003",
+   "sec": "cs",
+   "topic": "webdesign",
+   "sub": "hyperlinks",
+   "d": 1,
+   "q": "Which HTML tag and attribute combination is used to create a hyperlink to another page?",
+   "o": [
+    "<link src=\"...\">",
+    "<a href=\"...\">",
+    "<href url=\"...\">",
+    "<url link=\"...\">"
+   ],
+   "a": 1,
+   "e": "The anchor tag <a> with its href attribute holds the destination address of the link."
+  },
+  {
+   "id": "webdesign-004",
+   "sec": "cs",
+   "topic": "webdesign",
+   "sub": "lists",
+   "d": 1,
+   "q": "Which HTML tag is used to create an ordered (numbered) list?",
+   "o": [
+    "<ul>",
+    "<ol>",
+    "<dl>",
+    "<li>"
+   ],
+   "a": 1,
+   "e": "<ol> makes a numbered list, <ul> an unordered (bulleted) list and <dl> a definition list. <li> marks each item."
+  },
+  {
+   "id": "webdesign-005",
+   "sec": "cs",
+   "topic": "webdesign",
+   "sub": "tables",
+   "d": 1,
+   "q": "Consider the following statements about HTML tables.\nI. The `<th>` tag defines a header cell, which is bold and centred by default.\nII. The `<tr>` tag defines a header cell.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "Only I is correct. <th> is the header cell tag. <tr> defines a table row, and <td> a data cell."
+  },
+  {
+   "id": "webdesign-006",
+   "sec": "cs",
+   "topic": "webdesign",
+   "sub": "comments",
+   "d": 1,
+   "q": "Which of the following is the correct way to write a comment in HTML?",
+   "o": [
+    "// comment",
+    "<!-- comment -->",
+    "/* comment */",
+    "# comment"
+   ],
+   "a": 1,
+   "e": "HTML comments begin with <!-- and end with -->. The other forms are comment syntax in other languages."
+  },
+  {
+   "id": "webdesign-007",
+   "sec": "cs",
+   "topic": "webdesign",
+   "sub": "HTML5 elements",
+   "d": 1,
+   "q": "Which of the following is NOT an HTML5 semantic element?",
+   "o": [
+    "<nav>",
+    "<article>",
+    "<footer>",
+    "<font>"
+   ],
+   "a": 3,
+   "e": "<font> is a presentational tag, deprecated in HTML5, and says nothing about the meaning of its content. nav, article and footer are semantic elements."
+  },
+  {
+   "id": "webdesign-008",
+   "sec": "cs",
+   "topic": "webdesign",
+   "sub": "image formats",
+   "d": 1,
+   "q": "Which image format commonly used on the web supports simple animation?",
+   "o": [
+    "JPEG",
+    "BMP",
+    "GIF",
+    "TIFF"
+   ],
+   "a": 2,
+   "e": "GIF supports animated sequences of frames, but it is limited to 256 colours per frame."
+  },
+  {
+   "id": "webdesign-009",
+   "sec": "cs",
+   "topic": "webdesign",
+   "sub": "colour models",
+   "d": 1,
+   "q": "Consider the following statements about colour models.\nI. RGB is the subtractive colour model used for computer monitors.\nII. CMYK is the subtractive colour model used for printing.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "Only II is correct. Monitors emit light and use the additive RGB model. CMYK is subtractive and is used for printing."
+  },
+  {
+   "id": "webdesign-010",
+   "sec": "cs",
+   "topic": "webdesign",
+   "sub": "Bootstrap",
+   "d": 1,
+   "q": "Which of the following is NOT a feature of Bootstrap?",
+   "o": [
+    "A responsive grid system",
+    "Ready-made CSS classes",
+    "JavaScript components",
+    "Server-side database management"
+   ],
+   "a": 3,
+   "e": "Bootstrap is a front-end framework and does not manage databases. It offers a responsive grid, CSS classes and JavaScript components."
+  },
+  {
+   "id": "webdesign-011",
+   "sec": "cs",
+   "topic": "webdesign",
+   "sub": "body attributes",
+   "d": 2,
+   "q": "In the HTML `<body>` tag, which attribute sets the colour of hyperlinks that the user has already visited?",
+   "o": [
+    "alink",
+    "link",
+    "vlink",
+    "hlink"
+   ],
+   "a": 2,
+   "e": "vlink is the visited-link colour. link sets unvisited links and alink the colour of an active link while it is clicked."
+  },
+  {
+   "id": "webdesign-012",
+   "sec": "cs",
+   "topic": "webdesign",
+   "sub": "hr attributes",
+   "d": 2,
+   "q": "Which attribute of the `<hr>` tag in HTML removes the 3-D shading from the horizontal rule and displays it as a solid line?",
+   "o": [
+    "flat",
+    "noshade",
+    "solid",
+    "nobevel"
+   ],
+   "a": 1,
+   "e": "noshade makes the rule a solid colour. The size and width attributes set its thickness and length."
+  },
+  {
+   "id": "webdesign-013",
+   "sec": "cs",
+   "topic": "webdesign",
+   "sub": "AngularJS directives",
+   "d": 2,
+   "q": "Consider the following statements about AngularJS directives.\nI. The `ng-model` directive binds an input field to a model variable with two-way data binding.\nII. The `ng-app` directive defines the root element of an AngularJS application.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Both are true. ng-model gives two-way binding between input and model, and ng-app marks where the application starts."
+  },
+  {
+   "id": "webdesign-014",
+   "sec": "cs",
+   "topic": "webdesign",
+   "sub": "jQuery",
+   "d": 2,
+   "q": "In jQuery, what does the statement `$(\"#demo\").hide();` do?",
+   "o": [
+    "Hides all elements with class demo",
+    "Hides the element whose id is demo",
+    "Hides all elements with the tag name demo",
+    "Deletes the element with id demo from the page"
+   ],
+   "a": 1,
+   "e": "The # prefix selects by id, as in CSS. hide() makes the element invisible by setting display to none, without removing it from the document."
+  },
+  {
+   "id": "webdesign-015",
+   "sec": "cs",
+   "topic": "webdesign",
+   "sub": "Sass",
+   "d": 2,
+   "q": "Sass is ______.",
+   "o": [
+    "a JavaScript framework for single-page applications",
+    "a CSS preprocessor that adds variables, nesting and mixins",
+    "a server-side scripting language",
+    "a markup language for mobile devices"
+   ],
+   "a": 1,
+   "e": "Sass (Syntactically Awesome Style Sheets) extends CSS with variables, nesting and mixins, and is compiled into plain CSS."
+  },
+  {
+   "id": "webdesign-016",
+   "sec": "cs",
+   "topic": "webdesign",
+   "sub": "Visual Basic controls",
+   "d": 2,
+   "q": "Regarding classic Visual Basic controls, consider the following.\nI. The label shown on a CommandButton is set through its `Text` property.\nII. The contents of a TextBox are set through its `Caption` property.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 3,
+   "e": "Neither is correct. A CommandButton uses Caption for its label and a TextBox uses Text for its contents."
+  },
+  {
+   "id": "webdesign-017",
+   "sec": "cs",
+   "topic": "webdesign",
+   "sub": "hex colour codes",
+   "d": 3,
+   "q": "The web colour `#FF8000` corresponds to which decimal RGB triplet?",
+   "o": [
+    "(255, 128, 0)",
+    "(255, 80, 0)",
+    "(240, 128, 0)",
+    "(255, 8, 0)"
+   ],
+   "a": 0,
+   "e": "Each pair is a hexadecimal byte: FF = 255, 80 = 8×16 = 128, 00 = 0. So the colour is (255, 128, 0), an orange."
+  },
+  {
+   "id": "webdesign-018",
+   "sec": "cs",
+   "topic": "webdesign",
+   "sub": "responsive design",
+   "d": 3,
+   "q": "Which meta tag in the head of a page makes the layout width equal to the device width on a mobile browser, as needed for responsive design?",
+   "o": [
+    "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+    "<meta name=\"responsive\" content=\"true\">",
+    "<meta http-equiv=\"viewport\" content=\"auto\">",
+    "<meta name=\"device\" content=\"width=100%\">"
+   ],
+   "a": 0,
+   "e": "The viewport meta tag controls the layout viewport on mobile browsers. Media queries in CSS then adapt the design to that width."
+  },
+  {
+   "id": "webdesign-019",
+   "sec": "cs",
+   "topic": "webdesign",
+   "sub": "PNG format",
+   "d": 3,
+   "q": "Which web image format offers lossless compression, 24-bit colour and full alpha-channel transparency?",
+   "o": [
+    "GIF",
+    "JPEG",
+    "PNG",
+    "WBMP"
+   ],
+   "a": 2,
+   "e": "PNG is lossless and supports true colour with an alpha channel. GIF is limited to 256 colours and JPEG is lossy with no transparency."
+  },
+  {
+   "id": "webdesign-020",
+   "sec": "cs",
+   "topic": "webdesign",
+   "sub": "AngularJS expressions",
+   "d": 3,
+   "q": "What does the browser display for the following AngularJS markup?",
+   "code": "<div ng-app=\"\">\n  <p ng-init=\"x = 5\">{{ x * 2 + 1 }}</p>\n</div>",
+   "lang": "html",
+   "o": [
+    "x * 2 + 1",
+    "10",
+    "11",
+    "51"
+   ],
+   "a": 2,
+   "e": "ng-init sets x to 5 and the expression in double curly braces is evaluated by AngularJS as 5 × 2 + 1 = 11."
+  }
+ ]
+}

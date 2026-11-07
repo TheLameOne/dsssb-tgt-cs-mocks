@@ -1,0 +1,436 @@
+{
+ "questions": [
+  {
+   "id": "dbms-026",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "B+ tree",
+   "d": 1,
+   "q": "Consider the following statements about B+ trees.\nI. The internal nodes store the pointers to the data records.\nII. The leaf nodes are not linked to each other.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 3,
+   "e": "Both are false. Pointers to data records are held only in the leaf nodes, while internal nodes hold keys that guide the search. The leaf nodes are linked in a chain, which makes range queries efficient."
+  },
+  {
+   "id": "dbms-027",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "B+ tree",
+   "d": 2,
+   "q": "In a B+ tree of order m, where m is the maximum number of child pointers of an internal node, the maximum number of keys in an internal node is",
+   "o": [
+    "m − 1",
+    "m",
+    "m + 1",
+    "m / 2"
+   ],
+   "a": 0,
+   "e": "An internal node with m child pointers separates them using m − 1 keys."
+  },
+  {
+   "id": "dbms-028",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "data independence",
+   "d": 1,
+   "q": "Consider the following statements about data independence.\nI. Physical data independence is the ability to change the conceptual schema without changing the external views.\nII. Logical data independence is the ability to change the internal schema without affecting the conceptual schema.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 3,
+   "e": "Both statements swap the terms. Logical data independence is changing the conceptual schema without affecting external views or programs. Physical data independence is changing the internal schema without affecting the conceptual schema."
+  },
+  {
+   "id": "dbms-029",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "distributed transactions",
+   "d": 2,
+   "q": "Which protocol ensures that a distributed transaction commits at all participating sites or at none?",
+   "o": [
+    "Two-phase commit",
+    "Two-phase locking",
+    "Timestamp ordering",
+    "Wait-die"
+   ],
+   "a": 0,
+   "e": "Two-phase commit has a prepare (voting) phase and a commit phase run by the coordinator. Two-phase locking is a concurrency-control method."
+  },
+  {
+   "id": "dbms-030",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "file organisation",
+   "d": 1,
+   "q": "What is the full form of ISAM?",
+   "o": [
+    "Indexed Sequential Access Method",
+    "Indexed Sequential Addressing Method",
+    "Indirect Sequential Access Method",
+    "Indexed Serial Access Mechanism"
+   ],
+   "a": 0,
+   "e": "ISAM stands for Indexed Sequential Access Method, which keeps records in sorted order with an index."
+  },
+  {
+   "id": "dbms-031",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "relational algebra",
+   "d": 2,
+   "q": "The division operator of relational algebra is best suited to a query such as",
+   "o": [
+    "Find students who have enrolled in all courses",
+    "Find students who have enrolled in at least one course",
+    "Find students who have enrolled in no course",
+    "Find students whose name starts with A"
+   ],
+   "a": 0,
+   "e": "Division expresses 'for all' queries: it returns the values in one relation associated with every value of another."
+  },
+  {
+   "id": "dbms-032",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "SQL group by",
+   "d": 1,
+   "q": "In SQL, the clause used to place a condition on groups created by GROUP BY is ______.",
+   "o": [
+    "HAVING",
+    "WHERE",
+    "ORDER BY",
+    "DISTINCT"
+   ],
+   "a": 0,
+   "e": "HAVING filters groups after aggregation. WHERE filters individual rows before grouping."
+  },
+  {
+   "id": "dbms-033",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "superkeys",
+   "d": 3,
+   "q": "R(A, B, C, D) has the dependencies C → ABD and AB → C. The number of superkeys of R is",
+   "o": [
+    "10",
+    "8",
+    "9",
+    "12"
+   ],
+   "a": 0,
+   "e": "Candidate keys are C and AB. Supersets of C: 8. Supersets of AB: 4. Supersets of both, ABC: 2. By inclusion and exclusion, 8 + 4 − 2 = 10."
+  },
+  {
+   "id": "dbms-034",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "BCNF and 3NF",
+   "d": 2,
+   "q": "Consider the following statements.\nI. Every relation in BCNF is also in 3NF.\nII. Every relation in 3NF is also in BCNF.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "BCNF is stricter than 3NF, so I is true. A 3NF relation can still have a non-superkey determinant whose right side is a prime attribute, so II is false."
+  },
+  {
+   "id": "dbms-035",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "4NF and 5NF",
+   "d": 2,
+   "q": "Fourth normal form is based on ______ dependencies, while fifth normal form is based on ______ dependencies.",
+   "o": [
+    "multivalued; join",
+    "join; multivalued",
+    "functional; multivalued",
+    "transitive; join"
+   ],
+   "a": 0,
+   "e": "4NF removes non-trivial multivalued dependencies that are not due to a superkey. 5NF (project-join normal form) deals with join dependencies."
+  },
+  {
+   "id": "dbms-036",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "integrity constraints",
+   "d": 1,
+   "q": "Consider the following statements about referential integrity.\nI. A foreign key value may be NULL, unless the column is declared NOT NULL.\nII. A foreign key may refer to the primary key of its own relation.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Both are true. A foreign key must be NULL or match an existing key value of the referenced relation, and a self-referencing foreign key, such as a manager's ID in an employee table, is allowed."
+  },
+  {
+   "id": "dbms-037",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "ER symbols",
+   "d": 1,
+   "q": "In an ER diagram, a multivalued attribute is represented by",
+   "o": [
+    "A double ellipse",
+    "A dashed ellipse",
+    "An ellipse with underlined name",
+    "A double rectangle"
+   ],
+   "a": 0,
+   "e": "A double ellipse denotes a multivalued attribute. A dashed ellipse is a derived attribute, an underlined name marks a key attribute, and a double rectangle is a weak entity set."
+  },
+  {
+   "id": "dbms-038",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "data models",
+   "d": 1,
+   "q": "Which data model organises records as a tree of parent and child records?",
+   "o": [
+    "Hierarchical model",
+    "Network model",
+    "Relational model",
+    "Object-oriented model"
+   ],
+   "a": 0,
+   "e": "The hierarchical model has each child record with exactly one parent. The network model allows many parents (a graph)."
+  },
+  {
+   "id": "dbms-039",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "group by having",
+   "d": 2,
+   "q": "For the relation Sales shown, how many rows are returned by `SELECT item FROM Sales GROUP BY item HAVING SUM(qty) > 12;`?",
+   "table": {
+    "head": [
+     "item",
+     "qty"
+    ],
+    "rows": [
+     [
+      "A",
+      "10"
+     ],
+     [
+      "B",
+      "5"
+     ],
+     [
+      "A",
+      "20"
+     ],
+     [
+      "C",
+      "7"
+     ],
+     [
+      "B",
+      "8"
+     ],
+     [
+      "C",
+      "1"
+     ]
+    ]
+   },
+   "o": [
+    "2",
+    "3",
+    "1",
+    "4"
+   ],
+   "a": 0,
+   "e": "Totals are A = 30, B = 13 and C = 8. A and B exceed 12, so 2 rows."
+  },
+  {
+   "id": "dbms-040",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "serialisability",
+   "d": 3,
+   "q": "Consider the schedule of three transactions:\nr3(C); r2(A); w2(A); r1(A); w1(B); r3(B); w3(C)\nThe schedule is conflict serialisable and is conflict equivalent to the serial schedule",
+   "o": [
+    "T2, T1, T3",
+    "T1, T2, T3",
+    "T3, T2, T1",
+    "T2, T3, T1"
+   ],
+   "a": 0,
+   "e": "Conflicts: w2(A) before r1(A) gives T2 → T1, and w1(B) before r3(B) gives T1 → T3. The precedence graph is acyclic with the only order T2, T1, T3. The two operations on C belong to T3 alone."
+  },
+  {
+   "id": "dbms-041",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "ER to relational",
+   "d": 2,
+   "q": "An M:N relationship set in an ER model is converted into the relational model by",
+   "o": [
+    "creating a separate relation having the keys of both entity sets",
+    "adding the key of one entity set to the other relation",
+    "merging the two entity sets into one relation",
+    "adding a multivalued column to one relation"
+   ],
+   "a": 0,
+   "e": "M:N relationships need their own relation whose primary key is the combination of the primary keys of the two participating entity sets. A 1:N relationship only needs a foreign key."
+  },
+  {
+   "id": "dbms-042",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "hashing",
+   "d": 1,
+   "q": "In hashing, when two different keys are mapped to the same bucket address, it is called a",
+   "o": [
+    "collision",
+    "overflow chain",
+    "cluster",
+    "split"
+   ],
+   "a": 0,
+   "e": "Two keys with the same hash value cause a collision, which is resolved by chaining, probing or overflow areas."
+  },
+  {
+   "id": "dbms-043",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "SQL classes",
+   "d": 1,
+   "q": "Consider the following statements about SQL command classes.\nI. ALTER is a DCL command.\nII. GRANT is a DCL command.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "GRANT and REVOKE are DCL (Data Control Language) commands. ALTER is a DDL command that changes the structure of a table, so I is false."
+  },
+  {
+   "id": "dbms-044",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "indexing",
+   "d": 2,
+   "q": "An index built on the ordering key field of a sequentially ordered data file, with one entry per data block, is a",
+   "o": [
+    "sparse primary index",
+    "dense primary index",
+    "dense secondary index",
+    "clustering index"
+   ],
+   "a": 0,
+   "e": "A primary index on the ordering key has one entry per block (the anchor record), which makes it sparse. A secondary index on a key field must be dense."
+  },
+  {
+   "id": "dbms-045",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "keys",
+   "d": 1,
+   "q": "A candidate key that is not chosen as the primary key is called an ______ key.",
+   "o": [
+    "alternate",
+    "foreign",
+    "super",
+    "composite"
+   ],
+   "a": 0,
+   "e": "Of all candidate keys, one is picked as the primary key and the remaining ones are alternate keys."
+  },
+  {
+   "id": "dbms-046",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "ER symbols",
+   "d": 1,
+   "q": "The double diamond in an ER diagram represents",
+   "o": [
+    "An identifying relationship",
+    "A multivalued attribute",
+    "A weak entity set",
+    "A derived attribute"
+   ],
+   "a": 0,
+   "e": "A weak entity set is linked to its owner entity through an identifying relationship, drawn as a double diamond. The weak entity itself is a double rectangle."
+  },
+  {
+   "id": "dbms-047",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "SQL joins",
+   "d": 2,
+   "q": "Relation A has column x with values 1, 2, 2, 5, and relation B has column y with values 2, 2, 5, 7. How many rows are returned by `SELECT * FROM A LEFT OUTER JOIN B ON A.x = B.y;`?",
+   "o": [
+    "6",
+    "5",
+    "4",
+    "8"
+   ],
+   "a": 0,
+   "e": "The two 2s in A each match two 2s in B, giving 4 rows, and 5 matches once, giving 1. The value 1 has no match and still appears once with NULLs. Total 6."
+  },
+  {
+   "id": "dbms-048",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "relational algebra",
+   "d": 2,
+   "q": "Relation R has degree 3 with 6 tuples and relation S has degree 2 with 4 tuples. The Cartesian product R × S has",
+   "o": [
+    "24 tuples and 5 attributes",
+    "10 tuples and 5 attributes",
+    "24 tuples and 6 attributes",
+    "10 tuples and 6 attributes"
+   ],
+   "a": 0,
+   "e": "The product pairs every tuple of R with every tuple of S, giving 6 × 4 = 24 tuples, and the degrees add: 3 + 2 = 5."
+  },
+  {
+   "id": "dbms-049",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "ACID",
+   "d": 1,
+   "q": "Which of the following is NOT one of the ACID properties of a transaction?",
+   "o": [
+    "Atomicity",
+    "Consistency",
+    "Isolation",
+    "Scalability"
+   ],
+   "a": 3,
+   "e": "ACID stands for Atomicity, Consistency, Isolation and Durability. Scalability is a desirable quality of a system but is not a transaction property."
+  },
+  {
+   "id": "dbms-050",
+   "sec": "cs",
+   "topic": "dbms",
+   "sub": "triggers",
+   "d": 1,
+   "q": "Consider the following statements about database triggers.\nI. A trigger has to be called explicitly by the user with a CALL statement.\nII. A trigger can be defined to fire on INSERT, UPDATE or DELETE events.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "A trigger fires automatically when its event occurs, so I is wrong. Triggers are defined on INSERT, UPDATE and DELETE, so II is correct."
+  }
+ ]
+}

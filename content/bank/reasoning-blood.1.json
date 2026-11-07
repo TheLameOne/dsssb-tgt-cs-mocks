@@ -1,0 +1,164 @@
+{
+ "questions": [
+  {
+   "id": "blood-001",
+   "sec": "reasoning",
+   "topic": "blood",
+   "sub": "direct statement",
+   "d": 1,
+   "q": "Pointing to a boy, Rekha said, \"He is the son of my mother's only brother.\" How is the boy related to Rekha?",
+   "o": [
+    "Brother",
+    "Uncle",
+    "Nephew",
+    "Cousin"
+   ],
+   "a": 3,
+   "e": "Rekha's mother's only brother is her maternal uncle, and his son is her maternal cousin."
+  },
+  {
+   "id": "blood-002",
+   "sec": "reasoning",
+   "topic": "blood",
+   "sub": "chain",
+   "d": 1,
+   "q": "P is the mother of Q. Q is the sister of R. R is the father of S. How is P related to S?",
+   "o": [
+    "Mother",
+    "Aunt",
+    "Grandmother",
+    "Sister"
+   ],
+   "a": 2,
+   "e": "Q and R are P's children. R is S's father, so P is S's paternal grandmother."
+  },
+  {
+   "id": "blood-003",
+   "sec": "reasoning",
+   "topic": "blood",
+   "sub": "direct statement",
+   "d": 1,
+   "q": "Sunita's mother is the only daughter of Ravi's mother. How is Ravi related to Sunita?",
+   "o": [
+    "Paternal uncle",
+    "Father",
+    "Brother",
+    "Maternal uncle"
+   ],
+   "a": 3,
+   "e": "Ravi's mother has one daughter, Sunita's mother, so Ravi is her brother. Hence Ravi is Sunita's maternal uncle."
+  },
+  {
+   "id": "blood-004",
+   "sec": "reasoning",
+   "topic": "blood",
+   "sub": "coded relation",
+   "d": 2,
+   "q": "In a code, 'A + B' means A is the mother of B, 'A − B' means A is the brother of B, and 'A × B' means A is the father of B. What does 'P × Q − R + S' tell us about P and S?",
+   "o": [
+    "S is the grandfather of P",
+    "P is the father of S",
+    "P is the uncle of S",
+    "P is the grandfather of S"
+   ],
+   "a": 3,
+   "e": "P is the father of Q. Q is the brother of R, so P is also R's father. R is the mother of S, so P is S's maternal grandfather."
+  },
+  {
+   "id": "blood-005",
+   "sec": "reasoning",
+   "topic": "blood",
+   "sub": "family set",
+   "d": 2,
+   "q": "A and B are a married couple, A being the husband. C is A's brother. D is C's only son. B is the mother of F. How is D related to B?",
+   "o": [
+    "Cousin",
+    "Brother-in-law",
+    "Son",
+    "Nephew"
+   ],
+   "a": 3,
+   "e": "D is the son of A's brother, so D is A's nephew. B is A's wife, so D is also B's nephew."
+  },
+  {
+   "id": "blood-006",
+   "sec": "reasoning",
+   "topic": "blood",
+   "sub": "direct statement",
+   "d": 2,
+   "q": "Pointing to a man in a photograph, Mohan said, \"His mother is the only daughter of my mother's mother.\" How is the man related to Mohan?",
+   "o": [
+    "Nephew",
+    "Cousin",
+    "Uncle",
+    "Brother"
+   ],
+   "a": 3,
+   "e": "The only daughter of Mohan's mother's mother is Mohan's own mother. So the man's mother is Mohan's mother, and the man is Mohan's brother."
+  },
+  {
+   "id": "blood-007",
+   "sec": "reasoning",
+   "topic": "blood",
+   "sub": "coded relation",
+   "d": 2,
+   "q": "In a code, 'A % B' means A is the daughter of B, 'A & B' means A is the brother of B and 'A $ B' means A is the father of B. If 'M & N % O $ P', how is M related to P?",
+   "o": [
+    "Uncle",
+    "Brother",
+    "Father",
+    "Son-in-law"
+   ],
+   "a": 1,
+   "e": "M is N's brother, and N is O's daughter, so M is O's son. O is the father of P, so M and P are children of O. M is P's brother."
+  },
+  {
+   "id": "blood-008",
+   "sec": "reasoning",
+   "topic": "blood",
+   "sub": "chain",
+   "d": 3,
+   "q": "P is the father of Q. R is the wife of Q. S is the only son of R. T is the sister of S. U is the brother of P. How is U related to S?",
+   "o": [
+    "Grand uncle",
+    "Cousin",
+    "Grandfather",
+    "Uncle"
+   ],
+   "a": 0,
+   "e": "P is the father of Q. Q and R are the parents of S. So P is S's grandfather, and P's brother U is S's grand uncle."
+  },
+  {
+   "id": "blood-009",
+   "sec": "reasoning",
+   "topic": "blood",
+   "sub": "direct statement",
+   "d": 3,
+   "q": "Pointing to a woman, Mahesh said, \"Her husband's mother is the only sister of my father's wife.\" How is the woman related to Mahesh?",
+   "o": [
+    "Wife of his maternal cousin",
+    "Wife of his brother",
+    "Maternal aunt",
+    "His cousin sister"
+   ],
+   "a": 0,
+   "e": "Mahesh's father's wife is his mother. Her only sister is his maternal aunt, and the woman's husband is the aunt's son. So the woman is the wife of Mahesh's maternal cousin."
+  },
+  {
+   "id": "blood-010",
+   "sec": "reasoning",
+   "topic": "blood",
+   "sub": "coded relation",
+   "d": 3,
+   "q": "In a code, 'A # B' means A is the father of B, 'A @ B' means A is the sister of B, and 'A $ B' means A is the wife of B. In 'P # Q @ R $ S # T', how is P related to T?",
+   "o": [
+    "Paternal grandfather",
+    "Maternal uncle",
+    "Father",
+    "Maternal grandfather"
+   ],
+   "a": 3,
+   "e": "P is the father of Q, and Q is R's sister, so P is R's father. R is S's wife and S is T's father, so R is T's mother. P is the father of T's mother, so P is T's maternal grandfather."
+  }
+ ]
+}

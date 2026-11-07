@@ -1,0 +1,324 @@
+{
+ "questions": [
+  {
+   "id": "coding-001",
+   "sec": "reasoning",
+   "topic": "coding",
+   "sub": "letter shift backward",
+   "d": 1,
+   "q": "In a certain code, MIND is written as LHMC. How is FILE written in that code?",
+   "o": [
+    "EHKD",
+    "EHLD",
+    "FHKD",
+    "GJMF"
+   ],
+   "a": 0,
+   "e": "Each letter is moved one place back (M→L, I→H, N→M, D→C). So F→E, I→H, L→K, E→D, giving EHKD."
+  },
+  {
+   "id": "coding-002",
+   "sec": "reasoning",
+   "topic": "coding",
+   "sub": "word reversal",
+   "d": 1,
+   "q": "In a code, FRIEND is written as DNEIRF. How is SCHOOL written in that code?",
+   "o": [
+    "SCHLOO",
+    "LOOHCS",
+    "LOOCHS",
+    "LOOHSC"
+   ],
+   "a": 1,
+   "e": "The letters of the word are written in reverse order. SCHOOL reversed is LOOHCS."
+  },
+  {
+   "id": "coding-003",
+   "sec": "reasoning",
+   "topic": "coding",
+   "sub": "letter-value sum",
+   "d": 1,
+   "q": "If A = 1, B = 2, C = 3, ..., Z = 26, what is the sum of the values of the letters in FACE?",
+   "o": [
+    "14",
+    "15",
+    "18",
+    "16"
+   ],
+   "a": 1,
+   "e": "F + A + C + E = 6 + 1 + 3 + 5 = 15."
+  },
+  {
+   "id": "coding-004",
+   "sec": "reasoning",
+   "topic": "coding",
+   "sub": "number to word",
+   "d": 1,
+   "q": "If A = 1, B = 2, C = 3, ..., Z = 26, which word is written as 8-5-12-16?",
+   "o": [
+    "HELP",
+    "HOLD",
+    "HEAP",
+    "HELD"
+   ],
+   "a": 0,
+   "e": "The numbers stand for letter positions: 8 = H, 5 = E, 12 = L, 16 = P. The word is HELP."
+  },
+  {
+   "id": "coding-005",
+   "sec": "reasoning",
+   "topic": "coding",
+   "sub": "common word sentence code",
+   "d": 1,
+   "q": "In a certain code, 'go to school' is written as 'pa ru ni' and 'school is far' is written as 'ni ba su'. What is the code for 'school'?",
+   "o": [
+    "ni",
+    "su",
+    "ba",
+    "pa"
+   ],
+   "a": 0,
+   "e": "'School' is the only word common to both sentences, and 'ni' is the only code common to both. So 'school' = 'ni'."
+  },
+  {
+   "id": "coding-006",
+   "sec": "reasoning",
+   "topic": "coding",
+   "sub": "letter shift forward",
+   "d": 1,
+   "q": "In a code, TABLE is written as VCDNG. How is CHAIR written in that code?",
+   "o": [
+    "AFYGP",
+    "EJCKS",
+    "EJCKT",
+    "DIBJS"
+   ],
+   "a": 2,
+   "e": "Each letter is moved two places forward (T→V, A→C, B→D, L→N, E→G). So C→E, H→J, A→C, I→K, R→T, giving EJCKT."
+  },
+  {
+   "id": "coding-007",
+   "sec": "reasoning",
+   "topic": "coding",
+   "sub": "position code",
+   "d": 1,
+   "q": "In a code, ICE is written as 9-3-5. How is FAN written in that code?",
+   "o": [
+    "6-1-13",
+    "5-1-14",
+    "6-2-14",
+    "6-1-14"
+   ],
+   "a": 3,
+   "e": "Each letter is replaced by its position in the alphabet (I = 9, C = 3, E = 5). F = 6, A = 1, N = 14, so FAN is 6-1-14."
+  },
+  {
+   "id": "coding-008",
+   "sec": "reasoning",
+   "topic": "coding",
+   "sub": "alternating shift +1 −2",
+   "d": 2,
+   "q": "In a certain code, DOWN is written as EMXL. How is TAKE written in that code?",
+   "o": [
+    "UYLC",
+    "SYJC",
+    "UZLD",
+    "UYLE"
+   ],
+   "a": 0,
+   "e": "The letters are shifted +1, −2, +1, −2 (D→E, O→M, W→X, N→L). So T→U, A→Y, K→L, E→C, giving UYLC."
+  },
+  {
+   "id": "coding-009",
+   "sec": "reasoning",
+   "topic": "coding",
+   "sub": "mirror alphabet",
+   "d": 2,
+   "q": "In a certain code, WATER is written as DZGVI. How is FIRE written in that code?",
+   "o": [
+    "URVI",
+    "UQIV",
+    "URIV",
+    "GJSF"
+   ],
+   "a": 2,
+   "e": "Each letter is replaced by its mirror letter (A↔Z, B↔Y, ...), i.e. the pair adds up to 27: W→D, A→Z, T→G. So F→U, I→R, R→I, E→V, giving URIV."
+  },
+  {
+   "id": "coding-010",
+   "sec": "reasoning",
+   "topic": "coding",
+   "sub": "shifted letter values",
+   "d": 2,
+   "q": "In a code, the letters have values A = 2, B = 3, C = 4, ..., Z = 27. What is the sum of the values of the letters in BAG?",
+   "o": [
+    "11",
+    "10",
+    "14",
+    "13"
+   ],
+   "a": 3,
+   "e": "Each letter's value is its normal position plus 1. B = 3, A = 2, G = 8, and 3 + 2 + 8 = 13."
+  },
+  {
+   "id": "coding-011",
+   "sec": "reasoning",
+   "topic": "coding",
+   "sub": "sentence code three",
+   "d": 2,
+   "q": "In a certain code, 'sun is hot' is written as 'pa ki ro', 'hot tea good' is written as 'ro ma su', and 'is good' is written as 'ki su'. What is the code for 'tea'?",
+   "o": [
+    "ro",
+    "su",
+    "pa",
+    "ma"
+   ],
+   "a": 3,
+   "e": "'hot' is common to the first two sentences (ro). 'is' is common to the first and third (ki) and 'good' to the second and third (su). Of 'ro ma su', only 'ma' is left, so tea = ma."
+  },
+  {
+   "id": "coding-012",
+   "sec": "reasoning",
+   "topic": "coding",
+   "sub": "reverse then shift",
+   "d": 2,
+   "q": "In a certain code, MOUSE is written as FTVPN. How is CABLE written in that code?",
+   "o": [
+    "DMCBF",
+    "FMCBD",
+    "FMCBC",
+    "EKZAB"
+   ],
+   "a": 1,
+   "e": "The word is reversed and each letter is moved one place forward. MOUSE → ESUOM → FTVPN. CABLE → ELBAC → FMCBD."
+  },
+  {
+   "id": "coding-013",
+   "sec": "reasoning",
+   "topic": "coding",
+   "sub": "reverse alphabet values",
+   "d": 2,
+   "q": "If A = 26, B = 25, C = 24, ..., Z = 1, what is the sum of the values of the letters in CAT?",
+   "o": [
+    "60",
+    "24",
+    "57",
+    "48"
+   ],
+   "a": 2,
+   "e": "Here a letter's value is 27 minus its position: C = 24, A = 26, T = 7. The sum is 24 + 26 + 7 = 57."
+  },
+  {
+   "id": "coding-014",
+   "sec": "reasoning",
+   "topic": "coding",
+   "sub": "vowel and consonant rule",
+   "d": 2,
+   "q": "In a certain code, every vowel is replaced by the next letter of the alphabet and every consonant by the previous letter. How is BEAST written in that code?",
+   "o": [
+    "ADZRS",
+    "AFBRS",
+    "AFBTU",
+    "CFBTU"
+   ],
+   "a": 1,
+   "e": "Vowels go forward: E→F, A→B. Consonants go back: B→A, S→R, T→S. So BEAST becomes AFBRS."
+  },
+  {
+   "id": "coding-015",
+   "sec": "reasoning",
+   "topic": "coding",
+   "sub": "word to digits",
+   "d": 2,
+   "q": "In a certain code, ROSE is written as 6821 and ROPE is written as 6851. How is POSE written in that code?",
+   "o": [
+    "5812",
+    "5281",
+    "5821",
+    "6521"
+   ],
+   "a": 2,
+   "e": "Comparing ROSE and ROPE, S = 2 and P = 5 (R = 6, O = 8, E = 1 in both). So POSE = P, O, S, E = 5, 8, 2, 1 = 5821."
+  },
+  {
+   "id": "coding-016",
+   "sec": "reasoning",
+   "topic": "coding",
+   "sub": "progressive shift",
+   "d": 3,
+   "q": "In a certain code, BOAT is written as CQDX. How is WIND written in that code?",
+   "o": [
+    "XLRI",
+    "XKQH",
+    "XJQG",
+    "XKQG"
+   ],
+   "a": 1,
+   "e": "The shifts are +1, +2, +3, +4 (B→C, O→Q, A→D, T→X). So W+1 = X, I+2 = K, N+3 = Q, D+4 = H, giving XKQH."
+  },
+  {
+   "id": "coding-017",
+   "sec": "reasoning",
+   "topic": "coding",
+   "sub": "alphabetical order position",
+   "d": 3,
+   "q": "The letters of the word CHAIR are arranged in alphabetical order and each letter is replaced by its position in the alphabet. What is the sum of the 2nd and 4th numbers?",
+   "o": [
+    "12",
+    "26",
+    "11",
+    "21"
+   ],
+   "a": 0,
+   "e": "Alphabetical order gives A, C, H, I, R, i.e. 1, 3, 8, 9, 18. The 2nd and 4th numbers are 3 and 9, and 3 + 9 = 12."
+  },
+  {
+   "id": "coding-018",
+   "sec": "reasoning",
+   "topic": "coding",
+   "sub": "sentence code four",
+   "d": 3,
+   "q": "In a certain code, 'sweet red apple' is 'ka tu mo', 'red hot sun' is 'tu ri na', 'hot sweet fruit' is 'ri ka zu' and 'sun apple' is 'na mo'. What is the code for 'sun'?",
+   "o": [
+    "zu",
+    "mo",
+    "na",
+    "ri"
+   ],
+   "a": 2,
+   "e": "Common words: red = tu (sentences 1, 2), hot = ri (2, 3), sweet = ka (1, 3). In 'red hot sun' only 'na' is left, so sun = na; then apple = mo, which matches the last sentence."
+  },
+  {
+   "id": "coding-019",
+   "sec": "reasoning",
+   "topic": "coding",
+   "sub": "letter-value sum search",
+   "d": 3,
+   "q": "If A = 1, B = 2, ..., Z = 26, which of the following words has a letter-value sum of 43?",
+   "o": [
+    "COAT",
+    "DOOR",
+    "ROAD",
+    "BOOK"
+   ],
+   "a": 3,
+   "e": "BOOK = 2 + 15 + 15 + 11 = 43. The others are COAT = 39, DOOR = 52 and ROAD = 38."
+  },
+  {
+   "id": "coding-020",
+   "sec": "reasoning",
+   "topic": "coding",
+   "sub": "sum times length",
+   "d": 3,
+   "q": "In a certain code, CAB is coded as 18 and BEAD is coded as 48. Using the same rule (A = 1, B = 2, ..., Z = 26), what is the code for DEAD?",
+   "o": [
+    "42",
+    "112",
+    "14",
+    "56"
+   ],
+   "a": 3,
+   "e": "The code is (sum of letter positions) × (number of letters). CAB: (3+1+2) × 3 = 18; BEAD: (2+5+1+4) × 4 = 48. DEAD: (4+5+1+4) × 4 = 56."
+  }
+ ]
+}

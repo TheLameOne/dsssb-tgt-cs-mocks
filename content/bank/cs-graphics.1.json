@@ -1,0 +1,484 @@
+{
+ "questions": [
+  {
+   "id": "graphics-001",
+   "sec": "cs",
+   "topic": "graphics",
+   "sub": "raster and vector",
+   "d": 1,
+   "q": "Consider the following statements about computer graphics.\nI. Raster graphics store a picture as mathematical descriptions of lines and curves.\nII. Vector graphics become blocky when they are enlarged.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 3,
+   "e": "Neither is correct. Vector graphics store geometric descriptions and scale without loss. Raster graphics store a grid of pixels and become blocky when enlarged."
+  },
+  {
+   "id": "graphics-002",
+   "sec": "cs",
+   "topic": "graphics",
+   "sub": "CRT",
+   "d": 1,
+   "q": "In a CRT display, electrons are emitted by the ______.",
+   "o": [
+    "phosphor screen",
+    "cathode (electron gun)",
+    "anode only",
+    "shadow mask"
+   ],
+   "a": 1,
+   "e": "The heated cathode in the electron gun emits the electron beam. The beam is focused and deflected, and strikes the phosphor coating to produce light."
+  },
+  {
+   "id": "graphics-003",
+   "sec": "cs",
+   "topic": "graphics",
+   "sub": "refresh rate",
+   "d": 1,
+   "q": "The number of times per second that the picture on a raster display is redrawn is called the ______.",
+   "o": [
+    "resolution",
+    "aspect ratio",
+    "refresh rate",
+    "pixel depth"
+   ],
+   "a": 2,
+   "e": "Refresh rate is the number of frames redrawn per second, commonly 60 Hz or more, to avoid flicker. Resolution counts pixels, not redraws."
+  },
+  {
+   "id": "graphics-004",
+   "sec": "cs",
+   "topic": "graphics",
+   "sub": "frame buffer",
+   "d": 1,
+   "q": "What is the size of the frame buffer needed for a display of 1024 × 768 pixels with 8 bits per pixel?",
+   "o": [
+    "384 KB",
+    "1.5 MB",
+    "96 KB",
+    "768 KB"
+   ],
+   "a": 3,
+   "e": "Pixels = 1024 × 768 = 786432. At 1 byte per pixel this is 786432 bytes = 768 KB."
+  },
+  {
+   "id": "graphics-005",
+   "sec": "cs",
+   "topic": "graphics",
+   "sub": "aspect ratio",
+   "d": 1,
+   "q": "The aspect ratio of a display whose resolution is 1920 × 1080 is ______.",
+   "o": [
+    "16:9",
+    "4:3",
+    "16:10",
+    "21:9"
+   ],
+   "a": 0,
+   "e": "Divide both by 120: 1920/120 = 16 and 1080/120 = 9, so the ratio is 16:9."
+  },
+  {
+   "id": "graphics-006",
+   "sec": "cs",
+   "topic": "graphics",
+   "sub": "CMY model",
+   "d": 1,
+   "q": "On a 0-255 scale, the CMY values of the RGB colour (255, 0, 0) are ______.",
+   "o": [
+    "(0, 255, 255)",
+    "(255, 0, 0)",
+    "(255, 255, 0)",
+    "(0, 0, 255)"
+   ],
+   "a": 0,
+   "e": "C = 255 − R = 0, M = 255 − G = 255 and Y = 255 − B = 255. So pure red needs full magenta and yellow, with no cyan."
+  },
+  {
+   "id": "graphics-007",
+   "sec": "cs",
+   "topic": "graphics",
+   "sub": "DDA vs Bresenham",
+   "d": 1,
+   "q": "Which of the following is true of Bresenham's line algorithm as compared with the DDA algorithm?",
+   "o": [
+    "It uses floating-point multiplication at every step",
+    "It cannot draw lines with negative slope",
+    "It uses only integer arithmetic",
+    "It draws only horizontal and vertical lines"
+   ],
+   "a": 2,
+   "e": "Bresenham's algorithm uses an integer decision parameter with additions and shifts only. The DDA rounds floating-point increments at each step."
+  },
+  {
+   "id": "graphics-008",
+   "sec": "cs",
+   "topic": "graphics",
+   "sub": "2D scaling",
+   "d": 1,
+   "q": "A point (3, 4) is scaled about the origin with scaling factors sx = 2 and sy = 3. The new point is ______.",
+   "o": [
+    "(5, 7)",
+    "(6, 8)",
+    "(9, 8)",
+    "(6, 12)"
+   ],
+   "a": 3,
+   "e": "Scaling multiplies each coordinate by its factor: x' = 3 × 2 = 6, y' = 4 × 3 = 12."
+  },
+  {
+   "id": "graphics-009",
+   "sec": "cs",
+   "topic": "graphics",
+   "sub": "B-spline",
+   "d": 1,
+   "q": "Which of the following is an advantage of a B-spline curve over a Bezier curve?",
+   "o": [
+    "Local control of the curve shape",
+    "The curve always passes through all control points",
+    "The curve always has a higher degree",
+    "It needs fewer control points"
+   ],
+   "a": 0,
+   "e": "In a B-spline, moving one control point alters only a part of the curve (local control), and the degree is independent of the number of control points. In a Bezier curve the degree is tied to the count."
+  },
+  {
+   "id": "graphics-010",
+   "sec": "cs",
+   "topic": "graphics",
+   "sub": "Cohen-Sutherland",
+   "d": 1,
+   "q": "Consider the following statements about Cohen-Sutherland line clipping.\nI. The region code of a point inside the clipping window is 0000.\nII. Each bit of the 4-bit region code shows whether the point lies beyond one edge (top, bottom, right or left) of the window.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Both are true. A point inside violates no edge, so all four bits are 0, and each bit marks one edge."
+  },
+  {
+   "id": "graphics-011",
+   "sec": "cs",
+   "topic": "graphics",
+   "sub": "JPEG",
+   "d": 1,
+   "q": "What is the full form of JPEG?",
+   "o": [
+    "Joint Picture Encoding Group",
+    "Joint Photographic Encoding Format",
+    "Joint Photographic Experts Group",
+    "Joined Pictures Experts Group"
+   ],
+   "a": 2,
+   "e": "JPEG stands for Joint Photographic Experts Group, the committee that defined the lossy image compression standard."
+  },
+  {
+   "id": "graphics-012",
+   "sec": "cs",
+   "topic": "graphics",
+   "sub": "GIF",
+   "d": 1,
+   "q": "Consider the following statements about the GIF image format.\nI. A GIF image can have about 16.7 million colours in its palette.\nII. GIF supports simple animation by storing several frames.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "Only II is correct. GIF uses an 8-bit indexed palette of at most 256 colours. It does support simple animation."
+  },
+  {
+   "id": "graphics-013",
+   "sec": "cs",
+   "topic": "graphics",
+   "sub": "MP3",
+   "d": 1,
+   "q": "Which of the following is NOT a lossy compression format?",
+   "o": [
+    "MP3",
+    "JPEG",
+    "AAC",
+    "FLAC"
+   ],
+   "a": 3,
+   "e": "FLAC is lossless compression, so the original audio can be restored exactly. MP3, JPEG and AAC discard some information."
+  },
+  {
+   "id": "graphics-014",
+   "sec": "cs",
+   "topic": "graphics",
+   "sub": "animation",
+   "d": 1,
+   "q": "Animation on a screen works because of the ______ of the human eye.",
+   "o": [
+    "colour blindness",
+    "persistence of vision",
+    "depth perception",
+    "night vision"
+   ],
+   "a": 1,
+   "e": "The eye retains an image for a fraction of a second, so rapidly displayed successive frames blend into smooth motion."
+  },
+  {
+   "id": "graphics-015",
+   "sec": "cs",
+   "topic": "graphics",
+   "sub": "Bresenham line",
+   "d": 2,
+   "q": "A line is drawn from (2, 3) to (10, 8) using Bresenham's algorithm (slope less than 1, x sampled at unit steps). The initial decision parameter p₀ = 2Δy − Δx equals ______.",
+   "o": [
+    "5",
+    "−3",
+    "2",
+    "10"
+   ],
+   "a": 2,
+   "e": "Δx = 10 − 2 = 8 and Δy = 8 − 3 = 5. So p₀ = 2 × 5 − 8 = 2."
+  },
+  {
+   "id": "graphics-016",
+   "sec": "cs",
+   "topic": "graphics",
+   "sub": "midpoint circle",
+   "d": 2,
+   "q": "In the midpoint circle algorithm, the initial decision parameter for a circle of radius r = 10 centred at the origin is p₀ = 1 − r. Its value is ______.",
+   "o": [
+    "9",
+    "−10",
+    "11",
+    "−9"
+   ],
+   "a": 3,
+   "e": "p₀ = 1 − r = 1 − 10 = −9. A negative value means the midpoint is inside the circle, so the next pixel is chosen at the same y."
+  },
+  {
+   "id": "graphics-017",
+   "sec": "cs",
+   "topic": "graphics",
+   "sub": "2D rotation",
+   "d": 2,
+   "q": "The point (3, 4) is rotated by 90° anticlockwise about the origin. The new coordinates are ______.",
+   "o": [
+    "(−4, 3)",
+    "(4, −3)",
+    "(−3, −4)",
+    "(4, 3)"
+   ],
+   "a": 0,
+   "e": "x' = x cosθ − y sinθ = −4 and y' = x sinθ + y cosθ = 3 for θ = 90°. So the result is (−4, 3). (4, −3) is the clockwise rotation."
+  },
+  {
+   "id": "graphics-018",
+   "sec": "cs",
+   "topic": "graphics",
+   "sub": "composite transformation",
+   "d": 2,
+   "q": "The point (1, 2) is first scaled by 2 in both directions about the origin and then translated by (3, 1). The final position is ______.",
+   "o": [
+    "(8, 6)",
+    "(5, 5)",
+    "(4, 3)",
+    "(5, 3)"
+   ],
+   "a": 1,
+   "e": "Scaling gives (2, 4). Translation then gives (5, 5). Doing the translation first gives (4, 3), then scaling gives (8, 6), so the order matters."
+  },
+  {
+   "id": "graphics-019",
+   "sec": "cs",
+   "topic": "graphics",
+   "sub": "shear",
+   "d": 2,
+   "q": "A point (1, 3) is sheared along the x-direction with shear factor shx = 2, using x' = x + shx·y and y' = y. The result is ______.",
+   "o": [
+    "(1, 5)",
+    "(3, 3)",
+    "(7, 3)",
+    "(7, 9)"
+   ],
+   "a": 2,
+   "e": "x' = 1 + 2 × 3 = 7, and y' stays 3. So the sheared point is (7, 3)."
+  },
+  {
+   "id": "graphics-020",
+   "sec": "cs",
+   "topic": "graphics",
+   "sub": "Bezier curves",
+   "d": 2,
+   "q": "Consider the following statements about Bezier curves.\nI. A cubic Bezier curve is determined by four control points.\nII. A Bezier curve always passes through all of its control points.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "A Bezier curve of degree n uses n + 1 control points, so a cubic uses four. It passes through only the first and last control points, while the others pull the curve."
+  },
+  {
+   "id": "graphics-021",
+   "sec": "cs",
+   "topic": "graphics",
+   "sub": "polygon clipping",
+   "d": 2,
+   "q": "The Sutherland-Hodgman algorithm is used for clipping ______.",
+   "o": [
+    "a polygon against a convex clip window, one edge at a time",
+    "a line against a rectangle using region codes",
+    "a curve against a circular window",
+    "a polygon against hidden surfaces"
+   ],
+   "a": 0,
+   "e": "Sutherland-Hodgman clips a polygon successively against each edge of the clip window, passing the output list of vertices to the next edge. Region codes belong to Cohen-Sutherland line clipping."
+  },
+  {
+   "id": "graphics-022",
+   "sec": "cs",
+   "topic": "graphics",
+   "sub": "region code",
+   "d": 2,
+   "q": "A clipping window is 0 ≤ x ≤ 10 and 0 ≤ y ≤ 10. Using the bit order Top, Bottom, Right, Left, the region code of the point (12, −3) is ______.",
+   "o": [
+    "1001",
+    "0110",
+    "0101",
+    "0011"
+   ],
+   "a": 1,
+   "e": "x = 12 is right of the window, so R = 1. y = −3 is below it, so B = 1. T and L are 0, giving 0110."
+  },
+  {
+   "id": "graphics-023",
+   "sec": "cs",
+   "topic": "graphics",
+   "sub": "hidden surface removal",
+   "d": 2,
+   "q": "Which of the following is an image-space hidden surface removal method?",
+   "o": [
+    "Back-face detection",
+    "Octree-based object sorting",
+    "Z-buffer (depth-buffer) algorithm",
+    "Depth sorting of whole objects"
+   ],
+   "a": 2,
+   "e": "The Z-buffer algorithm compares depth at each pixel, so it works in image space. Back-face detection and depth sorting work on objects (object space)."
+  },
+  {
+   "id": "graphics-024",
+   "sec": "cs",
+   "topic": "graphics",
+   "sub": "solid modelling",
+   "d": 2,
+   "q": "In Constructive Solid Geometry (CSG), complex solids are built from primitives such as cubes and cylinders using ______.",
+   "o": [
+    "B-spline surface patches",
+    "sweep curves only",
+    "polygon meshes of faces and edges",
+    "Boolean operations: union, intersection and difference"
+   ],
+   "a": 3,
+   "e": "CSG combines solid primitives with union, intersection and difference, stored as a tree. The boundary representation (B-rep) uses faces, edges and vertices instead."
+  },
+  {
+   "id": "graphics-025",
+   "sec": "cs",
+   "topic": "graphics",
+   "sub": "video size",
+   "d": 2,
+   "q": "Uncompressed video has a frame size of 640 × 480 pixels, 24 bits per pixel and 30 frames per second. The data rate is ______ bytes per second.",
+   "o": [
+    "27,648,000",
+    "9,216,000",
+    "921,600",
+    "3,456,000"
+   ],
+   "a": 0,
+   "e": "One frame = 640 × 480 × 3 bytes = 921,600 bytes. At 30 frames per second this is 27,648,000 bytes per second."
+  },
+  {
+   "id": "graphics-026",
+   "sec": "cs",
+   "topic": "graphics",
+   "sub": "Bresenham trace",
+   "d": 3,
+   "q": "Bresenham's algorithm draws a line from (0, 0) to (5, 2) using p₀ = 2Δy − Δx, with p → p + 2Δy if p < 0, else y increases and p → p + 2(Δy − Δx). The pixels plotted are ______.",
+   "o": [
+    "(0,0), (1,0), (2,0), (3,1), (4,1), (5,2)",
+    "(0,0), (1,0), (2,1), (3,1), (4,2), (5,2)",
+    "(0,0), (1,1), (2,1), (3,2), (4,2), (5,2)",
+    "(0,0), (1,0), (2,1), (3,2), (4,2), (5,2)"
+   ],
+   "a": 1,
+   "e": "p₀ = 2(2) − 5 = −1, so y stays 0 at x = 1 and p = 3. Then y = 1 at x = 2 (p = −3), y = 1 at x = 3 (p = 1), y = 2 at x = 4 (p = −5), and y = 2 at x = 5."
+  },
+  {
+   "id": "graphics-027",
+   "sec": "cs",
+   "topic": "graphics",
+   "sub": "rotation about a point",
+   "d": 3,
+   "q": "The point (3, 1) is rotated by 90° anticlockwise about the point (1, 1) using homogeneous coordinates (translate, rotate, translate back). The new position is ______.",
+   "o": [
+    "(−1, 3)",
+    "(1, −1)",
+    "(1, 3)",
+    "(3, −1)"
+   ],
+   "a": 2,
+   "e": "Translate by (−1, −1): (2, 0). Rotate 90° anticlockwise: (0, 2). Translate back: (1, 3). (−1, 3) results if the rotation is done about the origin."
+  },
+  {
+   "id": "graphics-028",
+   "sec": "cs",
+   "topic": "graphics",
+   "sub": "look-up table",
+   "d": 3,
+   "q": "A system has a 1280 × 1024 display. Each pixel stores an 8-bit index into a colour look-up table of 256 entries of 24 bits each. The total memory for the frame buffer plus the look-up table is ______ bytes.",
+   "o": [
+    "1,310,720",
+    "3,932,160",
+    "1,310,976",
+    "1,311,488"
+   ],
+   "a": 3,
+   "e": "Frame buffer = 1280 × 1024 × 1 byte = 1,310,720 bytes. Table = 256 × 3 bytes = 768 bytes. Total = 1,311,488. Direct 24-bit storage would need 3,932,160."
+  },
+  {
+   "id": "graphics-029",
+   "sec": "cs",
+   "topic": "graphics",
+   "sub": "line clipping",
+   "d": 3,
+   "q": "A window is 0 ≤ x ≤ 10, 0 ≤ y ≤ 10. A line from P₁(−4, 2) to P₂(6, 12) is clipped by Cohen-Sutherland. After clipping against the left edge x = 0, the new endpoint replacing P₁ is ______.",
+   "o": [
+    "(0, 6)",
+    "(0, 4)",
+    "(0, 2)",
+    "(0, 8)"
+   ],
+   "a": 0,
+   "e": "The slope is (12 − 2)/(6 + 4) = 1. At x = 0, y = 2 + 1 × (0 + 4) = 6. The endpoint codes (0001 and 1000) have AND = 0000, so the line is neither trivially accepted nor rejected."
+  },
+  {
+   "id": "graphics-030",
+   "sec": "cs",
+   "topic": "graphics",
+   "sub": "Bezier point",
+   "d": 3,
+   "q": "A cubic Bezier curve has control points P₀(0,0), P₁(0,4), P₂(4,4) and P₃(4,0). The point on the curve at t = 0.5 is ______.",
+   "o": [
+    "(2, 4)",
+    "(2, 3)",
+    "(2, 2)",
+    "(1, 3)"
+   ],
+   "a": 1,
+   "e": "At t = 0.5 the weights are 1/8, 3/8, 3/8, 1/8. x = (0 + 0 + 12 + 4)/8 = 2 and y = (0 + 12 + 12 + 0)/8 = 3."
+  }
+ ]
+}

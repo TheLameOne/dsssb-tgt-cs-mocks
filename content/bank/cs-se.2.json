@@ -1,0 +1,428 @@
+{
+ "questions": [
+  {
+   "id": "se-026",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "CMM",
+   "d": 2,
+   "q": "Match the CMM level in List I with its number in List II.",
+   "table": {
+    "head": [
+     "List I",
+     "List II"
+    ],
+    "rows": [
+     [
+      "a. Initial",
+      "1. Level 2"
+     ],
+     [
+      "b. Repeatable",
+      "2. Level 4"
+     ],
+     [
+      "c. Defined",
+      "3. Level 1"
+     ],
+     [
+      "d. Managed",
+      "4. Level 3"
+     ]
+    ]
+   },
+   "o": [
+    "a-3, b-1, c-4, d-2",
+    "a-1, b-2, c-3, d-4",
+    "a-3, b-1, c-2, d-4",
+    "a-4, b-2, c-1, d-3"
+   ],
+   "a": 0,
+   "e": "Initial is level 1, Repeatable is level 2, Defined is level 3 and Managed is level 4."
+  },
+  {
+   "id": "se-027",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "maintenance cost",
+   "d": 3,
+   "q": "In COCOMO, the annual maintenance effort is AME = ACT × development effort, where ACT is the annual change traffic. A product took 120 person-months to develop and has ACT = 15%. Total maintenance effort over 5 years is",
+   "o": [
+    "90 person-months",
+    "18 person-months",
+    "30 person-months",
+    "72 person-months"
+   ],
+   "a": 0,
+   "e": "AME = 0.15 × 120 = 18 person-months per year. Over 5 years the effort is 18 × 5 = 90 person-months."
+  },
+  {
+   "id": "se-028",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "incremental model",
+   "d": 1,
+   "q": "In the incremental model, the software is delivered",
+   "o": [
+    "in a series of builds, each adding functionality",
+    "only once at the end of the project",
+    "as a throw-away prototype",
+    "after complete risk elimination"
+   ],
+   "a": 0,
+   "e": "The incremental model delivers the first increment early and then adds functionality in later increments."
+  },
+  {
+   "id": "se-029",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "CMM",
+   "d": 1,
+   "q": "At which level of the SEI Capability Maturity Model are processes continuously improved?",
+   "o": [
+    "Level 5 (Optimizing)",
+    "Level 4 (Managed)",
+    "Level 3 (Defined)",
+    "Level 2 (Repeatable)"
+   ],
+   "a": 0,
+   "e": "Level 5 is the Optimizing level, with continuous process improvement. Level 4 is quantitative management."
+  },
+  {
+   "id": "se-030",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "beta testing",
+   "d": 1,
+   "q": "Consider the following statements about acceptance-type testing by users.\nI. Alpha testing is carried out by end users at the customer's site.\nII. Beta testing is carried out by end users at the customer's site.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "Beta testing is done by end users in their own environment. Alpha testing is done at the developer's site under controlled conditions, so I is false."
+  },
+  {
+   "id": "se-031",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "DFD",
+   "d": 2,
+   "q": "A DFD that depicts the entire system as a single process along with its external entities and data flows is called a",
+   "o": [
+    "context diagram",
+    "level-2 DFD",
+    "structure chart",
+    "data dictionary"
+   ],
+   "a": 0,
+   "e": "The context diagram shows the system boundary as one bubble with its inputs and outputs. It is the top of the DFD hierarchy."
+  },
+  {
+   "id": "se-032",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "coupling",
+   "d": 2,
+   "q": "Regarding module coupling, consider the following.\nI. Content coupling is the tightest and least desirable type.\nII. Data coupling is the loosest and most desirable type.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Content coupling, where one module modifies the internals of another, is the tightest. Data coupling, where modules exchange only the data they need, is the loosest."
+  },
+  {
+   "id": "se-033",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "spiral model",
+   "d": 1,
+   "q": "Consider the following statements about the spiral model.\nI. Every loop of the spiral includes risk analysis.\nII. It combines the iterative nature of prototyping with the controlled, systematic aspects of the waterfall model.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Both are true. The spiral model, proposed by Boehm, is risk-driven and couples prototyping with the waterfall approach."
+  },
+  {
+   "id": "se-034",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "agile",
+   "d": 1,
+   "q": "Which of the following is NOT an agile software development method?",
+   "o": [
+    "Waterfall model",
+    "Scrum",
+    "Extreme Programming",
+    "Crystal"
+   ],
+   "a": 0,
+   "e": "The waterfall model is a traditional plan-driven model. Scrum, XP and Crystal are agile methods."
+  },
+  {
+   "id": "se-035",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "SRS",
+   "d": 1,
+   "q": "The document that records, in agreed form, the complete functional and non-functional requirements of the software is the",
+   "o": [
+    "SRS",
+    "SDD",
+    "test plan",
+    "user manual"
+   ],
+   "a": 0,
+   "e": "The Software Requirements Specification (SRS) is the contract between customer and developer on what the system will do. The SDD describes the design."
+  },
+  {
+   "id": "se-036",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "reliability metrics",
+   "d": 1,
+   "q": "Consider the following statements about reliability metrics.\nI. MTBF = MTTF − MTTR.\nII. MTBF = MTTF × MTTR.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 3,
+   "e": "MTBF is the mean time between failures, which equals the mean time to failure plus the mean time to repair: MTBF = MTTF + MTTR. Both statements are false."
+  },
+  {
+   "id": "se-037",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "coupling",
+   "d": 3,
+   "q": "Module A passes a whole customer record to module B, but B uses only the customer's name field. The coupling between A and B is",
+   "o": [
+    "stamp coupling",
+    "data coupling",
+    "control coupling",
+    "common coupling"
+   ],
+   "a": 0,
+   "e": "Passing a composite data structure when only part is used is stamp coupling. Data coupling passes only the needed simple data items."
+  },
+  {
+   "id": "se-038",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "scrum",
+   "d": 1,
+   "q": "In Scrum, a fixed time-boxed iteration in which a potentially shippable increment is built is called a",
+   "o": [
+    "sprint",
+    "backlog",
+    "scrum master",
+    "release train"
+   ],
+   "a": 0,
+   "e": "A sprint is a time-boxed iteration, usually one to four weeks. The backlog is the list of work items and the Scrum Master is a role."
+  },
+  {
+   "id": "se-039",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "cyclomatic complexity",
+   "d": 3,
+   "q": "A flow graph has nodes 1 to 9 and the directed edges 1→2, 2→3, 2→4, 3→5, 4→5, 5→6, 6→2, 6→7, 7→8, 7→9 and 8→9. Its cyclomatic complexity is",
+   "o": [
+    "4",
+    "3",
+    "5",
+    "6"
+   ],
+   "a": 0,
+   "e": "There are 9 nodes and 11 edges, so V(G) = 11 − 9 + 2 = 4. As a check, the predicate nodes 2, 6 and 7 each have two outgoing edges, so 3 + 1 = 4."
+  },
+  {
+   "id": "se-040",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "risk management",
+   "d": 2,
+   "q": "The probability of a risk occurring is 0.4 and the loss if it occurs is ₹50,000. The risk exposure is",
+   "o": [
+    "₹20,000",
+    "₹50,000",
+    "₹30,000",
+    "₹1,25,000"
+   ],
+   "a": 0,
+   "e": "Risk exposure = probability × loss = 0.4 × 50,000 = ₹20,000."
+  },
+  {
+   "id": "se-041",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "system testing",
+   "d": 2,
+   "q": "Consider the following statements about system testing.\nI. Stress testing checks the behaviour of software under normal expected load only.\nII. Regression testing re-runs tests after a change to check that existing functionality is not broken.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "Stress testing pushes the system beyond its specified limits, such as abnormally heavy load, so I is false. Regression testing is correctly described in II."
+  },
+  {
+   "id": "se-042",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "cohesion",
+   "d": 3,
+   "q": "A module has several functions that are performed in a fixed order, where the output of each function is the input to the next. The type of cohesion is",
+   "o": [
+    "sequential",
+    "communicational",
+    "procedural",
+    "functional"
+   ],
+   "a": 0,
+   "e": "Output-to-input chaining of activities is sequential cohesion. Communicational cohesion needs functions working on the same data, and procedural cohesion needs only control ordering with no data flow."
+  },
+  {
+   "id": "se-043",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "data dictionary",
+   "d": 1,
+   "q": "In structured analysis, the data dictionary is a repository containing",
+   "o": [
+    "definitions of the data elements, data flows and data stores",
+    "the source code of all modules",
+    "the test cases of the project",
+    "the cost estimate of the project"
+   ],
+   "a": 0,
+   "e": "A data dictionary records the composition and meaning of every data item shown in the DFDs."
+  },
+  {
+   "id": "se-044",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "cohesion",
+   "d": 1,
+   "q": "Which type of cohesion is the strongest and most desirable?",
+   "o": [
+    "Functional",
+    "Sequential",
+    "Logical",
+    "Coincidental"
+   ],
+   "a": 0,
+   "e": "In functional cohesion all elements of a module cooperate to perform one single task, which is the best case."
+  },
+  {
+   "id": "se-045",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "UML",
+   "d": 2,
+   "q": "Which UML diagram emphasises the time-ordered sequence of messages exchanged between objects?",
+   "o": [
+    "Sequence diagram",
+    "Class diagram",
+    "Component diagram",
+    "Package diagram"
+   ],
+   "a": 0,
+   "e": "A sequence diagram shows lifelines of objects with messages arranged top to bottom in time order."
+  },
+  {
+   "id": "se-046",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "equivalence partitioning",
+   "d": 2,
+   "q": "A function accepts an integer between 1 and 100 inclusive. By equivalence partitioning, the number of equivalence classes, counting both valid and invalid, is",
+   "o": [
+    "3",
+    "2",
+    "4",
+    "100"
+   ],
+   "a": 0,
+   "e": "One valid class (1 to 100) and two invalid classes (below 1 and above 100) give 3 classes."
+  },
+  {
+   "id": "se-047",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "Halstead metrics",
+   "d": 3,
+   "q": "A program has 8 distinct operators and 16 distinct operands. Halstead's estimated program length N̂ = η₁ log₂ η₁ + η₂ log₂ η₂ is",
+   "o": [
+    "88",
+    "96",
+    "24",
+    "72"
+   ],
+   "a": 0,
+   "e": "N̂ = 8 × log₂8 + 16 × log₂16 = 8 × 3 + 16 × 4 = 24 + 64 = 88."
+  },
+  {
+   "id": "se-048",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "cyclomatic complexity",
+   "d": 2,
+   "q": "A control flow graph has 14 edges and 10 nodes, and one connected component. Its cyclomatic complexity V(G) is",
+   "o": [
+    "6",
+    "5",
+    "4",
+    "7"
+   ],
+   "a": 0,
+   "e": "V(G) = E − N + 2 = 14 − 10 + 2 = 6."
+  },
+  {
+   "id": "se-049",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "maintenance",
+   "d": 2,
+   "q": "Consider the following statements.\nI. Corrective maintenance fixes errors found during operation.\nII. Perfective maintenance is carried out to port the software to a new hardware platform.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "I is correct. Porting to new hardware or operating systems is adaptive maintenance, while perfective maintenance improves or extends functionality."
+  },
+  {
+   "id": "se-050",
+   "sec": "cs",
+   "topic": "se",
+   "sub": "function points",
+   "d": 2,
+   "q": "In function point analysis, the value adjustment factor VAF = 0.65 + 0.01 × ΣFi, where there are 14 general system characteristics, each rated 0 to 5. The maximum value of VAF is",
+   "o": [
+    "1.35",
+    "1.05",
+    "0.70",
+    "1.40"
+   ],
+   "a": 0,
+   "e": "The maximum ΣFi is 14 × 5 = 70, so VAF = 0.65 + 0.70 = 1.35. The minimum is 0.65."
+  }
+ ]
+}

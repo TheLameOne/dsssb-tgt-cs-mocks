@@ -1,0 +1,170 @@
+{
+ "questions": [
+  {
+   "id": "cpp-001",
+   "sec": "cs",
+   "topic": "cpp",
+   "sub": "polymorphism",
+   "d": 1,
+   "q": "Run-time polymorphism in C++ is achieved by using",
+   "o": [
+    "function overloading",
+    "operator overloading",
+    "function templates",
+    "virtual functions"
+   ],
+   "a": 3,
+   "e": "A call through a base class pointer or reference to a virtual function is resolved at run time using the object's actual type. The other three are resolved at compile time."
+  },
+  {
+   "id": "cpp-002",
+   "sec": "cs",
+   "topic": "cpp",
+   "sub": "constructors",
+   "d": 1,
+   "q": "Which of the following is true about a constructor in C++?",
+   "o": [
+    "It has the same name as its class and no return type",
+    "It must return an int",
+    "It can be declared virtual",
+    "It must be declared static"
+   ],
+   "a": 0,
+   "e": "A constructor is named after its class and has no return type, not even void. Constructors cannot be virtual or static."
+  },
+  {
+   "id": "cpp-003",
+   "sec": "cs",
+   "topic": "cpp",
+   "sub": "friend functions",
+   "d": 1,
+   "q": "Which of the following is NOT true of a friend function of a class?",
+   "o": [
+    "It is not a member of the class",
+    "It can access the private and protected members of the class",
+    "It is declared inside the class using the `friend` keyword",
+    "It is inherited by the classes derived from that class"
+   ],
+   "a": 3,
+   "e": "Friendship is not inherited: a friend of a base class does not automatically become a friend of its derived classes. The other three statements are true."
+  },
+  {
+   "id": "cpp-004",
+   "sec": "cs",
+   "topic": "cpp",
+   "sub": "exception handling",
+   "d": 1,
+   "q": "Which keyword is used in C++ to raise an exception?",
+   "o": [
+    "try",
+    "catch",
+    "throw",
+    "raise"
+   ],
+   "a": 2,
+   "e": "`throw` raises an exception. `try` marks the guarded block and `catch` handles it. C++ has no `raise` keyword."
+  },
+  {
+   "id": "cpp-005",
+   "sec": "cs",
+   "topic": "cpp",
+   "sub": "constructors and destructors",
+   "d": 2,
+   "q": "Assume iostream is included and the std namespace is in use. What is the output of the following C++ program?",
+   "code": "class B {\npublic:\n    B()  { cout << \"B \"; }\n    ~B() { cout << \"~B \"; }\n};\nclass D : public B {\npublic:\n    D()  { cout << \"D \"; }\n    ~D() { cout << \"~D \"; }\n};\nint main() {\n    D d;\n    return 0;\n}",
+   "lang": "cpp",
+   "o": [
+    "B D ~D ~B",
+    "D B ~B ~D",
+    "B D ~B ~D",
+    "D B ~D ~B"
+   ],
+   "a": 0,
+   "e": "The base class constructor runs first, then the derived one. Destruction occurs in the reverse order: the derived destructor first, then the base destructor."
+  },
+  {
+   "id": "cpp-006",
+   "sec": "cs",
+   "topic": "cpp",
+   "sub": "abstract classes",
+   "d": 2,
+   "q": "Consider the following statements about C++.\nI. A class having at least one pure virtual function cannot be instantiated.\nII. A derived class that does not override an inherited pure virtual function becomes a concrete class.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "A class with a pure virtual function is abstract and no object of it can be created. A derived class that fails to override that function remains abstract too."
+  },
+  {
+   "id": "cpp-007",
+   "sec": "cs",
+   "topic": "cpp",
+   "sub": "operator overloading",
+   "d": 2,
+   "q": "Which of the following operators cannot be overloaded in C++?",
+   "o": [
+    "+",
+    "::",
+    "[]",
+    "()"
+   ],
+   "a": 1,
+   "e": "The scope resolution operator ::, along with ., .*, ?: and sizeof, cannot be overloaded. Operators such as +, [] and () can."
+  },
+  {
+   "id": "cpp-008",
+   "sec": "cs",
+   "topic": "cpp",
+   "sub": "references",
+   "d": 2,
+   "q": "Regarding references in C++, consider the following.\nI. A reference declared inside a function can be left uninitialised and bound later.\nII. Once initialised, a reference can be made to refer to a different variable by assignment.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 3,
+   "e": "Both are false. A reference must be initialised at its declaration and stays bound to that object for its whole life. Assigning to it changes the value of the referred object, not the binding."
+  },
+  {
+   "id": "cpp-009",
+   "sec": "cs",
+   "topic": "cpp",
+   "sub": "virtual functions",
+   "d": 3,
+   "q": "Assume iostream is included and the std namespace is in use. What is the output of the following C++ program?",
+   "code": "class A {\npublic:\n    void f()         { cout << \"A\"; }\n    virtual void g() { cout << \"A\"; }\n};\nclass B : public A {\npublic:\n    void f() { cout << \"B\"; }\n    void g() { cout << \"B\"; }\n};\nint main() {\n    A* p = new B;\n    p->f();\n    p->g();\n    return 0;\n}",
+   "lang": "cpp",
+   "o": [
+    "BB",
+    "AA",
+    "BA",
+    "AB"
+   ],
+   "a": 3,
+   "e": "f is not virtual, so p->f() is bound at compile time to A::f using the pointer type A*. g is virtual, so p->g() is resolved at run time to B::g."
+  },
+  {
+   "id": "cpp-010",
+   "sec": "cs",
+   "topic": "cpp",
+   "sub": "exception handling",
+   "d": 3,
+   "q": "Assume iostream is included and the std namespace is in use. What is the output of the following C++ program?",
+   "code": "class X {};\nclass Y : public X {};\nint main() {\n    try {\n        throw Y();\n    }\n    catch (X&) { cout << \"X\"; }\n    catch (Y&) { cout << \"Y\"; }\n    cout << \"Z\";\n    return 0;\n}",
+   "lang": "cpp",
+   "o": [
+    "XZ",
+    "YZ",
+    "XYZ",
+    "X"
+   ],
+   "a": 0,
+   "e": "Handlers are tried in order of appearance, and a handler for a base class matches a thrown derived object. So the first catch runs and the second is never reached. Execution then continues after the try-catch, printing Z."
+  }
+ ]
+}

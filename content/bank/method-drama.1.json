@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "id": "drama-001", "sec": "method", "topic": "drama", "sub": "Augusto Boal", "d": 1,
+      "q": "Augusto Boal is best known for developing the",
+      "o": ["Theatre of the Absurd", "Theatre of the Oppressed", "Epic Theatre", "Natyashastra"], "a": 1,
+      "e": "Boal, a Brazilian theatre practitioner, created the Theatre of the Oppressed, which uses theatre to explore social problems. Epic Theatre is Brecht's."
+    },
+    {
+      "id": "drama-002", "sec": "method", "topic": "drama", "sub": "Tagore and arts", "d": 1,
+      "q": "Visva-Bharati at Santiniketan, where arts, music and drama have a central place in education, was founded by",
+      "o": ["Mahatma Gandhi", "Swami Vivekananda", "Rabindranath Tagore", "Sri Aurobindo"], "a": 2,
+      "e": "Tagore founded Visva-Bharati (1921) and held that education should develop creativity and aesthetic sense through the arts."
+    },
+    {
+      "id": "drama-003", "sec": "method", "topic": "drama", "sub": "puppetry", "d": 1,
+      "q": "Which of the following is a traditional string puppet form of India?",
+      "o": ["Tholu Bommalata", "Ravanchhaya", "Kathputli", "Pavakoothu"], "a": 2,
+      "e": "Kathputli of Rajasthan uses string puppets. Tholu Bommalata and Ravanchhaya are shadow puppetry, and Pavakoothu uses glove puppets."
+    },
+    {
+      "id": "drama-004", "sec": "method", "topic": "drama", "sub": "arts-integrated learning", "d": 1,
+      "q": "In art-integrated learning, art forms are used as a ______ for learning other subjects.",
+      "o": ["medium", "punishment", "substitute", "barrier"], "a": 0,
+      "e": "Art-integrated learning uses music, drama, visual arts and craft as a vehicle to teach concepts of other subjects."
+    },
+    {
+      "id": "drama-005", "sec": "method", "topic": "drama", "sub": "drama as pedagogy", "d": 2,
+      "q": "Consider the following statements.\nI. Drama in education involves learners in active participation to explore ideas.\nII. Drama in education requires every student to perform before a public audience.\nWhich of the above is/are correct?",
+      "o": ["Only I", "Only II", "Both I and II", "Neither I nor II"], "a": 0,
+      "e": "Educational drama is a process of learning through enacting and reflecting. It does not depend on a public performance."
+    },
+    {
+      "id": "drama-006", "sec": "method", "topic": "drama", "sub": "Kala Utsav", "d": 2,
+      "q": "Kala Utsav, an initiative of the Ministry of Education, aims to promote",
+      "o": ["computer literacy", "arts education and artistic talent among school students", "sports talent at the national level", "industrial training"], "a": 1,
+      "e": "Kala Utsav was launched to promote arts in education by nurturing and showcasing the artistic talent of school students at the secondary stage."
+    },
+    {
+      "id": "drama-007", "sec": "method", "topic": "drama", "sub": "benefits of drama", "d": 2,
+      "q": "Which of the following is NOT a benefit of using drama in the classroom?",
+      "o": ["Develops empathy", "Improves communication skills", "Builds confidence", "Encourages passive rote listening"], "a": 3,
+      "e": "Drama is an active method. Passive rote listening is the opposite of what it encourages."
+    },
+    {
+      "id": "drama-008", "sec": "method", "topic": "drama", "sub": "hot-seating", "d": 2,
+      "q": "A teacher wants students to understand the feelings and motives of a character in a story. Which drama technique suits this best?",
+      "o": ["Dictation of the character's description", "Hot-seating, where a student answers questions in the role of the character", "Copying the story neatly", "Memorising the summary of the story"], "a": 1,
+      "e": "In hot-seating a learner takes the role of a character and is questioned by the class. It builds empathy and deeper understanding of the text."
+    },
+    {
+      "id": "drama-009", "sec": "method", "topic": "drama", "sub": "Forum Theatre", "d": 3,
+      "q": "In Boal's Forum Theatre, audience members who step in to change the action on stage are called",
+      "o": ["spect-actors", "chorus", "narrators", "directors"], "a": 0,
+      "e": "Boal coined 'spect-actors' for spectators who become actors and try alternatives to resolve the problem shown."
+    },
+    {
+      "id": "drama-010", "sec": "method", "topic": "drama", "sub": "Theatre-in-Education origin", "d": 3,
+      "q": "The Theatre-in-Education (TIE) movement began in 1965 at the",
+      "o": ["Globe Theatre, London", "Old Vic, London", "Royal Court Theatre, London", "Belgrade Theatre, Coventry"], "a": 3,
+      "e": "TIE started at the Belgrade Theatre in Coventry, England, where actor-teachers presented participatory programmes in schools."
+    }
+  ]
+}

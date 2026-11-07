@@ -1,0 +1,396 @@
+{
+ "questions": [
+  {
+   "id": "cn-048",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "BGP",
+   "d": 2,
+   "q": "Regarding BGP, consider the following statements.\nI. BGP is a path-vector routing protocol.\nII. BGP is classified as an interior gateway protocol.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "Only I is correct. BGP exchanges path information between autonomous systems, so it is an exterior gateway protocol. Interior protocols such as OSPF and RIP work inside one autonomous system."
+  },
+  {
+   "id": "cn-049",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "IPv4 classes",
+   "d": 2,
+   "q": "The first octet range of class D (multicast) IPv4 addresses is",
+   "o": [
+    "192 to 223",
+    "224 to 239",
+    "240 to 255",
+    "128 to 191"
+   ],
+   "a": 1,
+   "e": "Class D addresses begin with the bits 1110, giving 224 to 239. Class E (240 to 255) is reserved."
+  },
+  {
+   "id": "cn-050",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "Subnetting",
+   "d": 2,
+   "q": "The network address of the host 192.168.10.77/26 is",
+   "o": [
+    "192.168.10.64",
+    "192.168.10.0",
+    "192.168.10.77",
+    "192.168.10.128"
+   ],
+   "a": 0,
+   "e": "A /26 mask is 255.255.255.192. 77 AND 192 = 64, so the network address is 192.168.10.64."
+  },
+  {
+   "id": "cn-051",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "Modulation",
+   "d": 2,
+   "q": "A 16-QAM signal is sent at 2400 baud. The bit rate is",
+   "o": [
+    "2400 bps",
+    "4800 bps",
+    "38400 bps",
+    "9600 bps"
+   ],
+   "a": 3,
+   "e": "16-QAM has 16 states, so each signal element carries log₂16 = 4 bits. Bit rate = 2400 × 4 = 9600 bps."
+  },
+  {
+   "id": "cn-052",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "Well-known ports",
+   "d": 2,
+   "q": "Match the protocols in List I with their default ports in List II.",
+   "table": {
+    "head": [
+     "List I",
+     "List II"
+    ],
+    "rows": [
+     [
+      "a. SMTP",
+      "1. 110"
+     ],
+     [
+      "b. DNS",
+      "2. 23"
+     ],
+     [
+      "c. Telnet",
+      "3. 53"
+     ],
+     [
+      "d. POP3",
+      "4. 25"
+     ]
+    ]
+   },
+   "o": [
+    "a-1, b-3, c-2, d-4",
+    "a-4, b-2, c-3, d-1",
+    "a-4, b-3, c-2, d-1",
+    "a-3, b-4, c-1, d-2"
+   ],
+   "a": 2,
+   "e": "SMTP uses 25, DNS uses 53, Telnet uses 23 and POP3 uses 110."
+  },
+  {
+   "id": "cn-053",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "Delay",
+   "d": 2,
+   "q": "A 1000-byte packet is sent on a 1 Mbps link. The transmission delay is",
+   "o": [
+    "1 ms",
+    "8 ms",
+    "80 ms",
+    "0.8 ms"
+   ],
+   "a": 1,
+   "e": "Transmission delay = packet size / bandwidth = 8000 bits / 10⁶ bps = 8 ms."
+  },
+  {
+   "id": "cn-054",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "NAT",
+   "d": 2,
+   "q": "Consider the following statements about NAT.\nI. NAT lets hosts with private addresses reach the Internet using a public address.\nII. NAT converts domain names into IP addresses.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "Only I is correct. NAT rewrites private source addresses into a public one. Converting domain names to IP addresses is the job of DNS."
+  },
+  {
+   "id": "cn-055",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "Congestion control",
+   "d": 2,
+   "q": "In TCP Tahoe, a timeout occurs when cwnd is 40 MSS. The new slow-start threshold (ssthresh) becomes",
+   "o": [
+    "40 MSS",
+    "1 MSS",
+    "80 MSS",
+    "20 MSS"
+   ],
+   "a": 3,
+   "e": "On loss, ssthresh is set to half of the current cwnd, that is 20 MSS, and cwnd restarts from 1 MSS."
+  },
+  {
+   "id": "cn-056",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "Sliding window ARQ",
+   "d": 2,
+   "q": "Consider the following statements.\nI. In Go-Back-N, the receiver window size is 1.\nII. In Selective Repeat, the receiver can buffer frames that arrive out of order.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Go-Back-N discards out-of-order frames, so its receiver window is 1. Selective Repeat has a receiver window larger than 1 and buffers such frames. Both are correct."
+  },
+  {
+   "id": "cn-057",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "Switching",
+   "d": 2,
+   "q": "Which switching technique does NOT need a call set-up phase before data transfer and routes each packet independently?",
+   "o": [
+    "Circuit switching",
+    "Datagram packet switching",
+    "Virtual circuit packet switching",
+    "Time division circuit switching"
+   ],
+   "a": 1,
+   "e": "In datagram switching every packet carries the full destination address and is routed on its own. Circuit and virtual-circuit switching first set up a path."
+  },
+  {
+   "id": "cn-058",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "Subnetting",
+   "d": 3,
+   "q": "A class C network 192.168.1.0 must be divided into at least 6 subnets. Which subnet mask gives the largest number of hosts per subnet?",
+   "o": [
+    "255.255.255.224",
+    "255.255.255.192",
+    "255.255.255.240",
+    "255.255.255.248"
+   ],
+   "a": 0,
+   "e": "6 subnets need 3 borrowed bits (2³ = 8 ≥ 6), giving mask /27 = 255.255.255.224 with 2⁵ − 2 = 30 hosts each. Two bits give only 4 subnets."
+  },
+  {
+   "id": "cn-059",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "Subnetting",
+   "d": 3,
+   "q": "How many valid host addresses are there in the network 10.0.0.0/22?",
+   "o": [
+    "1024",
+    "510",
+    "254",
+    "1022"
+   ],
+   "a": 3,
+   "e": "A /22 leaves 10 host bits, so 2¹⁰ = 1024 addresses. Removing the network and broadcast addresses leaves 1022."
+  },
+  {
+   "id": "cn-060",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "CSMA/CD",
+   "d": 3,
+   "q": "On a 1 Gbps CSMA/CD network the round-trip propagation time is 20 µs. The minimum frame size needed to detect collisions is",
+   "o": [
+    "250 bytes",
+    "2500 bits",
+    "2500 bytes",
+    "512 bytes"
+   ],
+   "a": 2,
+   "e": "The transmission time must be at least the round-trip time. Minimum bits = 10⁹ × 20 × 10⁻⁶ = 20000 bits = 2500 bytes."
+  },
+  {
+   "id": "cn-061",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "Sliding window",
+   "d": 3,
+   "q": "In a sliding window protocol the frame transmission time is 1 ms and the one-way propagation time is 9.5 ms. The window size needed for 100% link utilisation is",
+   "o": [
+    "10",
+    "20",
+    "19",
+    "21"
+   ],
+   "a": 1,
+   "e": "Utilisation is 100% when w ≥ 1 + 2a. Here a = 9.5/1 = 9.5, so w = 1 + 19 = 20 frames."
+  },
+  {
+   "id": "cn-062",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "Selective repeat",
+   "d": 3,
+   "q": "A Selective Repeat protocol needs a sender window of 20 frames. The minimum number of bits in the sequence number field is",
+   "o": [
+    "6",
+    "5",
+    "4",
+    "7"
+   ],
+   "a": 0,
+   "e": "Selective Repeat needs 2ⁿ ≥ 2 × window = 40, so n = 6 (2⁶ = 64). With 5 bits the maximum window would be only 16."
+  },
+  {
+   "id": "cn-063",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "CRC",
+   "d": 3,
+   "q": "Data 1001 is sent using the CRC generator 1011. The transmitted codeword is",
+   "o": [
+    "1001101",
+    "1001011",
+    "1001001",
+    "1001110"
+   ],
+   "a": 3,
+   "e": "Append 000 to get 1001000 and divide by 1011 using XOR. The remainder is 110, so the codeword is 1001 followed by 110."
+  },
+  {
+   "id": "cn-064",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "Hamming code",
+   "d": 3,
+   "q": "A (7,4) Hamming code with even parity places parity bits at positions 1, 2 and 4. The codeword for data bits 1011 (placed at positions 3, 5, 6, 7 in order) is",
+   "o": [
+    "1011011",
+    "0111100",
+    "0110011",
+    "1010101"
+   ],
+   "a": 2,
+   "e": "Positions 3,5,6,7 hold 1,0,1,1. p1 covers 3,5,7 = 1,0,1 giving 0. p2 covers 3,6,7 = 1,1,1 giving 1. p4 covers 5,6,7 = 0,1,1 giving 0. Codeword 0110011."
+  },
+  {
+   "id": "cn-065",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "Shannon",
+   "d": 3,
+   "q": "A channel has bandwidth 1 MHz and SNR of 30 dB. The Shannon capacity is approximately",
+   "o": [
+    "1 Mbps",
+    "10 Mbps",
+    "30 Mbps",
+    "3 Mbps"
+   ],
+   "a": 1,
+   "e": "30 dB means SNR = 10³ = 1000. C = 10⁶ × log₂1001, and log₂1001 is about 10, so C is about 10 Mbps."
+  },
+  {
+   "id": "cn-066",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "Nyquist and Shannon",
+   "d": 3,
+   "q": "A channel has bandwidth 4 kHz and SNR 15. Using Shannon's formula for the limit and Nyquist's formula for the signal levels, the number of levels needed to reach the limit is",
+   "o": [
+    "4",
+    "2",
+    "8",
+    "16"
+   ],
+   "a": 0,
+   "e": "Shannon: C = 4000 × log₂16 = 16000 bps. Nyquist: 2 × 4000 × log₂L = 16000 gives log₂L = 2, so L = 4."
+  },
+  {
+   "id": "cn-067",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "TCP handshake",
+   "d": 3,
+   "q": "A client sends a SYN with initial sequence number 1000. The server replies with SYN+ACK using initial sequence number 5000. The acknowledgement number in the client's final ACK segment is",
+   "o": [
+    "1001",
+    "5000",
+    "1000",
+    "5001"
+   ],
+   "a": 3,
+   "e": "A SYN consumes one sequence number. The server's SYN+ACK carries seq 5000 and ack 1001. The client acknowledges the server's SYN with ack 5001."
+  },
+  {
+   "id": "cn-068",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "IP fragmentation",
+   "d": 3,
+   "q": "An IP datagram of total length 4000 bytes (header 20 bytes) is sent over a link with MTU 1500 bytes. The number of fragments and the fragment offset field value of the last fragment are",
+   "o": [
+    "3 and 2960",
+    "2 and 185",
+    "3 and 370",
+    "4 and 555"
+   ],
+   "a": 2,
+   "e": "Data = 3980 bytes. Each fragment carries 1480 data bytes (a multiple of 8), so fragments carry 1480, 1480 and 1020 bytes. The last starts at byte 2960, so offset = 2960/8 = 370."
+  },
+  {
+   "id": "cn-069",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "Subnetting",
+   "d": 3,
+   "q": "The broadcast address of the subnet containing host 172.16.35.200/20 is",
+   "o": [
+    "172.16.35.255",
+    "172.16.47.255",
+    "172.16.32.255",
+    "172.16.63.255"
+   ],
+   "a": 1,
+   "e": "A /20 mask has third octet 240, so blocks are 16 wide. 35 lies in block 32 to 47, so the broadcast address is 172.16.47.255."
+  },
+  {
+   "id": "cn-070",
+   "sec": "cs",
+   "topic": "cn",
+   "sub": "Subnetting",
+   "d": 3,
+   "q": "A class B network 172.16.0.0 is subnetted with mask 255.255.255.192. The number of subnets and usable hosts per subnet are",
+   "o": [
+    "1024 and 62",
+    "1024 and 64",
+    "256 and 62",
+    "1022 and 62"
+   ],
+   "a": 0,
+   "e": "Mask /26 on class B borrows 10 bits for subnets: 2¹⁰ = 1024 subnets. Host bits are 6, giving 2⁶ − 2 = 62 hosts."
+  }
+ ]
+}

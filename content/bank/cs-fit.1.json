@@ -1,0 +1,164 @@
+{
+ "questions": [
+  {
+   "id": "fit-001",
+   "sec": "cs",
+   "topic": "fit",
+   "sub": "data vs information",
+   "d": 1,
+   "q": "Processed and meaningful data that is useful for decision making is called ______.",
+   "o": [
+    "raw data",
+    "information",
+    "a database",
+    "a program"
+   ],
+   "a": 1,
+   "e": "Data are raw facts; when processed and given meaning they become information."
+  },
+  {
+   "id": "fit-002",
+   "sec": "cs",
+   "topic": "fit",
+   "sub": "generations",
+   "d": 1,
+   "q": "Which of the following pairs of computer generation and main component is NOT correct?",
+   "o": [
+    "First generation - vacuum tubes",
+    "Fourth generation - vacuum tubes",
+    "Second generation - transistors",
+    "Third generation - integrated circuits"
+   ],
+   "a": 1,
+   "e": "Fourth generation computers used microprocessors (VLSI). Vacuum tubes belong to the first generation."
+  },
+  {
+   "id": "fit-003",
+   "sec": "cs",
+   "topic": "fit",
+   "sub": "storage units",
+   "d": 1,
+   "q": "Which of the following storage units is the largest?",
+   "o": [
+    "Megabyte",
+    "Gigabyte",
+    "Terabyte",
+    "Petabyte"
+   ],
+   "a": 3,
+   "e": "In ascending order the units are MB, GB, TB and PB, each 1024 times the one before."
+  },
+  {
+   "id": "fit-004",
+   "sec": "cs",
+   "topic": "fit",
+   "sub": "software types",
+   "d": 1,
+   "q": "Which of the following is NOT an application software?",
+   "o": [
+    "MS Word",
+    "Tally",
+    "Linux kernel",
+    "Web browser"
+   ],
+   "a": 2,
+   "e": "The kernel belongs to the operating system, which is system software. Word processors, accounting packages and browsers are application programs."
+  },
+  {
+   "id": "fit-005",
+   "sec": "cs",
+   "topic": "fit",
+   "sub": "generations",
+   "d": 2,
+   "q": "Which technology characterises third generation computers?",
+   "o": [
+    "Vacuum tubes",
+    "Discrete transistors",
+    "Integrated circuits",
+    "VLSI microprocessors"
+   ],
+   "a": 2,
+   "e": "Third generation (about 1965-1971) used small- and medium-scale ICs, replacing the discrete transistors of the second generation."
+  },
+  {
+   "id": "fit-006",
+   "sec": "cs",
+   "topic": "fit",
+   "sub": "internet and intranet",
+   "d": 2,
+   "q": "Consider the following statements about the Internet and an intranet.\nI. An intranet is a private network that uses Internet technologies such as TCP/IP and web servers.\nII. An intranet is accessible to anyone on the public Internet by default.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "I is correct. An intranet is limited to an organisation's users, which is why statement II is false."
+  },
+  {
+   "id": "fit-007",
+   "sec": "cs",
+   "topic": "fit",
+   "sub": "cloud computing",
+   "d": 2,
+   "q": "Google Docs, accessed through a web browser, is an example of which cloud service model?",
+   "o": [
+    "IaaS",
+    "PaaS",
+    "FaaS",
+    "SaaS"
+   ],
+   "a": 3,
+   "e": "In Software as a Service the vendor hosts the complete application and users simply use it through a browser."
+  },
+  {
+   "id": "fit-008",
+   "sec": "cs",
+   "topic": "fit",
+   "sub": "IT Act",
+   "d": 2,
+   "q": "The Information Technology Act, 2000 of India is based on the model law on electronic commerce adopted by",
+   "o": [
+    "WTO",
+    "UNCITRAL",
+    "ITU",
+    "ICANN"
+   ],
+   "a": 1,
+   "e": "UNCITRAL (United Nations Commission on International Trade Law) adopted the 1996 Model Law on Electronic Commerce, on which the Act is based."
+  },
+  {
+   "id": "fit-009",
+   "sec": "cs",
+   "topic": "fit",
+   "sub": "IT Act",
+   "d": 3,
+   "q": "Consider the following statements about the Information Technology Act, 2000 (as amended).\nI. Section 66C deals with cyber terrorism.\nII. Section 66F deals with identity theft.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 3,
+   "e": "Neither is correct. Section 66C covers identity theft and Section 66F covers cyber terrorism. The two are swapped in the statements."
+  },
+  {
+   "id": "fit-010",
+   "sec": "cs",
+   "topic": "fit",
+   "sub": "storage units",
+   "d": 3,
+   "q": "The number of bits in 2.5 KB of memory (taking 1 KB = 1024 bytes) is",
+   "o": [
+    "2560",
+    "20000",
+    "20480",
+    "25600"
+   ],
+   "a": 2,
+   "e": "2.5 × 1024 = 2560 bytes, and each byte has 8 bits: 2560 × 8 = 20480."
+  }
+ ]
+}

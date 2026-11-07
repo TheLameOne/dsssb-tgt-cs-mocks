@@ -1,0 +1,508 @@
+{
+ "questions": [
+  {
+   "id": "math-001",
+   "sec": "cs",
+   "topic": "math",
+   "sub": "sets",
+   "d": 1,
+   "q": "How many subsets does a set with 4 elements have?",
+   "o": [
+    "8",
+    "12",
+    "16",
+    "32"
+   ],
+   "a": 2,
+   "e": "A set with n elements has 2ⁿ subsets, so 2⁴ = 16. This count includes the empty set and the set itself."
+  },
+  {
+   "id": "math-002",
+   "sec": "cs",
+   "topic": "math",
+   "sub": "relations",
+   "d": 1,
+   "q": "Which of the following is NOT required for a relation to be an equivalence relation?",
+   "o": [
+    "Antisymmetric",
+    "Reflexive",
+    "Symmetric",
+    "Transitive"
+   ],
+   "a": 0,
+   "e": "An equivalence relation must be reflexive, symmetric and transitive. Antisymmetry is a property of partial orders and is in fact incompatible with symmetry except on the identity relation."
+  },
+  {
+   "id": "math-003",
+   "sec": "cs",
+   "topic": "math",
+   "sub": "determinants",
+   "d": 1,
+   "q": "The determinant of the matrix [[2, 3], [1, 4]] is",
+   "o": [
+    "11",
+    "7",
+    "-5",
+    "5"
+   ],
+   "a": 3,
+   "e": "For a 2×2 matrix [[a, b], [c, d]] the determinant is ad − bc = 2·4 − 3·1 = 5."
+  },
+  {
+   "id": "math-004",
+   "sec": "cs",
+   "topic": "math",
+   "sub": "derivatives",
+   "d": 1,
+   "q": "The derivative of e²ˣ with respect to x is",
+   "o": [
+    "e²ˣ",
+    "2e²ˣ",
+    "e²ˣ / 2",
+    "2x e²ˣ"
+   ],
+   "a": 1,
+   "e": "By the chain rule, d/dx e^(2x) = e^(2x) · d/dx(2x) = 2e²ˣ."
+  },
+  {
+   "id": "math-005",
+   "sec": "cs",
+   "topic": "math",
+   "sub": "integrals",
+   "d": 1,
+   "q": "The value of ∫₀¹ x² dx is",
+   "o": [
+    "1/2",
+    "1/3",
+    "1",
+    "2/3"
+   ],
+   "a": 1,
+   "e": "∫ x² dx = x³/3, so the definite integral from 0 to 1 is 1/3 − 0 = 1/3."
+  },
+  {
+   "id": "math-006",
+   "sec": "cs",
+   "topic": "math",
+   "sub": "complex numbers",
+   "d": 1,
+   "q": "The value of i²⁵, where i = √(−1), is",
+   "o": [
+    "1",
+    "−1",
+    "−i",
+    "i"
+   ],
+   "a": 3,
+   "e": "The powers of i repeat with period 4. Since 25 = 4×6 + 1, i²⁵ = i¹ = i."
+  },
+  {
+   "id": "math-007",
+   "sec": "cs",
+   "topic": "math",
+   "sub": "quadratics",
+   "d": 1,
+   "q": "The sum of the roots of the equation 2x² − 8x + 3 = 0 is",
+   "o": [
+    "4",
+    "1.5",
+    "-4",
+    "8"
+   ],
+   "a": 0,
+   "e": "For ax² + bx + c = 0 the sum of the roots is −b/a = 8/2 = 4. The product of the roots is c/a = 3/2."
+  },
+  {
+   "id": "math-008",
+   "sec": "cs",
+   "topic": "math",
+   "sub": "combinatorics",
+   "d": 1,
+   "q": "In how many ways can a team of 2 players be chosen from 6 players?",
+   "o": [
+    "12",
+    "30",
+    "15",
+    "36"
+   ],
+   "a": 2,
+   "e": "The number of selections is ⁶C₂ = (6 × 5)/(2 × 1) = 15. Order does not matter in a team."
+  },
+  {
+   "id": "math-009",
+   "sec": "cs",
+   "topic": "math",
+   "sub": "propositional logic",
+   "d": 1,
+   "q": "Consider the following statements about propositional logic.\nI. The implication p → q is false only when p is true and q is false.\nII. The conjunction p ∧ q is true when at least one of p and q is true.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "I is correct: p → q is equivalent to ¬p ∨ q. II is wrong, because p ∧ q is true only when both p and q are true; 'at least one' describes p ∨ q."
+  },
+  {
+   "id": "math-010",
+   "sec": "cs",
+   "topic": "math",
+   "sub": "graph theory",
+   "d": 1,
+   "q": "The sum of the degrees of all vertices of a simple graph having 7 edges is ______.",
+   "o": [
+    "7",
+    "21",
+    "49",
+    "14"
+   ],
+   "a": 3,
+   "e": "By the handshaking lemma, the sum of all vertex degrees equals twice the number of edges, so 2 × 7 = 14."
+  },
+  {
+   "id": "math-011",
+   "sec": "cs",
+   "topic": "math",
+   "sub": "mensuration",
+   "d": 1,
+   "q": "The volume of a cone of radius 3 cm and height 7 cm, taking π = 22/7, is",
+   "o": [
+    "33 cm³",
+    "66 cm³",
+    "132 cm³",
+    "198 cm³"
+   ],
+   "a": 1,
+   "e": "Volume = (1/3)πr²h = (1/3) × (22/7) × 9 × 7 = 66 cm³. 198 cm³ would be the cylinder with the same radius and height."
+  },
+  {
+   "id": "math-012",
+   "sec": "cs",
+   "topic": "math",
+   "sub": "functions",
+   "d": 1,
+   "q": "If f(x) = 2x + 3, then f(f(1)) is equal to",
+   "o": [
+    "8",
+    "10",
+    "13",
+    "15"
+   ],
+   "a": 2,
+   "e": "f(1) = 2 + 3 = 5, and then f(5) = 10 + 3 = 13."
+  },
+  {
+   "id": "math-013",
+   "sec": "cs",
+   "topic": "math",
+   "sub": "differential equations",
+   "d": 1,
+   "q": "The order and degree of the differential equation d²y/dx² + 3(dy/dx) + y = 0 are respectively",
+   "o": [
+    "2 and 1",
+    "1 and 2",
+    "2 and 2",
+    "1 and 1"
+   ],
+   "a": 0,
+   "e": "The highest derivative is d²y/dx², so the order is 2. That derivative appears to the power 1, so the degree is 1."
+  },
+  {
+   "id": "math-014",
+   "sec": "cs",
+   "topic": "math",
+   "sub": "sequences and series",
+   "d": 1,
+   "q": "The sum of the series 1 + 2 + 3 + … + 10 is",
+   "o": [
+    "45",
+    "50",
+    "55",
+    "110"
+   ],
+   "a": 2,
+   "e": "The sum of the first n natural numbers is n(n + 1)/2 = 10 × 11/2 = 55."
+  },
+  {
+   "id": "math-015",
+   "sec": "cs",
+   "topic": "math",
+   "sub": "eigenvalues",
+   "d": 2,
+   "q": "The eigenvalues of the matrix [[2, 1], [1, 2]] are",
+   "o": [
+    "1 and 3",
+    "0 and 4",
+    "1 and 2",
+    "2 and 3"
+   ],
+   "a": 0,
+   "e": "The characteristic equation is (2 − λ)² − 1 = 0, so λ − 2 = ±1, giving λ = 1 and 3. Check: their sum 4 equals the trace and their product 3 equals the determinant."
+  },
+  {
+   "id": "math-016",
+   "sec": "cs",
+   "topic": "math",
+   "sub": "rank",
+   "d": 2,
+   "q": "The rank of the matrix [[1, 2, 3], [2, 4, 6], [1, 0, 1]] is",
+   "o": [
+    "1",
+    "3",
+    "0",
+    "2"
+   ],
+   "a": 3,
+   "e": "Row 2 is twice row 1, so it adds nothing. Rows 1 and 3 are not multiples of each other, so exactly two rows are independent and the rank is 2. Its determinant is also 0."
+  },
+  {
+   "id": "math-017",
+   "sec": "cs",
+   "topic": "math",
+   "sub": "matrix inverse",
+   "d": 2,
+   "q": "The inverse of the matrix A = [[2, 1], [5, 3]] is",
+   "o": [
+    "[[3, 1], [5, 2]]",
+    "[[3, −1], [−5, 2]]",
+    "[[2, −1], [−5, 3]]",
+    "[[−3, 1], [5, −2]]"
+   ],
+   "a": 1,
+   "e": "Here |A| = 6 − 5 = 1. The inverse is (1/|A|) × [[d, −b], [−c, a]] = [[3, −1], [−5, 2]]. Multiplying it by A gives the identity matrix."
+  },
+  {
+   "id": "math-018",
+   "sec": "cs",
+   "topic": "math",
+   "sub": "limits",
+   "d": 2,
+   "q": "The value of lim (x→0) sin(5x) / (2x) is",
+   "o": [
+    "0",
+    "5/2",
+    "2/5",
+    "1"
+   ],
+   "a": 1,
+   "e": "Write sin(5x)/(2x) = (5/2) · sin(5x)/(5x). Since sin(u)/u → 1 as u → 0, the limit is 5/2."
+  },
+  {
+   "id": "math-019",
+   "sec": "cs",
+   "topic": "math",
+   "sub": "differential equations",
+   "d": 2,
+   "q": "The solution of dy/dx = 2xy with y(0) = 1 gives y(1) equal to",
+   "o": [
+    "e²",
+    "2e",
+    "1",
+    "e"
+   ],
+   "a": 3,
+   "e": "Separating variables, dy/y = 2x dx, so ln y = x² + C. With y(0) = 1 we get C = 0, hence y = e^(x²) and y(1) = e."
+  },
+  {
+   "id": "math-020",
+   "sec": "cs",
+   "topic": "math",
+   "sub": "Laplace transform",
+   "d": 2,
+   "q": "Match the functions in List I with their Laplace transforms in List II.",
+   "table": {
+    "head": [
+     "List I",
+     "List II"
+    ],
+    "rows": [
+     [
+      "a. L{1}",
+      "1. 1/s"
+     ],
+     [
+      "b. L{t}",
+      "2. 1/s²"
+     ],
+     [
+      "c. L{e²ᵗ}",
+      "3. 1/(s − 2)"
+     ],
+     [
+      "d. L{sin t}",
+      "4. 1/(s² + 1)"
+     ]
+    ]
+   },
+   "o": [
+    "a-1, b-2, c-3, d-4",
+    "a-2, b-1, c-3, d-4",
+    "a-1, b-2, c-4, d-3",
+    "a-1, b-3, c-2, d-4"
+   ],
+   "a": 0,
+   "e": "The standard results are L{1} = 1/s, L{t} = 1/s², L{e²ᵗ} = 1/(s − 2) and L{sin t} = 1/(s² + 1)."
+  },
+  {
+   "id": "math-021",
+   "sec": "cs",
+   "topic": "math",
+   "sub": "partial differential equations",
+   "d": 2,
+   "q": "The partial differential equation ∂²u/∂x² + 4 ∂²u/∂x∂y + 4 ∂²u/∂y² = 0 is classified as",
+   "o": [
+    "Parabolic",
+    "Elliptic",
+    "Hyperbolic",
+    "Mixed type"
+   ],
+   "a": 0,
+   "e": "For A·uₓₓ + B·uₓᵧ + C·uᵧᵧ the sign of B² − 4AC decides the type. Here B² − 4AC = 16 − 16 = 0, so the equation is parabolic."
+  },
+  {
+   "id": "math-022",
+   "sec": "cs",
+   "topic": "math",
+   "sub": "permutations",
+   "d": 2,
+   "q": "How many distinct arrangements of the letters of the word LEVEL are possible?",
+   "o": [
+    "120",
+    "60",
+    "30",
+    "24"
+   ],
+   "a": 2,
+   "e": "There are 5 letters with L repeated twice and E repeated twice, so the count is 5!/(2! × 2!) = 120/4 = 30."
+  },
+  {
+   "id": "math-023",
+   "sec": "cs",
+   "topic": "math",
+   "sub": "graph theory",
+   "d": 2,
+   "q": "A complete simple graph Kₙ has 28 edges. The value of n is",
+   "o": [
+    "7",
+    "9",
+    "14",
+    "8"
+   ],
+   "a": 3,
+   "e": "Kₙ has n(n − 1)/2 edges. Setting n(n − 1) = 56 gives n = 8, since 8 × 7 = 56."
+  },
+  {
+   "id": "math-024",
+   "sec": "cs",
+   "topic": "math",
+   "sub": "propositional logic",
+   "d": 2,
+   "q": "The contrapositive of the implication p → q is",
+   "o": [
+    "q → p",
+    "¬q → ¬p",
+    "¬p → ¬q",
+    "p → ¬q"
+   ],
+   "a": 1,
+   "e": "The contrapositive of p → q is ¬q → ¬p and it is logically equivalent to the original. q → p is the converse and ¬p → ¬q is the inverse; neither is equivalent."
+  },
+  {
+   "id": "math-025",
+   "sec": "cs",
+   "topic": "math",
+   "sub": "vector calculus",
+   "d": 2,
+   "q": "The gradient of f(x, y) = x²y at the point (1, 2) is",
+   "o": [
+    "2i + 4j",
+    "i + 4j",
+    "4i + j",
+    "4i + 2j"
+   ],
+   "a": 2,
+   "e": "∇f = (∂f/∂x) i + (∂f/∂y) j = 2xy i + x² j. At (1, 2) this gives 2·1·2 = 4 and 1² = 1, so ∇f = 4i + j."
+  },
+  {
+   "id": "math-026",
+   "sec": "cs",
+   "topic": "math",
+   "sub": "eigenvalues",
+   "d": 3,
+   "q": "Find the largest eigenvalue of the matrix\n[[2, 0, 0], [0, 3, 4], [0, 4, 9]]",
+   "o": [
+    "11",
+    "9",
+    "12",
+    "13"
+   ],
+   "a": 0,
+   "e": "The first row and column give eigenvalue 2. The block [[3, 4], [4, 9]] has trace 12 and determinant 11, so λ² − 12λ + 11 = 0 gives λ = 1 and 11. The eigenvalues are 2, 1 and 11."
+  },
+  {
+   "id": "math-027",
+   "sec": "cs",
+   "topic": "math",
+   "sub": "differential equations",
+   "d": 3,
+   "q": "The solution of y″ − 3y′ + 2y = 0 with y(0) = 1 and y′(0) = 0 takes the value ______ at x = ln 2.",
+   "o": [
+    "1",
+    "2",
+    "0",
+    "4"
+   ],
+   "a": 2,
+   "e": "The roots of m² − 3m + 2 = 0 are 1 and 2, so y = c₁eˣ + c₂e²ˣ. The conditions c₁ + c₂ = 1 and c₁ + 2c₂ = 0 give c₂ = −1, c₁ = 2. Then y(ln 2) = 2·2 − 4 = 0."
+  },
+  {
+   "id": "math-028",
+   "sec": "cs",
+   "topic": "math",
+   "sub": "permutations",
+   "d": 3,
+   "q": "How many 4-digit even numbers can be formed using the digits 1, 2, 3, 4, 5 without repeating any digit?",
+   "o": [
+    "48",
+    "24",
+    "60",
+    "72"
+   ],
+   "a": 0,
+   "e": "The units digit must be 2 or 4, which gives 2 choices. The remaining three places are filled from the other 4 digits in 4 × 3 × 2 = 24 ways. Total = 2 × 24 = 48."
+  },
+  {
+   "id": "math-029",
+   "sec": "cs",
+   "topic": "math",
+   "sub": "complex numbers",
+   "d": 3,
+   "q": "The value of (1 + i√3)⁶ is",
+   "o": [
+    "−64",
+    "32",
+    "64i",
+    "64"
+   ],
+   "a": 3,
+   "e": "Write 1 + i√3 = 2(cos 60° + i sin 60°). By De Moivre's theorem the sixth power is 2⁶(cos 360° + i sin 360°) = 64."
+  },
+  {
+   "id": "math-030",
+   "sec": "cs",
+   "topic": "math",
+   "sub": "integrals",
+   "d": 3,
+   "q": "The value of ∫₀^π x sin x dx is",
+   "o": [
+    "2π",
+    "π",
+    "π/2",
+    "0"
+   ],
+   "a": 1,
+   "e": "Integrate by parts: ∫ x sin x dx = −x cos x + sin x. Between 0 and π this is (−π·(−1) + 0) − 0 = π."
+  }
+ ]
+}

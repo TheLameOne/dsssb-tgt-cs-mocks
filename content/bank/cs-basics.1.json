@@ -1,0 +1,404 @@
+{
+ "questions": [
+  {
+   "id": "basics-001",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "input devices",
+   "d": 1,
+   "q": "Which of the following is NOT an input device?",
+   "o": [
+    "Keyboard",
+    "Scanner",
+    "Mouse",
+    "Plotter"
+   ],
+   "a": 3,
+   "e": "A plotter draws output on paper, so it is an output device. Keyboard, scanner and mouse all feed data into the computer."
+  },
+  {
+   "id": "basics-002",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "memory units",
+   "d": 1,
+   "q": "Consider the following statements about units of data.\nI. A nibble consists of 8 bits.\nII. A bit can hold only 0 or 1.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "Only II is correct. A bit is a binary digit with value 0 or 1. A nibble is 4 bits; it is the byte that has 8 bits."
+  },
+  {
+   "id": "basics-003",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "memory units",
+   "d": 1,
+   "q": "In the binary convention used for computer memory, 1 MB is equal to",
+   "o": [
+    "1000 KB",
+    "1024 KB",
+    "1024 bytes",
+    "100 KB"
+   ],
+   "a": 1,
+   "e": "Memory sizes go in powers of 1024: 1 KB = 1024 bytes and 1 MB = 1024 KB."
+  },
+  {
+   "id": "basics-004",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "memory types",
+   "d": 1,
+   "q": "Which of the following is a volatile memory?",
+   "o": [
+    "ROM",
+    "RAM",
+    "Flash memory",
+    "Hard disk"
+   ],
+   "a": 1,
+   "e": "RAM loses its contents when power is switched off. ROM, flash and hard disk keep data without power."
+  },
+  {
+   "id": "basics-005",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "ports",
+   "d": 1,
+   "q": "Regarding computer ports, consider the following.\nI. A PS/2 port is used to connect an Ethernet network cable.\nII. A VGA port carries analog video signals to a monitor.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 1,
+   "e": "Only II is correct. VGA carries analog video. Ethernet cables use the RJ-45 port, while PS/2 is for the keyboard and mouse."
+  },
+  {
+   "id": "basics-006",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "ports",
+   "d": 1,
+   "q": "A network (Ethernet) cable is plugged into the ______ port of a computer.",
+   "o": [
+    "RJ-11",
+    "RJ-45",
+    "VGA",
+    "PS/2"
+   ],
+   "a": 1,
+   "e": "Ethernet LAN cables end in an RJ-45 connector. RJ-11 is the smaller connector used for telephone lines."
+  },
+  {
+   "id": "basics-007",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "BIOS",
+   "d": 1,
+   "q": "What is the full form of BIOS?",
+   "o": [
+    "Basic Input Output System",
+    "Binary Input Output System",
+    "Basic Integrated Output System",
+    "Basic Input Operating System"
+   ],
+   "a": 0,
+   "e": "BIOS stands for Basic Input Output System. It is firmware that starts the hardware at power-on."
+  },
+  {
+   "id": "basics-008",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "booting",
+   "d": 1,
+   "q": "The process of starting a computer and loading the operating system into main memory is called ______.",
+   "o": [
+    "booting",
+    "formatting",
+    "compiling",
+    "defragmenting"
+   ],
+   "a": 0,
+   "e": "Booting loads the OS kernel into RAM so that the computer becomes usable."
+  },
+  {
+   "id": "basics-009",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "booting",
+   "d": 1,
+   "q": "When a PC is switched on, the BIOS first carries out",
+   "o": [
+    "POST",
+    "defragmentation",
+    "virus scanning",
+    "user login"
+   ],
+   "a": 0,
+   "e": "POST (Power-On Self Test) checks the basic hardware such as RAM and keyboard before the OS is loaded."
+  },
+  {
+   "id": "basics-010",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "translators",
+   "d": 1,
+   "q": "Which language translator converts assembly language into machine code?",
+   "o": [
+    "Compiler",
+    "Assembler",
+    "Interpreter",
+    "Linker"
+   ],
+   "a": 1,
+   "e": "An assembler translates assembly language mnemonics to machine code. A compiler translates a high-level language."
+  },
+  {
+   "id": "basics-011",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "translators",
+   "d": 1,
+   "q": "Consider the following statements about language translators.\nI. An interpreter translates and executes a program one statement at a time.\nII. A compiler translates the whole program before it is executed.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Both are true. An interpreter works statement by statement, while a compiler translates the entire program first and the translated code is run afterwards."
+  },
+  {
+   "id": "basics-012",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "file extensions",
+   "d": 1,
+   "q": "Which of the following is NOT a file extension used for MS Word documents or templates?",
+   "o": [
+    ".doc",
+    ".docx",
+    ".dotx",
+    ".xlsx"
+   ],
+   "a": 3,
+   "e": ".xlsx is the Excel workbook format. .doc and .docx are Word documents, and .dotx is a Word template."
+  },
+  {
+   "id": "basics-013",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "file extensions",
+   "d": 1,
+   "q": "The default file extension of a workbook saved in MS Excel 2016 is",
+   "o": [
+    ".xls",
+    ".xlt",
+    ".xlsx",
+    ".csv"
+   ],
+   "a": 2,
+   "e": "Excel 2007 and later use .xlsx. The older .xls is the pre-2007 format and .csv is plain text."
+  },
+  {
+   "id": "basics-014",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "file extensions",
+   "d": 1,
+   "q": "A presentation created in a modern version of MS PowerPoint is saved by default with the extension",
+   "o": [
+    ".ppt",
+    ".pptx",
+    ".pps",
+    ".pot"
+   ],
+   "a": 1,
+   "e": "The default PowerPoint format is .pptx. .ppt is the older format and .pps is a slide show file."
+  },
+  {
+   "id": "basics-015",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "shortcuts",
+   "d": 1,
+   "q": "Which of the following key combinations is NOT used for a clipboard operation (cut, copy or paste) in Windows?",
+   "o": [
+    "Ctrl + C",
+    "Ctrl + X",
+    "Ctrl + V",
+    "Ctrl + P"
+   ],
+   "a": 3,
+   "e": "Ctrl+P opens the print dialog. Ctrl+C copies, Ctrl+X cuts and Ctrl+V pastes."
+  },
+  {
+   "id": "basics-016",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "MS Word",
+   "d": 1,
+   "q": "In MS Word, which shortcut makes the selected text bold?",
+   "o": [
+    "Ctrl + B",
+    "Ctrl + I",
+    "Ctrl + U",
+    "Ctrl + D"
+   ],
+   "a": 0,
+   "e": "Ctrl+B applies bold, Ctrl+I italic and Ctrl+U underline."
+  },
+  {
+   "id": "basics-017",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "MS Excel",
+   "d": 1,
+   "q": "Every formula in MS Excel must begin with the ______ sign.",
+   "o": [
+    "=",
+    "@",
+    "#",
+    "$"
+   ],
+   "a": 0,
+   "e": "Excel treats an entry as a formula only if it starts with the equals sign."
+  },
+  {
+   "id": "basics-018",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "MS Excel",
+   "d": 1,
+   "q": "If cells A1, A2 and A3 of an Excel sheet contain 2, 4 and 6, what does `=SUM(A1:A3)` return?",
+   "o": [
+    "6",
+    "12",
+    "24",
+    "4"
+   ],
+   "a": 1,
+   "e": "SUM adds all numbers in the range: 2 + 4 + 6 = 12."
+  },
+  {
+   "id": "basics-019",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "antivirus",
+   "d": 1,
+   "q": "Which of the following is NOT an antivirus program?",
+   "o": [
+    "Quick Heal",
+    "McAfee",
+    "Kaspersky",
+    "Photoshop"
+   ],
+   "a": 3,
+   "e": "Photoshop is an image-editing program. The others are antivirus products."
+  },
+  {
+   "id": "basics-020",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "printers",
+   "d": 1,
+   "q": "Which of the following is an impact printer?",
+   "o": [
+    "Laser printer",
+    "Inkjet printer",
+    "Dot-matrix printer",
+    "Thermal printer"
+   ],
+   "a": 2,
+   "e": "A dot-matrix printer strikes an inked ribbon with pins. Laser, inkjet and thermal printers are non-impact."
+  },
+  {
+   "id": "basics-021",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "email",
+   "d": 1,
+   "q": "In email, the abbreviation Bcc stands for",
+   "o": [
+    "Blind carbon copy",
+    "Black carbon copy",
+    "Basic carbon copy",
+    "Blank carbon copy"
+   ],
+   "a": 0,
+   "e": "Bcc means Blind carbon copy: recipients listed in it are hidden from the other recipients."
+  },
+  {
+   "id": "basics-022",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "internet basics",
+   "d": 1,
+   "q": "The World Wide Web was invented by",
+   "o": [
+    "Tim Berners-Lee",
+    "Vint Cerf",
+    "Bill Gates",
+    "Dennis Ritchie"
+   ],
+   "a": 0,
+   "e": "Tim Berners-Lee proposed the Web at CERN around 1989-91. Vint Cerf is a co-designer of TCP/IP."
+  },
+  {
+   "id": "basics-023",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "Windows",
+   "d": 1,
+   "q": "In Windows, files deleted from the hard disk are first moved to the ______ unless Shift is held while deleting.",
+   "o": [
+    "Recycle Bin",
+    "Task Manager",
+    "Control Panel",
+    "Clipboard"
+   ],
+   "a": 0,
+   "e": "The Recycle Bin keeps deleted files so that they can be restored."
+  },
+  {
+   "id": "basics-024",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "shortcuts",
+   "d": 1,
+   "q": "Which key combination in Windows is used to switch between the open windows?",
+   "o": [
+    "Alt + Tab",
+    "Ctrl + Tab",
+    "Shift + Tab",
+    "Alt + F4"
+   ],
+   "a": 0,
+   "e": "Alt+Tab cycles through open applications. Alt+F4 closes the active window."
+  },
+  {
+   "id": "basics-025",
+   "sec": "cs",
+   "topic": "basics",
+   "sub": "MS Word",
+   "d": 2,
+   "q": "Consider the following statements about MS Word shortcuts.\nI. Ctrl + E centre-aligns the selected paragraph.\nII. Ctrl + L right-aligns the selected paragraph.\nWhich of the above is/are correct?",
+   "o": [
+    "Only I",
+    "Only II",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "Only I is correct. Ctrl+E centres the paragraph. Ctrl+L left-aligns it; right alignment is Ctrl+R."
+  }
+ ]
+}
